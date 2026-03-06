@@ -29,5 +29,12 @@
       "slug": "warlord-titan",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 50,
+  "ease_of_play": 45,
+  "army_size": 98,
+  "cost_effective": 5,
+  "ease_of_painting": 18,
+  "games_workshop_support": 15,
+  "creators_aesthetic_preference": 80
 }

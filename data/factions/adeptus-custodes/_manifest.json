@@ -191,5 +191,12 @@
       "slug": "witchseekers",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 30,
+  "ease_of_play": 72,
+  "army_size": 82,
+  "cost_effective": 95,
+  "ease_of_painting": 90,
+  "games_workshop_support": 72,
+  "creators_aesthetic_preference": 40
 }

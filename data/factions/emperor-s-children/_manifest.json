@@ -137,5 +137,12 @@
       "slug": "tormentors",
       "role": "Battleline"
     }
-  ]
+  ],
+  "fun_to_play": 62,
+  "ease_of_play": 40,
+  "army_size": 70,
+  "cost_effective": 68,
+  "ease_of_painting": 38,
+  "games_workshop_support": 80,
+  "creators_aesthetic_preference": 40
 }

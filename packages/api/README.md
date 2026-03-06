@@ -70,10 +70,29 @@ Returns all factions with datasheet counts.
     "id": "SM",
     "name": "Space Marines",
     "slug": "space-marines",
-    "datasheetCount": 298
+    "datasheetCount": 298,
+    "fun_to_play": 65,
+    "ease_of_play": 85,
+    "army_size": 63,
+    "cost_effective": 78,
+    "ease_of_painting": 85,
+    "games_workshop_support": 95,
+    "creators_aesthetic_preference": 30
   }
 ]
 ```
+
+**Score fields** (included on both list and detail endpoints):
+
+| Field | Description |
+|-------|-------------|
+| `fun_to_play` | How fun the army is to play *against* (0–100, 100 = very fun) |
+| `ease_of_play` | How easy the army is to play (0–100, 100 = very easy) |
+| `army_size` | Typical model count in a 2,000 pt army (0–100, 100 = very few models, 0 = horde) |
+| `cost_effective` | How affordable it is to build a full army (0–100, 100 = very cheap) |
+| `ease_of_painting` | How easy the models are to paint (0–100, 100 = very easy) |
+| `games_workshop_support` | How well Games Workshop supports the faction with new releases, balance, and marketing (0–100) |
+| `creators_aesthetic_preference` | How much the API creator personally likes the army's aesthetic (0–100) |
 
 #### `GET /factions/:slug`
 
@@ -89,6 +108,13 @@ Returns a faction manifest including its full datasheet index.
   "slug": "orks",
   "link": "https://wahapedia.ru/wh40k10ed/factions/orks",
   "datasheetCount": 86,
+  "fun_to_play": 85,
+  "ease_of_play": 65,
+  "army_size": 8,
+  "cost_effective": 35,
+  "ease_of_painting": 63,
+  "games_workshop_support": 62,
+  "creators_aesthetic_preference": 70,
   "datasheets": [
     { "id": "000000001", "name": "Warboss", "slug": "warboss", "role": "Characters" }
   ]

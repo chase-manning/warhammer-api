@@ -587,5 +587,12 @@
       "slug": "yvraine",
       "role": "Characters"
     }
-  ]
+  ],
+  "fun_to_play": 18,
+  "ease_of_play": 30,
+  "army_size": 70,
+  "cost_effective": 55,
+  "ease_of_painting": 35,
+  "games_workshop_support": 72,
+  "creators_aesthetic_preference": 40
 }

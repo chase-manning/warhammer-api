@@ -665,5 +665,12 @@
       "slug": "xiphon-interceptor",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 60,
+  "ease_of_play": 42,
+  "army_size": 66,
+  "cost_effective": 50,
+  "ease_of_painting": 42,
+  "games_workshop_support": 65,
+  "creators_aesthetic_preference": 65
 }

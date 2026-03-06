@@ -389,5 +389,12 @@
       "slug": "vargard-obyron",
       "role": "Characters"
     }
-  ]
+  ],
+  "fun_to_play": 40,
+  "ease_of_play": 75,
+  "army_size": 52,
+  "cost_effective": 65,
+  "ease_of_painting": 92,
+  "games_workshop_support": 82,
+  "creators_aesthetic_preference": 90
 }

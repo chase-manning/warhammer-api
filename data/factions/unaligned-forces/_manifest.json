@@ -125,5 +125,12 @@
       "slug": "wall-of-martyrs-defence-line",
       "role": "Fortifications"
     }
-  ]
+  ],
+  "fun_to_play": 50,
+  "ease_of_play": 50,
+  "army_size": 50,
+  "cost_effective": 50,
+  "ease_of_painting": 50,
+  "games_workshop_support": 10,
+  "creators_aesthetic_preference": 80
 }

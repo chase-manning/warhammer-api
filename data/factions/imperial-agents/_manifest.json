@@ -275,5 +275,12 @@
       "slug": "watch-master",
       "role": "Characters"
     }
-  ]
+  ],
+  "fun_to_play": 52,
+  "ease_of_play": 25,
+  "army_size": 66,
+  "cost_effective": 38,
+  "ease_of_painting": 40,
+  "games_workshop_support": 32,
+  "creators_aesthetic_preference": 10
 }

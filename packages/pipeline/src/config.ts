@@ -6,6 +6,7 @@ export const PROJECT_ROOT = join(__dirname, "..", "..", "..");
 
 export const RAW_CSV_DIR = join(PROJECT_ROOT, "raw_csv");
 export const DATA_DIR = join(PROJECT_ROOT, "data");
+export const CUSTOM_DIR = join(PROJECT_ROOT, "custom");
 
 export const WAHAPEDIA_BASE_URL = "http://wahapedia.ru/wh40k10ed";
 

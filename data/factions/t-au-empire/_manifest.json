@@ -383,5 +383,12 @@
       "slug": "y-vahra-battlesuit",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 28,
+  "ease_of_play": 38,
+  "army_size": 66,
+  "cost_effective": 47,
+  "ease_of_painting": 68,
+  "games_workshop_support": 75,
+  "creators_aesthetic_preference": 100
 }

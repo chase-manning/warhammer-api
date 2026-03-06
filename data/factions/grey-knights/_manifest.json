@@ -191,5 +191,12 @@
       "slug": "venerable-dreadnought",
       "role": "Characters"
     }
-  ]
+  ],
+  "fun_to_play": 38,
+  "ease_of_play": 30,
+  "army_size": 80,
+  "cost_effective": 82,
+  "ease_of_painting": 60,
+  "games_workshop_support": 45,
+  "creators_aesthetic_preference": 70
 }

@@ -1,5 +1,6 @@
 import { downloadAllCsvFiles } from "./download.js";
 import { convertAllData } from "./convert.js";
+import { mergeCustomData } from "./merge-custom.js";
 
 const args = process.argv.slice(2);
 const downloadOnly = args.includes("--download-only");
@@ -16,6 +17,7 @@ async function main() {
 
   if (!downloadOnly) {
     convertAllData();
+    mergeCustomData();
     console.log();
   }
 

@@ -2,14 +2,24 @@ import { Hono } from "hono";
 import { fetchData } from "../utils/data.js";
 import { formatSuccess, formatError } from "../utils/format.js";
 
-interface FactionIndexEntry {
+interface FactionScores {
+  fun_to_play: number;
+  ease_of_play: number;
+  army_size: number;
+  cost_effective: number;
+  ease_of_painting: number;
+  games_workshop_support: number;
+  creators_aesthetic_preference: number;
+}
+
+interface FactionIndexEntry extends FactionScores {
   id: string;
   name: string;
   slug: string;
   datasheetCount: number;
 }
 
-interface FactionManifest {
+interface FactionManifest extends FactionScores {
   id: string;
   name: string;
   slug: string;

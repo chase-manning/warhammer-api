@@ -341,5 +341,12 @@
       "slug": "zoanthropes",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 68,
+  "ease_of_play": 50,
+  "army_size": 28,
+  "cost_effective": 40,
+  "ease_of_painting": 75,
+  "games_workshop_support": 48,
+  "creators_aesthetic_preference": 85
 }

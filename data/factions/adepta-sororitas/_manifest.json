@@ -227,5 +227,12 @@
       "slug": "zephyrim-squad",
       "role": "Other"
     }
-  ]
+  ],
+  "fun_to_play": 55,
+  "ease_of_play": 45,
+  "army_size": 63,
+  "cost_effective": 22,
+  "ease_of_painting": 40,
+  "games_workshop_support": 68,
+  "creators_aesthetic_preference": 60
 }

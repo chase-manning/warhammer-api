@@ -1,0 +1,236 @@
+{
+  "AoI": {
+    "fun_to_play": 52,
+    "ease_of_play": 25,
+    "army_size": 66,
+    "cost_effective": 38,
+    "ease_of_painting": 40,
+    "games_workshop_support": 32,
+    "creators_aesthetic_preference": 10
+  },
+  "AM": {
+    "fun_to_play": 63,
+    "ease_of_play": 35,
+    "army_size": 18,
+    "cost_effective": 30,
+    "ease_of_painting": 50,
+    "games_workshop_support": 78,
+    "creators_aesthetic_preference": 0
+  },
+  "GC": {
+    "fun_to_play": 73,
+    "ease_of_play": 20,
+    "army_size": 15,
+    "cost_effective": 33,
+    "ease_of_painting": 45,
+    "games_workshop_support": 55,
+    "creators_aesthetic_preference": 25
+  },
+  "NEC": {
+    "fun_to_play": 40,
+    "ease_of_play": 75,
+    "army_size": 52,
+    "cost_effective": 65,
+    "ease_of_painting": 92,
+    "games_workshop_support": 82,
+    "creators_aesthetic_preference": 90
+  },
+  "AE": {
+    "fun_to_play": 18,
+    "ease_of_play": 30,
+    "army_size": 70,
+    "cost_effective": 55,
+    "ease_of_painting": 35,
+    "games_workshop_support": 72,
+    "creators_aesthetic_preference": 40
+  },
+  "TL": {
+    "fun_to_play": 50,
+    "ease_of_play": 45,
+    "army_size": 98,
+    "cost_effective": 5,
+    "ease_of_painting": 18,
+    "games_workshop_support": 15,
+    "creators_aesthetic_preference": 80
+  },
+  "ORK": {
+    "fun_to_play": 85,
+    "ease_of_play": 65,
+    "army_size": 8,
+    "cost_effective": 35,
+    "ease_of_painting": 63,
+    "games_workshop_support": 62,
+    "creators_aesthetic_preference": 70
+  },
+  "UN": {
+    "fun_to_play": 50,
+    "ease_of_play": 50,
+    "army_size": 50,
+    "cost_effective": 50,
+    "ease_of_painting": 50,
+    "games_workshop_support": 10,
+    "creators_aesthetic_preference": 80
+  },
+  "GK": {
+    "fun_to_play": 38,
+    "ease_of_play": 30,
+    "army_size": 80,
+    "cost_effective": 82,
+    "ease_of_painting": 60,
+    "games_workshop_support": 45,
+    "creators_aesthetic_preference": 70
+  },
+  "TAU": {
+    "fun_to_play": 28,
+    "ease_of_play": 38,
+    "army_size": 66,
+    "cost_effective": 47,
+    "ease_of_painting": 68,
+    "games_workshop_support": 75,
+    "creators_aesthetic_preference": 100
+  },
+  "LoV": {
+    "fun_to_play": 25,
+    "ease_of_play": 65,
+    "army_size": 68,
+    "cost_effective": 45,
+    "ease_of_painting": 72,
+    "games_workshop_support": 70,
+    "creators_aesthetic_preference": 20
+  },
+  "AdM": {
+    "fun_to_play": 47,
+    "ease_of_play": 35,
+    "army_size": 45,
+    "cost_effective": 15,
+    "ease_of_painting": 22,
+    "games_workshop_support": 55,
+    "creators_aesthetic_preference": 75
+  },
+  "TS": {
+    "fun_to_play": 43,
+    "ease_of_play": 25,
+    "army_size": 77,
+    "cost_effective": 60,
+    "ease_of_painting": 28,
+    "games_workshop_support": 60,
+    "creators_aesthetic_preference": 65
+  },
+  "DG": {
+    "fun_to_play": 25,
+    "ease_of_play": 78,
+    "army_size": 58,
+    "cost_effective": 52,
+    "ease_of_painting": 73,
+    "games_workshop_support": 58,
+    "creators_aesthetic_preference": 25
+  },
+  "EC": {
+    "fun_to_play": 62,
+    "ease_of_play": 40,
+    "army_size": 70,
+    "cost_effective": 68,
+    "ease_of_painting": 38,
+    "games_workshop_support": 80,
+    "creators_aesthetic_preference": 40
+  },
+  "WE": {
+    "fun_to_play": 55,
+    "ease_of_play": 75,
+    "army_size": 66,
+    "cost_effective": 62,
+    "ease_of_painting": 70,
+    "games_workshop_support": 50,
+    "creators_aesthetic_preference": 70
+  },
+  "QT": {
+    "fun_to_play": 30,
+    "ease_of_play": 58,
+    "army_size": 93,
+    "cost_effective": 70,
+    "ease_of_painting": 33,
+    "games_workshop_support": 55,
+    "creators_aesthetic_preference": 85
+  },
+  "CD": {
+    "fun_to_play": 70,
+    "ease_of_play": 30,
+    "army_size": 38,
+    "cost_effective": 42,
+    "ease_of_painting": 78,
+    "games_workshop_support": 40,
+    "creators_aesthetic_preference": 80
+  },
+  "QI": {
+    "fun_to_play": 33,
+    "ease_of_play": 65,
+    "army_size": 96,
+    "cost_effective": 72,
+    "ease_of_painting": 35,
+    "games_workshop_support": 42,
+    "creators_aesthetic_preference": 90
+  },
+  "SM": {
+    "fun_to_play": 65,
+    "ease_of_play": 85,
+    "army_size": 63,
+    "cost_effective": 78,
+    "ease_of_painting": 85,
+    "games_workshop_support": 95,
+    "creators_aesthetic_preference": 30
+  },
+  "TYR": {
+    "fun_to_play": 68,
+    "ease_of_play": 50,
+    "army_size": 28,
+    "cost_effective": 40,
+    "ease_of_painting": 75,
+    "games_workshop_support": 48,
+    "creators_aesthetic_preference": 85
+  },
+  "AC": {
+    "fun_to_play": 30,
+    "ease_of_play": 72,
+    "army_size": 82,
+    "cost_effective": 95,
+    "ease_of_painting": 90,
+    "games_workshop_support": 72,
+    "creators_aesthetic_preference": 40
+  },
+  "AS": {
+    "fun_to_play": 55,
+    "ease_of_play": 45,
+    "army_size": 63,
+    "cost_effective": 22,
+    "ease_of_painting": 40,
+    "games_workshop_support": 68,
+    "creators_aesthetic_preference": 60
+  },
+  "CSM": {
+    "fun_to_play": 60,
+    "ease_of_play": 42,
+    "army_size": 66,
+    "cost_effective": 50,
+    "ease_of_painting": 42,
+    "games_workshop_support": 65,
+    "creators_aesthetic_preference": 65
+  },
+  "DRU": {
+    "fun_to_play": 48,
+    "ease_of_play": 22,
+    "army_size": 52,
+    "cost_effective": 48,
+    "ease_of_painting": 30,
+    "games_workshop_support": 55,
+    "creators_aesthetic_preference": 70
+  },
+  "UA": {
+    "fun_to_play": 50,
+    "ease_of_play": 50,
+    "army_size": 50,
+    "cost_effective": 50,
+    "ease_of_painting": 50,
+    "games_workshop_support": 10,
+    "creators_aesthetic_preference": 40
+  }
+}
