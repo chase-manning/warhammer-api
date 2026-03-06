@@ -1,12 +1,14 @@
 {
   "name": "warhammer-api",
+  "account_id": "63b4eacdaad0558592522f46dfb46d36",
   "main": "src/index.ts",
   "compatibility_date": "2026-03-06",
   "upload_source_maps": true,
   "observability": {
     "enabled": true
   },
-  "vars": {
-    "DATA_BASE_URL": "http://localhost:8788"
-  }
+  "dev": {
+    "port": 8787
+  },
+  "vars": {}
 }

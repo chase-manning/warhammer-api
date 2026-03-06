@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx tsx dev-server.ts & wrangler dev --port 8787 && kill %1",
-    "dev:api": "wrangler dev",
+    "dev": "npx tsx dev-server.ts & wrangler dev --var DATA_BASE_URL:http://localhost:8788 && kill %1",
+    "dev:api": "wrangler dev --var DATA_BASE_URL:http://localhost:8788",
     "dev:data": "npx tsx dev-server.ts",
     "deploy": "wrangler deploy",
     "check": "tsc --noEmit"
