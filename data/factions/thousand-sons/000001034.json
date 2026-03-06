@@ -1,0 +1,191 @@
+{
+  "id": "000001034",
+  "name": "Tzaangors",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "tzaangors",
+  "legend": "Brayhorn blasts and avian shrieks herald the onset of the Tzaangors. These mutated shock troops surge into battle, wielding baroque blades or roaring chainswords with vicious skill. Whirling skeins of dark sorcery deflect return shots and blows, for these creatures belong to Tzeentch body and soul.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Tzaangor blades.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangors",
+  "models": [
+    {
+      "datasheetId": "000001034",
+      "line": 1,
+      "name": "Tzaangors",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001034",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tzaangor blades",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Ambushing Hunters",
+      "description": "At the end of your opponent’s turn, if this unit is more than 6\" horizontally away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Brayhorn",
+      "description": "You can re-roll Advance and Charge rolls made for the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Herd Banner",
+      "description": "While the bearer’s unit is within range of one or more objective markers you control, improve the Leadership characteristic of models in the bearer’s unit by 1.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutant",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzaangors",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001034",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their Tzaangor blades replaced with 1 autopistol and 1 chainsword."
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 2,
+      "button": "•",
+      "description": "1 Tzaangor not equipped with a herd banner can be equipped with 1 brayhorn."
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 3,
+      "button": "•",
+      "description": "1 Tzaangor not equipped with a brayhorn can be equipped with 1 herd banner."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001034",
+      "line": 1,
+      "description": "1 Twistbray"
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 2,
+      "description": "9-19 Tzaangors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001034",
+      "line": 1,
+      "description": "10 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000001034",
+      "line": 2,
+      "description": "20 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

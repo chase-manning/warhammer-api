@@ -1,0 +1,182 @@
+{
+  "id": "000003593",
+  "name": "Gellerpox Infected",
+  "factionId": "DG",
+  "sourceId": "000000355",
+  "slug": "gellerpox-infected",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every Gellerpox Mutant is equipped with: brutal weapons. \n\nOne Nightmare Hulk is equipped with: belly-flamer; hideous mutations. \n\nEvery other Nightmare Hulk is equipped with: hideous mutations.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Gellerpox-Infected",
+  "models": [
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "name": "NIGHTMARE HULK",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003593",
+      "line": 2,
+      "name": "GELLERPOX MUTANTS",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Brutal weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Belly-flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hideous mutations",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Nurgle’s Gift (Aura)",
+      "description": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\nSkullsquirm Blight\n\nThis horrifying affliction sees the minds and senses of the victim gnawed gradually away from within.\n\nEach time a model in this unit makes an attack, subtract 1 from the Hit roll.\n\nRattlejoint Ague\n\nLimbs shuddering with fever palsy, bones turned brittle as glass, these warriors can barely act to defend themselves.\n\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\n\nVictims of this insidious ailment become glassy eyed and morose as their very animus and essence decay.\n\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Fearsome (Aura)",
+      "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Death Guard",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Gellerpox Infected",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "description": "4 Nightmare Hulks"
+    },
+    {
+      "datasheetId": "000003593",
+      "line": 2,
+      "description": "3 Gellerpox Mutants"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003593",
+      "line": 1,
+      "description": "7 models",
+      "cost": 125
+    }
+  ],
+  "leaderAttachments": []
+}

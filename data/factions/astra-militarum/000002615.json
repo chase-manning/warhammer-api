@@ -1,0 +1,399 @@
+{
+  "id": "000002615",
+  "name": "Kasrkin",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "kasrkin",
+  "legend": "Amongst the lauded regiments of Cadia, the Kasrkin are the elite of the elite. These special operatives bear high-powered hot-shot lasguns and wear thick carapace armour. Disciplined and professional, the Kasrkin are peerless shots, and the equals or superiors of any unaugmented Human warriors.",
+  "role": "Other",
+  "loadout": "The Kasrkin Sergeant is equipped with: hot-shot laspistol; chainsword. \n\nEvery Kasrkin Trooper is equipped with: hot-shot lasgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin",
+  "models": [
+    {
+      "datasheetId": "000002615",
+      "line": 1,
+      "name": "Kasrkin",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002615",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot marksman rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot volley gun",
+      "description": "rapid fire 2",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 12,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Warrior Elite",
+      "description": "Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an Officer model this battle round.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Vox-caster",
+      "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly Officer models within 6\": on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Melta Mine",
+      "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE unit.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Kasrkin",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002615",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 4 Kasrkin Troopers can each have their hot-shot lasgun replaced with one of the following:*\n• 1 flamer\n• 1 grenade launcher\n• 1 hot-shot volley gun\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 2,
+      "button": "•",
+      "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot marksman rifle."
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 3,
+      "button": "•",
+      "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot laspistol and 1 melta mine."
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 4,
+      "button": "•",
+      "description": "1 Kasrkin Trooper equipped with a hot-shot lasgun can be equipped with 1 vox-caster (that model’s hot-shot lasgun cannot be replaced)."
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 5,
+      "button": "•",
+      "description": "The Kasrkin Sergeant’s chainsword can be replaced with 1 power weapon."
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 6,
+      "button": "•",
+      "description": "The Kasrkin Sergeant’s hot-shot laspistol can be replaced with one of the following:\n• 1 bolt pistol\n• 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 7,
+      "button": "*",
+      "description": "* You cannot select the same weapon from this list more than twice per unit."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002615",
+      "line": 1,
+      "description": "1 Kasrkin Sergeant"
+    },
+    {
+      "datasheetId": "000002615",
+      "line": 2,
+      "description": "9 Kasrkin Troopers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002615",
+      "line": 1,
+      "description": "10 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

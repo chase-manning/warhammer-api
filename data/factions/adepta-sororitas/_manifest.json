@@ -1,0 +1,231 @@
+{
+  "id": "AS",
+  "name": "Adepta Sororitas",
+  "slug": "adepta-sororitas",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas",
+  "datasheetCount": 37,
+  "datasheets": [
+    {
+      "id": "000002480",
+      "name": "Aestred Thurga And Agathae Dolan",
+      "slug": "aestred-thurga-and-agathae-dolan",
+      "role": "Characters"
+    },
+    {
+      "id": "000000896",
+      "name": "Arco-flagellants",
+      "slug": "arco-flagellants",
+      "role": "Other"
+    },
+    {
+      "id": "000002068",
+      "name": "Battle Sanctum",
+      "slug": "battle-sanctum",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000903",
+      "name": "Battle Sisters Squad",
+      "slug": "battle-sisters-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000899",
+      "name": "Canoness",
+      "slug": "canoness",
+      "role": "Characters"
+    },
+    {
+      "id": "000003714",
+      "name": "Canoness with Jump Pack",
+      "slug": "canoness-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000002484",
+      "name": "Castigator",
+      "slug": "castigator",
+      "role": "Other"
+    },
+    {
+      "id": "000004189",
+      "name": "Celestian Insidiants",
+      "slug": "celestian-insidiants",
+      "role": "Other"
+    },
+    {
+      "id": "000003811",
+      "name": "Celestian Sacresant Aveline",
+      "slug": "celestian-sacresant-aveline",
+      "role": "Characters"
+    },
+    {
+      "id": "000002481",
+      "name": "Celestian Sacresants",
+      "slug": "celestian-sacresants",
+      "role": "Other"
+    },
+    {
+      "id": "000000894",
+      "name": "Crusaders",
+      "slug": "crusaders",
+      "role": "Other"
+    },
+    {
+      "id": "000002771",
+      "name": "Daemonifuge",
+      "slug": "daemonifuge",
+      "role": "Characters"
+    },
+    {
+      "id": "000000895",
+      "name": "Death Cult Assassins",
+      "slug": "death-cult-assassins",
+      "role": "Other"
+    },
+    {
+      "id": "000000902",
+      "name": "Dialogus",
+      "slug": "dialogus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002482",
+      "name": "Dogmata",
+      "slug": "dogmata",
+      "role": "Characters"
+    },
+    {
+      "id": "000000909",
+      "name": "Dominion Squad",
+      "slug": "dominion-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000912",
+      "name": "Exorcist",
+      "slug": "exorcist",
+      "role": "Other"
+    },
+    {
+      "id": "000000901",
+      "name": "Hospitaller",
+      "slug": "hospitaller",
+      "role": "Characters"
+    },
+    {
+      "id": "000000900",
+      "name": "Imagifier",
+      "slug": "imagifier",
+      "role": "Characters"
+    },
+    {
+      "id": "000000911",
+      "name": "Immolator",
+      "slug": "immolator",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002064",
+      "name": "Junith Eruita",
+      "slug": "junith-eruita",
+      "role": "Characters"
+    },
+    {
+      "id": "000001553",
+      "name": "Ministorum Priest",
+      "slug": "ministorum-priest",
+      "role": "Characters"
+    },
+    {
+      "id": "000002067",
+      "name": "Mortifiers",
+      "slug": "mortifiers",
+      "role": "Other"
+    },
+    {
+      "id": "000002479",
+      "name": "Morvenn Vahl",
+      "slug": "morvenn-vahl",
+      "role": "Characters"
+    },
+    {
+      "id": "000002472",
+      "name": "Palatine",
+      "slug": "palatine",
+      "role": "Characters"
+    },
+    {
+      "id": "000002483",
+      "name": "Paragon Warsuits",
+      "slug": "paragon-warsuits",
+      "role": "Other"
+    },
+    {
+      "id": "000000897",
+      "name": "Penitent Engines",
+      "slug": "penitent-engines",
+      "role": "Other"
+    },
+    {
+      "id": "000000907",
+      "name": "Repentia Squad",
+      "slug": "repentia-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001199",
+      "name": "Repressor",
+      "slug": "repressor",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000908",
+      "name": "Retributor Squad",
+      "slug": "retributor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000898",
+      "name": "Saint Celestine",
+      "slug": "saint-celestine",
+      "role": "Characters"
+    },
+    {
+      "id": "000004075",
+      "name": "Sanctifiers",
+      "slug": "sanctifiers",
+      "role": "Other"
+    },
+    {
+      "id": "000000904",
+      "name": "Seraphim Squad",
+      "slug": "seraphim-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002507",
+      "name": "Sisters Novitiate Squad",
+      "slug": "sisters-novitiate-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000910",
+      "name": "Sororitas Rhino",
+      "slug": "sororitas-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002063",
+      "name": "Triumph Of Saint Katherine",
+      "slug": "triumph-of-saint-katherine",
+      "role": "Characters"
+    },
+    {
+      "id": "000002066",
+      "name": "Zephyrim Squad",
+      "slug": "zephyrim-squad",
+      "role": "Other"
+    }
+  ]
+}

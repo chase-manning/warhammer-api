@@ -1,0 +1,188 @@
+{
+  "id": "000000427",
+  "name": "Vespid Stingwings",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "vespid-stingwings",
+  "legend": "These alien auxiliaries thrum into battle on membranous wings, their airborne agility leaving the enemy nowhere to hide. Resilient enough to shrug off all but the heaviest incoming fire, they unleash punishing radioactive salvoes from their neutron blasters that soon reduce their targets to little more than glowing craters.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: neutron blaster; stingwing claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Vespid-Stingwings",
+  "models": [
+    {
+      "datasheetId": "000000427",
+      "line": 1,
+      "name": "Vespid Stingwings",
+      "movement": "12\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000427",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neutron blaster",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neutron grenade launcher",
+      "description": "ANTI-INFANTRY 3+, BLAST",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neutron rail rifle",
+      "description": "DEVASTATING WOUNDS",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-4",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "T’au flamer",
+      "description": "IGNORES COVER, TORRENT",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stingwing claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Airborne Agility",
+      "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Oversight Drone",
+      "description": "Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability. \n\nDesigner’s Note: Place an Oversight Drone token next to the bearer, removing it once this ability has been used.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vespid Stingwings",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000427",
+      "line": 1,
+      "button": "•",
+      "description": "If this unit contains 10 models:\n• The Vespid Strain Leader can be equipped with 1 Oversight Drone.\n• 1 Vespid Stingwing can replace its neutron blaster with 1 T’au flamer\n• 1 Vespid Stingwing can replace its neutron blaster with 1 neutron grenade launcher\n• 1 Vespid Stingwing can replace its neutron blaster with 1 neutron rail rifle."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000427",
+      "line": 1,
+      "description": "1 Vespid Strain Leader"
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 2,
+      "description": "4-9 Vespid Stingwings"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000427",
+      "line": 1,
+      "description": "5 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000000427",
+      "line": 2,
+      "description": "10 models",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,186 @@
+{
+  "id": "000002083",
+  "name": "Pteraxii Sterylizors",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "pteraxii-sterylizors",
+  "legend": "Sterylizors are eradicators of cybernetic parasite organisms within ships and manufactorums, and eagerly unleash the chemical fire of their phosphor torches upon the Machine God’s foes. They descend in flocks from the sky upon membranous wing-packs, their vicious talons primed, eager to see their enemies writhe in flames.",
+  "role": "Other",
+  "loadout": "The Pteraxii Sterylizor Alpha model is equipped with: flechette blaster; Pteraxii talons; taser goad. \n\nEvery Pteraxii Sterylizor model is equipped with: phosphor torch; Pteraxii talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Pteraxii-Sterylizors",
+  "models": [
+    {
+      "datasheetId": "000002083",
+      "line": 1,
+      "name": "Pteraxii Sterylizors",
+      "movement": "12\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002083",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flechette blaster",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002083",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Phosphor torch",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002083",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pteraxii talons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002083",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Taser goad",
+      "description": "sustained hits 2",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Searing Conflagration",
+      "description": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker, re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, each time such an attack targets such a unit, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Jump Pack",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Pteraxii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sterylizors",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002083",
+      "line": 1,
+      "description": "1 Pteraxii Sterylizor Alpha"
+    },
+    {
+      "datasheetId": "000002083",
+      "line": 2,
+      "description": "4-9 Pteraxii Sterylizors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002083",
+      "line": 1,
+      "description": "5 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000002083",
+      "line": 2,
+      "description": "10 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,261 @@
+{
+  "id": "000000854",
+  "name": "Onager Dunecrawler",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "onager-dunecrawler",
+  "legend": "The Onager Dunecrawler’s flexible armaments can blast apart squadrons of aircraft or atomise elite infantry in beams of blinding energy. They are versatile heavy weapons platforms, well-shielded and easily able to advance alongside Skitarii as their multiple limbs propel them over treacherous obstacles.",
+  "role": "Other",
+  "loadout": "This model is equipped with: eradication beamer; Dunecrawler legs.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Onager-Dunecrawler",
+  "models": [
+    {
+      "datasheetId": "000000854",
+      "line": 1,
+      "name": "Onager Dunecrawler",
+      "movement": "8\"",
+      "toughness": 10,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 11,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "130mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000854",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cognis heavy stubber",
+      "description": "rapid fire 3, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Daedalus missile launcher",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Eradication beamer – dissipated",
+      "description": "blast, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Eradication beamer – focused",
+      "description": "blast, sustained hits 1",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neutron laser",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "16",
+      "armourPenetration": "-4",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Icarus array",
+      "description": "anti-fly 4+, twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Onager heavy phosphor blaster",
+      "description": "ignores cover, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dunecrawler legs",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Broad spectrum data-tether",
+      "description": "The bearer loses the SMOKE keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Emanatus Force Field (Aura)",
+      "description": "While a friendly ADEPTUS MECHANICUS BATTLELINE model is wholly within 6\" of this model, that BATTLELINE model has a 4+ invulnerable save against ranged attacks.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Scuttling Walker",
+      "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly Monster and Vehicle models and sections of terrain features that are 4\" or less in height.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Onager Dunecrawler",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000854",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s eradication beamer can be replaced with one of the following:\n• 1 daedalus missile launcher and 1 Icarus array\n• 1 neutron laser and 1 cognis heavy stubber\n• 1 twin Onager heavy phosphor blaster"
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with 1 additional cognis heavy stubber."
+    },
+    {
+      "datasheetId": "000000854",
+      "line": 3,
+      "button": "•",
+      "description": "This model can be equipped with 1 broad spectrum data-tether."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000854",
+      "line": 1,
+      "description": "1 Onager Dunecrawler"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000854",
+      "line": 1,
+      "description": "1 model",
+      "cost": 155
+    }
+  ],
+  "leaderAttachments": []
+}

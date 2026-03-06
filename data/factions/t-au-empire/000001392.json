@@ -1,0 +1,183 @@
+{
+  "id": "000001392",
+  "name": "Great Knarloc",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "great-knarloc",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: Great Knarloc beak and talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Great-Knarloc",
+  "models": [
+    {
+      "datasheetId": "000001392",
+      "line": 1,
+      "name": "Great Knarloc",
+      "movement": "9\"",
+      "toughness": 8,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "65mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001392",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot bolt thrower",
+      "description": "hooked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001392",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot rifle",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001392",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Kroot gun",
+      "description": "twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001392",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Great Knarloc beak and talons",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001392",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot rifle",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Loping Stride",
+      "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Baggage Harness (Aura)",
+      "description": "While a friendly Kroot unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Hooked",
+      "description": "Each time the bearer makes an attack with this weapon that targets a MONSTER or VEHICLE unit, if a hit is scored, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kroot",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Knarloc",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001392",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 Kroot bolt thrower and 1 Kroot rifle\n• 1 twin Kroot gun\n• 1 baggage harness"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001392",
+      "line": 1,
+      "description": "1 Great Knarloc"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001392",
+      "line": 1,
+      "description": "1 model",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

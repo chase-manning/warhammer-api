@@ -1,0 +1,204 @@
+{
+  "id": "000002539",
+  "name": "Skyweavers",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "skyweavers",
+  "legend": "Skyweavers shoot through the air in a prismatic storm of hallucinatory colour and light. While the riders known as Skyborne Princes pilot each jetbike and operate its guns, those called Great Falcons ride pillion, poised to cut down the foe with their star bolas or bisect them with their sweeping zephyrglaives.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: shuriken cannon; star bolas; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Skyweavers",
+  "models": [
+    {
+      "datasheetId": "000002539",
+      "line": 1,
+      "name": "Skyweavers",
+      "movement": "14\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002539",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken cannon",
+      "description": "lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skyweaver haywire cannon",
+      "description": "anti-vehicle 4+, devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Star bolas",
+      "description": null,
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Zephyrglaive",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Disparate Paths",
+      "description": "When mustering your army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select HARLEQUINS or Ynnari as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Acrobatic Grace",
+      "description": "Each time an attack targets this unit, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Harlequins",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skyweavers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002539",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their shuriken cannon replaced with 1 Skyweaver haywire cannon."
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their star bolas replaced with 1 zephyrglaive."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002539",
+      "line": 1,
+      "description": "2-4 Skyweavers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002539",
+      "line": 1,
+      "description": "2 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000002539",
+      "line": 2,
+      "description": "4 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

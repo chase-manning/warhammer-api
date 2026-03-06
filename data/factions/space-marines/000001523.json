@@ -1,0 +1,204 @@
+{
+  "id": "000001523",
+  "name": "Scout Sniper Squad",
+  "factionId": "SM",
+  "sourceId": "000000356",
+  "slug": "scout-sniper-squad",
+  "legend": "Combining their skills in covert operations and infiltration with advanced marksmanship taught to them by wise Veteran Sergeants, Scout Squads equipped with sniper rifles are capable battlefield assassins. With precision fire they can kill opposing commanders or detonate vehicle fuel cells to wreak havoc amongst the enemy.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; sniper rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Scout-Sniper-Squad",
+  "models": [
+    {
+      "datasheetId": "000001523",
+      "line": 1,
+      "name": "Scout Sniper Squad",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001523",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile launcher – frag",
+      "description": "blast, heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Missile launcher – krak",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scout sniper rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Concealed Positions",
+      "description": "This unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Scout Sniper Squad",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001523",
+      "line": 1,
+      "button": "•",
+      "description": "1 Scout Sniper’s scout sniper rifle can be replaced with 1 missile launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001523",
+      "line": 1,
+      "description": "1 Scout Sniper Sergeant"
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 2,
+      "description": "4-9 Scout Snipers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001523",
+      "line": 1,
+      "description": "5 models",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000001523",
+      "line": 2,
+      "description": "10 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

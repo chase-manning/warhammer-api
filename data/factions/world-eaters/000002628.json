@@ -1,0 +1,220 @@
+{
+  "id": "000002628",
+  "name": "Jakhals",
+  "factionId": "WE",
+  "sourceId": "000000210",
+  "slug": "jakhals",
+  "legend": "Jakhals are amongst the strongest and most bloodthirsty of all the mortal followers of the World Eaters, and seek to emulate their gore-crazed masters in every way they can. When sent into battle, they enter the fray with wild abandon, hacking and slashing with their chain weapons in the hope of earning the favour of their lords.",
+  "role": "Other",
+  "loadout": "The Jakhal Pack Leader and every Jakhal is equipped with: autopistol; chainblades.\n\nEvery Dishonoured is equipped with: paired manglers.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/world-eaters/Jakhals",
+  "models": [
+    {
+      "datasheetId": "000002628",
+      "line": 1,
+      "name": "Jakhals",
+      "movement": "7\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": "Dishonoured model 40mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002628",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainblades",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired manglers",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mauler chainblade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skullsmasher and mangler",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blessings of Khorne",
+      "description": "If your Army Faction is WORLD EATERS, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll eight D6. You can then use those dice to activate up to two Blessings of Khorne (see below). Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). You can only activate each Blessing of Khorne once per battle round. Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.\n\nExample: Ash makes a Blessings of Khorne roll, getting the following: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1,2, 2, 2, 3, 4. They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings of Khorne have been activated, no more can be activated and the remaining dice are discarded.\n\nUNBRIDLED BLOODLUST\n\nYou can re-roll Charge rolls made for this unit.\n\nRAGE-FUELLED INVIGORATION\n\nEach time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nTOTAL CARNAGE\n\nEach time a model in this unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.\n\nMARTIAL EXCELLENCE\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nWARP BLADES\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.\n\nDECAPITATING STRIKES\n\nEach time a model in this unit makes a melee attack that targets an INFANTRY unit, that attack has the [DEVASTATING WOUNDS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Objective Ravaged",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Icon of Khorne",
+      "description": "If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "World Eaters",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Jakhals",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002628",
+      "line": 1,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 Jakhal’s chainblades can be replaced with 1 mauler chainblade."
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of Dishonoured models can each have their paired manglers replaced with 1 skullsmasher and mangler."
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 3,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002628",
+      "line": 1,
+      "description": "1 Jakhal Pack Leader, 1 Dishonoured and 8 Jakhals"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 2,
+      "description": "or:"
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 3,
+      "description": "1 Jakhal Pack Leader, 2 Dishonoured and 17 Jakhals"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002628",
+      "line": 1,
+      "description": "10 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000002628",
+      "line": 2,
+      "description": "20 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

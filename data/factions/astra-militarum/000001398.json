@@ -1,0 +1,230 @@
+{
+  "id": "000001398",
+  "name": "Ogryn Bodyguard",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "ogryn-bodyguard",
+  "legend": "Ogryn Bodyguards are particularly capable warriors of their kind who have but one duty – to protect the officer to whom they are assigned. Whether by throwing themselves in the line of fire or slaughtering all enemies who come near their ward, they are invaluable retainers in the swirl of battlefield combat.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: ripper gun; close combat weapon; huge knife.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ogryn-Bodyguard",
+  "models": [
+    {
+      "datasheetId": "000001398",
+      "line": 1,
+      "name": "Ogryn Bodyguard",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001398",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenadier gauntlet",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ripper gun",
+      "description": "rapid fire 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bullgryn maul",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Huge knife",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ripper gun",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "6+"
+    },
+    {
+      "name": "Ogryn Bodyguard",
+      "description": "While one or more Officer models are in the same unit as this model, those OFFICER models have the Feel No Pain 4+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Brute Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Slabshield",
+      "description": "The bearer has a Wounds characteristic of 7.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "LOYAL PROTECTOR",
+      "description": "At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a COMMAND SQUAD cannot have more than one Loyal Protector model joined to it). This model then counts as part of that COMMAND SQUAD for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a COMMAND SQUAD, it does not take part in the battle and counts as having been destroyed.\n\nWhile this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your WARLORD and cannot be given Enhancements.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Loyal Protector",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ogryn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Bodyguard",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001398",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s ripper gun can be replaced with one of the following:\n• 1 grenadier gauntlet\n• 1 Bullgryn maul"
+    },
+    {
+      "datasheetId": "000001398",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s huge knife can be replaced with one of the following:\n• 1 brute shield\n• 1 slabshield"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001398",
+      "line": 1,
+      "description": "1 Ogryn Bodyguard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001398",
+      "line": 1,
+      "description": "1 model",
+      "cost": 40
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,149 @@
+{
+  "id": "000004122",
+  "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "tzaangor-enlightened-with-fatecaster-greatbows",
+  "legend": "When armed with fatecaster greatbows, Tzaangor Enlightened use their position atop their fanged and bladed daemonic mounts to view the flow of causality. With their bows’ ectoplasmic cords pulled taut, these arcane predators seek out those foes whose pivotal actions can change destinies before loosing their ensorcelled arrows to cut short such a fate.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: fatecaster greatbow; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangor-Enlightened-with-Fatecaster-Greatbows",
+  "models": [
+    {
+      "datasheetId": "000004122",
+      "line": 1,
+      "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "5+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004122",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fatecaster greatbow",
+      "description": "ignores cover, lethal hits, precision",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004122",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Malign Trickery",
+      "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tzaangor Enlightened",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutant",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzaangor Enlightened with Fatecaster Greatbows",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004122",
+      "line": 1,
+      "description": "1 Aviarch"
+    },
+    {
+      "datasheetId": "000004122",
+      "line": 2,
+      "description": "2-5 Enlightened"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004122",
+      "line": 1,
+      "description": "3 models",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000004122",
+      "line": 2,
+      "description": "6 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

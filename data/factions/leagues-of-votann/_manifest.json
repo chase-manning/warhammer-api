@@ -1,0 +1,141 @@
+{
+  "id": "LoV",
+  "name": "Leagues of Votann",
+  "slug": "leagues-of-votann",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann",
+  "datasheetCount": 22,
+  "datasheets": [
+    {
+      "id": "000004142",
+      "name": "Arkanyst Evaluator",
+      "slug": "arkanyst-evaluator",
+      "role": "Characters"
+    },
+    {
+      "id": "000004201",
+      "name": "Berehk Stornbröw",
+      "slug": "berehk-stornbr-w",
+      "role": "Characters"
+    },
+    {
+      "id": "000002597",
+      "name": "Brôkhyr Iron-master",
+      "slug": "br-khyr-iron-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000002603",
+      "name": "Brôkhyr Thunderkyn",
+      "slug": "br-khyr-thunderkyn",
+      "role": "Other"
+    },
+    {
+      "id": "000004140",
+      "name": "Buri Aegnirssen",
+      "slug": "buri-aegnirssen",
+      "role": "Characters"
+    },
+    {
+      "id": "000002600",
+      "name": "Cthonian Beserks",
+      "slug": "cthonian-beserks",
+      "role": "Other"
+    },
+    {
+      "id": "000004145",
+      "name": "Cthonian Earthshakers",
+      "slug": "cthonian-earthshakers",
+      "role": "Other"
+    },
+    {
+      "id": "000002595",
+      "name": "Einhyr Champion",
+      "slug": "einhyr-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000002599",
+      "name": "Einhyr Hearthguard",
+      "slug": "einhyr-hearthguard",
+      "role": "Other"
+    },
+    {
+      "id": "000002596",
+      "name": "Grimnyr",
+      "slug": "grimnyr",
+      "role": "Characters"
+    },
+    {
+      "id": "000002598",
+      "name": "Hearthkyn Warriors",
+      "slug": "hearthkyn-warriors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002604",
+      "name": "Hekaton Land Fortress",
+      "slug": "hekaton-land-fortress",
+      "role": "Other"
+    },
+    {
+      "id": "000002601",
+      "name": "Hernkyn Pioneers",
+      "slug": "hernkyn-pioneers",
+      "role": "Other"
+    },
+    {
+      "id": "000003710",
+      "name": "Hernkyn Yaegirs",
+      "slug": "hernkyn-yaegirs",
+      "role": "Other"
+    },
+    {
+      "id": "000004143",
+      "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+      "slug": "ironkin-steeljacks-with-heavy-volkanite-disintegrators",
+      "role": "Other"
+    },
+    {
+      "id": "000004144",
+      "name": "Ironkin Steeljacks with Melee Weapons",
+      "slug": "ironkin-steeljacks-with-melee-weapons",
+      "role": "Other"
+    },
+    {
+      "id": "000002594",
+      "name": "Kâhl",
+      "slug": "k-hl",
+      "role": "Characters"
+    },
+    {
+      "id": "000004147",
+      "name": "Kapricus Carrier",
+      "slug": "kapricus-carrier",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000004146",
+      "name": "Kapricus Defenders",
+      "slug": "kapricus-defenders",
+      "role": "Other"
+    },
+    {
+      "id": "000004141",
+      "name": "Memnyr Strategist",
+      "slug": "memnyr-strategist",
+      "role": "Characters"
+    },
+    {
+      "id": "000002602",
+      "name": "Sagitaur",
+      "slug": "sagitaur",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002593",
+      "name": "Ûthar the Destined",
+      "slug": "thar-the-destined",
+      "role": "Characters"
+    }
+  ]
+}

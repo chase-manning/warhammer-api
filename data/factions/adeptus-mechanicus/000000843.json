@@ -1,0 +1,126 @@
+{
+  "id": "000000843",
+  "name": "Fulgurite Electro-priests",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "fulgurite-electro-priests",
+  "legend": "Crackling with power stolen from those they slay, Fulgurite Electro- Priests are fanatical cultists of the Machine God. With their heavy, copper-bound staves, they smite blasphemers that waste the Motive Force, leeching it from heretic warriors and harnessing the holy energy in their capacitors where it empowers their voltagheist field.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: electroleech stave.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Fulgurite-Electro-priests",
+  "models": [
+    {
+      "datasheetId": "000000843",
+      "line": 1,
+      "name": "Fulgurite Electro-priests",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "7+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Electroleech stave",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Electro-infusion",
+      "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fulgurite",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cult Mechanicus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Electro-Priests",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000843",
+      "line": 1,
+      "description": "5-10 Fulgurite Electro-Priests"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000843",
+      "line": 1,
+      "description": "5 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000000843",
+      "line": 2,
+      "description": "10 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

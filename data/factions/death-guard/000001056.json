@@ -1,0 +1,132 @@
+{
+  "id": "000001056",
+  "name": "Poxwalkers",
+  "factionId": "DG",
+  "sourceId": "000000014",
+  "slug": "poxwalkers",
+  "legend": "Poxwalkers are victims of walking pox, a cruel virulence that rots the infected almost to death while keeping them conscious. They are terror troops, their ceaseless groaning the vector by which they infect the truly living. In battle, they drown their foes in a sea of decaying flesh, clawing hands and gnashing teeth.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: improvised weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Poxwalkers",
+  "models": [
+    {
+      "datasheetId": "000001056",
+      "line": 1,
+      "name": "Poxwalkers",
+      "movement": "5\"",
+      "toughness": 4,
+      "save": "7+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001056",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Improvised weapon",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Nurgle’s Gift (Aura)",
+      "description": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\nSkullsquirm Blight\n\nThis horrifying affliction sees the minds and senses of the victim gnawed gradually away from within.\n\nEach time a model in this unit makes an attack, subtract 1 from the Hit roll.\n\nRattlejoint Ague\n\nLimbs shuddering with fever palsy, bones turned brittle as glass, these warriors can barely act to defend themselves.\n\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\n\nVictims of this insidious ailment become glassy eyed and morose as their very animus and essence decay.\n\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Curse of the Walking Pox",
+      "description": "Each time a POXWALKER model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), after this unit has resolved its attacks, you can return one destroyed POXWALKER model to this unit.\n\nWhile Typhus is leading this unit, enemy models destroyed as a result of TYPHUS’ Eater Plague ability count as enemy models destroyed by an attack made by a POXWALKER model in this unit for the purposes of this ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Death Guard",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Poxwalkers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000001056",
+      "line": 1,
+      "description": "10-20 Poxwalkers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001056",
+      "line": 1,
+      "description": "10 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000001056",
+      "line": 2,
+      "description": "20 models",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

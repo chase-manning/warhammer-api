@@ -1,0 +1,202 @@
+{
+  "id": "000001164",
+  "name": "Thunderfire Cannon",
+  "factionId": "SM",
+  "sourceId": "000000356",
+  "slug": "thunderfire-cannon",
+  "legend": "A massive, multi-barrelled artillery piece mounted on heavy, grinding tracks, the Thunderfire Cannon can tear apart the enemy’s assaults and blow huge holes in their strong-points in relentless barrages of shells. Able to traverse all kinds of difficult terrain, it excels in supporting Space Marine attacks or shoring up defences.",
+  "role": "Other",
+  "loadout": "The Techmarine Gunner is equipped with: bolt pistol; flamer; plasma cutter; Gunner’s servo-arms; close combat weapon. \n\nThe Thunderfire Cannon is equipped with: thunderfire cannon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Thunderfire-Cannon",
+  "models": [
+    {
+      "datasheetId": "000001164",
+      "line": 1,
+      "name": "Thunderfire Cannon",
+      "movement": "3\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001164",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Thunderfire cannon",
+      "description": "blast, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Gunner’s servo-arms",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cutter",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Tremor Shells",
+      "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more attacks made by this unit’s thunderfire cannon this phase, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Crewed Artillery",
+      "description": "If one model in this unit is destroyed, the remaining model in this unit is also destroyed.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Thunderfire Cannon",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001164",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001164",
+      "line": 1,
+      "description": "1 Techmarine Gunner"
+    },
+    {
+      "datasheetId": "000001164",
+      "line": 2,
+      "description": "1 Thunderfire Cannon"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001164",
+      "line": 1,
+      "description": "2 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

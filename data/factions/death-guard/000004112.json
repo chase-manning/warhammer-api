@@ -1,0 +1,252 @@
+{
+  "id": "000004112",
+  "name": "Great Unclean One",
+  "factionId": "DG",
+  "sourceId": "000000014",
+  "slug": "great-unclean-one",
+  "legend": "These greater daemons possess the same boundless energy and drive to corrupt as a swift-spreading virus. Their booming voices roll across the battlefield, their cruel jollity and the perverse pride they take in their underlings’ achievements horribly at odds with the misery and disease they spread.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: plague flail; putrid vomit; bilesword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-7",
+  "damagedDescription": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Great-Unclean-One",
+  "models": [
+    {
+      "datasheetId": "000004112",
+      "line": 1,
+      "name": "Great Unclean One",
+      "movement": "7\"",
+      "toughness": 12,
+      "save": "5+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 20,
+      "leadership": "6+",
+      "objectiveControl": 5,
+      "baseSize": "130mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004112",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plague flail",
+      "description": null,
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Putrid vomit",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bileblade",
+      "description": "extra attacks, lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bilesword – strike",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Bilesword – sweep",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Doomsday bell",
+      "description": "lethal hits, Reverberating summons",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "6+"
+    },
+    {
+      "name": "Pact of Decay",
+      "description": "When mustering your army, unless specifically stated otherwise, you cannot select Plague Legions as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Daemon Lord of Nurgle (Aura)",
+      "description": "While a friendly Plague Legions unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Nurgle’s Rot (Psychic)",
+      "description": "At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, that unit is rotted. While a unit is rotted, subtract 1 from the Toughness characteristic of models in that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reverberating Summons",
+      "description": "Each time a model is destroyed by this weapon, you can select one friendly Plaguebearers unit within 12\" of the bearer and return 1 destroyed Plaguebearer model to that unit.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Plague Legions",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Summoned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Unclean One",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004112",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s plague flail can be replaced with 1 bileblade."
+    },
+    {
+      "datasheetId": "000004112",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s bilesword can be replaced with 1 doomsday bell."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004112",
+      "line": 1,
+      "description": "1 Great Unclean One"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004112",
+      "line": 1,
+      "description": "1 model",
+      "cost": 250
+    }
+  ],
+  "leaderAttachments": []
+}

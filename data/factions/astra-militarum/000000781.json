@@ -1,0 +1,151 @@
+{
+  "id": "000000781",
+  "name": "Voss-pattern Lightning",
+  "factionId": "AM",
+  "sourceId": "000000374",
+  "slug": "voss-pattern-lightning",
+  "legend": "Smaller and more agile than the iconic Thunderbolt, the Lightning is a high-speed suborbital fighter designed for interception, interdiction and surgical strikes. The Lightning’s hellstrike missiles, coupled with lascannons, ensure that few ground targets are safe from its swooping assaults.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 lascannons; armoured hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-5",
+  "damagedDescription": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Voss-pattern-Lightning",
+  "models": [
+    {
+      "datasheetId": "000000781",
+      "line": 1,
+      "name": "Voss-pattern Lightning",
+      "movement": "20+\"",
+      "toughness": 9,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 14,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000781",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000781",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lightning hellstrike rack",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000781",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Agile Dogfighter",
+      "description": "Each time an attack targets this model, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Voss-pattern Lightning",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000781",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with 1 Lightning hellstrike rack."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000781",
+      "line": 1,
+      "description": "1 Voss-pattern Lightning"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000781",
+      "line": 1,
+      "description": "1 model",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

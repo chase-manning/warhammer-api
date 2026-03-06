@@ -1,0 +1,177 @@
+{
+  "id": "000000044",
+  "name": "Lootas",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "lootas",
+  "legend": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious – if erratic – hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
+  "role": "Other",
+  "loadout": "Every Spanner is equipped with: big shoota; close combat weapon. \n\nEvery Loota is equipped with: deffgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Lootas",
+  "models": [
+    {
+      "datasheetId": "000000044",
+      "line": 1,
+      "name": "Lootas",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000044",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big shoota",
+      "description": "rapid fire 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deffgun",
+      "description": "heavy, rapid fire 1",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kustom mega-blasta",
+      "description": "hazardous",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rokkit launcha",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Dat’s Our Loot!",
+      "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker, you can re-roll the Hit roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lootas",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000044",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of Spanners can each have their big shoota replaced with one of the following:\n• 1 kustom mega-blasta\n• 1 rokkit launcha"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000044",
+      "line": 1,
+      "description": "1-2 Spanners"
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 2,
+      "description": "4-8 Lootas"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000044",
+      "line": 1,
+      "description": "1 Spanner and 4 Lootas",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000000044",
+      "line": 2,
+      "description": "2 Spanners and 8 Lootas",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

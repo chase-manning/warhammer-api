@@ -1,0 +1,282 @@
+{
+  "id": "000002786",
+  "name": "Impulsor",
+  "factionId": "SM",
+  "sourceId": "000000162",
+  "slug": "impulsor",
+  "legend": "Equipped with vectored thrusters that grant it high speed, the Impulsor is a highly adaptable transport ideal for rapid insertion and flanking manoeuvres. The zealous vanguard forces of the Black Templars particularly favour it. The tank’s array of offensive and defensive systems enables it to support fiery purges, aggressive reconnaissance and oathsworn spearheads.",
+  "role": "Dedicated Transports",
+  "loadout": "This model is equipped with: 2 storm bolters; armoured hull.",
+  "transport": "This model has a transport capacity of 7 Tacticus or Phobos Infantry models. It cannot transport Jump Pack models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Impulsor-1",
+  "models": [
+    {
+      "datasheetId": "000002786",
+      "line": 1,
+      "name": "Impulsor",
+      "movement": "12\"",
+      "toughness": 9,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 11,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "100mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002786",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bellicatus missile array – frag",
+      "description": "blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Bellicatus missile array – Icarus",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 3,
+      "lineInWargear": 3,
+      "dice": null,
+      "name": "Bellicatus missile array – krak",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fragstorm grenade launcher",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ironhail heavy stubber",
+      "description": "rapid fire 3",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ironhail skytalon array",
+      "description": "anti-fly 4+, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Storm bolter",
+      "description": "rapid fire 2",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "6"
+    },
+    {
+      "name": "Templar Vows",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of the first battle round, select one of the following Vows to be active for ADEPTUS ASTARTES units from your army. While a Vow is active for a unit from your army, that unit has the associated ability shown below.\n\nAbhor the Witch, Destroy the Witch\n\nEach time this unit declares a charge, if one or more targets of that charge have the PSYKER keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting PSYKER units.\n\nAccept Any Challenge, No Matter the Odds\n\nEach time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the Wound roll.\n\nSuffer Not the Unclean to Live\n\nThis unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.\n\nUphold the Honour of the Emperor\n\nIf this unit has the INFANTRY keyword:\n\n• At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n• If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Assault Vehicle",
+      "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Orbital Comms Array (Aura)",
+      "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Shield Dome",
+      "description": "The bearer has a 5+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Black Templars",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Impulsor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Dedicated Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002786",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 ironhail heavy stubber\n• 1 multi-melta"
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers."
+    },
+    {
+      "datasheetId": "000002786",
+      "line": 3,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 bellicatus missile array\n• 1 ironhail skytalon array\n• 1 orbital comms array\n• 1 shield dome"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002786",
+      "line": 1,
+      "description": "1 Impulsor"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002786",
+      "line": 1,
+      "description": "1 model",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": []
+}

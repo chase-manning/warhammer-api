@@ -1,0 +1,423 @@
+{
+  "id": "000002532",
+  "name": "Corsair Voidscarred",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "corsair-voidscarred",
+  "legend": "The Void scarred are veterans hardened by a life of piracy. These Corsairs have travelled the stars for centuries and have seen the worst and the best the galaxy has to offer. Many have developed unique skills and fighting styles and carry specialist wargear into battle over the years.",
+  "role": "Other",
+  "loadout": "Every Corsair Voidscarred and Voidscarred Felarch is equipped with: shuriken pistol; power sword; close combat weapon.\n\nA Shade Runner is equipped with: shuriken pistol; paired Hekatarii blades.\n\nA Soul Weaver is equipped with: shuriken pistol; power sword; channeller stones.\n\nA Way Seeker is equipped with: shuriken pistol; Executioner; witch staff.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Corsair-Voidscarred",
+  "models": [
+    {
+      "datasheetId": "000002532",
+      "line": 1,
+      "name": "Corsair Voidscarred",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002532",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blaster",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Executioner",
+      "description": "anti-infantry 2+, psychic",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fusion pistol",
+      "description": "assault, melta 2, pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neuro disruptor",
+      "description": "anti-infantry 2+, assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shredder",
+      "description": "assault, torrent",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken cannon",
+      "description": "lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken pistol",
+      "description": "assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken rifle",
+      "description": "assault, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wraithcannon",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired Hekatarii blades",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "3",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Witch staff",
+      "description": "anti-infantry 2+, psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Piratical Raiders",
+      "description": "At the start of the battle, select one unit from your opponent’s army. Weapons equipped by models in this unit have the [LETHAL HITS] and [PRECISION] abilities while targeting that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Channeller Stones",
+      "description": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Faolchú",
+      "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Mistshield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": "WAY SEEKER"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Anhrathe",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Corsair Voidscarred",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002532",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of Corsair Voidscarred can each have their shuriken pistol and power sword replaced with 1 shuriken rifle."
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 2,
+      "button": "•",
+      "description": "The Voidscarred Felarch’s shuriken pistol can be replaced with one of the following:\n• 1 neuro disruptor\n• 1 shuriken rifle"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 3,
+      "button": "•",
+      "description": "The Voidscarred Felarch can be equipped with 1 mistshield."
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 4,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Corsair Voidscarred’s shuriken rifle can be replaced with one of the following:\n\n• 1 blaster\n• 1 shredder"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 5,
+      "button": "•",
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s shuriken rifle can be replaced with one of the following:\n• 1 shuriken cannon\n• 1 wraithcannon"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 6,
+      "button": "•",
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s shuriken rifle can be replaced with 1 long rifle."
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 7,
+      "button": "•",
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s power sword can be  replaced with 1 fusion pistol."
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 8,
+      "button": "•",
+      "description": "1 Corsair Voidscarred model equipped with a shuriken pistol and power sword can be equipped with 1 Faolchú."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002532",
+      "line": 1,
+      "description": "This unit can contain a maximum of 10 models."
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 2,
+      "description": "1 Voidscarred Felarch"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 3,
+      "description": "4-9 Corsair Voidscarred"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 4,
+      "description": "0-1 Shade Runner"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 5,
+      "description": "0-1 Soul Weaver"
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 6,
+      "description": "0-1 Way Seeker"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002532",
+      "line": 1,
+      "description": "5 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000002532",
+      "line": 2,
+      "description": "10 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

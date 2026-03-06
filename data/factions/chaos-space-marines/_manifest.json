@@ -1,0 +1,669 @@
+{
+  "id": "CSM",
+  "name": "Chaos Space Marines",
+  "slug": "chaos-space-marines",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines",
+  "datasheetCount": 110,
+  "datasheets": [
+    {
+      "id": "000000924",
+      "name": "Abaddon The Despoiler",
+      "slug": "abaddon-the-despoiler",
+      "role": "Characters"
+    },
+    {
+      "id": "000002571",
+      "name": "Accursed Cultists",
+      "slug": "accursed-cultists",
+      "role": "Other"
+    },
+    {
+      "id": "000001293",
+      "name": "Blood Slaughterer",
+      "slug": "blood-slaughterer",
+      "role": "Other"
+    },
+    {
+      "id": "000003630",
+      "name": "Cerberus",
+      "slug": "cerberus",
+      "role": "Other"
+    },
+    {
+      "id": "000000957",
+      "name": "Chaos Bikers",
+      "slug": "chaos-bikers",
+      "role": "Other"
+    },
+    {
+      "id": "000001302",
+      "name": "Chaos Deimos Predator",
+      "slug": "chaos-deimos-predator",
+      "role": "Other"
+    },
+    {
+      "id": "000000962",
+      "name": "Chaos Land Raider",
+      "slug": "chaos-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000000929",
+      "name": "Chaos Lord",
+      "slug": "chaos-lord",
+      "role": "Characters"
+    },
+    {
+      "id": "000000930",
+      "name": "Chaos Lord In Terminator Armour",
+      "slug": "chaos-lord-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000931",
+      "name": "Chaos Lord On Bike",
+      "slug": "chaos-lord-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000933",
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "slug": "chaos-lord-on-disc-of-tzeentch",
+      "role": "Characters"
+    },
+    {
+      "id": "000000932",
+      "name": "Chaos Lord On Juggernaut",
+      "slug": "chaos-lord-on-juggernaut",
+      "role": "Characters"
+    },
+    {
+      "id": "000000934",
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "slug": "chaos-lord-on-palanquin-of-nurgle",
+      "role": "Characters"
+    },
+    {
+      "id": "000000935",
+      "name": "Chaos Lord On Steed Of Slaanesh",
+      "slug": "chaos-lord-on-steed-of-slaanesh",
+      "role": "Characters"
+    },
+    {
+      "id": "000003711",
+      "name": "Chaos Lord with Jump Pack",
+      "slug": "chaos-lord-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000002572",
+      "name": "Chaos Predator Annihilator",
+      "slug": "chaos-predator-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000000963",
+      "name": "Chaos Predator Destructor",
+      "slug": "chaos-predator-destructor",
+      "role": "Other"
+    },
+    {
+      "id": "000000956",
+      "name": "Chaos Rhino",
+      "slug": "chaos-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000960",
+      "name": "Chaos Spawn",
+      "slug": "chaos-spawn",
+      "role": "Other"
+    },
+    {
+      "id": "000000947",
+      "name": "Chaos Terminator Squad",
+      "slug": "chaos-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001321",
+      "name": "Chaos Thunderhawk",
+      "slug": "chaos-thunderhawk",
+      "role": "Other"
+    },
+    {
+      "id": "000000964",
+      "name": "Chaos Vindicator",
+      "slug": "chaos-vindicator",
+      "role": "Other"
+    },
+    {
+      "id": "000000952",
+      "name": "Chosen",
+      "slug": "chosen",
+      "role": "Other"
+    },
+    {
+      "id": "000003712",
+      "name": "Cultist Firebrand",
+      "slug": "cultist-firebrand",
+      "role": "Characters"
+    },
+    {
+      "id": "000000946",
+      "name": "Cultist Mob",
+      "slug": "cultist-mob",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003713",
+      "name": "Cultist Mob with Firearms",
+      "slug": "cultist-mob-with-firearms",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000926",
+      "name": "Cypher",
+      "slug": "cypher",
+      "role": "Characters"
+    },
+    {
+      "id": "000000936",
+      "name": "Dark Apostle",
+      "slug": "dark-apostle",
+      "role": "Characters"
+    },
+    {
+      "id": "000002569",
+      "name": "Dark Commune",
+      "slug": "dark-commune",
+      "role": "Characters"
+    },
+    {
+      "id": "000001295",
+      "name": "Decimator",
+      "slug": "decimator",
+      "role": "Other"
+    },
+    {
+      "id": "000000969",
+      "name": "Defiler",
+      "slug": "defiler",
+      "role": "Other"
+    },
+    {
+      "id": "000003626",
+      "name": "Deredeo Dreadnought",
+      "slug": "deredeo-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001310",
+      "name": "Dreadclaw Drop Pod",
+      "slug": "dreadclaw-drop-pod",
+      "role": "Other"
+    },
+    {
+      "id": "000001355",
+      "name": "Exalted Champion",
+      "slug": "exalted-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000000928",
+      "name": "Fabius Bile",
+      "slug": "fabius-bile",
+      "role": "Characters"
+    },
+    {
+      "id": "000003690",
+      "name": "Falchion",
+      "slug": "falchion",
+      "role": "Other"
+    },
+    {
+      "id": "000003654",
+      "name": "Fellblade",
+      "slug": "fellblade",
+      "role": "Other"
+    },
+    {
+      "id": "000001604",
+      "name": "Fellgor Beastmen",
+      "slug": "fellgor-beastmen",
+      "role": "Other"
+    },
+    {
+      "id": "000003618",
+      "name": "Fire Raptor Gunship",
+      "slug": "fire-raptor-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000967",
+      "name": "Forgefiend",
+      "slug": "forgefiend",
+      "role": "Other"
+    },
+    {
+      "id": "000002592",
+      "name": "Gellerpox Infected",
+      "slug": "gellerpox-infected",
+      "role": "Other"
+    },
+    {
+      "id": "000001294",
+      "name": "Greater Blight Drone",
+      "slug": "greater-blight-drone",
+      "role": "Other"
+    },
+    {
+      "id": "000001298",
+      "name": "Greater Brass Scorpion",
+      "slug": "greater-brass-scorpion",
+      "role": "Other"
+    },
+    {
+      "id": "000001556",
+      "name": "Haarken Worldclaimer",
+      "slug": "haarken-worldclaimer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000966",
+      "name": "Havocs",
+      "slug": "havocs",
+      "role": "Other"
+    },
+    {
+      "id": "000000954",
+      "name": "Helbrute",
+      "slug": "helbrute",
+      "role": "Other"
+    },
+    {
+      "id": "000000961",
+      "name": "Heldrake",
+      "slug": "heldrake",
+      "role": "Other"
+    },
+    {
+      "id": "000001317",
+      "name": "Hell Blade",
+      "slug": "hell-blade",
+      "role": "Other"
+    },
+    {
+      "id": "000001318",
+      "name": "Hell Talon",
+      "slug": "hell-talon",
+      "role": "Other"
+    },
+    {
+      "id": "000000937",
+      "name": "Heretic Astartes Daemon Prince",
+      "slug": "heretic-astartes-daemon-prince",
+      "role": "Characters"
+    },
+    {
+      "id": "000002730",
+      "name": "Heretic Astartes Daemon Prince With Wings",
+      "slug": "heretic-astartes-daemon-prince-with-wings",
+      "role": "Characters"
+    },
+    {
+      "id": "000000925",
+      "name": "Huron Blackheart",
+      "slug": "huron-blackheart",
+      "role": "Characters"
+    },
+    {
+      "id": "000001311",
+      "name": "Kharybdis Assault Claw",
+      "slug": "kharybdis-assault-claw",
+      "role": "Other"
+    },
+    {
+      "id": "000003582",
+      "name": "Khorne Berzerkers",
+      "slug": "khorne-berzerkers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000970",
+      "name": "Khorne Lord Of Skulls",
+      "slug": "khorne-lord-of-skulls",
+      "role": "Other"
+    },
+    {
+      "id": "000003634",
+      "name": "Kratos",
+      "slug": "kratos",
+      "role": "Other"
+    },
+    {
+      "id": "000001297",
+      "name": "Kytan Ravager",
+      "slug": "kytan-ravager",
+      "role": "Other"
+    },
+    {
+      "id": "000003610",
+      "name": "Land Raider Achilles",
+      "slug": "land-raider-achilles",
+      "role": "Other"
+    },
+    {
+      "id": "000003614",
+      "name": "Land Raider Proteus",
+      "slug": "land-raider-proteus",
+      "role": "Other"
+    },
+    {
+      "id": "000002570",
+      "name": "Legionaries",
+      "slug": "legionaries",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003650",
+      "name": "Leviathan Dreadnought",
+      "slug": "leviathan-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001583",
+      "name": "Lord Discordant On Helstalker",
+      "slug": "lord-discordant-on-helstalker",
+      "role": "Characters"
+    },
+    {
+      "id": "000001584",
+      "name": "Master Of Executions",
+      "slug": "master-of-executions",
+      "role": "Characters"
+    },
+    {
+      "id": "000001581",
+      "name": "Master Of Possession",
+      "slug": "master-of-possession",
+      "role": "Characters"
+    },
+    {
+      "id": "000004190",
+      "name": "Masters of the Maelstrom",
+      "slug": "masters-of-the-maelstrom",
+      "role": "Other"
+    },
+    {
+      "id": "000003646",
+      "name": "Mastodon",
+      "slug": "mastodon",
+      "role": "Other"
+    },
+    {
+      "id": "000000968",
+      "name": "Maulerfiend",
+      "slug": "maulerfiend",
+      "role": "Other"
+    },
+    {
+      "id": "000000955",
+      "name": "Mutilators",
+      "slug": "mutilators",
+      "role": "Other"
+    },
+    {
+      "id": "000002591",
+      "name": "Mutoid Vermin",
+      "slug": "mutoid-vermin",
+      "role": "Other"
+    },
+    {
+      "id": "000001601",
+      "name": "Negavolt Cultists",
+      "slug": "negavolt-cultists",
+      "role": "Other"
+    },
+    {
+      "id": "000003876",
+      "name": "Nemesis Claw",
+      "slug": "nemesis-claw",
+      "role": "Other"
+    },
+    {
+      "id": "000001587",
+      "name": "Noctilith Crown",
+      "slug": "noctilith-crown",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004099",
+      "name": "Noise Marines",
+      "slug": "noise-marines",
+      "role": "Other"
+    },
+    {
+      "id": "000000965",
+      "name": "Obliterators",
+      "slug": "obliterators",
+      "role": "Other"
+    },
+    {
+      "id": "000003584",
+      "name": "Plague Marines",
+      "slug": "plague-marines",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000953",
+      "name": "Possessed",
+      "slug": "possessed",
+      "role": "Other"
+    },
+    {
+      "id": "000003670",
+      "name": "Rapier Carrier",
+      "slug": "rapier-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000000958",
+      "name": "Raptors",
+      "slug": "raptors",
+      "role": "Other"
+    },
+    {
+      "id": "000004191",
+      "name": "Red Corsairs Raiders",
+      "slug": "red-corsairs-raiders",
+      "role": "Other"
+    },
+    {
+      "id": "000004192",
+      "name": "Red Corsairs Reave-Captain",
+      "slug": "red-corsairs-reave-captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000003658",
+      "name": "Relic Contemptor Dreadnought",
+      "slug": "relic-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002731",
+      "name": "Renegade Enforcer",
+      "slug": "renegade-enforcer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002732",
+      "name": "Renegade Heavy Weapons Squad",
+      "slug": "renegade-heavy-weapons-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002733",
+      "name": "Renegade Ogryn Beast Handler",
+      "slug": "renegade-ogryn-beast-handler",
+      "role": "Other"
+    },
+    {
+      "id": "000002734",
+      "name": "Renegade Ogryn Brutes",
+      "slug": "renegade-ogryn-brutes",
+      "role": "Other"
+    },
+    {
+      "id": "000002735",
+      "name": "Renegade Plague Ogryns",
+      "slug": "renegade-plague-ogryns",
+      "role": "Other"
+    },
+    {
+      "id": "000001600",
+      "name": "Rogue Psyker",
+      "slug": "rogue-psyker",
+      "role": "Characters"
+    },
+    {
+      "id": "000003583",
+      "name": "Rubric Marines",
+      "slug": "rubric-marines",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003642",
+      "name": "Sicaran Battle Tank",
+      "slug": "sicaran-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003686",
+      "name": "Sicaran Punisher",
+      "slug": "sicaran-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003678",
+      "name": "Sicaran Venator",
+      "slug": "sicaran-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000003638",
+      "name": "Sokar-pattern Stormbird",
+      "slug": "sokar-pattern-stormbird",
+      "role": "Other"
+    },
+    {
+      "id": "000000938",
+      "name": "Sorcerer",
+      "slug": "sorcerer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000939",
+      "name": "Sorcerer In Terminator Armour",
+      "slug": "sorcerer-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000940",
+      "name": "Sorcerer On Bike",
+      "slug": "sorcerer-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000941",
+      "name": "Sorcerer On Disc Of Tzeentch",
+      "slug": "sorcerer-on-disc-of-tzeentch",
+      "role": "Characters"
+    },
+    {
+      "id": "000000942",
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "slug": "sorcerer-on-palanquin-of-nurgle",
+      "role": "Characters"
+    },
+    {
+      "id": "000000943",
+      "name": "Sorcerer On Steed Of Slaanesh",
+      "slug": "sorcerer-on-steed-of-slaanesh",
+      "role": "Characters"
+    },
+    {
+      "id": "000003622",
+      "name": "Spartan",
+      "slug": "spartan",
+      "role": "Other"
+    },
+    {
+      "id": "000003674",
+      "name": "Storm Eagle Gunship",
+      "slug": "storm-eagle-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000003606",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002589",
+      "name": "Traitor Enforcer",
+      "slug": "traitor-enforcer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002590",
+      "name": "Traitor Guardsmen Squad",
+      "slug": "traitor-guardsmen-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003682",
+      "name": "Typhon",
+      "slug": "typhon",
+      "role": "Other"
+    },
+    {
+      "id": "000002679",
+      "name": "Vashtorr The Arkifane",
+      "slug": "vashtorr-the-arkifane",
+      "role": "Characters"
+    },
+    {
+      "id": "000001586",
+      "name": "Venomcrawler",
+      "slug": "venomcrawler",
+      "role": "Other"
+    },
+    {
+      "id": "000000959",
+      "name": "Warp Talons",
+      "slug": "warp-talons",
+      "role": "Other"
+    },
+    {
+      "id": "000000944",
+      "name": "Warpsmith",
+      "slug": "warpsmith",
+      "role": "Characters"
+    },
+    {
+      "id": "000003662",
+      "name": "Whirlwind Scorpius",
+      "slug": "whirlwind-scorpius",
+      "role": "Other"
+    },
+    {
+      "id": "000003666",
+      "name": "Xiphon Interceptor",
+      "slug": "xiphon-interceptor",
+      "role": "Other"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "000001448",
+  "name": "Shield-captain In Allarus Terminator Armour",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "shield-captain-in-allarus-terminator-armour",
+  "legend": "A Shield-Captain is already one of the most formidable combatants and superlative strategists in the Imperium. When clad in a nigh-on impenetrable suit of auramite Terminator armour, they become more powerful still – a walking fortress of Imperial might able to teleport directly into battle in a blaze of golden light.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: balistus grenade launcher; guardian spear.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Shield-captain-In-Allarus-Terminator-Armour",
+  "models": [
+    {
+      "datasheetId": "000001448",
+      "line": 1,
+      "name": "Shield-captain In Allarus Terminator Armour",
+      "movement": "5\"",
+      "toughness": 7,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001448",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Balistus grenade launcher",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001448",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Castellan axe",
+      "description": "assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001448",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Guardian spear",
+      "description": "assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001448",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Castellan axe",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001448",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Guardian spear",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "7",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Martial Ka’tah",
+      "description": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:\n\nDacatarai Stance\n\nThose Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nRendax Stance\n\nMasters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Auramite and Adamantine",
+      "description": "Once per battle, at the start of any phase, this model can use this ability If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of that attack to 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Strategic Mastery",
+      "description": "Once per battle round, you can select one model from your army with this ability and target that model’s unit with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Terminator",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shield-Captain",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001448",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s guardian spear can be replaced with 1 castellan axe."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001448",
+      "line": 1,
+      "description": "1 Shield-Captain in Allarus Terminator Armour"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001448",
+      "line": 1,
+      "description": "1 model",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000001453",
+      "name": "Allarus Custodians"
+    }
+  ]
+}

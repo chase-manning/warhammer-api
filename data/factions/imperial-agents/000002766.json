@@ -1,0 +1,148 @@
+{
+  "id": "000002766",
+  "name": "UR-025",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "ur-025",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Mk 1 assault weapon; power claw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/UR-025",
+  "models": [
+    {
+      "datasheetId": "000002766",
+      "line": 1,
+      "name": "Ur-025",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002766",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mk 1 assault weapon",
+      "description": "ASSAULT",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002766",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power claw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Self Repair",
+      "description": "At the start of your Command phase, this model regains 1 lost wound.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Evade and Survive",
+      "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "UR-025",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002766",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002766",
+      "line": 1,
+      "description": "1 UR-025 – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002766",
+      "line": 1,
+      "description": "1 model",
+      "cost": 55
+    }
+  ],
+  "leaderAttachments": []
+}

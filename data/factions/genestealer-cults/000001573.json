@@ -1,0 +1,207 @@
+{
+  "id": "000001573",
+  "name": "Achilles Ridgerunners",
+  "factionId": "GC",
+  "sourceId": "000000053",
+  "slug": "achilles-ridgerunners",
+  "legend": "The operators of these lightweight but rugged scout vehicles help to coordinate lethal armoured ambushes that eliminate isolated foes or sever communication and supply lines. They can mount a versatile range of heavy weapons, and their speed and manoeuvrability enable them to skirt enemy ranks before unleashing their payloads at a more vulnerable quarter.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: heavy mining laser; twin heavy stubbers; armoured hull; flare launcher.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Achilles-Ridgerunners",
+  "models": [
+    {
+      "datasheetId": "000001573",
+      "line": 1,
+      "name": "Achilles Ridgerunners",
+      "movement": "12\"",
+      "toughness": 7,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 8,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001573",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Achilles missile launcher",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy mining laser",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy mortar",
+      "description": "blast, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy stubber",
+      "description": "twin-linked, rapid fire 3",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "9\""
+    },
+    {
+      "name": "Crossfire",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Flare Launcher",
+      "description": "The bearer’s unit has the SMOKE keyword and you can target it with the Smokescreen Stratagem for 0CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Spotter",
+      "description": "The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Survey Augur",
+      "description": "Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack against that unit, that attack has the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Achilles Ridgerunners",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001573",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their heavy mining laser replaced with one of the following:\n• 1 achilles missile launcher\n• 1 heavy mortar"
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their flare launcher replaced with one of the following:\n• 1 spotter\n• 1 survey augur"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001573",
+      "line": 1,
+      "description": "1-2 Achilles Ridgerunners"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001573",
+      "line": 1,
+      "description": "1 model",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000001573",
+      "line": 2,
+      "description": "2 models",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

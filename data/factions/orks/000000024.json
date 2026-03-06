@@ -1,0 +1,194 @@
+{
+  "id": "000000024",
+  "name": "Meganobz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "meganobz",
+  "legend": "Mega armour comprises massive slabs of metal bashed roughly into shape, and is powered by pistons and sheer brute strength. It is highly resilient and can mount an array of potent weaponry. It is also usually worn to battle by toof-rich Nobz who would be scary enough even were they not each wearing their own Ork-portable bunker.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: kustom shoota; power klaw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Meganobz",
+  "models": [
+    {
+      "datasheetId": "000000024",
+      "line": 1,
+      "name": "Meganobz",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000024",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kombi-weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kustom shoota",
+      "description": "rapid fire 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Killsaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power klaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin killsaw",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Krumpin’ Time",
+      "description": "While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Meganobz",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mega Armour",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000024",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their kustom shoota and power klaw replaced with one of the following:\n• 1 kombi-weapon and 1 power klaw\n• 1 kombi-weapon and 1 killsaw\n• 1 kustom shoota and 1 killsaw\n• 1 killsaw and 1 power klaw\n• 1 twin killsaw"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000024",
+      "line": 1,
+      "description": "2-6 Meganobz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000024",
+      "line": 1,
+      "description": "2 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 2,
+      "description": "3 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 3,
+      "description": "5 models",
+      "cost": 160
+    },
+    {
+      "datasheetId": "000000024",
+      "line": 4,
+      "description": "6 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

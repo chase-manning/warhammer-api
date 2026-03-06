@@ -1,0 +1,199 @@
+{
+  "id": "000000059",
+  "name": "Gargantuan Squiggoth",
+  "factionId": "ORK",
+  "sourceId": "000000378",
+  "slug": "gargantuan-squiggoth",
+  "legend": "Squiggoths can grow in size indefinitely. The larger they get, the more prized they become in the eyes of Ork Warbosses, whose simple minds see them for the colossal living weapons they are. Kitted out with armour, guns and bellowing passengers, truly giant specimens are walking bastions, their momentum all but unstoppable.",
+  "role": "Other",
+  "loadout": "This model is equipped with: huge tusks.",
+  "transport": "This model has a transport capacity of 20 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. Ghazghkull Thraka takes up the space of 18 models. If this model is equipped with a supa-kannon, it has a transport capacity of 15 ORKS INFANTRY models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-10",
+  "damagedDescription": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Gargantuan-Squiggoth",
+  "models": [
+    {
+      "datasheetId": "000000059",
+      "line": 1,
+      "name": "Gargantuan Squiggoth",
+      "movement": "10\"",
+      "toughness": 13,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 30,
+      "leadership": "7+",
+      "objectiveControl": 12,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000059",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kannon – frag",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000059",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Kannon – shell",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000059",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Supa-kannon",
+      "description": "blast",
+      "range": "60",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000059",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Huge tusks – strike",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "12"
+    },
+    {
+      "datasheetId": "000000059",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Huge tusks – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "18",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "2D6"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "20"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Gargantuan",
+      "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Walking Bastion",
+      "description": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Towering",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Gargantuan Squiggoth",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000059",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 kannon\n• 1 supa-kannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000059",
+      "line": 1,
+      "description": "1 Gargantuan Squiggoth"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000059",
+      "line": 1,
+      "description": "1 model",
+      "cost": 440
+    }
+  ],
+  "leaderAttachments": []
+}

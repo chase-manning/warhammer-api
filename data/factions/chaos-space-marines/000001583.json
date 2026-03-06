@@ -1,0 +1,223 @@
+{
+  "id": "000001583",
+  "name": "Lord Discordant On Helstalker",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "lord-discordant-on-helstalker",
+  "legend": "Technocrats and spirit-thieves, Lords Discordant hunt the foe’s war engines. Atop daemonic Helstalkers, these heretics cut through enemy infantry before lunging at their quarry with saw-toothed polearms. Each mount tears its mechanical prey open as the Lord Discordant siphons off the victim’s spirit to reinvigorate other Daemon Engines.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; Helstalker autocannon; techno-virus injector; bladed limbs; impaler chainglaive.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Lord-Discordant-On-Helstalker",
+  "models": [
+    {
+      "datasheetId": "000001583",
+      "line": 1,
+      "name": "Lord Discordant On Helstalker",
+      "movement": "14\"",
+      "toughness": 9,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "6+",
+      "objectiveControl": 4,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Baleflamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Helstalker autocannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Magma cutter",
+      "description": "melta 2",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bladed limbs",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Impaler chainglaive",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Techno-virus injector",
+      "description": "anti-vehicle 2+, extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Corrupt Machine Spirits",
+      "description": "At the start of your Shooting phase, select one visible enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Spirit Thief",
+      "description": "At the start of your Shooting phase, select one visible enemy VEHICLE unit. Until the end of the phase, each time a friendly HERETIC ASTARTES model makes an attack that targets that unit, re-roll a Wound roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lord Discordant",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001583",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s Helstalker autocannon can be replaced with 1 baleflamer."
+    },
+    {
+      "datasheetId": "000001583",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s techno-virus injector can be replaced with 1 magma cutter."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001583",
+      "line": 1,
+      "description": "1 Lord Discordant on Helstalker"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001583",
+      "line": 1,
+      "description": "1 model",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

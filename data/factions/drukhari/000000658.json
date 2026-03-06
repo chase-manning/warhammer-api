@@ -1,0 +1,216 @@
+{
+  "id": "000000658",
+  "name": "Reavers",
+  "factionId": "DRU",
+  "sourceId": "000000031",
+  "slug": "reavers",
+  "legend": "Reaver jetbikes streak across the battlefield with the same speed and agility they display during their lethal races around the Commorrite arenas. Whether jinking around incoming enemy fire, decapitating foes with vicious bladevanes or culling their victims with ferocious firepower, these high-speed killers are lethal in the extreme.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: splinter pistol; splinter rifle; bladevanes.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Reavers",
+  "models": [
+    {
+      "datasheetId": "000000658",
+      "line": 1,
+      "name": "Reavers",
+      "movement": "16\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "32mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000658",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blaster",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heat lance",
+      "description": "assault, melta 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter pistol",
+      "description": "anti-infantry 3+, assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter rifle",
+      "description": "anti-infantry 3+, assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bladevanes",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Matchless Swiftness (Pain)",
+      "description": "In your Movement phase, when you select this unit to Advance, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 8\" to the Move characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Eviscerating Fly-by",
+      "description": "Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding MONSTERS and VEHICLES) that it moved over during that move, then roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Cluster Caltrops",
+      "description": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Grav-talon",
+      "description": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the [LETHAL HITS] ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wych Cult",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Reavers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000658",
+      "line": 1,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model’s splinter rifle can be replaced with one of the following:\n• 1 blaster\n• 1 heat lance"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 2,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model can be equipped with one of the following:\n• 1 cluster caltrops\n• 1 grav-talon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000658",
+      "line": 1,
+      "description": "1 Arena Champion"
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 2,
+      "description": "2-5 Reavers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000658",
+      "line": 1,
+      "description": "3 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000000658",
+      "line": 2,
+      "description": "6 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

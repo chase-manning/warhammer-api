@@ -1,0 +1,137 @@
+{
+  "id": "000002734",
+  "name": "Renegade Ogryn Brutes",
+  "factionId": "CSM",
+  "sourceId": "000000355",
+  "slug": "renegade-ogryn-brutes",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Ogryn weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Renegade-Ogryn-Brutes",
+  "models": [
+    {
+      "datasheetId": "000002734",
+      "line": 1,
+      "name": "Renegade Ogryn Brutes",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002734",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ogryn power drill",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002734",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ogryn weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Ogryn Combat Stimms",
+      "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "OGRYNS",
+      "description": "For the purposes of embarking within Transports, each Renegade Ogryn Brute model counts as one TERMINATOR model.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Renegade Ogryn Brutes",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002734",
+      "line": 1,
+      "button": "•",
+      "description": "One model’s Ogryn weapon can be replaced with 1 Ogryn power drill."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002734",
+      "line": 1,
+      "description": "3 Renegade Ogryn Brutes"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002734",
+      "line": 1,
+      "description": "3 models",
+      "cost": 95
+    }
+  ],
+  "leaderAttachments": []
+}

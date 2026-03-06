@@ -1,0 +1,249 @@
+{
+  "id": "000000868",
+  "name": "Reaver Titan",
+  "factionId": "TL",
+  "sourceId": "000000270",
+  "slug": "reaver-titan",
+  "legend": "Reaver Titans are vast god-machines possessed of truly devastating firepower. From the apocalypse missile launcher mounted on their carapace to their arm-mounted laser blaster, Reavers are more than capable of wiping out ground troops, their void shields and thick adamantine hulls nullifying all but the most piercing enemy strikes.",
+  "role": "Other",
+  "loadout": "This model is equipped with: Reaver apocalypse launcher; Reaver gatling blaster; Reaver laser blaster; Reaver feet.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-20",
+  "damagedDescription": "While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-titanicus/Reaver-Titan",
+  "models": [
+    {
+      "datasheetId": "000000868",
+      "line": 1,
+      "name": "Reaver Titan",
+      "movement": "12\"",
+      "toughness": 14,
+      "save": "2+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": "* Against ranged attacks only",
+      "wounds": 60,
+      "leadership": "6+",
+      "objectiveControl": 20,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000868",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver apocalypse launcher",
+      "description": "blast, indirect fire",
+      "range": "200",
+      "type": "Ranged",
+      "attacks": "3D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver gatling blaster",
+      "description": "sustained hits 1",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver laser blaster",
+      "description": "blast",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "20",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver melta cannon",
+      "description": "blast, melta 4",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "13",
+      "armourPenetration": "-4",
+      "damage": "6"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver volcano cannon",
+      "description": "blast, heavy",
+      "range": "120",
+      "type": "Ranged",
+      "attacks": "D3+1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "24",
+      "armourPenetration": "-5",
+      "damage": "14"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver feet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "4"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver power fist – strike",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "20",
+      "armourPenetration": "-4",
+      "damage": "14"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Reaver power fist – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "6"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+6"
+    },
+    {
+      "name": "Super-heavy Walker",
+      "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Striding Colossus",
+      "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "God-machine",
+      "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Titanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Towering",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Reaver Titan",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000868",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s Reaver gatling blaster can be replaced with one of the following:\n• 1 Reaver laser blaster\n• 1 Reaver melta cannon\n• 1 Reaver volcano cannon\n• 1 Reaver power fist"
+    },
+    {
+      "datasheetId": "000000868",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s Reaver laser blaster can be replaced with one of the following:\n• 1 Reaver gatling blaster\n• 1 Reaver melta cannon\n• 1 Reaver volcano cannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000868",
+      "line": 1,
+      "description": "1 Reaver Titan"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000868",
+      "line": 1,
+      "description": "1 model",
+      "cost": 2200
+    }
+  ],
+  "leaderAttachments": []
+}

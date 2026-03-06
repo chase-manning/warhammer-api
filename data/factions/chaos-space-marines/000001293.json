@@ -1,0 +1,168 @@
+{
+  "id": "000001293",
+  "name": "Blood Slaughterer",
+  "factionId": "CSM",
+  "sourceId": "000000355",
+  "slug": "blood-slaughterer",
+  "legend": "The Blood Slaughterer is a monstrous, gore-splattered Daemon Engine of brass and iron, forged for the sole purpose of wreaking carnage amongst the enemy. Once awoken by dreadful sacrifice rituals, Blood Slaughterers rend and kill indiscriminately, their every attack an act of profane worship to Khorne.",
+  "role": "Other",
+  "loadout": "This model is equipped with: impaler harpoon; slaughter blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Blood-Slaughterer",
+  "models": [
+    {
+      "datasheetId": "000001293",
+      "line": 1,
+      "name": "Blood Slaughterer",
+      "movement": "12\"",
+      "toughness": 9,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "6+",
+      "objectiveControl": 3,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001293",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Impaler harpoon",
+      "description": "anti-monster 2+, anti-vehicle 2+, impaled",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001293",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slaughter blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001293",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin slaughter blade",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Scuttling Gait",
+      "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Impaled",
+      "description": "Each time this weapon scores a hit against an enemy MONSTER or VEHICLE unit, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Blood Slaughterer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001293",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s impaler harpoon and slaughter blade can be replaced with 1 twin slaughter blade."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001293",
+      "line": 1,
+      "description": "1 Blood Slaughterer"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001293",
+      "line": 1,
+      "description": "1 model",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

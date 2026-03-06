@@ -1,0 +1,185 @@
+{
+  "id": "000004147",
+  "name": "Kapricus Carrier",
+  "factionId": "LoV",
+  "sourceId": "000000203",
+  "slug": "kapricus-carrier",
+  "legend": "A variant of the adaptable Kapricus design, the Carrier provides elite teams of Hernkyn Yaegirs with the means to penetrate enemy lines at speed. The transport’s quad magna-coils grant it the manoeuvrability to traverse almost any frontier terrain. At the same time, its banks of scanner uplinks enable it to lay down withering hails of accurate, suppressive fire to purge claim sites.",
+  "role": "Dedicated Transports",
+  "loadout": "This model is equipped with: magna-coil autocannon; twin magna-coil autocannon; armoured hull.",
+  "transport": "This model has a transport capacity of 5 Hernkyn Yaegir models.\n\nAt the start of the Declare Battle Formations step, you can select one HERNKYN YAEGIR unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann/Kapricus-Carrier",
+  "models": [
+    {
+      "datasheetId": "000004147",
+      "line": 1,
+      "name": "",
+      "movement": "12\"",
+      "toughness": 7,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "105 x 70mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004147",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Magna-coil autocannon",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004147",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin magna-coil autocannon",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004147",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "5"
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "9\""
+    },
+    {
+      "name": "Prioritised Efficiency",
+      "description": "If your Army Faction is LEAGUES OF VOTANN, Leagues of Votann units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those LEAGUES OF VOTANN units have will change depending on how many Yield points (YP) you currently have:\n\n• At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\nHostile Acquisition\n\n• Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n• You can re-roll Advance and Charge rolls made for this unit.\n\nFortify Takeover\n\n• Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n• Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a VEHICLE, subtract 1 from the Wound roll.\n\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n• You control one or more objective markers not within your deployment zone.\n• You control two or more objective markers not within your deployment zone.\n• You control more objective markers than your opponent.\n\nIn your turn, YP gained in this way are always gained before checking which ability LEAGUES OF VOTANN units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\n\nDesigner’s Note: This means you can use rules that let you gain or spend YP to influence which ability your units have - Hostile Acquisition or Fortify Takeover - depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will - sometimes need to plan ahead if you want your army to stay in or change ability.\n\nExample: In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.\n\nDuring her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover - it will only change if, at the end of her next Command phase, she still has fewer than 7YP.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Scanner Uplinks",
+      "description": "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Smoke Launcher",
+      "description": "The bearer has the SMOKE keyword.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Leagues of Votann",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Kapricus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Dedicated Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Carrier",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hernkyn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004147",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with 1 smoke launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004147",
+      "line": 1,
+      "description": "1 Kapricus Carrier"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004147",
+      "line": 1,
+      "description": "1 model",
+      "cost": 75
+    }
+  ],
+  "leaderAttachments": []
+}

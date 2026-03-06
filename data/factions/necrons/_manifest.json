@@ -1,0 +1,393 @@
+{
+  "id": "NEC",
+  "name": "Necrons",
+  "slug": "necrons",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/necrons",
+  "datasheetCount": 64,
+  "datasheets": [
+    {
+      "id": "000000553",
+      "name": "Annihilation Barge",
+      "slug": "annihilation-barge",
+      "role": "Other"
+    },
+    {
+      "id": "000000531",
+      "name": "Anrakyr The Traveller",
+      "slug": "anrakyr-the-traveller",
+      "role": "Characters"
+    },
+    {
+      "id": "000000542",
+      "name": "C’tan Shard of the Deceiver",
+      "slug": "c-tan-shard-of-the-deceiver",
+      "role": "Characters"
+    },
+    {
+      "id": "000000541",
+      "name": "C’tan Shard of the Nightbringer",
+      "slug": "c-tan-shard-of-the-nightbringer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002357",
+      "name": "C’tan Shard of the Void Dragon",
+      "slug": "c-tan-shard-of-the-void-dragon",
+      "role": "Characters"
+    },
+    {
+      "id": "000000559",
+      "name": "Canoptek Acanthrites",
+      "slug": "canoptek-acanthrites",
+      "role": "Other"
+    },
+    {
+      "id": "000002115",
+      "name": "Canoptek Doomstalker",
+      "slug": "canoptek-doomstalker",
+      "role": "Other"
+    },
+    {
+      "id": "000004176",
+      "name": "Canoptek Macrocytes",
+      "slug": "canoptek-macrocytes",
+      "role": "Other"
+    },
+    {
+      "id": "000002112",
+      "name": "Canoptek Reanimator",
+      "slug": "canoptek-reanimator",
+      "role": "Other"
+    },
+    {
+      "id": "000002114",
+      "name": "Canoptek Scarab Swarms",
+      "slug": "canoptek-scarab-swarms",
+      "role": "Other"
+    },
+    {
+      "id": "000000551",
+      "name": "Canoptek Spyders",
+      "slug": "canoptek-spyders",
+      "role": "Other"
+    },
+    {
+      "id": "000004177",
+      "name": "Canoptek Tomb Crawlers",
+      "slug": "canoptek-tomb-crawlers",
+      "role": "Other"
+    },
+    {
+      "id": "000000560",
+      "name": "Canoptek Tomb Sentinel",
+      "slug": "canoptek-tomb-sentinel",
+      "role": "Other"
+    },
+    {
+      "id": "000000558",
+      "name": "Canoptek Tomb Stalker",
+      "slug": "canoptek-tomb-stalker",
+      "role": "Other"
+    },
+    {
+      "id": "000000546",
+      "name": "Canoptek Wraiths",
+      "slug": "canoptek-wraiths",
+      "role": "Other"
+    },
+    {
+      "id": "000000533",
+      "name": "Catacomb Command Barge",
+      "slug": "catacomb-command-barge",
+      "role": "Characters"
+    },
+    {
+      "id": "000002354",
+      "name": "Chronomancer",
+      "slug": "chronomancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002361",
+      "name": "Convergence Of Dominion",
+      "slug": "convergence-of-dominion",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002111",
+      "name": "Cryptothralls",
+      "slug": "cryptothralls",
+      "role": "Other"
+    },
+    {
+      "id": "000000537",
+      "name": "Deathmarks",
+      "slug": "deathmarks",
+      "role": "Other"
+    },
+    {
+      "id": "000000545",
+      "name": "Doom Scythe",
+      "slug": "doom-scythe",
+      "role": "Other"
+    },
+    {
+      "id": "000000554",
+      "name": "Doomsday Ark",
+      "slug": "doomsday-ark",
+      "role": "Other"
+    },
+    {
+      "id": "000000538",
+      "name": "Flayed Ones",
+      "slug": "flayed-ones",
+      "role": "Other"
+    },
+    {
+      "id": "000000567",
+      "name": "Gauss Pylon",
+      "slug": "gauss-pylon",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004178",
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000543",
+      "name": "Ghost Ark",
+      "slug": "ghost-ark",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002355",
+      "name": "Hexmark Destroyer",
+      "slug": "hexmark-destroyer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002092",
+      "name": "Illuminor Szeras",
+      "slug": "illuminor-szeras",
+      "role": "Characters"
+    },
+    {
+      "id": "000000535",
+      "name": "Immortals",
+      "slug": "immortals",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000522",
+      "name": "Imotekh The Stormlord",
+      "slug": "imotekh-the-stormlord",
+      "role": "Characters"
+    },
+    {
+      "id": "000002359",
+      "name": "Lokhust Destroyers",
+      "slug": "lokhust-destroyers",
+      "role": "Other"
+    },
+    {
+      "id": "000002116",
+      "name": "Lokhust Heavy Destroyers",
+      "slug": "lokhust-heavy-destroyers",
+      "role": "Other"
+    },
+    {
+      "id": "000002351",
+      "name": "Lokhust Lord",
+      "slug": "lokhust-lord",
+      "role": "Characters"
+    },
+    {
+      "id": "000000524",
+      "name": "Lord",
+      "slug": "lord",
+      "role": "Characters"
+    },
+    {
+      "id": "000000536",
+      "name": "Lychguard",
+      "slug": "lychguard",
+      "role": "Other"
+    },
+    {
+      "id": "000000552",
+      "name": "Monolith",
+      "slug": "monolith",
+      "role": "Other"
+    },
+    {
+      "id": "000000534",
+      "name": "Necron Warriors",
+      "slug": "necron-warriors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004186",
+      "name": "Nekrosor Ammentar",
+      "slug": "nekrosor-ammentar",
+      "role": "Characters"
+    },
+    {
+      "id": "000000527",
+      "name": "Nemesor Zahndrekh",
+      "slug": "nemesor-zahndrekh",
+      "role": "Characters"
+    },
+    {
+      "id": "000000544",
+      "name": "Night Scythe",
+      "slug": "night-scythe",
+      "role": "Other"
+    },
+    {
+      "id": "000000561",
+      "name": "Night Shroud",
+      "slug": "night-shroud",
+      "role": "Other"
+    },
+    {
+      "id": "000000557",
+      "name": "Obelisk",
+      "slug": "obelisk",
+      "role": "Other"
+    },
+    {
+      "id": "000002358",
+      "name": "Ophydian Destroyers",
+      "slug": "ophydian-destroyers",
+      "role": "Other"
+    },
+    {
+      "id": "000000530",
+      "name": "Orikan The Diviner",
+      "slug": "orikan-the-diviner",
+      "role": "Characters"
+    },
+    {
+      "id": "000000523",
+      "name": "Overlord",
+      "slug": "overlord",
+      "role": "Characters"
+    },
+    {
+      "id": "000003693",
+      "name": "Overlord with translocation shroud",
+      "slug": "overlord-with-translocation-shroud",
+      "role": "Characters"
+    },
+    {
+      "id": "000002108",
+      "name": "Plasmancer",
+      "slug": "plasmancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002353",
+      "name": "Psychomancer",
+      "slug": "psychomancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002350",
+      "name": "Royal Warden",
+      "slug": "royal-warden",
+      "role": "Characters"
+    },
+    {
+      "id": "000000562",
+      "name": "Sentry Pylon",
+      "slug": "sentry-pylon",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000001577",
+      "name": "Seraptek Heavy Construct",
+      "slug": "seraptek-heavy-construct",
+      "role": "Other"
+    },
+    {
+      "id": "000002110",
+      "name": "Skorpekh Destroyers",
+      "slug": "skorpekh-destroyers",
+      "role": "Other"
+    },
+    {
+      "id": "000002109",
+      "name": "Skorpekh Lord",
+      "slug": "skorpekh-lord",
+      "role": "Characters"
+    },
+    {
+      "id": "000002352",
+      "name": "Technomancer",
+      "slug": "technomancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000564",
+      "name": "Tesseract Ark",
+      "slug": "tesseract-ark",
+      "role": "Other"
+    },
+    {
+      "id": "000000556",
+      "name": "Tesseract Vault",
+      "slug": "tesseract-vault",
+      "role": "Other"
+    },
+    {
+      "id": "000002360",
+      "name": "The Silent King",
+      "slug": "the-silent-king",
+      "role": "Characters"
+    },
+    {
+      "id": "000000548",
+      "name": "Tomb Blades",
+      "slug": "tomb-blades",
+      "role": "Other"
+    },
+    {
+      "id": "000002362",
+      "name": "Tomb Citadel Walls",
+      "slug": "tomb-citadel-walls",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000555",
+      "name": "Transcendent C’tan",
+      "slug": "transcendent-c-tan",
+      "role": "Characters"
+    },
+    {
+      "id": "000000532",
+      "name": "Trazyn The Infinite",
+      "slug": "trazyn-the-infinite",
+      "role": "Characters"
+    },
+    {
+      "id": "000000539",
+      "name": "Triarch Praetorians",
+      "slug": "triarch-praetorians",
+      "role": "Other"
+    },
+    {
+      "id": "000000540",
+      "name": "Triarch Stalker",
+      "slug": "triarch-stalker",
+      "role": "Other"
+    },
+    {
+      "id": "000000528",
+      "name": "Vargard Obyron",
+      "slug": "vargard-obyron",
+      "role": "Characters"
+    }
+  ]
+}

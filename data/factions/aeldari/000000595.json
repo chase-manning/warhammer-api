@@ -1,0 +1,252 @@
+{
+  "id": "000000595",
+  "name": "Striking Scorpions",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "striking-scorpions",
+  "legend": "Striking Scorpions are the stealthiest Aspect, becoming one with the shadows to creep up on the enemy before falling upon them with ruthless intent. They can wait for days without motion before striking with the force of a lightning bolt, launching hails of mandiblaster fire and delivering flurries of blows with their Scorpion chainswords.",
+  "role": "Other",
+  "loadout": "The Striking Scorpion Exarch is equipped with: shuriken pistol; Scorpion chainsword; Scorpion’s claw.\n\nEvery Striking Scorpion is equipped with: shuriken pistol; Scorpion chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Striking-Scorpions",
+  "models": [
+    {
+      "datasheetId": "000000595",
+      "line": 1,
+      "name": "STRIKING SCORPION",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 2,
+      "name": "STRIKING SCORPION EXARCH",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000595",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsabres",
+      "description": "assault, pistol, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken pistol",
+      "description": "assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Biting blade",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsabres",
+      "description": "sustained hits 1, twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scorpion chainsword",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scorpion’s claw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Mandiblasters",
+      "description": "Each time a model in this unit makes a melee attack, if it made a Charge move this turn, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Aspect Shrine Token",
+      "description": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner’s Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Striking Scorpions",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aspect Warriors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000595",
+      "line": 1,
+      "button": "•",
+      "description": "The Striking Scorpion Exarch’s shuriken pistol, Scorpion chainsword and Scorpion’s claw can be replaced with one of the following:\n• 1 biting blade and 1 shuriken pistol\n• 1 chainsabres"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, it can have 1 Aspect Shrine token."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000595",
+      "line": 1,
+      "description": "1 Striking Scorpion Exarch"
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 2,
+      "description": "4-9 Striking Scorpions"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000595",
+      "line": 1,
+      "description": "5 models",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000000595",
+      "line": 2,
+      "description": "10 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

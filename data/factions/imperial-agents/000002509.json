@@ -1,0 +1,216 @@
+{
+  "id": "000002509",
+  "name": "Voidsmen-at-arms",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "voidsmen-at-arms",
+  "legend": "Voidsmen-at-Arms provide security on the ships of many Rogue Traders. Well drilled and often well equipped, they are highly adept at fighting in vessel corridors and other close-quarters environments.",
+  "role": "Other",
+  "loadout": "The Voidmaster is equipped with: artificer shotgun; laspistol; close combat weapon.\n\nOne Voidsman is equipped with: laspistol; Voidsman rotor cannon; close combat weapon.\n\nEvery other Voidsman is equipped with: lasgun; laspistol; close combat weapon.\n\nThe Canid is equipped with: vicious bite.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Voidsmen-at-arms",
+  "models": [
+    {
+      "datasheetId": "000002509",
+      "line": 1,
+      "name": "Voidsmen-at-arms",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002509",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Artificer shotgun",
+      "description": "assault",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Voidsman rotor cannon",
+      "description": "heavy, sustained hits 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Vicious bite",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Masters of Close Confines",
+      "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "NAVY BODYGUARD",
+      "description": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each Voidfarers Character unit you include in your army, you can include one VOIDSMEN-AT-ARMS unit in your army that does not count towards the number of RETINUE units your army can include (see Assigned Agents)",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Voidfarers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Voidsmen-at-Arms",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002509",
+      "line": 1,
+      "description": "1 Voidmaster"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 2,
+      "description": "4 Voidsmen"
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 3,
+      "description": "1 Canid"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002509",
+      "line": 1,
+      "description": "6 models (<ky>AGENTS OF THE IMPERIUM</ky> Detachment)",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000002509",
+      "line": 2,
+      "description": "6 models (Assigned Agent)",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

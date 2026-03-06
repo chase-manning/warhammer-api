@@ -1,0 +1,330 @@
+{
+  "id": "000004074",
+  "name": "Sanctifiers",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "sanctifiers",
+  "legend": "",
+  "role": "Other",
+  "loadout": "The Miraculist is equipped with: holy fire; burning hands.\n\nThe Salvationist is equipped with: close combat weapon; Salvationist medikit.\n\nThe Death Cult Assassin is equipped with: Death Cult blades.\n\n1 Missionary is equipped with: plasma gun; Sanctifier melee weapon.\n\n1 Missionary is equipped with: Ministorum flamer; Sanctifier melee weapon.\n\nEvery Sanctifier is equipped with: Ministorum hand flamer; Sanctifier melee weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Sanctifiers",
+  "models": [
+    {
+      "datasheetId": "000004074",
+      "line": 1,
+      "name": "",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004074",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Holy fire",
+      "description": "ignores cover, one shot, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ministorum flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ministorum hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 6,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Burning hands",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Death Cult blades",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sanctifier melee weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "One Shot",
+      "description": "The bearer can only shoot with this weapon once per battle.",
+      "type": "Wargear profile",
+      "parameter": null
+    },
+    {
+      "name": "Ministorum Sermon",
+      "description": "While this unit contains a MINISTORUM PRIEST, each time a model in this unit makes a melee attack, add 1 to the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Cherub",
+      "description": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.\n\nDesigner’s Note: Place a Cherub token next to the unit, removing it once this ability has been used.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Ministorum Priest or Inquisitor model from your army with the Leader ability can be attached to a Sisters of Battle Squad, it can be attached to this unit instead. If a MINISTORUM PRIEST or INQUISITOR model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Salvationist Medikit",
+      "description": "In your Command phase, if the bearer is on the battlefield, you can return up to D3 destroyed models (excluding CHARACTER models) to this unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Simulacrum Imperialis",
+      "description": "Improve the Leadership characteristic of models in the bearer’s unit by 1.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sanctifiers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004074",
+      "line": 1,
+      "button": "•",
+      "description": "1 Missionary model can have its 1 plasma gun replaced with 1 meltagun."
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 2,
+      "button": "•",
+      "description": "1 Missionary model equipped with 1 plasma gun can be equipped with 1 holy fire (this model’s plasma gun cannot be replaced)."
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 3,
+      "button": "•",
+      "description": "1 Sanctifier model can have its 1 Sanctifier melee weapon replaced with 1 Ministorum hand flamer and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 4,
+      "button": "•",
+      "description": "1 Sanctifier model can have its 1 Sanctifier melee weapon replaced with 1 close combat weapon and 1 simulacrum imperialis."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004074",
+      "line": 1,
+      "description": "1 Miraculist"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 2,
+      "description": "1 Salvationist"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 3,
+      "description": "1 Death Cult Assassin"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 4,
+      "description": "2 Missionaries"
+    },
+    {
+      "datasheetId": "000004074",
+      "line": 5,
+      "description": "4 Sanctifiers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004074",
+      "line": 1,
+      "description": "9 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

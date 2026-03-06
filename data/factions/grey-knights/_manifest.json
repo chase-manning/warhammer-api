@@ -1,0 +1,195 @@
+{
+  "id": "GK",
+  "name": "Grey Knights",
+  "slug": "grey-knights",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/grey-knights",
+  "datasheetCount": 31,
+  "datasheets": [
+    {
+      "id": "000000376",
+      "name": "Brother-captain",
+      "slug": "brother-captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000000377",
+      "name": "Brother-captain Stern",
+      "slug": "brother-captain-stern",
+      "role": "Characters"
+    },
+    {
+      "id": "000000379",
+      "name": "Brotherhood Champion",
+      "slug": "brotherhood-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000001362",
+      "name": "Brotherhood Chaplain",
+      "slug": "brotherhood-chaplain",
+      "role": "Characters"
+    },
+    {
+      "id": "000001361",
+      "name": "Brotherhood Librarian",
+      "slug": "brotherhood-librarian",
+      "role": "Characters"
+    },
+    {
+      "id": "000000399",
+      "name": "Brotherhood Techmarine",
+      "slug": "brotherhood-techmarine",
+      "role": "Characters"
+    },
+    {
+      "id": "000000382",
+      "name": "Brotherhood Terminator Squad",
+      "slug": "brotherhood-terminator-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000380",
+      "name": "Castellan Crowe",
+      "slug": "castellan-crowe",
+      "role": "Characters"
+    },
+    {
+      "id": "000000375",
+      "name": "Grand Master",
+      "slug": "grand-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000001360",
+      "name": "Grand Master In Nemesis Dreadknight",
+      "slug": "grand-master-in-nemesis-dreadknight",
+      "role": "Characters"
+    },
+    {
+      "id": "000000374",
+      "name": "Grand Master Voldus",
+      "slug": "grand-master-voldus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000390",
+      "name": "Grey Knights Dreadnought",
+      "slug": "grey-knights-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002768",
+      "name": "Grey Knights Relic Razorback",
+      "slug": "grey-knights-relic-razorback",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001197",
+      "name": "Grey Knights Thunderhawk Gunship",
+      "slug": "grey-knights-thunderhawk-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000387",
+      "name": "Interceptor Squad",
+      "slug": "interceptor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000373",
+      "name": "Kaldor Draigo",
+      "slug": "kaldor-draigo",
+      "role": "Characters"
+    },
+    {
+      "id": "000000391",
+      "name": "Land Raider",
+      "slug": "land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000000392",
+      "name": "Land Raider Crusader",
+      "slug": "land-raider-crusader",
+      "role": "Other"
+    },
+    {
+      "id": "000000393",
+      "name": "Land Raider Redeemer",
+      "slug": "land-raider-redeemer",
+      "role": "Other"
+    },
+    {
+      "id": "000000389",
+      "name": "Nemesis Dreadknight",
+      "slug": "nemesis-dreadknight",
+      "role": "Other"
+    },
+    {
+      "id": "000000384",
+      "name": "Paladin Squad",
+      "slug": "paladin-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000388",
+      "name": "Purgation Squad",
+      "slug": "purgation-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000383",
+      "name": "Purifier Squad",
+      "slug": "purifier-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000395",
+      "name": "Razorback",
+      "slug": "razorback",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000396",
+      "name": "Rhino",
+      "slug": "rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000397",
+      "name": "Servitors",
+      "slug": "servitors",
+      "role": "Other"
+    },
+    {
+      "id": "000001363",
+      "name": "Stormhawk Interceptor",
+      "slug": "stormhawk-interceptor",
+      "role": "Other"
+    },
+    {
+      "id": "000000398",
+      "name": "Stormraven Gunship",
+      "slug": "stormraven-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000001364",
+      "name": "Stormtalon Gunship",
+      "slug": "stormtalon-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000381",
+      "name": "Strike Squad",
+      "slug": "strike-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000400",
+      "name": "Venerable Dreadnought",
+      "slug": "venerable-dreadnought",
+      "role": "Characters"
+    }
+  ]
+}

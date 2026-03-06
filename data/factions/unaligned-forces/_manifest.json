@@ -1,0 +1,129 @@
+{
+  "id": "UN",
+  "name": "Unaligned Forces",
+  "slug": "unaligned-forces",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/unaligned-forces",
+  "datasheetCount": 20,
+  "datasheets": [
+    {
+      "id": "000002811",
+      "name": "Aegis Defence Line With Weapon Emplacement",
+      "slug": "aegis-defence-line-with-weapon-emplacement",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000001630",
+      "name": "Ambull",
+      "slug": "ambull",
+      "role": "Characters"
+    },
+    {
+      "id": "000000914",
+      "name": "Bastion",
+      "slug": "bastion",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002807",
+      "name": "Castellum Stronghold",
+      "slug": "castellum-stronghold",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000918",
+      "name": "Firestorm Redoubt",
+      "slug": "firestorm-redoubt",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000243",
+      "name": "Fortress Of Redemption",
+      "slug": "fortress-of-redemption",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002363",
+      "name": "Guardian Drone",
+      "slug": "guardian-drone",
+      "role": "Other"
+    },
+    {
+      "id": "000000785",
+      "name": "Imperial Fortress Walls",
+      "slug": "imperial-fortress-walls",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000920",
+      "name": "Macro-cannon Aquila Strongpoint",
+      "slug": "macro-cannon-aquila-strongpoint",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000919",
+      "name": "Plasma Obliterator",
+      "slug": "plasma-obliterator",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000786",
+      "name": "Primaris Redoubt",
+      "slug": "primaris-redoubt",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000923",
+      "name": "Skyshield Landing Pad",
+      "slug": "skyshield-landing-pad",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000001603",
+      "name": "Spindle Drones",
+      "slug": "spindle-drones",
+      "role": "Other"
+    },
+    {
+      "id": "000002093",
+      "name": "The Archivist",
+      "slug": "the-archivist",
+      "role": "Characters"
+    },
+    {
+      "id": "000000917",
+      "name": "Vengeance Weapon Battery",
+      "slug": "vengeance-weapon-battery",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000922",
+      "name": "Void Shield Generator",
+      "slug": "void-shield-generator",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000921",
+      "name": "Vortex Missile Strongpoint",
+      "slug": "vortex-missile-strongpoint",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002808",
+      "name": "Wall Of Martyrs Bunker",
+      "slug": "wall-of-martyrs-bunker",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002810",
+      "name": "Wall Of Martyrs Defence Emplacement",
+      "slug": "wall-of-martyrs-defence-emplacement",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000002809",
+      "name": "Wall Of Martyrs Defence Line",
+      "slug": "wall-of-martyrs-defence-line",
+      "role": "Fortifications"
+    }
+  ]
+}

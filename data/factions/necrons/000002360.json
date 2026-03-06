@@ -1,0 +1,236 @@
+{
+  "id": "000002360",
+  "name": "The Silent King",
+  "factionId": "NEC",
+  "sourceId": "000000029",
+  "slug": "the-silent-king",
+  "legend": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
+  "role": "Characters",
+  "loadout": "Szarekh is equipped with: Sceptre of Eternal Glory; Staff of Stars; Weapons of the Final Triarch.\n\nEvery Triarchal Menhir is equipped with: annihilator beam; armoured bulk.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-6",
+  "damagedDescription": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/necrons/The-Silent-King",
+  "models": [
+    {
+      "datasheetId": "000002360",
+      "line": 1,
+      "name": "SZAREKH",
+      "movement": "8\"",
+      "toughness": 10,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 16,
+      "leadership": "6+",
+      "objectiveControl": 6,
+      "baseSize": "100mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 2,
+      "name": "TRIARCHAL MENHIR",
+      "movement": "8\"",
+      "toughness": 10,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002360",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Annihilator beam",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "6"
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sceptre of Eternal Glory",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Staff of Stars",
+      "description": "indirect fire",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured bulk",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Weapons of the Final Triarch",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+3 (Szarekh model only)"
+    },
+    {
+      "name": "Reanimation Protocols",
+      "description": "If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n\n• If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound\n• If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\n\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.\n\nExample: A unit of Lokhust Destroyers (which have a Wounds characteristic of 3) activates its Reanimation Protocols. The unit had a Starting Strength of 3, but currently contains 2 models, and one of those models has lost 1 wound. A 3 is rolled to see how many wounds are reanimated. The first of these reanimated wounds restores the wounded Lokhust Destroyer back to 3 wounds. The second of these reanimated wounds returns the destroyed Lokhust Destroyer to the battlefield with 1 wound remaining. The third of these reanimated wounds restores one of the remaining lost wounds to the same Lokhust Destroyer that was just returned. The unit now contains 3 models, two of which have 3 wounds remaining and one of which has 2 wounds remaining.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Voice of the Triarch",
+      "description": "At the start of the battle round, select one Triarch ability (see left). Until the start of the next battle round, this unit has that ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "The Silent King",
+      "description": "While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model, improve that unit’s Leadership characteristic by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SUPREME COMMANDER",
+      "description": "If this unit is in your army, it must be your Warlord.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "TRIARCHAL MENHIRS",
+      "description": "If this unit’s Szarekh model is destroyed, all of this unit’s remaining Triarchal Menhir models are also destroyed.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Phaeron of the Stars (Aura)",
+      "description": "While a friendly NECRONS unit (excluding Monster units) is within 6\" of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Phaeron of the Blades (Aura)",
+      "description": "While a friendly NECRONS unit (excluding Monster units) is within 6\" of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Relentless March (Aura)",
+      "description": "While a friendly NECRONS unit (excluding Monster units) is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit.",
+      "type": "Primarch",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Necrons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Triarch",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "SZAREKH MODEL"
+    },
+    {
+      "keyword": "The Silent King",
+      "isFactionKeyword": false,
+      "model": "SZAREKH MODEL"
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002360",
+      "line": 1,
+      "description": "1 Szarekh – EPIC HERO"
+    },
+    {
+      "datasheetId": "000002360",
+      "line": 2,
+      "description": "2 Triarchal Menhirs"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002360",
+      "line": 1,
+      "description": "3 models",
+      "cost": 400
+    }
+  ],
+  "leaderAttachments": []
+}

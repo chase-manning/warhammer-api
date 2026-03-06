@@ -1,0 +1,238 @@
+{
+  "id": "000004066",
+  "name": "Possessed",
+  "factionId": "CD",
+  "sourceId": "000000012",
+  "slug": "possessed",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: hideous mutations.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/Possessed",
+  "models": [
+    {
+      "datasheetId": "000004066",
+      "line": 1,
+      "name": "Possessed",
+      "movement": "9\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004066",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hideous mutations",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Unholy Bloodshed",
+      "description": "Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Chaos Icon",
+      "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Legiones Daemonica",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Possessed",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Possessed",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Possessed",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Possessed",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004066",
+      "line": 1,
+      "button": "•",
+      "description": "1 model can be equipped with 1 Chaos icon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004066",
+      "line": 1,
+      "description": "1 Possessed Champion"
+    },
+    {
+      "datasheetId": "000004066",
+      "line": 2,
+      "description": "4-9 Possessed"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004066",
+      "line": 1,
+      "description": "5 models",
+      "cost": 120
+    },
+    {
+      "datasheetId": "000004066",
+      "line": 2,
+      "description": "10 models",
+      "cost": 240
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,171 @@
+{
+  "id": "QI",
+  "name": "Imperial Knights",
+  "slug": "imperial-knights",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-knights",
+  "datasheetCount": 27,
+  "datasheets": [
+    {
+      "id": "000001664",
+      "name": "Acastus Knight Asterius",
+      "slug": "acastus-knight-asterius",
+      "role": "Other"
+    },
+    {
+      "id": "000000860",
+      "name": "Acastus Knight Porphyrion",
+      "slug": "acastus-knight-porphyrion",
+      "role": "Other"
+    },
+    {
+      "id": "000001481",
+      "name": "Armiger Helverin",
+      "slug": "armiger-helverin",
+      "role": "Other"
+    },
+    {
+      "id": "000002769",
+      "name": "Armiger Moirax",
+      "slug": "armiger-moirax",
+      "role": "Other"
+    },
+    {
+      "id": "000001482",
+      "name": "Armiger Warglaive",
+      "slug": "armiger-warglaive",
+      "role": "Other"
+    },
+    {
+      "id": "000001484",
+      "name": "Canis Rex",
+      "slug": "canis-rex",
+      "role": "Characters"
+    },
+    {
+      "id": "000000861",
+      "name": "Cerastus Knight Acheron",
+      "slug": "cerastus-knight-acheron",
+      "role": "Characters"
+    },
+    {
+      "id": "000000862",
+      "name": "Cerastus Knight Atrapos",
+      "slug": "cerastus-knight-atrapos",
+      "role": "Characters"
+    },
+    {
+      "id": "000000863",
+      "name": "Cerastus Knight Castigator",
+      "slug": "cerastus-knight-castigator",
+      "role": "Characters"
+    },
+    {
+      "id": "000000864",
+      "name": "Cerastus Knight Lancer",
+      "slug": "cerastus-knight-lancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000001485",
+      "name": "Knight Castellan",
+      "slug": "knight-castellan",
+      "role": "Characters"
+    },
+    {
+      "id": "000000859",
+      "name": "Knight Crusader",
+      "slug": "knight-crusader",
+      "role": "Characters"
+    },
+    {
+      "id": "000004149",
+      "name": "Knight Defender",
+      "slug": "knight-defender",
+      "role": "Characters"
+    },
+    {
+      "id": "000000856",
+      "name": "Knight Errant",
+      "slug": "knight-errant",
+      "role": "Characters"
+    },
+    {
+      "id": "000000858",
+      "name": "Knight Gallant",
+      "slug": "knight-gallant",
+      "role": "Characters"
+    },
+    {
+      "id": "000000855",
+      "name": "Knight Paladin",
+      "slug": "knight-paladin",
+      "role": "Characters"
+    },
+    {
+      "id": "000001483",
+      "name": "Knight Preceptor",
+      "slug": "knight-preceptor",
+      "role": "Characters"
+    },
+    {
+      "id": "000001486",
+      "name": "Knight Valiant",
+      "slug": "knight-valiant",
+      "role": "Characters"
+    },
+    {
+      "id": "000000857",
+      "name": "Knight Warden",
+      "slug": "knight-warden",
+      "role": "Characters"
+    },
+    {
+      "id": "000000865",
+      "name": "Questoris Knight Magaera",
+      "slug": "questoris-knight-magaera",
+      "role": "Characters"
+    },
+    {
+      "id": "000000866",
+      "name": "Questoris Knight Styrix",
+      "slug": "questoris-knight-styrix",
+      "role": "Characters"
+    },
+    {
+      "id": "000002770",
+      "name": "Sir Hekhtur",
+      "slug": "sir-hekhtur",
+      "role": "Characters"
+    },
+    {
+      "id": "000003841",
+      "name": "Skitarii Marshal",
+      "slug": "skitarii-marshal",
+      "role": "Characters"
+    },
+    {
+      "id": "000003842",
+      "name": "Skitarii Rangers",
+      "slug": "skitarii-rangers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003843",
+      "name": "Skitarii Vanguard",
+      "slug": "skitarii-vanguard",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003839",
+      "name": "Tech-priest Dominus",
+      "slug": "tech-priest-dominus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003840",
+      "name": "Tech-priest Manipulus",
+      "slug": "tech-priest-manipulus",
+      "role": "Characters"
+    }
+  ]
+}

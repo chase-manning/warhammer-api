@@ -1,0 +1,137 @@
+{
+  "id": "000001385",
+  "name": "Grot Bomm Launcha",
+  "factionId": "ORK",
+  "sourceId": "000000377",
+  "slug": "grot-bomm-launcha",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: Grot-guided bomms; spiked wheel.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Grot-Bomm-Launcha",
+  "models": [
+    {
+      "datasheetId": "000001385",
+      "line": 1,
+      "name": "Grot Bomm Launcha",
+      "movement": "12\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001385",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grot-guided bomms",
+      "description": "blast, one shot, indirect fire",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001385",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spiked wheel",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Furious Barrage",
+      "description": "Each time this model makes a ranged attack that targets an enemy unit that contains five or more models, you can re-roll the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "One Shot",
+      "description": "The bearer can only shoot with this weapon once per battle.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Speed Freeks",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grots",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grot Bomm Launcha",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001385",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001385",
+      "line": 1,
+      "description": "1 Grot Bomm Launcha"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001385",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

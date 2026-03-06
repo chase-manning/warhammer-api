@@ -1,0 +1,190 @@
+{
+  "id": "000001055",
+  "name": "Malignant Plaguecaster",
+  "factionId": "DG",
+  "sourceId": "000000014",
+  "slug": "malignant-plaguecaster",
+  "legend": "Every foetid fibre of a Malignant Plaguecaster’s body is rotted and decayed. They are living conduits for Nurgle’s miasmas and maladies. Foul blights reside within their roiling, bloated frames, and when they are unleashed in an eruption of vomit and gases, they liquefy metal, stone andflesh.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; Plague Wind; corrupted staff.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Malignant-Plaguecaster",
+  "models": [
+    {
+      "datasheetId": "000001055",
+      "line": 1,
+      "name": "Malignant Plaguecaster",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001055",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "lethal hits, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001055",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plague Wind – witchfire",
+      "description": "psychic, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000001055",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plague Wind – focused witchfire",
+      "description": "hazardous, psychic, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000001055",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Corrupted staff",
+      "description": "lethal hits, psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Nurgle’s Gift (Aura)",
+      "description": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\nSkullsquirm Blight\n\nThis horrifying affliction sees the minds and senses of the victim gnawed gradually away from within.\n\nEach time a model in this unit makes an attack, subtract 1 from the Hit roll.\n\nRattlejoint Ague\n\nLimbs shuddering with fever palsy, bones turned brittle as glass, these warriors can barely act to defend themselves.\n\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\n\nVictims of this insidious ailment become glassy eyed and morose as their very animus and essence decay.\n\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Gift of Contagion (Psychic)",
+      "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets a unit that is Afflicted, that attack has the [SUSTAINED HITS 1] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Pestilent Fallout (Psychic)",
+      "description": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent’s next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Death Guard",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Malignant Plaguecaster",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000001055",
+      "line": 1,
+      "description": "1 Malignant Plaguecaster"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001055",
+      "line": 1,
+      "description": "1 model",
+      "cost": 60
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000001044",
+      "name": "Plague Marines"
+    },
+    {
+      "id": "000001056",
+      "name": "Poxwalkers"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "000002081",
+  "name": "Serberys Sulphurhounds",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "serberys-sulphurhounds",
+  "legend": "Sulphurhound cavalry squadrons are aggressive shock troops and line-breakers. The loping, mechanical beasts breathe gouts of incinerating phosphor and disembowel the foe with slashing claws, while the elite Skitarii riders unload incandescent pistol fire as they smash through defence lines, before circling back for survivors.",
+  "role": "Other",
+  "loadout": "The Serberys Sulphurhound Alpha model is equipped with: Mechanicus pistol; sulphur breath; cavalry arc maul; clawed limbs.\n\nEvery Serberys Sulphurhound model is equipped with: 2 phosphor pistols; sulphur breath; clawed limbs.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Serberys-Sulphurhounds",
+  "models": [
+    {
+      "datasheetId": "000002081",
+      "line": 1,
+      "name": "Serberys Sulphurhounds",
+      "movement": "12\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002081",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanicus pistol",
+      "description": "pistol, DEVASTATING WOUNDS",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Phosphor blast carbine",
+      "description": "blast, ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Phosphor pistol",
+      "description": "ignores cover, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sulphur breath",
+      "description": "ignores cover, pistol, torrent",
+      "range": "9",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cavalry arc maul",
+      "description": "anti-vehicle 4+, devastating wounds, extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Clawed limbs",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Line-breakers",
+      "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit that is within Engagement Range of that enemy unit, adding 2 to the result if this unit started its Charge move within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units. For each 4+, that enemy unit suffers 1 mortal wound.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Serberys Sulphurhounds",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002081",
+      "line": 1,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 Serberys Sulphurhound’s 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002081",
+      "line": 1,
+      "description": "1 Serberys Sulphurhound Alpha"
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 2,
+      "description": "2-5 Serberys Sulphurhounds"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002081",
+      "line": 1,
+      "description": "3 models",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000002081",
+      "line": 2,
+      "description": "6 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

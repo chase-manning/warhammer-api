@@ -1,0 +1,179 @@
+{
+  "id": "000000095",
+  "name": "Ultramarines Honour Guard",
+  "factionId": "SM",
+  "sourceId": "000000287",
+  "slug": "ultramarines-honour-guard",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; boltgun; power weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Ultramarines-Honour-Guard",
+  "models": [
+    {
+      "datasheetId": "000000095",
+      "line": 1,
+      "name": "Ultramarines Honour Guard",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000095",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000095",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000095",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Honour Guard",
+      "description": "While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Astartes Banner",
+      "description": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Honour or Death",
+      "description": "While this unit contains a CHAPTER CHAMPION, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "HONOUR GUARD OF MACRAGGE",
+      "description": "Marneus Calgar can be attached to this unit. If a Captain model from your army with the LEADER ability can be attached to a Command Squad, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ultramarines",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Honour Guard",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000095",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000095",
+      "line": 1,
+      "description": "1 Chapter Champion"
+    },
+    {
+      "datasheetId": "000000095",
+      "line": 2,
+      "description": "1 Ancient"
+    },
+    {
+      "datasheetId": "000000095",
+      "line": 3,
+      "description": "2 Honour Guard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000095",
+      "line": 1,
+      "description": "4 models",
+      "cost": 155
+    }
+  ],
+  "leaderAttachments": []
+}

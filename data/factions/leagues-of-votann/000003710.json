@@ -1,0 +1,214 @@
+{
+  "id": "000003710",
+  "name": "Hernkyn Yaegirs",
+  "factionId": "LoV",
+  "sourceId": "000000203",
+  "slug": "hernkyn-yaegirs",
+  "legend": "Merciless forward operatives charged with denying crucial assets to the foe, Yaegirs use every weapon and tactic at their disposal to make the ancestors proud. They typically deploy ahead of their prospect or oathband, with assassination and sabotage amongst their unscrupulous strategies, to bleed the strength from their kindred’s foes.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt shotgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann/Hernkyn-Yaegirs",
+  "models": [
+    {
+      "datasheetId": "000003710",
+      "line": 1,
+      "name": "",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003710",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "APM launcher",
+      "description": "anti-monster 3+, anti-vehicle 3+",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt revolver",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt shotgun",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Magna-coil rifle",
+      "description": "ignores cover, precision",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma knife",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Prioritised Efficiency",
+      "description": "If your Army Faction is LEAGUES OF VOTANN, Leagues of Votann units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those LEAGUES OF VOTANN units have will change depending on how many Yield points (YP) you currently have:\n\n• At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\nHostile Acquisition\n\n• Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n• You can re-roll Advance and Charge rolls made for this unit.\n\nFortify Takeover\n\n• Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n• Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a VEHICLE, subtract 1 from the Wound roll.\n\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n• You control one or more objective markers not within your deployment zone.\n• You control two or more objective markers not within your deployment zone.\n• You control more objective markers than your opponent.\n\nIn your turn, YP gained in this way are always gained before checking which ability LEAGUES OF VOTANN units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\n\nDesigner’s Note: This means you can use rules that let you gain or spend YP to influence which ability your units have - Hostile Acquisition or Fortify Takeover - depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will - sometimes need to plan ahead if you want your army to stay in or change ability.\n\nExample: In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.\n\nDuring her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover - it will only change if, at the end of her next Command phase, she still has fewer than 7YP.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Pragmatic Hunters",
+      "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, it can make a Normal move of up to D6\".",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Leagues of Votann",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Yaegirs",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hernkyn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003710",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their bolt shotgun replaced with 1 bolt revolver and 1 plasma knife."
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 2,
+      "button": "•",
+      "description": "1 Hernkyn Yaegir can have its bolt revolver and plasma knife or its bolt shotgun replaced with 1 magna-coil rifle."
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 3,
+      "button": "•",
+      "description": "1 Hernkyn Yaegir can have its bolt revolver and plasma knife or its bolt shotgun replaced with 1 APM launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003710",
+      "line": 1,
+      "description": "1 Yaegir Theyn"
+    },
+    {
+      "datasheetId": "000003710",
+      "line": 2,
+      "description": "9 Hernkyn Yaegirs"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003710",
+      "line": 1,
+      "description": "10 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

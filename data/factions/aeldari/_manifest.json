@@ -1,0 +1,591 @@
+{
+  "id": "AE",
+  "name": "Aeldari",
+  "slug": "aeldari",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari",
+  "datasheetCount": 97,
+  "datasheets": [
+    {
+      "id": "000001598",
+      "name": "Amallyn Shadowguide",
+      "slug": "amallyn-shadowguide",
+      "role": "Characters"
+    },
+    {
+      "id": "000000571",
+      "name": "Asurmen",
+      "slug": "asurmen",
+      "role": "Characters"
+    },
+    {
+      "id": "000000577",
+      "name": "Autarch",
+      "slug": "autarch",
+      "role": "Characters"
+    },
+    {
+      "id": "000000580",
+      "name": "Autarch Skyrunner",
+      "slug": "autarch-skyrunner",
+      "role": "Characters"
+    },
+    {
+      "id": "000002759",
+      "name": "Autarch Wayleaper",
+      "slug": "autarch-wayleaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000000581",
+      "name": "Avatar of Khaine",
+      "slug": "avatar-of-khaine",
+      "role": "Characters"
+    },
+    {
+      "id": "000000575",
+      "name": "Baharroth",
+      "slug": "baharroth",
+      "role": "Characters"
+    },
+    {
+      "id": "000001400",
+      "name": "Bonesinger",
+      "slug": "bonesinger",
+      "role": "Characters"
+    },
+    {
+      "id": "000000622",
+      "name": "Cobra",
+      "slug": "cobra",
+      "role": "Other"
+    },
+    {
+      "id": "000000629",
+      "name": "Corsair Cloud Dancer Band",
+      "slug": "corsair-cloud-dancer-band",
+      "role": "Other"
+    },
+    {
+      "id": "000000632",
+      "name": "Corsair Reaver Band",
+      "slug": "corsair-reaver-band",
+      "role": "Other"
+    },
+    {
+      "id": "000000633",
+      "name": "Corsair Skyreaver Band",
+      "slug": "corsair-skyreaver-band",
+      "role": "Other"
+    },
+    {
+      "id": "000004196",
+      "name": "Corsair Skyreavers",
+      "slug": "corsair-skyreavers",
+      "role": "Other"
+    },
+    {
+      "id": "000002531",
+      "name": "Corsair Voidreavers",
+      "slug": "corsair-voidreavers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002532",
+      "name": "Corsair Voidscarred",
+      "slug": "corsair-voidscarred",
+      "role": "Other"
+    },
+    {
+      "id": "000000603",
+      "name": "Crimson Hunter",
+      "slug": "crimson-hunter",
+      "role": "Other"
+    },
+    {
+      "id": "000003910",
+      "name": "D-cannon Platform",
+      "slug": "d-cannon-platform",
+      "role": "Other"
+    },
+    {
+      "id": "000000607",
+      "name": "Dark Reapers",
+      "slug": "dark-reapers",
+      "role": "Other"
+    },
+    {
+      "id": "000002537",
+      "name": "Death Jester",
+      "slug": "death-jester",
+      "role": "Characters"
+    },
+    {
+      "id": "000000593",
+      "name": "Dire Avengers",
+      "slug": "dire-avengers",
+      "role": "Other"
+    },
+    {
+      "id": "000000568",
+      "name": "Eldrad Ulthran",
+      "slug": "eldrad-ulthran",
+      "role": "Characters"
+    },
+    {
+      "id": "000000609",
+      "name": "Falcon",
+      "slug": "falcon",
+      "role": "Other"
+    },
+    {
+      "id": "000000582",
+      "name": "Farseer",
+      "slug": "farseer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000583",
+      "name": "Farseer Skyrunner",
+      "slug": "farseer-skyrunner",
+      "role": "Characters"
+    },
+    {
+      "id": "000000596",
+      "name": "Fire Dragons",
+      "slug": "fire-dragons",
+      "role": "Other"
+    },
+    {
+      "id": "000000610",
+      "name": "Fire Prism",
+      "slug": "fire-prism",
+      "role": "Other"
+    },
+    {
+      "id": "000001393",
+      "name": "Firestorm",
+      "slug": "firestorm",
+      "role": "Other"
+    },
+    {
+      "id": "000000574",
+      "name": "Fuegan",
+      "slug": "fuegan",
+      "role": "Characters"
+    },
+    {
+      "id": "000000589",
+      "name": "Guardian Defenders",
+      "slug": "guardian-defenders",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000606",
+      "name": "Hemlock Wraithfighter",
+      "slug": "hemlock-wraithfighter",
+      "role": "Other"
+    },
+    {
+      "id": "000000618",
+      "name": "Hornet",
+      "slug": "hornet",
+      "role": "Other"
+    },
+    {
+      "id": "000000594",
+      "name": "Howling Banshees",
+      "slug": "howling-banshees",
+      "role": "Other"
+    },
+    {
+      "id": "000000570",
+      "name": "Illic Nightspear",
+      "slug": "illic-nightspear",
+      "role": "Characters"
+    },
+    {
+      "id": "000000630",
+      "name": "Irillyth",
+      "slug": "irillyth",
+      "role": "Characters"
+    },
+    {
+      "id": "000000572",
+      "name": "Jain Zar",
+      "slug": "jain-zar",
+      "role": "Characters"
+    },
+    {
+      "id": "000000573",
+      "name": "Karandras",
+      "slug": "karandras",
+      "role": "Characters"
+    },
+    {
+      "id": "000004194",
+      "name": "Kharseth",
+      "slug": "kharseth",
+      "role": "Characters"
+    },
+    {
+      "id": "000003909",
+      "name": "Lhykhis",
+      "slug": "lhykhis",
+      "role": "Characters"
+    },
+    {
+      "id": "000000620",
+      "name": "Lynx",
+      "slug": "lynx",
+      "role": "Other"
+    },
+    {
+      "id": "000000576",
+      "name": "Maugan Ra",
+      "slug": "maugan-ra",
+      "role": "Characters"
+    },
+    {
+      "id": "000000611",
+      "name": "Night Spinner",
+      "slug": "night-spinner",
+      "role": "Other"
+    },
+    {
+      "id": "000000623",
+      "name": "Nightwing",
+      "slug": "nightwing",
+      "role": "Other"
+    },
+    {
+      "id": "000000631",
+      "name": "Phantom Titan",
+      "slug": "phantom-titan",
+      "role": "Other"
+    },
+    {
+      "id": "000000624",
+      "name": "Phoenix",
+      "slug": "phoenix",
+      "role": "Other"
+    },
+    {
+      "id": "000004193",
+      "name": "Prince Yriel",
+      "slug": "prince-yriel",
+      "role": "Characters"
+    },
+    {
+      "id": "000000569",
+      "name": "Prince Yriel (Legendary)",
+      "slug": "prince-yriel-legendary",
+      "role": "Characters"
+    },
+    {
+      "id": "000000592",
+      "name": "Rangers",
+      "slug": "rangers",
+      "role": "Other"
+    },
+    {
+      "id": "000000628",
+      "name": "Revenant Titan",
+      "slug": "revenant-titan",
+      "role": "Other"
+    },
+    {
+      "id": "000000621",
+      "name": "Scorpion",
+      "slug": "scorpion",
+      "role": "Other"
+    },
+    {
+      "id": "000000615",
+      "name": "Shadow Spectres",
+      "slug": "shadow-spectres",
+      "role": "Other"
+    },
+    {
+      "id": "000003911",
+      "name": "Shadow Weaver Platform",
+      "slug": "shadow-weaver-platform",
+      "role": "Other"
+    },
+    {
+      "id": "000002535",
+      "name": "Shadowseer",
+      "slug": "shadowseer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000602",
+      "name": "Shining Spears",
+      "slug": "shining-spears",
+      "role": "Other"
+    },
+    {
+      "id": "000002533",
+      "name": "Shroud Runners",
+      "slug": "shroud-runners",
+      "role": "Other"
+    },
+    {
+      "id": "000000627",
+      "name": "Skathach Wraithknight",
+      "slug": "skathach-wraithknight",
+      "role": "Other"
+    },
+    {
+      "id": "000002539",
+      "name": "Skyweavers",
+      "slug": "skyweavers",
+      "role": "Other"
+    },
+    {
+      "id": "000002538",
+      "name": "Solitaire",
+      "slug": "solitaire",
+      "role": "Characters"
+    },
+    {
+      "id": "000000588",
+      "name": "Spiritseer",
+      "slug": "spiritseer",
+      "role": "Characters"
+    },
+    {
+      "id": "000004195",
+      "name": "Starfangs",
+      "slug": "starfangs",
+      "role": "Other"
+    },
+    {
+      "id": "000002541",
+      "name": "Starweaver",
+      "slug": "starweaver",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000590",
+      "name": "Storm Guardians",
+      "slug": "storm-guardians",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000595",
+      "name": "Striking Scorpions",
+      "slug": "striking-scorpions",
+      "role": "Other"
+    },
+    {
+      "id": "000000600",
+      "name": "Swooping Hawks",
+      "slug": "swooping-hawks",
+      "role": "Other"
+    },
+    {
+      "id": "000002543",
+      "name": "The Visarch",
+      "slug": "the-visarch",
+      "role": "Characters"
+    },
+    {
+      "id": "000002544",
+      "name": "The Yncarne",
+      "slug": "the-yncarne",
+      "role": "Characters"
+    },
+    {
+      "id": "000002536",
+      "name": "Troupe",
+      "slug": "troupe",
+      "role": "Other"
+    },
+    {
+      "id": "000002534",
+      "name": "Troupe Master",
+      "slug": "troupe-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000000626",
+      "name": "Vampire Hunter",
+      "slug": "vampire-hunter",
+      "role": "Other"
+    },
+    {
+      "id": "000000625",
+      "name": "Vampire Raider",
+      "slug": "vampire-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000003912",
+      "name": "Vibro Cannon Platform",
+      "slug": "vibro-cannon-platform",
+      "role": "Other"
+    },
+    {
+      "id": "000002540",
+      "name": "Voidweaver",
+      "slug": "voidweaver",
+      "role": "Other"
+    },
+    {
+      "id": "000000605",
+      "name": "Vypers",
+      "slug": "vypers",
+      "role": "Other"
+    },
+    {
+      "id": "000000612",
+      "name": "War Walkers",
+      "slug": "war-walkers",
+      "role": "Other"
+    },
+    {
+      "id": "000000585",
+      "name": "Warlock",
+      "slug": "warlock",
+      "role": "Characters"
+    },
+    {
+      "id": "000000584",
+      "name": "Warlock Conclave",
+      "slug": "warlock-conclave",
+      "role": "Other"
+    },
+    {
+      "id": "000000587",
+      "name": "Warlock Skyrunners",
+      "slug": "warlock-skyrunners",
+      "role": "Other"
+    },
+    {
+      "id": "000000619",
+      "name": "Warp Hunter",
+      "slug": "warp-hunter",
+      "role": "Other"
+    },
+    {
+      "id": "000000601",
+      "name": "Warp Spiders",
+      "slug": "warp-spiders",
+      "role": "Other"
+    },
+    {
+      "id": "000000616",
+      "name": "Wasp Assault Walker",
+      "slug": "wasp-assault-walker",
+      "role": "Other"
+    },
+    {
+      "id": "000000599",
+      "name": "Wave Serpent",
+      "slug": "wave-serpent",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002459",
+      "name": "Webway Gate",
+      "slug": "webway-gate",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000591",
+      "name": "Windriders",
+      "slug": "windriders",
+      "role": "Other"
+    },
+    {
+      "id": "000000598",
+      "name": "Wraithblades",
+      "slug": "wraithblades",
+      "role": "Other"
+    },
+    {
+      "id": "000000597",
+      "name": "Wraithguard",
+      "slug": "wraithguard",
+      "role": "Other"
+    },
+    {
+      "id": "000000614",
+      "name": "Wraithknight",
+      "slug": "wraithknight",
+      "role": "Other"
+    },
+    {
+      "id": "000003913",
+      "name": "Wraithknight with Ghostglaive",
+      "slug": "wraithknight-with-ghostglaive",
+      "role": "Other"
+    },
+    {
+      "id": "000000613",
+      "name": "Wraithlord",
+      "slug": "wraithlord",
+      "role": "Other"
+    },
+    {
+      "id": "000000617",
+      "name": "Wraithseer",
+      "slug": "wraithseer",
+      "role": "Other"
+    },
+    {
+      "id": "000003914",
+      "name": "Ynnari Archon",
+      "slug": "ynnari-archon",
+      "role": "Characters"
+    },
+    {
+      "id": "000003918",
+      "name": "Ynnari Incubi",
+      "slug": "ynnari-incubi",
+      "role": "Other"
+    },
+    {
+      "id": "000003916",
+      "name": "Ynnari Kabalite Warriors",
+      "slug": "ynnari-kabalite-warriors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003920",
+      "name": "Ynnari Raider",
+      "slug": "ynnari-raider",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003919",
+      "name": "Ynnari Reavers",
+      "slug": "ynnari-reavers",
+      "role": "Other"
+    },
+    {
+      "id": "000003915",
+      "name": "Ynnari Succubus",
+      "slug": "ynnari-succubus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003921",
+      "name": "Ynnari Venom",
+      "slug": "ynnari-venom",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003917",
+      "name": "Ynnari Wyches",
+      "slug": "ynnari-wyches",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002542",
+      "name": "Yvraine",
+      "slug": "yvraine",
+      "role": "Characters"
+    }
+  ]
+}

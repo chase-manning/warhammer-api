@@ -1,0 +1,237 @@
+{
+  "id": "000003968",
+  "name": "Catachan Heavy Weapons Squad",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "catachan-heavy-weapons-squad",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: heavy bolter; lasgun; weapons team close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Catachan-Heavy-Weapons-Squad",
+  "models": [
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "name": "Catachan Heavy Weapons Squad",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autocannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Weapons team close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mortar",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile launcher – krak",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Missile launcher – frag",
+      "description": "blast, heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Bring it Down!",
+      "description": "Each time a model in this unit makes a ranged attack that targets a MONSTER of VEHICLE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "EMBARKING",
+      "description": "While embarked within a Transport, each model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models’ weapons for the purposes of the Firing Deck ability.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Catachan Heavy Weapons Squad",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their heavy bolter replaced with one of the following:\n• 1 autocannon\n• 1 lascannon\n• 1 missile launcher\n• 1 mortar"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "description": "3 Heavy Weapons Teams"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003968",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,179 @@
+{
+  "id": "000000097",
+  "name": "Hammerfall Bunker",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "hammerfall-bunker",
+  "legend": "Hammerfall Bunkers are launched from Space Marine warships in the same manner as Drop Pods. Automated area-denial assets crewed by hard-wired servitors, they have all kinds of battlefield roles, including securing beachheads, hampering enemy assaults and wreaking havoc behind the foe’s lines.",
+  "role": "Fortifications",
+  "loadout": "This model is equipped with: Hammerfall heavy bolter array; Hammerfall missile launcher.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-5",
+  "damagedDescription": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Hammerfall-Bunker",
+  "models": [
+    {
+      "datasheetId": "000000097",
+      "line": 1,
+      "name": "Hammerfall Bunker",
+      "movement": "-",
+      "toughness": 12,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 14,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000097",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hammerfall heavy bolter array",
+      "description": "sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000097",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hammerfall heavy flamer array",
+      "description": "ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000097",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hammerfall missile launcher – superfrag",
+      "description": "blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2D6+2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000097",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Hammerfall missile launcher – superkrak",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Fortification",
+      "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Ceramite Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Defensive Array",
+      "description": "You can target this FORTIFICATION with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This FORTIFICATION can only be targeted with that Stratagem once per turn.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Hammerfall Bunker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000097",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s Hammerfall heavy bolter array can be replaced with 1 Hammerfall heavy flamer array."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000097",
+      "line": 1,
+      "description": "1 Hammerfall Bunker"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000097",
+      "line": 1,
+      "description": "1 model",
+      "cost": 175
+    }
+  ],
+  "leaderAttachments": []
+}

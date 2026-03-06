@@ -1,0 +1,323 @@
+{
+  "id": "000003853",
+  "name": "Traitor Guardsmen Squad",
+  "factionId": "QT",
+  "sourceId": "000000012",
+  "slug": "traitor-guardsmen-squad",
+  "legend": "",
+  "role": "Other",
+  "loadout": "The Traitor Sergeant is equipped with: corrupted pistol; close combat weapon. \n\nEvery Traitor Guardsman is equipped with: lasgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Traitor-Guardsmen-Squad",
+  "models": [
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "name": "Traitor Guardsmen Squad",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cultist grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Corrupted pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cultist grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cultist sniper rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Twisted Defence Force",
+      "description": "While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Chaos Knights",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Traitor Guardsmen Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 3 Traitor Guardsmen can each have their lasgun replaced with one of the following (duplicates are not allowed):\n• 1 Cultist grenade launcher\n• 1 flamer\n• 1 meltagun\n• 1 plasma gun\n• 1 Cultist sniper rifle"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 2,
+      "button": "•",
+      "description": "The Traitor Sergeant’s close combat weapon can be replaced with one of the following:\n• 1 chainsword\n• 1 power weapon"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 3,
+      "button": "•",
+      "description": "The Traitor Sergeant’s corrupted pistol can be replaced with 1 boltgun."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "description": "1 Traitor Sergeant"
+    },
+    {
+      "datasheetId": "000003853",
+      "line": 2,
+      "description": "9 Traitor Guardsmen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003853",
+      "line": 1,
+      "description": "10 models",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

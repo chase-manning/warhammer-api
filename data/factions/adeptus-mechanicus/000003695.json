@@ -1,0 +1,195 @@
+{
+  "id": "000003695",
+  "name": "Sydonian Skatros",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "sydonian-skatros",
+  "legend": "A Sydonian Skatros is a sinister sentinel, unmoving until the enemy strays into the sniper’s sights. With protocol-driven precision and an advanced scanner known as the achillan eye, they lock on to their foes’ weak points and unleash pinpoint fire that sows panic and agony, the better to erode enemy morale.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Mechanicus pistol; radium jezzail; Sydonian feet.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Sydonian-Skatros",
+  "models": [
+    {
+      "datasheetId": "000003695",
+      "line": 1,
+      "name": "Sydonian Skatros",
+      "movement": "8\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003695",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanicus pistol",
+      "description": "DEVASTATING WOUNDS, PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003695",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Radium jezzail",
+      "description": "ANTI-INFANTRY 3+, HEAVY, PRECISION",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003695",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skatros transuranic arquebus",
+      "description": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, HEAVY, PRECISION",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003695",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sydonian feet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Dread Snipers",
+      "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Achillan Eye",
+      "description": "Each time this model makes an attack with a radium jezzail that targets an INFANTRY unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SYDONIAN SENTINEL",
+      "description": "This model cannot be your WARLORD",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sydonian",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skatros",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003695",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s radium jezzail can be replaced with 1 Skatros transuranic arquebus."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003695",
+      "line": 1,
+      "description": "1 Sydonian Skatros"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003695",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

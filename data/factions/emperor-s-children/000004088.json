@@ -1,0 +1,207 @@
+{
+  "id": "000004088",
+  "name": "Noise Marines",
+  "factionId": "EC",
+  "sourceId": "000000280",
+  "slug": "noise-marines",
+  "legend": "Orchestrating riotous destruction on vast scales, Noise Marines saturate the war zone with explosive bolts, clashing aural waves and extreme psychosonic attacks. These hedonistic worshippers of Slaanesh are inured to most stimuli, and seek to unleash the most cacophonous destruction to stir their jaded senses.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: sonic blaster; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/emperor-s-children/Noise-Marines",
+  "models": [
+    {
+      "datasheetId": "000004088",
+      "line": 1,
+      "name": "Noise Marines",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004088",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blastmaster – single frequency",
+      "description": "ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Blastmaster – varied frequency",
+      "description": "ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Screamer pistol",
+      "description": "ignores cover, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sonic blaster",
+      "description": "ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Thrill Seekers",
+      "description": "If your Army Faction is Emperor’s Children, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:\n\n• It cannot target a unit it was within Engagement Range of at the start of the turn.\n• It cannot target a unit that was the target of another units charge or attack this phase.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Terrifying Crescendo",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Emperor’s Children",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Noise Marines",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Slaanesh",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004088",
+      "line": 1,
+      "button": "•",
+      "description": "The Disharmonist’s sonic blaster can be replaced with 1 screamer pistol and 1 power sword."
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 2,
+      "button": "•",
+      "description": "Up to 2 Noise Marines can each replace their sonic blaster with 1 blastmaster."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004088",
+      "line": 1,
+      "description": "1 Disharmonist"
+    },
+    {
+      "datasheetId": "000004088",
+      "line": 2,
+      "description": "5 Noise Marines"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004088",
+      "line": 1,
+      "description": "6 models",
+      "cost": 145
+    }
+  ],
+  "leaderAttachments": []
+}

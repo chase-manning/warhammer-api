@@ -1,0 +1,302 @@
+{
+  "id": "000001997",
+  "name": "Death Company Marines",
+  "factionId": "SM",
+  "sourceId": "000000021",
+  "slug": "death-company-marines",
+  "legend": "Members of the Death Company are possessed of a berserk fury, driven insane by terrible visions and hallucinations. They seek nothing but death in battle, and such is their ferocity that they barely flinch at even the most grievous of Injuries, thinking of nothing but the destruction of their enemies.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: heavy bolt pistol; Astartes chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Death-Company-Marines",
+  "models": [
+    {
+      "datasheetId": "000001997",
+      "line": 1,
+      "name": "Death Company Marines",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001997",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno pistol",
+      "description": "pistol, melta 2",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Eviscerator",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Thunder hammer",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "6+"
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Black Rage",
+      "description": "Each time this model makes a melee attack, you can re-roll the Hit roll. While this model’s unit is not within 6\" of one or more friendly Blood Angels Character models, or 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "An Honourable Death in Combat",
+      "description": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Chaplain model from your army with the Leader ability can be attached to an Assault Intercessor Squad unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Blood Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Death Company",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Death Company Marines",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001997",
+      "line": 1,
+      "button": "•",
+      "description": "1 model's heavy bolt pistol can be replaced with one of the following:\n• 1 hand flamer\n• 1 inferno pistol\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model's Astartes chainsword can be replaced with equipped with 1 eviscerator."
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 3,
+      "button": "•",
+      "description": "1 model’s Astartes chainsword can be replaced with one of the following:\n• 1 power fist\n• 1 power weapon\n• 1 thunder hammer"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001997",
+      "line": 1,
+      "description": "5-10 Death Company Marines"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001997",
+      "line": 1,
+      "description": "5 models",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000001997",
+      "line": 2,
+      "description": "10 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,244 @@
+{
+  "id": "000002642",
+  "name": "Khorne Lord of Skulls",
+  "factionId": "WE",
+  "sourceId": "000000210",
+  "slug": "khorne-lord-of-skulls",
+  "legend": "Lords of Skulls are insane, monolithic creations fuelled by boiling blood and dedicated to slaughtering in the name of Khorne. They plough through the enemy’s ranks, crushing infantry beneath their tracks, hacking tanks into kindling with sweeps of their cleaver and hurling brazen projectiles or burning ichor at the survivors.",
+  "role": "Other",
+  "loadout": "This model is equipped with: gorestorm cannon; Hades gatling cannon; great cleaver of Khorne.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-8",
+  "damagedDescription": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/world-eaters/Khorne-Lord-of-Skulls",
+  "models": [
+    {
+      "datasheetId": "000002642",
+      "line": 1,
+      "name": "Khorne Lord of Skulls",
+      "movement": "12\"",
+      "toughness": 13,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 24,
+      "leadership": "6+",
+      "objectiveControl": 8,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002642",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Daemongore cannon",
+      "description": "blast, rapid fire 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Gorestorm cannon",
+      "description": "blast, rapid fire 3",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hades gatling cannon",
+      "description": "rapid fire 6, sustained hits 1",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ichor cannon",
+      "description": "blast, rapid fire 4",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skullhurler",
+      "description": "rapid fire 3",
+      "range": "60",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Great cleaver of Khorne – strike",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "16",
+      "armourPenetration": "-4",
+      "damage": "8"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 7,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Great cleaver of Khorne – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "18",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+2"
+    },
+    {
+      "name": "Blessings of Khorne",
+      "description": "If your Army Faction is WORLD EATERS, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll eight D6. You can then use those dice to activate up to two Blessings of Khorne (see below). Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). You can only activate each Blessing of Khorne once per battle round. Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.\n\nExample: Ash makes a Blessings of Khorne roll, getting the following: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1,2, 2, 2, 3, 4. They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings of Khorne have been activated, no more can be activated and the remaining dice are discarded.\n\nUNBRIDLED BLOODLUST\n\nYou can re-roll Charge rolls made for this unit.\n\nRAGE-FUELLED INVIGORATION\n\nEach time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nTOTAL CARNAGE\n\nEach time a model in this unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.\n\nMARTIAL EXCELLENCE\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nWARP BLADES\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.\n\nDECAPITATING STRIKES\n\nEach time a model in this unit makes a melee attack that targets an INFANTRY unit, that attack has the [DEVASTATING WOUNDS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Idol of Blessed Blood",
+      "description": "At the start of the battle round, if this model is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Super-heavy War Engine",
+      "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a roll of 1, this model is Battle-shocked.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "World Eaters",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Towering",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lord of Skulls",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002642",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s gorestorm cannon can be replaced with one of the following:\n• 1 daemongore cannon\n• 1 ichor cannon"
+    },
+    {
+      "datasheetId": "000002642",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s Hades gatling cannon can be replaced with 1 skullhurler."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002642",
+      "line": 1,
+      "description": "1 Khorne Lord of Skulls"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002642",
+      "line": 1,
+      "description": "1 model",
+      "cost": 505
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,143 @@
+{
+  "id": "000000045",
+  "name": "Flash Gitz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "flash-gitz",
+  "legend": "Flash Gitz are despised by other greenskins for being self-important show-offs with too much snazz and dakka for their own good. The Gitz couldn’t care less, of course, delighting in ostentatiously brandishing their over-the-top snazzguns before using them to utterly demolish the enemy in a hail of shells, blasts and rokkits.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: snazzgun; choppa.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Flash-Gitz",
+  "models": [
+    {
+      "datasheetId": "000000045",
+      "line": 1,
+      "name": "Flash Gitz",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000045",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Snazzgun",
+      "description": "heavy, sustained hits 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000045",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Gun-crazy Show-offs",
+      "description": "Each time a model in this unit targets the closest eligible target with its snazzgun, until the end of the phase, that weapon has an Attacks characteristic of 4.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Ammo Runt",
+      "description": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability.\n\nDesigner’s Note: Place an Ammo Runt token next to the unit, removing it after this ability has been used.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Flash Gitz",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000045",
+      "line": 1,
+      "button": "•",
+      "description": "This unit can be equipped with 1 ammo runt."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000045",
+      "line": 1,
+      "description": "1 Kaptin"
+    },
+    {
+      "datasheetId": "000000045",
+      "line": 2,
+      "description": "4-9 Flash Gitz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000045",
+      "line": 1,
+      "description": "5 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000045",
+      "line": 2,
+      "description": "10 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

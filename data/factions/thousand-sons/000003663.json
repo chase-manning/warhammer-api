@@ -1,0 +1,311 @@
+{
+  "id": "000003663",
+  "name": "Xiphon Interceptor",
+  "factionId": "TS",
+  "sourceId": "000000356",
+  "slug": "xiphon-interceptor",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 twin lascannons; Xiphon missile battery; armoured hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Xiphon-Interceptor",
+  "models": [
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "name": "Xiphon Interceptor",
+      "movement": "20+\"",
+      "toughness": 9,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 12,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lascannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Xiphon missile battery",
+      "description": "anti-fly 2+",
+      "range": "60",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Interceptor",
+      "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Xiphon Interceptor",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "description": "1 Xiphon Interceptor"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003663",
+      "line": 1,
+      "description": "1 model",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": []
+}

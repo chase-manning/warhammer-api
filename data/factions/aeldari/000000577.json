@@ -1,0 +1,299 @@
+{
+  "id": "000000577",
+  "name": "Autarch",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "autarch",
+  "legend": "Autarchs are legendary for their strategic brilliance, sublime martial skill and indomitable strength of will. Long have they trodden the Path of the Warrior, never once slipping into the trap of obsession. Instead, they apply all that they have learned and mastered to their command of the Asuryani warhosts.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: shuriken pistol; star glaive.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Autarch",
+  "models": [
+    {
+      "datasheetId": "000000577",
+      "line": 1,
+      "name": "Autarch",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000577",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Death spinner",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dragon fusion gun",
+      "description": "assault, melta 3",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dragon fusion pistol",
+      "description": "assault, melta 3, pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaper launcher – starshot",
+      "description": "heavy, ignores cover",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Reaper launcher – starswarm",
+      "description": "heavy, ignores cover",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken pistol",
+      "description": "assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Banshee blade",
+      "description": "anti-infantry 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scorpion chainsword",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "7",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Star glaive",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Superlative Strategist",
+      "description": "While this model is leading a unit, you can re-roll Advance rolls made for that unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Path of Command",
+      "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ASPECT TRAINING",
+      "description": "• While this model is leading a Howling Banshees unit, it has the Fights First ability.\n• While this model is leading a Striking Scorpions unit, it has the Infiltrators, Scouts 7\" and Stealth abilities.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Autarch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000577",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s shuriken pistol can be replaced with one of the following:\n• 1 death spinner\n• 1 Dragon fusion gun\n• 1 Dragon fusion pistol\n• 1 Reaper launcher"
+    },
+    {
+      "datasheetId": "000000577",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s star glaive can be replaced with one of the following:\n• 1 Banshee blade\n• 1 Scorpion chainsword"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000577",
+      "line": 1,
+      "description": "1 Autarch"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000577",
+      "line": 1,
+      "description": "1 model",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000000589",
+      "name": "Guardian Defenders"
+    },
+    {
+      "id": "000000590",
+      "name": "Storm Guardians"
+    },
+    {
+      "id": "000000593",
+      "name": "Dire Avengers"
+    },
+    {
+      "id": "000000594",
+      "name": "Howling Banshees"
+    },
+    {
+      "id": "000000595",
+      "name": "Striking Scorpions"
+    },
+    {
+      "id": "000000596",
+      "name": "Fire Dragons"
+    },
+    {
+      "id": "000000607",
+      "name": "Dark Reapers"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "000002291",
+  "name": "Sammael",
+  "factionId": "SM",
+  "sourceId": "000000023",
+  "slug": "sammael",
+  "legend": "Sammael rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. Upon this ancient mount, the Ravenwing’s commander charges into the fray, storm bolters and plasma cannon causing hideous damage before he moves in for the kill with the Raven Sword, an heirloom with a razor edge that can never dull.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; master-crafted plasma cannon; twin storm bolter; the Raven Sword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sammael",
+  "models": [
+    {
+      "datasheetId": "000002291",
+      "line": 1,
+      "name": "Sammael",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002291",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002291",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted plasma cannon",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002291",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin storm bolter",
+      "description": "rapid fire 2, twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002291",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "The Raven Sword",
+      "description": "sustained hits 2",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Grand Master of the Ravenwing",
+      "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Cut Off Their Escape",
+      "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Dark Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sammael",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Captain",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ravenwing",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002291",
+      "line": 1,
+      "description": "1 Sammael – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002291",
+      "line": 1,
+      "description": "1 model",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000002712",
+      "name": "Outrider Squad"
+    },
+    {
+      "id": "000000241",
+      "name": "Ravenwing Black Knights"
+    },
+    {
+      "id": "000001166",
+      "name": "Company Veterans On Bikes"
+    },
+    {
+      "id": "000000116",
+      "name": "Bike Squad"
+    }
+  ]
+}

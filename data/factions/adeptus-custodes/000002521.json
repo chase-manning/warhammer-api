@@ -1,0 +1,147 @@
+{
+  "id": "000002521",
+  "name": "Prosecutors",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "prosecutors",
+  "legend": "Protected from the malevolence of witches by their rare anti-psychic mutation, and shielded from the bullets and blades of the foe by their finely crafted power armour, Prosecutors advance unflinching into the heart of battle. Their bolters thunder ceaselessly, each explosive shell ending another heretic life.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: boltgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Prosecutors",
+  "models": [
+    {
+      "datasheetId": "000002521",
+      "line": 1,
+      "name": "Prosecutors",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002521",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002521",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Daughters of the Abyss",
+      "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Purity of Execution",
+      "description": "Each time a model in this unit makes a ranged attack that targets a PSYKER unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Anathema Psykana",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Prosecutors",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002521",
+      "line": 1,
+      "description": "1 Prosecutor Sister Superior"
+    },
+    {
+      "datasheetId": "000002521",
+      "line": 2,
+      "description": "3-9 Prosecutors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002521",
+      "line": 1,
+      "description": "4 models",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000002521",
+      "line": 2,
+      "description": "5 models",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000002521",
+      "line": 3,
+      "description": "9 models",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000002521",
+      "line": 4,
+      "description": "10 models",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,300 @@
+{
+  "id": "000002485",
+  "name": "Gaunt’s Ghosts",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "gaunt-s-ghosts",
+  "legend": "Colonel-Commissar Ibram Gaunt combines the positions of feared political officer and the regimental commander of the Tanith First and Only. Joined by the regiment’s stealthy and deadly officers and soldiers – those known as Gaunt’s Ghosts – Gaunt’s infamous raids, secretive missions and unlikely victories have cemented his legend.",
+  "role": "Characters",
+  "loadout": "Ibram Gaunt is equipped with: bolt pistol; Gaunt’s chainsword. \n\n1 Tanith Ghost is equipped with: Corbec’s hot-shot lascarbine; straight silver knife. \n\n1 Tanith Ghost is equipped with: Rawne’s lascarbine; straight silver knife. \n\n1 Tanith Ghost is equipped with: Larkin’s long-las; straight silver knife. \n\n1 Tanith Ghost is equipped with: Bragg’s autocannon; straight silver knife. \n\n1 Tanith Ghost is equipped with: lascarbine; Mkoll’s straight silver knife.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunt-s-Ghosts",
+  "models": [
+    {
+      "datasheetId": "000002485",
+      "line": 1,
+      "name": "IBRAM GAUNT",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": "Ibram Gaunt only.",
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 2,
+      "name": "TANITH GHOST",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002485",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bragg’s autocannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Corbec’s hot-shot lascarbine",
+      "description": "assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Larkin’s long-las",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "4"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascarbine",
+      "description": "assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rawne’s lascarbine",
+      "description": "assault, sustained hits 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Gaunt’s chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Straight silver knife",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mkoll’s straight silver knife",
+      "description": "devastating wounds, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Voice of Command",
+      "description": "If your Army Faction is ASTRA MILITARUM, Officer models with this ability can issue Orders. Each OFFICER’s datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6\" of that Officer model to issue it to.\n\nOFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a Transport or were set up on the battlefield.\n\nUntil the start of your next Command phase, the unit you selected is affected by that Order. Unless otherwise stated, a unit can only be affected by one Order at a time (any Order subsequently issued to that unit replaces the current one). Orders cannot be issued to Battle-shocked units, and if a unit being affected by an Order becomes Battle-shocked, that Order ceases to affect that unit.\n\nOnly ASTRA MILITARUM models gain the benefit of an Order issued to their unit.\n\nMove! Move! Move!\n\nM\n\n+3\"\n\nAdd 3\" to the Move characteristic of models in this unit.\n\nFix Bayonets!\n\nWS\n\n+1\n\nImprove the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n\nTake Aim!\n\nBS\n\n+1\n\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n\nFirst Rank, Fire! Second Rank, Fire!\n\nA\n\n+1\n\nImprove the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.\n\nTake Cover!\n\nSV\n\n+1\n\nImprove the Save characteristic of models in this unit by 1 (this cannot improve a model’s Save to better than 3+).\n\nDuty and Honour!\n\nLD\n\n+1\n\nOC\n\n+1\n\nImprove the Leadership and Objective Control characteristics of models in this unit by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Tanith Camo-cloaks",
+      "description": "Models in this unit have the Benefit of Cover.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Covert Stealth Team",
+      "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ORDERS",
+      "description": "This unit’s OFFICER can issue up to 2 Orders to Regiment or GAUNT’S GHOSTS units.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Officer",
+      "isFactionKeyword": false,
+      "model": "IBRAM GAUNT"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "IBRAM GAUNT"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "IBRAM GAUNT"
+    },
+    {
+      "keyword": "Gaunt’s Ghosts",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002485",
+      "line": 1,
+      "description": "1 Ibram Gaunt"
+    },
+    {
+      "datasheetId": "000002485",
+      "line": 2,
+      "description": "5 Tanith Ghosts"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002485",
+      "line": 1,
+      "description": "6 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

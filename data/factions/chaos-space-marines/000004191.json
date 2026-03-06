@@ -1,0 +1,220 @@
+{
+  "id": "000004191",
+  "name": "Red Corsairs Raiders",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "red-corsairs-raiders",
+  "legend": "Ruthless and cruel even by the standards of Renegade Space Marines, Red Corsairs Raiders excel in hit-and-run attacks. They fight with cunning brutality, maiming their victims to be taken as captives or looting dying foes even before their life blood has stopped jetting from their ragged wounds.",
+  "role": "Other",
+  "loadout": "Each model is equipped with: boltgun; bolt pistol; reaver’s blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Red-Corsairs-Raiders",
+  "models": [
+    {
+      "datasheetId": "000004191",
+      "line": 1,
+      "name": "",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004191",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reaver’s blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Trophy Takers",
+      "description": "The first time this unit destroys an enemy unit, until the end of the battle, while this unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Legionaries unit, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Red Corsairs Raiders",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004191",
+      "line": 1,
+      "button": "•",
+      "description": "The Red Corsairs Raider Champion’s bolt pistol can be replaced with 1 hand flamer."
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit:\n• 1 Red Corsairs Raider’s boltgun can be replaced with 1 meltagun\n• 1 Red Corsairs Raider’s reaver’s blade can be replaced with 1 power fist"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004191",
+      "line": 1,
+      "description": "1 Red Corsairs Raider Champion"
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 2,
+      "description": "4-9 Red Corsairs Raiders"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004191",
+      "line": 1,
+      "description": "5 models",
+      "cost": 110
+    },
+    {
+      "datasheetId": "000004191",
+      "line": 2,
+      "description": "10 models",
+      "cost": 220
+    }
+  ],
+  "leaderAttachments": []
+}

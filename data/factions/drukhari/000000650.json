@@ -1,0 +1,246 @@
+{
+  "id": "000000650",
+  "name": "Wracks",
+  "factionId": "DRU",
+  "sourceId": "000000031",
+  "slug": "wracks",
+  "legend": "The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve the wizened masters of the covens and are as much experiments in stitch and sinew as apprentices to the Haemonculus’ gruesome craft. They are granted a host of cruel tools, butchering blades and arcane bioweapons with which they inflict maximum agony.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: twin torturer’s tools.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Wracks",
+  "models": [
+    {
+      "datasheetId": "000000650",
+      "line": 1,
+      "name": "Wracks",
+      "movement": "7\"",
+      "toughness": 4,
+      "save": "5+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000650",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hexrifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Liquifier gun",
+      "description": "anti-infantry 3+, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ossefactor",
+      "description": "anti-infantry 4+, devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stinger pistol",
+      "description": "anti-infantry 2+, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": "anti-infantry 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Torturer’s tools",
+      "description": "anti-infantry 4+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin torturer’s tools",
+      "description": "anti-infantry 4+, twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Experimental Enhancements (Pain)",
+      "description": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase:\n\n• Melee weapons equipped by non-CHARACTER models in this unit have an Attacks characteristic of 3.\n• Melee weapons equipped by non-CHARACTER models in this unit have an Attacks characteristic of 4 and the [HAZARDOUS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Torturer’s Craft",
+      "description": "In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding VEHICLES) hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Haemonculus Covens",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wracks",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000650",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 models in this unit:\n• 1 model’s twin torturer’s tools can be replaced with 1 hexrifle and 1 torturer’s tool\n• 1 model’s twin torturer’s tools can be replaced with 1 liquifier gun and 1 torturer’s tool\n• 1 model’s twin torturer’s tools can be replaced with 1 ossefactor and 1 torturer’s tool\n• 1 model’s twin torturer’s tools can be replaced with 1 stinger pistol and 1 torturer’s tool"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 2,
+      "button": "•",
+      "description": "The Acothyst’s twin torturer’s tools can be replaced with 1 power weapon and 1 torturer’s tool."
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 3,
+      "button": "•",
+      "description": "If the Acothyst is not equipped with a power weapon, its torturer’s tool can be replaced with 1 power weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000650",
+      "line": 1,
+      "description": "1 Acothyst"
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 2,
+      "description": "4-9 Wracks"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000650",
+      "line": 1,
+      "description": "5 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 2,
+      "description": "8 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000000650",
+      "line": 3,
+      "description": "10 models",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,298 @@
+{
+  "id": "000004188",
+  "name": "Wardens of Ultramar",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "wardens-of-ultramar",
+  "legend": "Though usually seeded through the leadership strata of Captain Titus’ armies, his closest counsellors and comrades fight by his side as one when the situation demands. At such times they combine transhuman might, inspirational magnificence, martial excellence, psychic might and sheer cunning in a potent alloy greater than the sum of its parts.",
+  "role": "Other",
+  "loadout": "Ancient Gadriel is equipped with: bolt rifle; close combat weapon.\n\nVeteran Sergeant Metaurus is equipped with: heavy bolt pistol; master-crafted power weapon; storm shield.\n\nGaius Silva is equipped with: archeotech laspistol; power weapon; refractor field.\n\nAemelia Minervas is equipped with: archeotech laspistol; power weapon.\n\nDainal Kornelius is equipped with: Astropathic Blast; force stave.\n\nLucia Vestha is equipped with: archeotech laspistol; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wardens-of-Ultramar-1",
+  "models": [
+    {
+      "datasheetId": "000004188",
+      "line": 1,
+      "name": "Ancient Gadriel, Veteran Sergeant Metaurus",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 2,
+      "name": "Gaius Silva, Aemelia Minervas, Dainal Kornelius, Lucia Vestha",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004188",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Archeotech laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astropathic Blast",
+      "description": "blast, psychic",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt rifle",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Force stave",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Second Company Banner",
+      "description": "While this unit contains Ancient Gadriel, add 1 to the Objective Control characteristic of models in this unit. While this unit contains Ancient Gadriel and Captain Titus, improve the Leadership characteristic of models in this unit by 1 as well.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Strategium Command",
+      "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three ADEPTUS ASTARTES units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Refractor Field",
+      "description": "The bearer has a 5+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Storm Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "HEROES OF ULTRAMAR",
+      "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.\n\n• Assault intercessor Squad, Bladeguard Veteran Squad, Intercessor Squad, Sternguard Veteran Squad\n\nThis unit cannot join an Attached unit, and only Captain Titus can join a unit this unit has joined.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ultramarines",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": "DAINAL KORNELIUS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Wardens of Ultramar",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004188",
+      "line": 1,
+      "description": "1 Ancient Gadriel – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 2,
+      "description": "1 Veteran Sergeant Metaurus – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 3,
+      "description": "1 Gaius Silva – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 4,
+      "description": "1 Aemelia Minervas – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 5,
+      "description": "1 Dainal Kornelius – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004188",
+      "line": 6,
+      "description": "1 Lucia Vestha – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004188",
+      "line": 1,
+      "description": "6 models",
+      "cost": 105
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,321 @@
+{
+  "id": "000002767",
+  "name": "Inquisitorial Agents",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "inquisitorial-agents",
+  "legend": "To aid them in their esoteric and complex missions, many Inquisitors maintain retinues of select individuals of rare talent, skill and power. Motley collections of fighters, fanatics, savants and psykers, they work ceaselessly in the shadows to protect the Imperium.",
+  "role": "Other",
+  "loadout": "*This unit can only contain 2 Gun Servitors if it also contains 10 Inquisitorial Agents.\n\nEvery Inquisitorial Agent is equipped with: agent firearm; agent melee weapon.\n\nEvery Gun Servitor is equipped with: heavy bolter; agent melee weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Inquisitorial-Agents",
+  "models": [
+    {
+      "datasheetId": "000002767",
+      "line": 1,
+      "name": "Inquisitorial Agents",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": "Gun servitors 32mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002767",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Agent firearm",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cannon – standard",
+      "description": "blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma cannon – supercharge",
+      "description": "blast, hazardous, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 7,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Agent melee weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Eviscerator",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mystic stave",
+      "description": "ANTI-INFANTRy 4+, psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Loyal Henchmen",
+      "description": "While an Inquisitor model is leading this unit, each time an attack is made against this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Tome-skull",
+      "description": "Once per battle for each Tome-skull this unit is equipped with, at the start of any phase, you can select either one friendly AGENTS OF THE IMPERIUM unit that is Battle-shocked and within 6\" of this unit or one enemy unit within 6\" of this unit. If you select a friendly unit, that unit is no longer Battle-shocked. If you select an enemy unit, it must take a Battle-shock test.\n\nDesigner’s Note: Place the appropriate number of Tome-skull tokens next to the unit at the start of the battle, removing one each time this unit uses this ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "INQUISITORIAL HENCHMEN",
+      "description": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each Inquisitor unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include (see Assigned Agents).",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Inquisitorial Agents",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002767",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 Inquisitorial Agents in this unit, it can be equipped with 1 Tome-skull."
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 Inquisitorial Agents in this unit, 1 Inquisitorial Agent can be equipped with 1 plasma pistol.**"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 Inquisitorial Agents in this unit, 1 Inquisitorial Agent can be equipped with 1 eviscerator.**"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 4,
+      "button": "•",
+      "description": "For every 5 Inquisitorial Agents in this unit, 1 Inquisitorial Agent can be equipped with 1 mystic stave.**"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 5,
+      "button": "•",
+      "description": "Any number of Gun Servitors can each have their heavy bolter replaced with one of the following:\n• 1 multi-melta\n• 1 plasma cannon"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 6,
+      "button": "*",
+      "description": "**The some model cannot be equipped with more than one of these wargear options."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002767",
+      "line": 1,
+      "description": "5-10 Inquisitorial Agents"
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 2,
+      "description": "1-2 Gun Servitors*"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002767",
+      "line": 1,
+      "description": "6 models (<ky>AGENTS OF THE IMPERIUM</ky> Detachment)",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 2,
+      "description": "12 models (<ky>AGENTS OF THE IMPERIUM</ky> Detachment)",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 3,
+      "description": "6 models (Assigned Agent)",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000002767",
+      "line": 4,
+      "description": "12 models (Assigned Agent)",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

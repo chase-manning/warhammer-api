@@ -1,0 +1,825 @@
+{
+  "id": "GC",
+  "name": "Genestealer Cults",
+  "slug": "genestealer-cults",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults",
+  "datasheetCount": 136,
+  "datasheets": [
+    {
+      "id": "000000514",
+      "name": "Aberrants",
+      "slug": "aberrants",
+      "role": "Other"
+    },
+    {
+      "id": "000001546",
+      "name": "Abominant",
+      "slug": "abominant",
+      "role": "Characters"
+    },
+    {
+      "id": "000001573",
+      "name": "Achilles Ridgerunners",
+      "slug": "achilles-ridgerunners",
+      "role": "Other"
+    },
+    {
+      "id": "000000511",
+      "name": "Acolyte Hybrids With Autopistols",
+      "slug": "acolyte-hybrids-with-autopistols",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003716",
+      "name": "Acolyte Hybrids With Hand Flamers",
+      "slug": "acolyte-hybrids-with-hand-flamers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000510",
+      "name": "Acolyte Iconward",
+      "slug": "acolyte-iconward",
+      "role": "Characters"
+    },
+    {
+      "id": "000003955",
+      "name": "Aegis Defence Line",
+      "slug": "aegis-defence-line",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000003994",
+      "name": "Arkurian Stormhammer",
+      "slug": "arkurian-stormhammer",
+      "role": "Other"
+    },
+    {
+      "id": "000003995",
+      "name": "Armageddon-pattern Medusa",
+      "slug": "armageddon-pattern-medusa",
+      "role": "Other"
+    },
+    {
+      "id": "000003960",
+      "name": "Armoured Sentinels",
+      "slug": "armoured-sentinels",
+      "role": "Other"
+    },
+    {
+      "id": "000003961",
+      "name": "Artillery Team",
+      "slug": "artillery-team",
+      "role": "Other"
+    },
+    {
+      "id": "000001574",
+      "name": "Atalan Jackals",
+      "slug": "atalan-jackals",
+      "role": "Other"
+    },
+    {
+      "id": "000003996",
+      "name": "Atlas Recovery Vehicle",
+      "slug": "atlas-recovery-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000003962",
+      "name": "Attilan Rough Riders",
+      "slug": "attilan-rough-riders",
+      "role": "Other"
+    },
+    {
+      "id": "000003963",
+      "name": "Baneblade",
+      "slug": "baneblade",
+      "role": "Other"
+    },
+    {
+      "id": "000003964",
+      "name": "Banehammer",
+      "slug": "banehammer",
+      "role": "Other"
+    },
+    {
+      "id": "000003965",
+      "name": "Banesword",
+      "slug": "banesword",
+      "role": "Other"
+    },
+    {
+      "id": "000003966",
+      "name": "Basilisk",
+      "slug": "basilisk",
+      "role": "Other"
+    },
+    {
+      "id": "000003715",
+      "name": "Benefictus",
+      "slug": "benefictus",
+      "role": "Characters"
+    },
+    {
+      "id": "000001572",
+      "name": "Biophagus",
+      "slug": "biophagus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003938",
+      "name": "Cadian Castellan",
+      "slug": "cadian-castellan",
+      "role": "Characters"
+    },
+    {
+      "id": "000003939",
+      "name": "Cadian Command Squad",
+      "slug": "cadian-command-squad",
+      "role": "Characters"
+    },
+    {
+      "id": "000003967",
+      "name": "Cadian Heavy Weapons Squad",
+      "slug": "cadian-heavy-weapons-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003948",
+      "name": "Cadian Shock Troops",
+      "slug": "cadian-shock-troops",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003997",
+      "name": "Carnodon",
+      "slug": "carnodon",
+      "role": "Other"
+    },
+    {
+      "id": "000003940",
+      "name": "Catachan Command Squad",
+      "slug": "catachan-command-squad",
+      "role": "Characters"
+    },
+    {
+      "id": "000003968",
+      "name": "Catachan Heavy Weapons Squad",
+      "slug": "catachan-heavy-weapons-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003949",
+      "name": "Catachan Jungle Fighters",
+      "slug": "catachan-jungle-fighters",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003998",
+      "name": "Centaur Light Carrier",
+      "slug": "centaur-light-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000003951",
+      "name": "Chimera",
+      "slug": "chimera",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001567",
+      "name": "Clamavus",
+      "slug": "clamavus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003999",
+      "name": "Colossus",
+      "slug": "colossus",
+      "role": "Other"
+    },
+    {
+      "id": "000004000",
+      "name": "Crassus",
+      "slug": "crassus",
+      "role": "Other"
+    },
+    {
+      "id": "000003993",
+      "name": "Cyclops Demolition Vehicle",
+      "slug": "cyclops-demolition-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000004001",
+      "name": "Death Korps Grenadier Squad",
+      "slug": "death-korps-grenadier-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003950",
+      "name": "Death Korps Of Krieg",
+      "slug": "death-korps-of-krieg",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003945",
+      "name": "Death Rider Commissar",
+      "slug": "death-rider-commissar",
+      "role": "Characters"
+    },
+    {
+      "id": "000003969",
+      "name": "Death Riders",
+      "slug": "death-riders",
+      "role": "Other"
+    },
+    {
+      "id": "000003877",
+      "name": "Deathleaper",
+      "slug": "deathleaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000003970",
+      "name": "Deathstrike",
+      "slug": "deathstrike",
+      "role": "Other"
+    },
+    {
+      "id": "000004002",
+      "name": "Dominus Armoured Siege Bombard",
+      "slug": "dominus-armoured-siege-bombard",
+      "role": "Other"
+    },
+    {
+      "id": "000003971",
+      "name": "Doomhammer",
+      "slug": "doomhammer",
+      "role": "Other"
+    },
+    {
+      "id": "000004003",
+      "name": "Earthshaker Carriage Battery",
+      "slug": "earthshaker-carriage-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000003956",
+      "name": "Earthshaker Platform",
+      "slug": "earthshaker-platform",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004004",
+      "name": "Elysian Drop Sentinel",
+      "slug": "elysian-drop-sentinel",
+      "role": "Other"
+    },
+    {
+      "id": "000004005",
+      "name": "Elysian Sniper Squad",
+      "slug": "elysian-sniper-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003972",
+      "name": "Field Ordnance Battery",
+      "slug": "field-ordnance-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000003881",
+      "name": "Gargoyles",
+      "slug": "gargoyles",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000521",
+      "name": "Goliath Rockgrinder",
+      "slug": "goliath-rockgrinder",
+      "role": "Other"
+    },
+    {
+      "id": "000000516",
+      "name": "Goliath Truck",
+      "slug": "goliath-truck",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000004006",
+      "name": "Gorgon Heavy Transport",
+      "slug": "gorgon-heavy-transport",
+      "role": "Other"
+    },
+    {
+      "id": "000004007",
+      "name": "Griffon Mortar Carrier",
+      "slug": "griffon-mortar-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000004008",
+      "name": "Hades Breaching Drill",
+      "slug": "hades-breaching-drill",
+      "role": "Other"
+    },
+    {
+      "id": "000004009",
+      "name": "Heavy Mortar Team",
+      "slug": "heavy-mortar-team",
+      "role": "Other"
+    },
+    {
+      "id": "000004010",
+      "name": "Heavy Quad Launcher Team",
+      "slug": "heavy-quad-launcher-team",
+      "role": "Other"
+    },
+    {
+      "id": "000003947",
+      "name": "Hell’s Last",
+      "slug": "hell-s-last",
+      "role": "Characters"
+    },
+    {
+      "id": "000003973",
+      "name": "Hellhammer",
+      "slug": "hellhammer",
+      "role": "Other"
+    },
+    {
+      "id": "000003974",
+      "name": "Hellhound",
+      "slug": "hellhound",
+      "role": "Other"
+    },
+    {
+      "id": "000000513",
+      "name": "Hybrid Metamorphs",
+      "slug": "hybrid-metamorphs",
+      "role": "Other"
+    },
+    {
+      "id": "000003975",
+      "name": "Hydra",
+      "slug": "hydra",
+      "role": "Other"
+    },
+    {
+      "id": "000003957",
+      "name": "Hydra Platform",
+      "slug": "hydra-platform",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004118",
+      "name": "Hyperadapted Raveners",
+      "slug": "hyperadapted-raveners",
+      "role": "Characters"
+    },
+    {
+      "id": "000001565",
+      "name": "Jackal Alphus",
+      "slug": "jackal-alphus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003976",
+      "name": "Kasrkin",
+      "slug": "kasrkin",
+      "role": "Other"
+    },
+    {
+      "id": "000001570",
+      "name": "Kelermorph",
+      "slug": "kelermorph",
+      "role": "Characters"
+    },
+    {
+      "id": "000003977",
+      "name": "Krieg Combat Engineers",
+      "slug": "krieg-combat-engineers",
+      "role": "Other"
+    },
+    {
+      "id": "000003941",
+      "name": "Krieg Command Squad",
+      "slug": "krieg-command-squad",
+      "role": "Characters"
+    },
+    {
+      "id": "000003978",
+      "name": "Krieg Heavy Weapons Squad",
+      "slug": "krieg-heavy-weapons-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003979",
+      "name": "Leman Russ Battle Tank",
+      "slug": "leman-russ-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003942",
+      "name": "Leman Russ Commander",
+      "slug": "leman-russ-commander",
+      "role": "Characters"
+    },
+    {
+      "id": "000003980",
+      "name": "Leman Russ Demolisher",
+      "slug": "leman-russ-demolisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003981",
+      "name": "Leman Russ Eradicator",
+      "slug": "leman-russ-eradicator",
+      "role": "Other"
+    },
+    {
+      "id": "000003982",
+      "name": "Leman Russ Executioner",
+      "slug": "leman-russ-executioner",
+      "role": "Other"
+    },
+    {
+      "id": "000003983",
+      "name": "Leman Russ Exterminator",
+      "slug": "leman-russ-exterminator",
+      "role": "Other"
+    },
+    {
+      "id": "000003984",
+      "name": "Leman Russ Punisher",
+      "slug": "leman-russ-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003985",
+      "name": "Leman Russ Vanquisher",
+      "slug": "leman-russ-vanquisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003883",
+      "name": "Lictor",
+      "slug": "lictor",
+      "role": "Other"
+    },
+    {
+      "id": "000001568",
+      "name": "Locus",
+      "slug": "locus",
+      "role": "Characters"
+    },
+    {
+      "id": "000004011",
+      "name": "Macharius",
+      "slug": "macharius",
+      "role": "Other"
+    },
+    {
+      "id": "000004012",
+      "name": "Macharius Omega",
+      "slug": "macharius-omega",
+      "role": "Other"
+    },
+    {
+      "id": "000004013",
+      "name": "Macharius Vanquisher",
+      "slug": "macharius-vanquisher",
+      "role": "Other"
+    },
+    {
+      "id": "000004014",
+      "name": "Macharius Vulcan",
+      "slug": "macharius-vulcan",
+      "role": "Other"
+    },
+    {
+      "id": "000000508",
+      "name": "Magus",
+      "slug": "magus",
+      "role": "Characters"
+    },
+    {
+      "id": "000004015",
+      "name": "Malcador",
+      "slug": "malcador",
+      "role": "Other"
+    },
+    {
+      "id": "000004016",
+      "name": "Malcador Annihilator",
+      "slug": "malcador-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000004017",
+      "name": "Malcador Defender",
+      "slug": "malcador-defender",
+      "role": "Other"
+    },
+    {
+      "id": "000004018",
+      "name": "Malcador Infernus",
+      "slug": "malcador-infernus",
+      "role": "Other"
+    },
+    {
+      "id": "000003986",
+      "name": "Manticore",
+      "slug": "manticore",
+      "role": "Other"
+    },
+    {
+      "id": "000003958",
+      "name": "Manticore Platform",
+      "slug": "manticore-platform",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000003884",
+      "name": "Mawloc",
+      "slug": "mawloc",
+      "role": "Other"
+    },
+    {
+      "id": "000004019",
+      "name": "Medusa Carriage Battery",
+      "slug": "medusa-carriage-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000004020",
+      "name": "Minotaur",
+      "slug": "minotaur",
+      "role": "Other"
+    },
+    {
+      "id": "000004021",
+      "name": "Mukaali Riders",
+      "slug": "mukaali-riders",
+      "role": "Other"
+    },
+    {
+      "id": "000004022",
+      "name": "Munitorum Servitors",
+      "slug": "munitorum-servitors",
+      "role": "Other"
+    },
+    {
+      "id": "000000512",
+      "name": "Neophyte Hybrids",
+      "slug": "neophyte-hybrids",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003885",
+      "name": "Neurolictor",
+      "slug": "neurolictor",
+      "role": "Other"
+    },
+    {
+      "id": "000001571",
+      "name": "Nexos",
+      "slug": "nexos",
+      "role": "Characters"
+    },
+    {
+      "id": "000003878",
+      "name": "Parasite Of Mortrex",
+      "slug": "parasite-of-mortrex",
+      "role": "Characters"
+    },
+    {
+      "id": "000000507",
+      "name": "Patriarch",
+      "slug": "patriarch",
+      "role": "Characters"
+    },
+    {
+      "id": "000004023",
+      "name": "Praetor",
+      "slug": "praetor",
+      "role": "Other"
+    },
+    {
+      "id": "000003943",
+      "name": "Primaris Psyker",
+      "slug": "primaris-psyker",
+      "role": "Characters"
+    },
+    {
+      "id": "000000509",
+      "name": "Primus",
+      "slug": "primus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000515",
+      "name": "Purestrain Genestealers",
+      "slug": "purestrain-genestealers",
+      "role": "Other"
+    },
+    {
+      "id": "000003946",
+      "name": "Quartermaster Cadre Squad",
+      "slug": "quartermaster-cadre-squad",
+      "role": "Characters"
+    },
+    {
+      "id": "000004024",
+      "name": "Rapier Laser Destroyer Battery",
+      "slug": "rapier-laser-destroyer-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000003886",
+      "name": "Raveners",
+      "slug": "raveners",
+      "role": "Other"
+    },
+    {
+      "id": "000002525",
+      "name": "Reductus Saboteur",
+      "slug": "reductus-saboteur",
+      "role": "Characters"
+    },
+    {
+      "id": "000004025",
+      "name": "Regimental Attachés",
+      "slug": "regimental-attach-s",
+      "role": "Other"
+    },
+    {
+      "id": "000003987",
+      "name": "Rogal Dorn Battle Tank",
+      "slug": "rogal-dorn-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003944",
+      "name": "Rogal Dorn Commander",
+      "slug": "rogal-dorn-commander",
+      "role": "Characters"
+    },
+    {
+      "id": "000003959",
+      "name": "Sabre Weapons Battery",
+      "slug": "sabre-weapons-battery",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004026",
+      "name": "Salamander Command Vehicle",
+      "slug": "salamander-command-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000004027",
+      "name": "Salamander Scout Vehicle",
+      "slug": "salamander-scout-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000001569",
+      "name": "Sanctus",
+      "slug": "sanctus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003988",
+      "name": "Scout Sentinels",
+      "slug": "scout-sentinels",
+      "role": "Other"
+    },
+    {
+      "id": "000004028",
+      "name": "Sentinel Powerlifter",
+      "slug": "sentinel-powerlifter",
+      "role": "Other"
+    },
+    {
+      "id": "000003989",
+      "name": "Shadowsword",
+      "slug": "shadowsword",
+      "role": "Other"
+    },
+    {
+      "id": "000003954",
+      "name": "Storm Chimera",
+      "slug": "storm-chimera",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000004029",
+      "name": "Stormblade",
+      "slug": "stormblade",
+      "role": "Other"
+    },
+    {
+      "id": "000003990",
+      "name": "Stormlord",
+      "slug": "stormlord",
+      "role": "Other"
+    },
+    {
+      "id": "000003991",
+      "name": "Stormsword",
+      "slug": "stormsword",
+      "role": "Other"
+    },
+    {
+      "id": "000004030",
+      "name": "Stygies Destroyer Tank Hunter",
+      "slug": "stygies-destroyer-tank-hunter",
+      "role": "Other"
+    },
+    {
+      "id": "000004031",
+      "name": "Tarantula Battery",
+      "slug": "tarantula-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000004032",
+      "name": "Tauros Assault Vehicle",
+      "slug": "tauros-assault-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000004033",
+      "name": "Tauros Venator",
+      "slug": "tauros-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000003952",
+      "name": "Taurox",
+      "slug": "taurox",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003953",
+      "name": "Taurox Prime",
+      "slug": "taurox-prime",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001576",
+      "name": "Tectonic Fragdrill",
+      "slug": "tectonic-fragdrill",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000004034",
+      "name": "Trojan Support Vehicle",
+      "slug": "trojan-support-vehicle",
+      "role": "Other"
+    },
+    {
+      "id": "000003887",
+      "name": "Trygon",
+      "slug": "trygon",
+      "role": "Other"
+    },
+    {
+      "id": "000003882",
+      "name": "Tyrannocyte",
+      "slug": "tyrannocyte",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000004035",
+      "name": "Valdor",
+      "slug": "valdor",
+      "role": "Other"
+    },
+    {
+      "id": "000003888",
+      "name": "Von Ryan’s Leapers",
+      "slug": "von-ryan-s-leapers",
+      "role": "Other"
+    },
+    {
+      "id": "000003879",
+      "name": "Winged Hive Tyrant",
+      "slug": "winged-hive-tyrant",
+      "role": "Characters"
+    },
+    {
+      "id": "000003880",
+      "name": "Winged Tyranid Prime",
+      "slug": "winged-tyranid-prime",
+      "role": "Characters"
+    },
+    {
+      "id": "000003992",
+      "name": "Wyvern",
+      "slug": "wyvern",
+      "role": "Other"
+    }
+  ]
+}

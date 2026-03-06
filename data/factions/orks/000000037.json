@@ -1,0 +1,188 @@
+{
+  "id": "000000037",
+  "name": "Big Gunz",
+  "factionId": "ORK",
+  "sourceId": "000000377",
+  "slug": "big-gunz",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: kannon; close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Big-Gunz",
+  "models": [
+    {
+      "datasheetId": "000000037",
+      "line": 1,
+      "name": "Big Gunz",
+      "movement": "3\"",
+      "toughness": 4,
+      "save": "5+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000037",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kannon – frag",
+      "description": "blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000037",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Kannon – shell",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000037",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lobba",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000037",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Zzap gun",
+      "description": "devastating wounds, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "2D6",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000037",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Splat!",
+      "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "BIG GUNZ",
+      "description": "Designer’s Note: Place two Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Big Gun model loses a wound (a Big Gun model itself is considered to represent its final wound).",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grots",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Big Gunz",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000037",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their kannon replaced with one of the following:\n• 1 lobba\n• 1 zzap gun"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000037",
+      "line": 1,
+      "description": "1-2 Big Gunz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000037",
+      "line": 1,
+      "description": "1 model",
+      "cost": 20
+    },
+    {
+      "datasheetId": "000000037",
+      "line": 2,
+      "description": "2 models",
+      "cost": 40
+    }
+  ],
+  "leaderAttachments": []
+}

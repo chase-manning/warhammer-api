@@ -1,0 +1,248 @@
+{
+  "id": "000001606",
+  "name": "Assault Intercessor Squad",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "assault-intercessor-squad",
+  "legend": "Assault Intercessors are amongst the most widespread close support units in a Chapter’s arsenal. Firing their heavy bolt pistols as they close upon the foe, they charge into the fray, where they make short work of their enemies with brutal swings of their chainswords.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: heavy bolt pistol; Astartes chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Assault-Intercessor-Squad",
+  "models": [
+    {
+      "datasheetId": "000001606",
+      "line": 1,
+      "name": "Assault Intercessor Squad",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001606",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Thunder hammer",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Shock Assault",
+      "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Assault Intercessor Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001606",
+      "line": 1,
+      "button": "•",
+      "description": "The Assault Intercessor Sergeant’s heavy bolt pistol can be replaced with one of the following:\n• 1 hand flamer\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 2,
+      "button": "•",
+      "description": "The Assault Intercessor Sergeant’s Astartes chainsword can be replaced with one of the following:\n• 1 power fist\n• 1 power weapon\n• 1 thunder hammer"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001606",
+      "line": 1,
+      "description": "1 Assault Intercessor Sergeant"
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 2,
+      "description": "4-9 Assault Intercessors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001606",
+      "line": 1,
+      "description": "5 models",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000001606",
+      "line": 2,
+      "description": "10 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,210 @@
+{
+  "id": "000001668",
+  "name": "Eliminator Squad",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "eliminator-squad",
+  "legend": "Eliminator Squads are peerless assassins, deadly marksmen who haunt the shadows of the battlefield unseen by the enemy. For hours they will lie in wait to take the perfect shot, their sophisticated scopes feeding them essential data to ensure they never fail to make the kill.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; bolt sniper rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Eliminator-Squad",
+  "models": [
+    {
+      "datasheetId": "000001668",
+      "line": 1,
+      "name": "Eliminator Squad",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001668",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt sniper rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Instigator bolt carbine",
+      "description": "precision",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Las fusil",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Reposition Under Covering Fire",
+      "description": "In your Shooting phase, after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Mark the Target",
+      "description": "Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Eliminator Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Phobos",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001668",
+      "line": 1,
+      "button": "•",
+      "description": "The Eliminator Sergeant’s bolt sniper rifle can be replaced with one of the following:\n• 1 instigator bolt carbine\n• 1 las fusil"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 2,
+      "button": "•",
+      "description": "All Eliminators in this unit can each have their bolt sniper rifle replaced with 1 las fusil."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001668",
+      "line": 1,
+      "description": "1 Eliminator Sergeant"
+    },
+    {
+      "datasheetId": "000001668",
+      "line": 2,
+      "description": "2 Eliminators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001668",
+      "line": 1,
+      "description": "3 models",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": []
+}

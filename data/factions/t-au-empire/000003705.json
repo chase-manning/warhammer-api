@@ -1,0 +1,194 @@
+{
+  "id": "000003705",
+  "name": "Kroot Lone-Spear",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "kroot-lone-spear",
+  "legend": "Whether loners or grizzled mercenaries unable to fit within Kroot society, Lone-spears prefer the company of beasts and the surrounds of the wild. Mounted upon chameleonic Kalamondras, they make for talented long-range scouts. Moreover, armed with suitably potent firearms the Lone-spears excel in picking off valuable enemy targets and even eliminating armoured fighting vehicles.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Kroot long gun; close combat weapon; Kalamandra’s bite.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Kroot-Lone-Spear",
+  "models": [
+    {
+      "datasheetId": "000003705",
+      "line": 1,
+      "name": "Kroot Lone-Spear",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "90 x 52mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003705",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blast javelin",
+      "description": "assault, blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003705",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot long gun",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003705",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003705",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hunting javelin",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003705",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kalamandra’s bite",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Advanced Scouting",
+      "description": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another Kroot model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Fire and Fade",
+      "description": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Lone-Spear",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kroot",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003705",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s Kroot long gun can be replaced with 1 blast javelin and 1 hunting javelin."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003705",
+      "line": 1,
+      "description": "1 Kroot Lone-Spear"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003705",
+      "line": 1,
+      "description": "1 model",
+      "cost": 80
+    }
+  ],
+  "leaderAttachments": []
+}

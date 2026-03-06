@@ -1,0 +1,225 @@
+{
+  "id": "AdM",
+  "name": "Adeptus Mechanicus",
+  "slug": "adeptus-mechanicus",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus",
+  "datasheetCount": 36,
+  "datasheets": [
+    {
+      "id": "000002087",
+      "name": "Archaeopter Fusilave",
+      "slug": "archaeopter-fusilave",
+      "role": "Other"
+    },
+    {
+      "id": "000002086",
+      "name": "Archaeopter Stratoraptor",
+      "slug": "archaeopter-stratoraptor",
+      "role": "Other"
+    },
+    {
+      "id": "000002085",
+      "name": "Archaeopter Transvector",
+      "slug": "archaeopter-transvector",
+      "role": "Other"
+    },
+    {
+      "id": "000000838",
+      "name": "Belisarius Cawl",
+      "slug": "belisarius-cawl",
+      "role": "Characters"
+    },
+    {
+      "id": "000000844",
+      "name": "Corpuscarii Electro-priests",
+      "slug": "corpuscarii-electro-priests",
+      "role": "Other"
+    },
+    {
+      "id": "000000846",
+      "name": "Cybernetica Datasmith",
+      "slug": "cybernetica-datasmith",
+      "role": "Characters"
+    },
+    {
+      "id": "000000843",
+      "name": "Fulgurite Electro-priests",
+      "slug": "fulgurite-electro-priests",
+      "role": "Other"
+    },
+    {
+      "id": "000000852",
+      "name": "Ironstrider Ballistarii",
+      "slug": "ironstrider-ballistarii",
+      "role": "Other"
+    },
+    {
+      "id": "000000845",
+      "name": "Kastelan Robots",
+      "slug": "kastelan-robots",
+      "role": "Other"
+    },
+    {
+      "id": "000000841",
+      "name": "Kataphron Breachers",
+      "slug": "kataphron-breachers",
+      "role": "Other"
+    },
+    {
+      "id": "000000842",
+      "name": "Kataphron Destroyers",
+      "slug": "kataphron-destroyers",
+      "role": "Other"
+    },
+    {
+      "id": "000000854",
+      "name": "Onager Dunecrawler",
+      "slug": "onager-dunecrawler",
+      "role": "Other"
+    },
+    {
+      "id": "000002084",
+      "name": "Pteraxii Skystalkers",
+      "slug": "pteraxii-skystalkers",
+      "role": "Other"
+    },
+    {
+      "id": "000002083",
+      "name": "Pteraxii Sterylizors",
+      "slug": "pteraxii-sterylizors",
+      "role": "Other"
+    },
+    {
+      "id": "000001525",
+      "name": "Secutarii Hoplites",
+      "slug": "secutarii-hoplites",
+      "role": "Other"
+    },
+    {
+      "id": "000001526",
+      "name": "Secutarii Peltasts",
+      "slug": "secutarii-peltasts",
+      "role": "Other"
+    },
+    {
+      "id": "000002082",
+      "name": "Serberys Raiders",
+      "slug": "serberys-raiders",
+      "role": "Other"
+    },
+    {
+      "id": "000002081",
+      "name": "Serberys Sulphurhounds",
+      "slug": "serberys-sulphurhounds",
+      "role": "Other"
+    },
+    {
+      "id": "000004119",
+      "name": "Servitor Battleclade",
+      "slug": "servitor-battleclade",
+      "role": "Other"
+    },
+    {
+      "id": "000000847",
+      "name": "Servitors",
+      "slug": "servitors",
+      "role": "Other"
+    },
+    {
+      "id": "000000850",
+      "name": "Sicarian Infiltrators",
+      "slug": "sicarian-infiltrators",
+      "role": "Other"
+    },
+    {
+      "id": "000000851",
+      "name": "Sicarian Ruststalkers",
+      "slug": "sicarian-ruststalkers",
+      "role": "Other"
+    },
+    {
+      "id": "000002478",
+      "name": "Skitarii Marshal",
+      "slug": "skitarii-marshal",
+      "role": "Characters"
+    },
+    {
+      "id": "000000848",
+      "name": "Skitarii Rangers",
+      "slug": "skitarii-rangers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000849",
+      "name": "Skitarii Vanguard",
+      "slug": "skitarii-vanguard",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001651",
+      "name": "Skorpius Disintegrator",
+      "slug": "skorpius-disintegrator",
+      "role": "Other"
+    },
+    {
+      "id": "000001650",
+      "name": "Skorpius Dunerider",
+      "slug": "skorpius-dunerider",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003694",
+      "name": "Sydonian Dragoons With Radium Jezzails",
+      "slug": "sydonian-dragoons-with-radium-jezzails",
+      "role": "Other"
+    },
+    {
+      "id": "000000853",
+      "name": "Sydonian Dragoons With Taser Lances",
+      "slug": "sydonian-dragoons-with-taser-lances",
+      "role": "Other"
+    },
+    {
+      "id": "000003695",
+      "name": "Sydonian Skatros",
+      "slug": "sydonian-skatros",
+      "role": "Characters"
+    },
+    {
+      "id": "000000839",
+      "name": "Tech-priest Dominus",
+      "slug": "tech-priest-dominus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000840",
+      "name": "Tech-priest Enginseer",
+      "slug": "tech-priest-enginseer",
+      "role": "Characters"
+    },
+    {
+      "id": "000001580",
+      "name": "Tech-priest Manipulus",
+      "slug": "tech-priest-manipulus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002477",
+      "name": "Technoarcheologist",
+      "slug": "technoarcheologist",
+      "role": "Characters"
+    },
+    {
+      "id": "000001533",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001822",
+      "name": "X-101",
+      "slug": "x-101",
+      "role": "Characters"
+    }
+  ]
+}

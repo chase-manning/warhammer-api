@@ -1,0 +1,319 @@
+{
+  "id": "000002685",
+  "name": "Exaction Squad",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "exaction-squad",
+  "legend": "The most experienced and level-headed Arbitrators form Exaction Squads to hunt down and seize dangerous transgressors alive. They do not hesitate to crush any who stand in their way, ruthlessly bludgeoning them or cutting them down in blazes of heavy firepower, never halting until their target is in custody.",
+  "role": "Other",
+  "loadout": "Every Proctor-Exactant and Exaction Vigilant is equipped with: Arbites combat shotgun; Arbites shotpistol; close combat weapon.\n\nThe Cyber-mastiff is equipped with: mechanical bite.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Exaction-Squad",
+  "models": [
+    {
+      "datasheetId": "000002685",
+      "line": 1,
+      "name": "Exaction Squad",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": "Cyber-mastiff 25mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002685",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arbites combat shotgun",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arbites grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Arbites grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arbites shotpistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Executioner shotgun",
+      "description": "ignores cover, precision",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy stubber",
+      "description": "rapid fire 3",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Webber",
+      "description": "assault, devastating wounds, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Excruciator maul",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanical bite",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Imperial Law",
+      "description": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Arbites Medi-kit",
+      "description": "At the start of your Command phase, if the bearer’s unit is below its Starting Strength, you can return up to D3 destroyed Exaction Vigilants to this unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Nuncio Aquila",
+      "description": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding MONSTERS and VEHICLES) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.\n\nDesigner’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Soulguilt Scanner",
+      "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Exaction Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Arbites",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002685",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 2 Exaction Vigilants can each have their Arbites combat shotgun replaced with one of the following (duplicates are not allowed):\n• 1 executioner shotgun\n• 1 Arbites grenade launcher\n• 1 heavy stubber\n• 1 webber"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 2,
+      "button": "•",
+      "description": "1 Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 excruciator maul.*"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 3,
+      "button": "•",
+      "description": "1 other Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 Arbites medi-kit.*"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 4,
+      "button": "•",
+      "description": "1 other Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 soulguilt scanner.*"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 5,
+      "button": "•",
+      "description": "The Proctor-Exactant can be equipped with 1 nuncio aquila."
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 6,
+      "button": "*",
+      "description": "* That model’s Arbites combat shotgun cannot be replaced."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002685",
+      "line": 1,
+      "description": "1 Proctor-Exactant"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 2,
+      "description": "9 Exaction Vigilants"
+    },
+    {
+      "datasheetId": "000002685",
+      "line": 3,
+      "description": "1 Cyber-mastiff"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002685",
+      "line": 1,
+      "description": "11 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

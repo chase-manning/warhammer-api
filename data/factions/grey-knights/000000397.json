@@ -1,0 +1,192 @@
+{
+  "id": "000000397",
+  "name": "Servitors",
+  "factionId": "GK",
+  "sourceId": "000000364",
+  "slug": "servitors",
+  "legend": "Some servitors were once serfs, failed aspirants or former allies, now cyborgised with mechanical augmentation. Many have limbs replaced with servo-arms or heavy weapons, employed to defend or aid their Techmarine masters during repairs. The brutal mind-wiping process ensures none ever reveal what they have witnessed.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Servitor’s servo-arm.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/grey-knights/Servitors",
+  "models": [
+    {
+      "datasheetId": "000000397",
+      "line": 1,
+      "name": "Servitors",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000397",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000397",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000397",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cannon – standard",
+      "description": "blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000397",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma cannon – supercharge",
+      "description": "blast, hazardous, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000397",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Servitor’s servo-arm",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000397",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Servitor’s tools",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mindlock",
+      "description": "While a Brotherhood Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Retinue",
+      "description": "While a Brotherhood Techmarine model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SERVITOR RETINUE",
+      "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Brotherhood Techmarine (a unit cannot have more than one SERVITORS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Grey Knights",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Servitors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000397",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following:\n• 1 heavy bolter and 1 Servitor’s tools\n• 1 multi-melta and 1 Servitor’s tools\n• 1 plasma cannon and 1 Servitor’s tools"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000397",
+      "line": 1,
+      "description": "4 Servitors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000397",
+      "line": 1,
+      "description": "4 models",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

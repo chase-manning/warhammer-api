@@ -1,0 +1,232 @@
+{
+  "id": "000004077",
+  "name": "Fulgrim",
+  "factionId": "EC",
+  "sourceId": "000000280",
+  "slug": "fulgrim",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "This model is equipped with: malefic lash; daemonic blades; serpentine tail.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-6",
+  "damagedDescription": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/emperor-s-children/Fulgrim",
+  "models": [
+    {
+      "datasheetId": "000004077",
+      "line": 1,
+      "name": "Fulgrim",
+      "movement": "16\"",
+      "toughness": 11,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 16,
+      "leadership": "5+",
+      "objectiveControl": 6,
+      "baseSize": "130mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004077",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Malefic lash",
+      "description": "sustained hits 1",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004077",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Daemonic blades – strike",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000004077",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Daemonic blades – sweep",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004077",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Serpentine tail",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Thrill Seekers",
+      "description": "If your Army Faction is Emperor’s Children, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:\n\n• It cannot target a unit it was within Engagement Range of at the start of the turn.\n• It cannot target a unit that was the target of another units charge or attack this phase.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Daemonic Poisons",
+      "description": "In your Shooting phase and the Fight phase, after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player’s Command phase, roll one D6 for each poisoned enemy unit on the battlefield: on a 4+,that enemy unit suffers D3 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Daemon Primarch of Slaanesh",
+      "description": "At the start of your opponent’s Command phase, select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent’s next Command phase, this model has that ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Serpentine",
+      "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Beguiling Form",
+      "description": "Each time a model makes an attack that targets this model, subtract 1 from the Hit roll.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Daemonic Speed",
+      "description": "This model has the Fights First ability.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Enthralling Hypnosis (Aura)",
+      "description": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "SUPREME COMMANDER",
+      "description": "If this model is in your army, it must be your WARLORD.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Emperor’s Children",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fulgrim",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Primarch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Slaanesh",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004077",
+      "line": 1,
+      "description": "1 Fulgrim – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004077",
+      "line": 1,
+      "description": "1 model",
+      "cost": 340
+    }
+  ],
+  "leaderAttachments": []
+}

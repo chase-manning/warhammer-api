@@ -1,0 +1,200 @@
+{
+  "id": "000003972",
+  "name": "Field Ordnance Battery",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "field-ordnance-battery",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: malleus rocket launcher; lasgun; laspistol; battery close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Field-Ordnance-Battery",
+  "models": [
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "name": "Artillery Team",
+      "movement": "3\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "100mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bombast field gun",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy lascannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Malleus rocket launcher",
+      "description": "blast, heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Battery close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rearm, Reload, Fire",
+      "description": "While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Field Ordnance Battery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their malleus rocket launcher replaced with one of the following:\n• 1 bombast field gun\n• 1 heavy lascannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "description": "2 Ordnance Teams"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003972",
+      "line": 1,
+      "description": "2 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,161 @@
+{
+  "id": "000004160",
+  "name": "Solitaire",
+  "factionId": "DRU",
+  "sourceId": "000000186",
+  "slug": "solitaire",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Solitaire weapons, flip belt.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Solitaire",
+  "models": [
+    {
+      "datasheetId": "000004160",
+      "line": 1,
+      "name": "Solitaire",
+      "movement": "12\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004160",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Solitaire weapons",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "9",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Disparate Paths",
+      "description": "When mustering your army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select HARLEQUINS or Ynnari as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Blitz",
+      "description": "Once per battle, in your Movement phase, before this model makes a Normal move, it can use this ability. If it does, until the end of the turn, add 2D6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s Solitaire weapons.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Blur of Movement",
+      "description": "This model is eligible to declare a charge in a turn in which it Advanced.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "PATH OF DAMNATION",
+      "description": "This model cannot be your WARLORD.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Flip Belt",
+      "description": "Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Harlequins",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Solitaire",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004160",
+      "line": 1,
+      "description": "1 Solitaire – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004160",
+      "line": 1,
+      "description": "1 model",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": []
+}

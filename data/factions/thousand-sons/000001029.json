@@ -1,0 +1,161 @@
+{
+  "id": "000001029",
+  "name": "Maulerfiend",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "maulerfiend",
+  "legend": "Maulerfiends are ferocious Daemon Engines capable of scaling even sheer fortress walls with wicked metal talons. Those employed by the Thousand Sons are inescapable, for the daemons within them hunt as much by tracking their prey’s future choices as by the lights of their soulspoor.",
+  "role": "Other",
+  "loadout": "This model is equipped with: lasher tendrils; Maulerfiend fists.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Maulerfiend",
+  "models": [
+    {
+      "datasheetId": "000001029",
+      "line": 1,
+      "name": "Maulerfiend",
+      "movement": "10\"",
+      "toughness": 10,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 12,
+      "leadership": "6+",
+      "objectiveControl": 3,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001029",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Magma cutter",
+      "description": "melta 2",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001029",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasher tendrils",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001029",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Maulerfiend fists",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Snarling Protector",
+      "description": "You can target this model with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. In addition, each time this model declares a charge that targets an enemy unit within Engagement Range of one or more Thousand Sons Psyker units from your army, you can re-roll the Charge roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Maulerfiend",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001029",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s lasher tendrils can be replaced with 2 magma cutters."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001029",
+      "line": 1,
+      "description": "1 Maulerfiend"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001029",
+      "line": 1,
+      "description": "1 model",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,186 @@
+{
+  "id": "000000017",
+  "name": "Gretchin",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "gretchin",
+  "legend": "What Gretchin – also called grots – lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
+  "role": "Other",
+  "loadout": "Every Runtherd is equipped with: slugga; Runtherd tools. \n\nEvery Gretchin is equipped with: grot blasta; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Gretchin",
+  "models": [
+    {
+      "datasheetId": "000000017",
+      "line": 1,
+      "name": "GRETCHIN",
+      "movement": "6\"",
+      "toughness": 2,
+      "save": "7+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 2,
+      "name": "RUNTHERD",
+      "movement": "6\"",
+      "toughness": null,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000017",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grot blasta",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slugga",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Runtherd tools",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Runtherd",
+      "description": "While this unit contains one or more Gretchin models, each time an attack targets this unit, Runtherd models in this unit have a Toughness characteristic of 2.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Thievin’ Scavengers",
+      "description": "At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle-shocked units). If one or more of those rolls is a 4+, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Gretchin",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grots",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000017",
+      "line": 1,
+      "description": "1 Runtherd and 10 Gretchin"
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 2,
+      "description": "OR"
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 3,
+      "description": "2 Runtherds and 20 Gretchin"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000017",
+      "line": 1,
+      "description": "11 models",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000000017",
+      "line": 2,
+      "description": "22 models",
+      "cost": 80
+    }
+  ],
+  "leaderAttachments": []
+}

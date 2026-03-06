@@ -1,0 +1,178 @@
+{
+  "id": "000003918",
+  "name": "Ynnari Incubi",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "ynnari-incubi",
+  "legend": "The Incubi are dark mirrors of Aeldari Aspect Warriors, mercenary killers of tremendous skill who study the ways of their murderous craft in dark shrines of battle. Wielding thrumming energy blades with consummate cruelty, some of these Drukhari elites fight in the armies of the Ynnari, whether through genuine zeal or simply because some patron Archon has made it worth their while.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: klaive.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Ynnari-Incubi",
+  "models": [
+    {
+      "datasheetId": "000003918",
+      "line": 1,
+      "name": "INCUBI",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003918",
+      "line": 2,
+      "name": "KLAIVEX",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003918",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Demiklaives – single blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003918",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Demiklaives – dual blades",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003918",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Klaive",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Disparate Paths",
+      "description": "When mustering your army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select HARLEQUINS or Ynnari as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Tormentors",
+      "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ynnari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Incubi",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003918",
+      "line": 1,
+      "button": "•",
+      "description": "The Klaivex’s klaive can be replaced with 1 demilklaives."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003918",
+      "line": 1,
+      "description": "1 Klaivex"
+    },
+    {
+      "datasheetId": "000003918",
+      "line": 2,
+      "description": "4-9 Incubi"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003918",
+      "line": 1,
+      "description": "5 models",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000003918",
+      "line": 2,
+      "description": "10 models",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

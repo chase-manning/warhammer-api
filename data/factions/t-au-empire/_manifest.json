@@ -1,0 +1,387 @@
+{
+  "id": "TAU",
+  "name": "T’au Empire",
+  "slug": "t-au-empire",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire",
+  "datasheetCount": 63,
+  "datasheets": [
+    {
+      "id": "000000408",
+      "name": "Aun’shi",
+      "slug": "aun-shi",
+      "role": "Characters"
+    },
+    {
+      "id": "000000409",
+      "name": "Aun’va",
+      "slug": "aun-va",
+      "role": "Characters"
+    },
+    {
+      "id": "000000455",
+      "name": "AX-1-0 Tiger Shark",
+      "slug": "ax-1-0-tiger-shark",
+      "role": "Other"
+    },
+    {
+      "id": "000000453",
+      "name": "Barracuda",
+      "slug": "barracuda",
+      "role": "Other"
+    },
+    {
+      "id": "000000412",
+      "name": "Breacher Team",
+      "slug": "breacher-team",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000433",
+      "name": "Broadside Battlesuits",
+      "slug": "broadside-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000000405",
+      "name": "Cadre Fireblade",
+      "slug": "cadre-fireblade",
+      "role": "Characters"
+    },
+    {
+      "id": "000000406",
+      "name": "Commander Farsight",
+      "slug": "commander-farsight",
+      "role": "Characters"
+    },
+    {
+      "id": "000000402",
+      "name": "Commander In Coldstar Battlesuit",
+      "slug": "commander-in-coldstar-battlesuit",
+      "role": "Characters"
+    },
+    {
+      "id": "000001477",
+      "name": "Commander In Crisis Battlesuit",
+      "slug": "commander-in-crisis-battlesuit",
+      "role": "Characters"
+    },
+    {
+      "id": "000001478",
+      "name": "Commander In Enforcer Battlesuit",
+      "slug": "commander-in-enforcer-battlesuit",
+      "role": "Characters"
+    },
+    {
+      "id": "000000407",
+      "name": "Commander Shadowsun",
+      "slug": "commander-shadowsun",
+      "role": "Characters"
+    },
+    {
+      "id": "000000418",
+      "name": "Crisis Battlesuits",
+      "slug": "crisis-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000003700",
+      "name": "Crisis Fireknife Battlesuits",
+      "slug": "crisis-fireknife-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000003701",
+      "name": "Crisis Starscythe Battlesuits",
+      "slug": "crisis-starscythe-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000003699",
+      "name": "Crisis Sunforge Battlesuits",
+      "slug": "crisis-sunforge-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000000410",
+      "name": "Darkstrider",
+      "slug": "darkstrider",
+      "role": "Characters"
+    },
+    {
+      "id": "000000424",
+      "name": "Devilfish",
+      "slug": "devilfish",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000459",
+      "name": "Drone Sentry Turret",
+      "slug": "drone-sentry-turret",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000404",
+      "name": "Ethereal",
+      "slug": "ethereal",
+      "role": "Characters"
+    },
+    {
+      "id": "000000428",
+      "name": "Firesight Team",
+      "slug": "firesight-team",
+      "role": "Characters"
+    },
+    {
+      "id": "000000420",
+      "name": "Ghostkeel Battlesuit",
+      "slug": "ghostkeel-battlesuit",
+      "role": "Other"
+    },
+    {
+      "id": "000001392",
+      "name": "Great Knarloc",
+      "slug": "great-knarloc",
+      "role": "Other"
+    },
+    {
+      "id": "000000432",
+      "name": "Hammerhead Gunship",
+      "slug": "hammerhead-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000449",
+      "name": "Heavy Gun Drones",
+      "slug": "heavy-gun-drones",
+      "role": "Other"
+    },
+    {
+      "id": "000001391",
+      "name": "Knarloc Riders",
+      "slug": "knarloc-riders",
+      "role": "Other"
+    },
+    {
+      "id": "000000413",
+      "name": "Kroot Carnivores",
+      "slug": "kroot-carnivores",
+      "role": "Other"
+    },
+    {
+      "id": "000002588",
+      "name": "Kroot Farstalkers",
+      "slug": "kroot-farstalkers",
+      "role": "Other"
+    },
+    {
+      "id": "000003704",
+      "name": "Kroot Flesh Shaper",
+      "slug": "kroot-flesh-shaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000000415",
+      "name": "Kroot Hounds",
+      "slug": "kroot-hounds",
+      "role": "Other"
+    },
+    {
+      "id": "000003705",
+      "name": "Kroot Lone-Spear",
+      "slug": "kroot-lone-spear",
+      "role": "Characters"
+    },
+    {
+      "id": "000003702",
+      "name": "Kroot Trail Shaper",
+      "slug": "kroot-trail-shaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000003703",
+      "name": "Kroot War Shaper",
+      "slug": "kroot-war-shaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000003706",
+      "name": "Krootox Rampagers",
+      "slug": "krootox-rampagers",
+      "role": "Other"
+    },
+    {
+      "id": "000000414",
+      "name": "Krootox Riders",
+      "slug": "krootox-riders",
+      "role": "Other"
+    },
+    {
+      "id": "000000431",
+      "name": "Longstrike",
+      "slug": "longstrike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000457",
+      "name": "Manta",
+      "slug": "manta",
+      "role": "Other"
+    },
+    {
+      "id": "000000456",
+      "name": "Orca Dropship",
+      "slug": "orca-dropship",
+      "role": "Other"
+    },
+    {
+      "id": "000000422",
+      "name": "Pathfinder Team",
+      "slug": "pathfinder-team",
+      "role": "Other"
+    },
+    {
+      "id": "000000423",
+      "name": "Piranhas",
+      "slug": "piranhas",
+      "role": "Other"
+    },
+    {
+      "id": "000000445",
+      "name": "R’varna Battlesuit",
+      "slug": "r-varna-battlesuit",
+      "role": "Other"
+    },
+    {
+      "id": "000000425",
+      "name": "Razorshark Strike Fighter",
+      "slug": "razorshark-strike-fighter",
+      "role": "Other"
+    },
+    {
+      "id": "000000452",
+      "name": "Remora Stealth Drones",
+      "slug": "remora-stealth-drones",
+      "role": "Other"
+    },
+    {
+      "id": "000000458",
+      "name": "Remote Sensor Tower",
+      "slug": "remote-sensor-tower",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000421",
+      "name": "Riptide Battlesuit",
+      "slug": "riptide-battlesuit",
+      "role": "Other"
+    },
+    {
+      "id": "000000439",
+      "name": "Shas’o R’alai",
+      "slug": "shas-o-r-alai",
+      "role": "Characters"
+    },
+    {
+      "id": "000000430",
+      "name": "Sky Ray Gunship",
+      "slug": "sky-ray-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000417",
+      "name": "Stealth Battlesuits",
+      "slug": "stealth-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000000434",
+      "name": "Stormsurge",
+      "slug": "stormsurge",
+      "role": "Other"
+    },
+    {
+      "id": "000000411",
+      "name": "Strike Team",
+      "slug": "strike-team",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000426",
+      "name": "Sun Shark Bomber",
+      "slug": "sun-shark-bomber",
+      "role": "Other"
+    },
+    {
+      "id": "000000446",
+      "name": "Ta’unar Supremacy Armour",
+      "slug": "ta-unar-supremacy-armour",
+      "role": "Other"
+    },
+    {
+      "id": "000000403",
+      "name": "Tactical Drones",
+      "slug": "tactical-drones",
+      "role": "Other"
+    },
+    {
+      "id": "000000447",
+      "name": "Tetras",
+      "slug": "tetras",
+      "role": "Other"
+    },
+    {
+      "id": "000004203",
+      "name": "The Twin Lance",
+      "slug": "the-twin-lance",
+      "role": "Characters"
+    },
+    {
+      "id": "000000435",
+      "name": "Tidewall Droneport",
+      "slug": "tidewall-droneport",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000437",
+      "name": "Tidewall Gunrig",
+      "slug": "tidewall-gunrig",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000436",
+      "name": "Tidewall Shieldline",
+      "slug": "tidewall-shieldline",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000454",
+      "name": "Tiger Shark",
+      "slug": "tiger-shark",
+      "role": "Other"
+    },
+    {
+      "id": "000000448",
+      "name": "Tx42 Piranha",
+      "slug": "tx42-piranha",
+      "role": "Other"
+    },
+    {
+      "id": "000000427",
+      "name": "Vespid Stingwings",
+      "slug": "vespid-stingwings",
+      "role": "Other"
+    },
+    {
+      "id": "000000443",
+      "name": "Xv9 Hazard Battlesuits",
+      "slug": "xv9-hazard-battlesuits",
+      "role": "Other"
+    },
+    {
+      "id": "000000444",
+      "name": "Y’vahra Battlesuit",
+      "slug": "y-vahra-battlesuit",
+      "role": "Other"
+    }
+  ]
+}

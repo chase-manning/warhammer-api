@@ -1,0 +1,125 @@
+{
+  "id": "000002686",
+  "name": "Barbgaunts",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "barbgaunts",
+  "legend": "Barbgaunts are little more than living weapons, their bodies and bio-cannons slaved to the will of a pulsating ganglio-parasite that piggybacks them into battle. There, they unleash volleys of chitinous barbs that detonate with the fury of violent muscle-spasms and transfix nearby victims with hails of jagged projectiles.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: barblauncher; chitinous claws and teeth.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Barbgaunts",
+  "models": [
+    {
+      "datasheetId": "000002686",
+      "line": 1,
+      "name": "Barbgaunts",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002686",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Barblauncher",
+      "description": "blast, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002686",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chitinous claws and teeth",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Disruption Bombardment",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Barbgaunts",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002686",
+      "line": 1,
+      "description": "5-10 Barbgaunts"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002686",
+      "line": 1,
+      "description": "5 models",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000002686",
+      "line": 2,
+      "description": "10 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

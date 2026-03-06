@@ -1,0 +1,143 @@
+{
+  "id": "000002093",
+  "name": "The Archivist",
+  "factionId": "UN",
+  "sourceId": "000000271",
+  "slug": "the-archivist",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "This model is equipped with: atomic disassembler; eradicator glove.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/unaligned-forces/The-Archivist",
+  "models": [
+    {
+      "datasheetId": "000002093",
+      "line": 1,
+      "name": "The Archivist",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002093",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Atomic disassembler",
+      "description": "ignores cover, pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002093",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Eradicator glove",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Unaligned Forces",
+      "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:\n\n• Incursion: Up to 250 pts\n• Strike Force: Up to 500 pts\n• Onslaught: Up to 1000 pts\n\nNo UNALIGNED FORCES models can be your WARLORD.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Fearsome Assault",
+      "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Disruptive Influence (Aura)",
+      "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Unaligned",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "The Archivist",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002093",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002093",
+      "line": 1,
+      "description": "1 Archivist – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002093",
+      "line": 1,
+      "description": "1 model",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

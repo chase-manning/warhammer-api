@@ -1,0 +1,382 @@
+{
+  "id": "000004050",
+  "name": "Cultist Mob",
+  "factionId": "CD",
+  "sourceId": "000000012",
+  "slug": "cultist-mob",
+  "legend": "",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: autopistol; brutal assault weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/Cultist-Mob",
+  "models": [
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "name": "Cultist Mob",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Brutal assault weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "For the Dark Gods",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Legiones Daemonica",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cultist Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "button": "•",
+      "description": "The Cultist Champion’s autopistol can be replaced with 1 bolt pistol."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "description": "1 Cultist Champion"
+    },
+    {
+      "datasheetId": "000004050",
+      "line": 2,
+      "description": "9-19 Chaos Cultists"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004050",
+      "line": 1,
+      "description": "10 models",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000004050",
+      "line": 2,
+      "description": "20 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,167 @@
+{
+  "id": "000003698",
+  "name": "Inner Circle Companions",
+  "factionId": "SM",
+  "sourceId": "000000023",
+  "slug": "inner-circle-companions",
+  "legend": "Wielding Calibanite greatswords with breathtaking skill, wreathed in the incense smoke of their braziers of judgement, the Inner Circle Companions cut a crimson path through their foes. They are sinister warriors whether battling as ally or enemy, for they fight in silence save for the whine of their armour servos and the crunch of their blades through flesh and bone.",
+  "role": "Other",
+  "loadout": "Every Inner Circle Companion is equipped with: heavy bolt pistol; Calibanite greatsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Inner-Circle-Companions",
+  "models": [
+    {
+      "datasheetId": "000003698",
+      "line": 1,
+      "name": "Inner Circle Companions",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003698",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "Pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003698",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Calibanite greatsword - strike",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003698",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Calibanite greatsword - sweep",
+      "description": "sustained hits 2",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Braziers of Judgement",
+      "description": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Enmity for the Unworthy",
+      "description": "Each time a model in this unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Attached Unit",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Sternguard Veteran Squad, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Dark Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Inner Circle Companions",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwing",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000003698",
+      "line": 1,
+      "description": "3-6 Inner Circle Companions"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003698",
+      "line": 1,
+      "description": "3 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000003698",
+      "line": 2,
+      "description": "6 models",
+      "cost": 180
+    }
+  ],
+  "leaderAttachments": []
+}

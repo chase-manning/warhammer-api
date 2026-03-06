@@ -1,0 +1,471 @@
+{
+  "id": "000000326",
+  "name": "Long Fangs",
+  "factionId": "SM",
+  "sourceId": "000000360",
+  "slug": "long-fangs",
+  "legend": "Dour and grizzled veterans, Long Fangs are steady of hand and temperament, hoary with wisdom and literally long of fang. To these patient warriors are granted some of the Great Company’s most devastating ranged weapons. Keen of eye, Long Fangs hunt the monstrous beasts and battle tanks of the foe.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: boltgun; bolt pistol; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Long-Fangs",
+  "models": [
+    {
+      "datasheetId": "000000326",
+      "line": 1,
+      "name": "Long Fangs",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000326",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grav-cannon",
+      "description": "anti-vehicle 2+, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grav-gun",
+      "description": "ANTI-VEHICLE 2+",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy flamer",
+      "description": "IGNORES COVER, TORRENT",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "IGNORES COVER, TORRENT",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile launcher – frag",
+      "description": "blast, heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 10,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Missile launcher – krak",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "MELTA 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cannon – standard",
+      "description": "blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 14,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma cannon – supercharge",
+      "description": "blast, hazardous, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 15,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "HAZARDOUS, RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 16,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 16,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "HAZARDOUS, PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 17,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 18,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 19,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 20,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Fire Discipline",
+      "description": "Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Armorium Cherub",
+      "description": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.\n\nDesigner’s Note: Place an Armorium Cherub token next to the unit, removing it once this ability has been used.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Devastator Squad, it can instead be attached to this unit.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Long Fangs",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000326",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of Long Fangs can each have their boltgun replaced with one of the following:\n• 1 grav-cannon\n• 1 heavy bolter\n• 1 heavy flamer\n• 1 lascannon\n• 1 missile launcher\n• 1 multi-melta\n• 1 plasma cannon"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 2,
+      "button": "•",
+      "description": "The Long Fang Pack Leader’s boltgun can be replace with one of the following\n• 1 flamer\n• 1 grav-gun\n• 1 meltagun\n• 1 plasma gun\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 3,
+      "button": "•",
+      "description": "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following:\n• 1 Astartes chainsword\n• 1 power fist\n• 1 power weapon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000326",
+      "line": 1,
+      "description": "1 Long Fang Pack Leader"
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 2,
+      "description": "4-5 Long Fangs"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000326",
+      "line": 1,
+      "description": "5 models",
+      "cost": 120
+    },
+    {
+      "datasheetId": "000000326",
+      "line": 2,
+      "description": "6 models",
+      "cost": 145
+    }
+  ],
+  "leaderAttachments": []
+}

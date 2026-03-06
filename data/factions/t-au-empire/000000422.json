@@ -1,0 +1,283 @@
+{
+  "id": "000000422",
+  "name": "Pathfinder Team",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "pathfinder-team",
+  "legend": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: pulse carbine; pulse pistol; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Pathfinder-Team",
+  "models": [
+    {
+      "datasheetId": "000000422",
+      "line": 1,
+      "name": "Pathfinder Team",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000422",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Drone burst cannon",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ion rifle – standard",
+      "description": "heavy",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Ion rifle – overcharge",
+      "description": "hazardous, heavy",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse carbine",
+      "description": null,
+      "range": "20",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rail rifle",
+      "description": "devastating wounds, heavy",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "10",
+      "armourPenetration": "-4",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Semi-automatic grenade launcher – EMP",
+      "description": "anti-vehicle 4+, devastating wounds",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Semi-automatic grenade launcher – fusion",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Target Uploaded",
+      "description": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the [IGNORES COVER] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Grav-inhibitor Drone",
+      "description": "Subtract 2 from Charge rolls made for any enemy unit that declares a charge against the bearer’s unit (this is not cumulative with any other reductions to that Charge roll).",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Pulse Accelerator Drone",
+      "description": "Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Recon Drone",
+      "description": "The bearer is equipped with 1 drone burst cannon and the bearer’s unit has the Infiltrators ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Markerlight",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Pathfinder Team",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000422",
+      "line": 1,
+      "button": "•",
+      "description": "The Pathfinder Shas’ui can be equipped with one of the following:\n• 1 grav-inhibitor drone\n• 1 pulse accelerator drone\n• 1 recon drone"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 2,
+      "button": "•",
+      "description": "The Pathfinder Shas’ui can be equipped with up to two of the following, and can take duplicates:\n• 1 gun drone\n• 1 marker drone\n• 1 shield drone"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 3,
+      "button": "•",
+      "description": "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following:\n• 1 ion rifle\n• 1 rail rifle"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 4,
+      "button": "•",
+      "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000422",
+      "line": 1,
+      "description": "1 Pathfinder Shas’ui"
+    },
+    {
+      "datasheetId": "000000422",
+      "line": 2,
+      "description": "9 Pathfinders"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000422",
+      "line": 1,
+      "description": "10 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

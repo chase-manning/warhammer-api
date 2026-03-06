@@ -1,0 +1,121 @@
+{
+  "id": "000000476",
+  "name": "Venomthropes",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "venomthropes",
+  "legend": "Venomthropes drift forward amidst miasmal clouds of spores that spew from within their bodies. The touch of their tendrils is extremely poisonous, and those exposed to the Venomthropes’ spore clouds for any length of time drown on their own frothing fluids as they dissolve from the inside out.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: toxic lashes.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Venomthropes",
+  "models": [
+    {
+      "datasheetId": "000000476",
+      "line": 1,
+      "name": "Venomthropes",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000476",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Toxic lashes",
+      "description": "anti-infantry 2+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Foul Spores (Aura)",
+      "description": "While a friendly TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS unit (excluding Monsters) is within 6\" of this unit, models in that unit have the Stealth ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Venomthropes",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000476",
+      "line": 1,
+      "description": "3-6 Venomthropes"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000476",
+      "line": 1,
+      "description": "3 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000000476",
+      "line": 2,
+      "description": "6 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

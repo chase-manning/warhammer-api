@@ -1,0 +1,287 @@
+{
+  "id": "000003594",
+  "name": "Hell Blade",
+  "factionId": "DG",
+  "sourceId": "000000355",
+  "slug": "hell-blade",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 twin autocannons; armoured hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Hell-Blade",
+  "models": [
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "name": "Hell Blade",
+      "movement": "20+\"",
+      "toughness": 8,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin autocannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lascannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Nurgle’s Gift (Aura)",
+      "description": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\nSkullsquirm Blight\n\nThis horrifying affliction sees the minds and senses of the victim gnawed gradually away from within.\n\nEach time a model in this unit makes an attack, subtract 1 from the Hit roll.\n\nRattlejoint Ague\n\nLimbs shuddering with fever palsy, bones turned brittle as glass, these warriors can barely act to defend themselves.\n\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\n\nVictims of this insidious ailment become glassy eyed and morose as their very animus and essence decay.\n\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Interceptor",
+      "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Death Guard",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hell Blade",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hell Blade",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hell Blade",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hell Blade",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hell Blade",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s 2 twin autocannons can be replaced with 2 twin lascannons."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "description": "1 Hell Blade"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003594",
+      "line": 1,
+      "description": "1 model",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": []
+}

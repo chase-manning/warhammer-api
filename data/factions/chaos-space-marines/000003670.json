@@ -1,0 +1,266 @@
+{
+  "id": "000003670",
+  "name": "Rapier Carrier",
+  "factionId": "CSM",
+  "sourceId": "000000356",
+  "slug": "rapier-carrier",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: boltgun; quad heavy bolter; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Rapier-Carrier",
+  "models": [
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "name": "Rapier Carrier",
+      "movement": "3\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Graviton cannon",
+      "description": "anti-vehicle 2+, blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laser destroyer",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Quad heavy bolter",
+      "description": "heavy, twin-linked, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Quad launcher – shatter shells",
+      "description": "heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Quad launcher – thunderfire shells",
+      "description": "blast, heavy, indirect fire",
+      "range": "60",
+      "type": "Ranged",
+      "attacks": "D6+4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Powerful Volley",
+      "description": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Rapier Carrier",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Rapier Carrier",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Rapier Carrier",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Rapier Carrier",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s quad heavy bolter can be replaced with one of the following\n• 1 graviton cannon\n• 1 laser destroyer\n• 1 quad launcher"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "description": "1 Rapier Carrier"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003670",
+      "line": 1,
+      "description": "1 model",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

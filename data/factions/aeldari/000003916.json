@@ -1,0 +1,294 @@
+{
+  "id": "000003916",
+  "name": "Ynnari Kabalite Warriors",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "ynnari-kabalite-warriors",
+  "legend": "Kabalite Warriors provide the strength of the Commorrite kabals. Arrogant, martially skilled and steeped in depths of sadism to which only the extremes of the Aeldari psyche could stretch, these malevolent warrior bands literally feed off the suffering and terror of their victims. To gather their dark sustenance while killing in Ynnead’s name is no great hardship for monsters like these.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: splinter rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Ynnari-Kabalite-Warriors",
+  "models": [
+    {
+      "datasheetId": "000003916",
+      "line": 1,
+      "name": "Ynnari Kabalite Warriors",
+      "movement": "8\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003916",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blast pistol",
+      "description": "pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blaster",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dark lance",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shredder",
+      "description": "assault, torrent",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter cannon",
+      "description": "anti-infantry 3+, heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter pistol",
+      "description": "anti-infantry 3+, assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter rifle",
+      "description": "anti-infantry 3+, assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sybarite weapon",
+      "description": "anti-infantry 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Disparate Paths",
+      "description": "When mustering your army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select HARLEQUINS or Ynnari as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sadistic Raiders",
+      "description": "At the end of your Command phase, if you control an objective marker that this unit (or a Transport it is embarked within) is within range of, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Phantasm Grenade Launcher",
+      "description": "The bearer’s unit has the Grenades keyword.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ynnari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Kabalite Warriors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003916",
+      "line": 1,
+      "button": "•",
+      "description": "The Sybarite’s close combat weapon can be replaced with 1 Sybarite weapon."
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 2,
+      "button": "•",
+      "description": "The Sybarite can be equipped with 1 phantasm grenade launcher."
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 3,
+      "button": "•",
+      "description": "The Sybarite’s splinter rifle can be replaced with one of the following:\n• 1 blast pistol\n• 1 splinter pistol"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 4,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 blaster."
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 5,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 dark lance."
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 6,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 shredder."
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 7,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 splinter cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003916",
+      "line": 1,
+      "description": "1 Sybarite"
+    },
+    {
+      "datasheetId": "000003916",
+      "line": 2,
+      "description": "9 Kabalite Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003916",
+      "line": 1,
+      "description": "10 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

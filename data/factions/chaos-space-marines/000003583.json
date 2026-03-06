@@ -1,0 +1,291 @@
+{
+  "id": "000003583",
+  "name": "Rubric Marines",
+  "factionId": "CSM",
+  "sourceId": "000000027",
+  "slug": "rubric-marines",
+  "legend": "",
+  "role": "Battleline",
+  "loadout": "The Aspiring Sorcerer is equipped with: inferno bolt pistol; Malefic Curse; force weapon.\n\nEvery Rubric Marine is equipped with: inferno boltgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Rubric-Marines",
+  "models": [
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "name": "Rubric Marine",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 2,
+      "name": "Aspiring Sorcerer",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Force weapon",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Warpflamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Warpflame pistol",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Soulreaper cannon",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Malefic Curse",
+      "description": "anti-infantry 4+, devastating wounds, psychic",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-3",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Cabal of Sorcerers",
+      "description": "If your Army Faction is Thousand Sons, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals from those listed below. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test for that model by following the sequence below.\n\nPSYCHIC TEST SEQUENCERoll 2D6\n\nChannel the Warp\n(Optional)\n\nThen, if one or more doubles or triples were rolled during this test, that model’s unit suffers D3 mortal wounds.If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects.\n\nDESTINY’S RUIN (PSYCHIC)\n\nWARP CHARGE\n\n5\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this Ritual was 10+, you can re-roll the Hit roll instead.\n\nTEMPORAL SURGE (PSYCHIC)\n\nWARP CHARGE\n\n6\n\nSelect one friendly THOUSAND SONS or SCINTILLATING LEGIONS unit that is not within Engagement Range of one or more enemy units and is within 24\" of and visible to the manifesting model. That unit can make a Normal move of up to D6\". If the Psychic test result for this Ritual was 10+, that unit can make a Normal move of up to 6\" instead. In either case, until the end of the turn, that unit is not eligible to declare a charge.\n\nDOOMBOLT (PSYCHIC)\n\nWARP CHARGE\n\n7\n\nSelect one enemy unit within 24\" of and visible to the manifesting model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of the manifesting model); that unit suffers D3 mortal wounds. If the Psychic test result for this Ritual was 11+, that unit suffers D3+3 mortal wounds instead.\n\nTWIST OF FATE (PSYCHIC)\n\nWARP CHARGE\n\n9\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, improve the Armour Penetration characteristic of that attack by 1. If the Psychic test result for this Ritual was 12+, improve the Armour Penetration characteristic of that attack by 2 instead.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Bringers of Change",
+      "description": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If that attack targets a unit within range of an objective marker you do not control, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Icon of Flame",
+      "description": "Ranged weapons equipped by models in the bearer’s unit (excluding CHARACTERS) have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": "ASPIRING SORCERER ONLY"
+    },
+    {
+      "keyword": "Rubric Marines",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Rubricae",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "button": "•",
+      "description": "The Aspiring Sorcerer’s inferno bolt pistol can be replaced with 1 warpflame pistol."
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 2,
+      "button": "•",
+      "description": "1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon."
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer."
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 4,
+      "button": "•",
+      "description": "1 Rubric Marine can be equipped with 1 icon of flame."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "description": "1 Aspiring Sorcerer"
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 2,
+      "description": "4-9 Rubric Marines"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003583",
+      "line": 1,
+      "description": "5 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000003583",
+      "line": 2,
+      "description": "10 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

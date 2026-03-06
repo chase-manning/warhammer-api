@@ -1,0 +1,218 @@
+{
+  "id": "000000155",
+  "name": "Chief Librarian Mephiston",
+  "factionId": "SM",
+  "sourceId": "000000021",
+  "slug": "chief-librarian-mephiston",
+  "legend": "Mephiston is an enormously powerful warrior and psyker. He is the only Blood Angel known to have suppressed the Black Rage, resurrecting from near death with exceptional strength, vigour and speed. Many whisper behind his back, asking what price he paid for such a transformation.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: plasma pistol; Fury of the Ancients; Vitarus.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Chief-Librarian-Mephiston",
+  "models": [
+    {
+      "datasheetId": "000000155",
+      "line": 1,
+      "name": "Chief Librarian Mephiston",
+      "movement": "7\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000155",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fury of the Ancients – witchfire",
+      "description": "pistol, psychic, sustained hits 1",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000155",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Fury of the Ancients – focused witchfire",
+      "description": "hazardous, pistol, psychic, sustained hits 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000155",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000155",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000155",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Vitarus",
+      "description": "lethal hits, psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "4+"
+    },
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "The Quickening (Psychic)",
+      "description": "This model is eligible to declare a charge in a turn in which it Advanced.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Transfixing Gaze (Aura, Psychic)",
+      "description": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Blood Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chief Librarian Mephiston",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000155",
+      "line": 1,
+      "description": "1 Chief Librarian Mephiston – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000155",
+      "line": 1,
+      "description": "1 model",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

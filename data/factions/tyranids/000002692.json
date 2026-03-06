@@ -1,0 +1,220 @@
+{
+  "id": "000002692",
+  "name": "Tyranid Warriors With Ranged Bio-weapons",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "tyranid-warriors-with-ranged-bio-weapons",
+  "legend": "Strong, swift, independently intelligent and amongst the Hive Mind’s most adaptable bioforms, Tyranid Warriors are the backbone of many Tyranid invasions. Their synaptic link imbues them with advanced martial abilities, and also allows them to serve as synaptic linchpins within the wider swarms during battle.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: devourer; Tyranid Warrior claws and talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Ranged-Bio-weapons",
+  "models": [
+    {
+      "datasheetId": "000002692",
+      "line": 1,
+      "name": "Tyranid Warriors With Ranged Bio-weapons",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002692",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Barbed strangler",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deathspitter",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Devourer",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spinefists",
+      "description": "assault, pistol, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Venom cannon",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tyranid Warrior claws and talons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shadow in the Warp",
+      "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more Synapse units from your army, subtract 1 from that test.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Adaptable Predators",
+      "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Synapse",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tyranid Warriors with Ranged Bio-weapons",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002692",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their devourer replaced with one of the following:\n• 1 deathspitter\n• 1 spinefists"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 2,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 barbed strangler."
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 3,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 venom cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002692",
+      "line": 1,
+      "description": "1 Tyranid Prime"
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 2,
+      "description": "2-5 Tyranid Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002692",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000002692",
+      "line": 2,
+      "description": "6 models",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,149 @@
+{
+  "id": "000000311",
+  "name": "Wulfen",
+  "factionId": "SM",
+  "sourceId": "000000036",
+  "slug": "wulfen",
+  "legend": "Wulfen exist on the brink of constant berserk rages, and their chilling howls unleash the inner beast in sons of Russ nearby. Wulfen are bestial warriors, altered by the Curse lying in the blood of all scions of the Wolf King. They are hunters, bounding forward with fangs bared and claws outstretched, ripping foes apart with inhuman speed.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Wulfen weapons; death totem.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wulfen",
+  "models": [
+    {
+      "datasheetId": "000000311",
+      "line": 1,
+      "name": "Wulfen",
+      "movement": "9\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000311",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stormfrag auto-launcher",
+      "description": "assault, blast",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000311",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wulfen weapons",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Curse of the Wulfen",
+      "description": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen models) or within 12\" of one or more friendly Wolf Priest models, if it is not Battle-shocked, add 1 to the Objective Control characteristic of Infantry models in it and add 3 to the Objective Control characteristic of Vehicle models in it.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Savage Frenzy",
+      "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Death Totem",
+      "description": "Each time the bearer makes a melee attack, re-roll a Hit roll of 1.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wulfen",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000311",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their death totem replaced with 1 stormfrag auto-launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000311",
+      "line": 1,
+      "description": "5-10 Wulfen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000311",
+      "line": 1,
+      "description": "5 models",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000000311",
+      "line": 2,
+      "description": "10 models",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

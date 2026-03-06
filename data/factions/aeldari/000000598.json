@@ -1,0 +1,142 @@
+{
+  "id": "000000598",
+  "name": "Wraithblades",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "wraithblades",
+  "legend": "Wraithblades are inhabited by wrathful spirits who are eager to get to grips with the foe. Armed with ghostswords or ghostaxes, they cleave their foes apart, each blow driven further by the power of the spirit stones implanted into the weapons. These stones are inhabited by malevolent souls that rage against their confinement.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: ghostswords.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Wraithblades",
+  "models": [
+    {
+      "datasheetId": "000000598",
+      "line": 1,
+      "name": "Wraithblades",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000598",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ghostaxe",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000598",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ghostswords",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Malevolent Souls",
+      "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Psychic Guidance",
+      "description": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Forceshield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wraithblades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wraith Construct",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000598",
+      "line": 1,
+      "button": "•",
+      "description": "All of the models in this unit can each have their ghostswords replaced with 1 ghostaxe and 1 forceshield."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000598",
+      "line": 1,
+      "description": "5 Wraithblades"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000598",
+      "line": 1,
+      "description": "5 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

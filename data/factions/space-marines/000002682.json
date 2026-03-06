@@ -1,0 +1,224 @@
+{
+  "id": "000002682",
+  "name": "Lion El’jonson",
+  "factionId": "SM",
+  "sourceId": "000000023",
+  "slug": "lion-el-jonson",
+  "legend": "Lion El’Jonson stalks from mist-wreathed shadow realms like an ancient questing knight hunting down the galaxy’s terrors. With the immense blade, Fealty, the Primarch cleaves apart the most heinous of monstrosities, while the Emperor’s Shield erupts in blazes of light and force in response to his foes’ savage blows.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Arma Luminis; Fealty.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Lion-El-jonson",
+  "models": [
+    {
+      "datasheetId": "000002682",
+      "line": 1,
+      "name": "Lion El’jonson",
+      "movement": "8\"",
+      "toughness": 9,
+      "save": "2+",
+      "invulnerableSave": "3",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "5+",
+      "objectiveControl": 4,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002682",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arma Luminis – bolt",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002682",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Arma Luminis – plasma",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002682",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fealty – strike",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "12",
+      "armourPenetration": "-4",
+      "damage": "4"
+    },
+    {
+      "datasheetId": "000002682",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Fealty – sweep",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "16",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Primarch of the First Legion",
+      "description": "At the start of your Command phase, select two Primarch of the First Legion abilities. Until the start of your next Command phase, this model has those abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "The Emperor’s Shield",
+      "description": "Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Dark Angels Bodyguard",
+      "description": "While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SUPREME COMMANDER",
+      "description": "If this model is in your army, it must be your Warlord.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Mist-wreathed Shadow Realms",
+      "description": "In your Command phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Martial Exemplar (Aura)",
+      "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "No Hiding From the Watchers (Aura)",
+      "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds.",
+      "type": "Primarch",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Dark Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Primarch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lion El’Jonson",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002682",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002682",
+      "line": 1,
+      "description": "1 Lion El’Jonson – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002682",
+      "line": 1,
+      "description": "1 model",
+      "cost": 315
+    }
+  ],
+  "leaderAttachments": []
+}

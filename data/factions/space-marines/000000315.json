@@ -1,0 +1,234 @@
+{
+  "id": "000000315",
+  "name": "Wolf Guard",
+  "factionId": "SM",
+  "sourceId": "000000360",
+  "slug": "wolf-guard",
+  "legend": "Earning their place through exceptional feats of arms, every Wolf Guard is a heroic warrior chosen by their lord. They act as his council and household companions, and when not tearing apart foes at his side, they form bodyguards around other senior warriors or pursue dangerous missions in their own right.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; heirloom weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard",
+  "models": [
+    {
+      "datasheetId": "000000315",
+      "line": 1,
+      "name": "Wolf Guard",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "5+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000315",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Combi-weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Storm bolter",
+      "description": "rapid fire 2",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heirloom weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Chosen Companions",
+      "description": "While a Character model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Storm Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Sternguard Veteran Squad or Vanguard Veteran Squad, it can instead be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Wolf Guard",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000315",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can have their bolt pistol replaced with one of the following:\n• 1 boltgun\n• 1 combi-weapon\n• 1 plasma pistol\n• 1 storm bolter\n• 1 storm shield"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000315",
+      "line": 1,
+      "description": "1 Wolf Guard Pack Leader"
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 2,
+      "description": "4-9 Wolf Guard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000315",
+      "line": 1,
+      "description": "5 models",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000000315",
+      "line": 2,
+      "description": "10 models",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

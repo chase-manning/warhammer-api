@@ -1,0 +1,172 @@
+{
+  "id": "000002099",
+  "name": "Aggressor Squad",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "aggressor-squad",
+  "legend": "Capable of spearheading devastating offensives or shattering the most determined enemy assaults, Aggressors are walking ceramite strongpoints. They excel at close-quarters combat and laying down torrents of devastating fire before crushing their foes beneath their energised fists.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: flamestorm gauntlets; twin power fist.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Aggressor-Squad",
+  "models": [
+    {
+      "datasheetId": "000002099",
+      "line": 1,
+      "name": "Aggressor Squad",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002099",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Auto boltstorm gauntlets",
+      "description": "twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002099",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamestorm gauntlets",
+      "description": "ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002099",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fragstorm grenade launcher",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002099",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin power fists",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Close-quarters Firepower",
+      "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Gravis",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aggressor Squad",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002099",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002099",
+      "line": 1,
+      "description": "1 Aggressor Sergeant"
+    },
+    {
+      "datasheetId": "000002099",
+      "line": 2,
+      "description": "2-5 Aggressors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002099",
+      "line": 1,
+      "description": "3 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000002099",
+      "line": 2,
+      "description": "6 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,175 @@
+{
+  "id": "000000664",
+  "name": "Cronos",
+  "factionId": "DRU",
+  "sourceId": "000000031",
+  "slug": "cronos",
+  "legend": "Like other Engines of Pain, the Cronos is a grisly amalgam of stimm-fed flesh and biomechanical implements shielded by a burnished carapace. Haemonculi create the Cronos to act as a parasite. Its esoteric syphons leech its victim’s life essence, leaving them as husks before projecting the stolen vitality to other Drukhari.",
+  "role": "Other",
+  "loadout": "Every Cronos is equipped with: spirit syphon; spirit-leech tentacles.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Cronos",
+  "models": [
+    {
+      "datasheetId": "000000664",
+      "line": 1,
+      "name": "Cronos",
+      "movement": "7\"",
+      "toughness": 7,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000664",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spirit syphon",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000664",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spirit vortex",
+      "description": "blast, ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000664",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spirit-leech tentacles",
+      "description": "anti-infantry 2+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Pain Parasite (Pain)",
+      "description": "In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit shoots or fights, after it has resolved its attacks, if one or more enemy models were destroyed as a result of those attacks, one model in this unit regains up to 3 lost wounds (if all models in this unit have their starting number of wounds and this unit is below its Starting Strength, 1 model is returned to this unit with 3 wounds remaining).",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Pain Engine (Aura)",
+      "description": "Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5+, you gain 1 Pain token.\n\nDesigner’s Note: Pain tokens you spend for reasons other than Empowering a unit do not trigger this ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cronos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Haemonculus Covens",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000664",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each be equipped with 1 spirit vortex."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000664",
+      "line": 1,
+      "description": "1-2 Cronos"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000664",
+      "line": 1,
+      "description": "1 model",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000000664",
+      "line": 2,
+      "description": "2 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

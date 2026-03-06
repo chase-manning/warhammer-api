@@ -1,0 +1,270 @@
+{
+  "id": "000001035",
+  "name": "Scarab Occult Terminators",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "scarab-occult-terminators",
+  "legend": "The Scarab Occult fight with all the merciless skill they did when they were Magnus’ living bodyguards, often striking into the heart of the foe via sorcerous teleportation. Wielding vicious ritual blades based on the ancient Prosperine khopesh, they cleave through those victims not laid low by their salvoes of lethal firepower.",
+  "role": "Other",
+  "loadout": "The Scarab Occult Sorcerer is equipped with: inferno combi-bolter; Malefic Curse; force weapon.\n\nEvery Scarab Occult Terminator is equipped with: inferno combi-bolter; Prosperine khopesh.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Scarab-Occult-Terminators",
+  "models": [
+    {
+      "datasheetId": "000001035",
+      "line": 1,
+      "name": "Scarab Occult Terminator",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 2,
+      "name": "Scarab Occult Sorcerer",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001035",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy warpflamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hellfyre missile rack",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno combi-bolter",
+      "description": "rapid fire 2",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Malefic Curse",
+      "description": "anti-infantry 4+, devastating wounds, psychic",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-3",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Soulreaper cannon",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Force weapon",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Prosperine khopesh",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Cabal of Sorcerers",
+      "description": "If your Army Faction is Thousand Sons, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals from those listed below. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test for that model by following the sequence below.\n\nPSYCHIC TEST SEQUENCERoll 2D6\n\nChannel the Warp\n(Optional)\n\nThen, if one or more doubles or triples were rolled during this test, that model’s unit suffers D3 mortal wounds.If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects.\n\nDESTINY’S RUIN (PSYCHIC)\n\nWARP CHARGE\n\n5\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this Ritual was 10+, you can re-roll the Hit roll instead.\n\nTEMPORAL SURGE (PSYCHIC)\n\nWARP CHARGE\n\n6\n\nSelect one friendly THOUSAND SONS or SCINTILLATING LEGIONS unit that is not within Engagement Range of one or more enemy units and is within 24\" of and visible to the manifesting model. That unit can make a Normal move of up to D6\". If the Psychic test result for this Ritual was 10+, that unit can make a Normal move of up to 6\" instead. In either case, until the end of the turn, that unit is not eligible to declare a charge.\n\nDOOMBOLT (PSYCHIC)\n\nWARP CHARGE\n\n7\n\nSelect one enemy unit within 24\" of and visible to the manifesting model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of the manifesting model); that unit suffers D3 mortal wounds. If the Psychic test result for this Ritual was 11+, that unit suffers D3+3 mortal wounds instead.\n\nTWIST OF FATE (PSYCHIC)\n\nWARP CHARGE\n\n9\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, improve the Armour Penetration characteristic of that attack by 1. If the Psychic test result for this Ritual was 12+, improve the Armour Penetration characteristic of that attack by 2 instead.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Rites of Coalescence",
+      "description": "While this unit contains one or more PSYKER models, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": "SCARAB OCCULT SORCERER ONLY"
+    },
+    {
+      "keyword": "Scarab Occult",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Rubricae",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Terminator",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001035",
+      "line": 1,
+      "button": "•",
+      "description": "The Scarab Occult Sorcerer’s inferno combi-bolter can be replaced with 1 Prosperine khopesh."
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator’s inferno combi-bolter can be replaced with one of the following:\n• 1 heavy warpflamer\n• 1 soulreaper cannon"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator can be equipped with 1 hellfyre missile rack."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001035",
+      "line": 1,
+      "description": "1 Scarab Occult Sorcerer"
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 2,
+      "description": "4-9 Scarab Occult Terminators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001035",
+      "line": 1,
+      "description": "5 models",
+      "cost": 180
+    },
+    {
+      "datasheetId": "000001035",
+      "line": 2,
+      "description": "10 models",
+      "cost": 360
+    }
+  ],
+  "leaderAttachments": []
+}

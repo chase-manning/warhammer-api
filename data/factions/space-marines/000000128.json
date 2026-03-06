@@ -1,0 +1,197 @@
+{
+  "id": "000000128",
+  "name": "Infiltrator Squad",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "infiltrator-squad",
+  "legend": "Infiltrator Squads are experts in covert operations and are drilled extensively in self-sufficiency and survival skills. Equipped with omni-scramblers that cripple enemy communications, they wreak havoc amongst their foes before cutting them down with hails of accurate bolt fire.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; marksman bolt carbine; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Infiltrator-Squad",
+  "models": [
+    {
+      "datasheetId": "000000128",
+      "line": 1,
+      "name": "Infiltrator Squad",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000128",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Marksman bolt carbine",
+      "description": "heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Omni-scramblers",
+      "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Helix Gauntlet",
+      "description": "Models in the bearer’s unit have the Feel No Pain 6+ ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Infiltrator Comms Array",
+      "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infiltrator Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Phobos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000128",
+      "line": 1,
+      "button": "•",
+      "description": "1 Infiltrator can be equipped with 1 helix gauntlet.*"
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 2,
+      "button": "•",
+      "description": "1 Infiltrator can be equipped with 1 Infiltrator comms array.*"
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 3,
+      "button": "*",
+      "description": "* These options cannot be taken on the same model."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000128",
+      "line": 1,
+      "description": "1 Infiltrator Sergeant"
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 2,
+      "description": "4-9 Infiltrators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000128",
+      "line": 1,
+      "description": "5 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000000128",
+      "line": 2,
+      "description": "10 models",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,300 @@
+{
+  "id": "000000644",
+  "name": "Kabalite Warriors",
+  "factionId": "DRU",
+  "sourceId": "000000031",
+  "slug": "kabalite-warriors",
+  "legend": "Only the best of a kabal’s warriors are afforded a place within its raiding parties, and every one fights all the more savagely to prove their merit. Clad in barbed and segmented armour, wielding vicious splinter weaponry or potent armaments tailored to butcher infantry or annihilate enemy armour, they form the dark heart of many realspace raids.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: splinter rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Kabalite-Warriors",
+  "models": [
+    {
+      "datasheetId": "000000644",
+      "line": 1,
+      "name": "Kabalite Warriors",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000644",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blast pistol",
+      "description": "pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blaster",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dark lance",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shredder",
+      "description": "assault, torrent",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter cannon",
+      "description": "anti-infantry 3+, heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter pistol",
+      "description": "anti-infantry 3+, assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter rifle",
+      "description": "anti-infantry 3+, assault",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": "anti-infantry 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sadistic Raiders (Pain)",
+      "description": "In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Cruel Enforcers",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Kabalite Icon",
+      "description": "While the bearer’s unit is not Battle-shocked, add 1 to the bearer’s Objective Control characteristic.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Phantasm Grenade Launcher",
+      "description": "The bearer’s unit has the Smoke and Grenades keywords.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Kabal",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kabalite Warriors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000644",
+      "line": 1,
+      "button": "•",
+      "description": "The Sybarite’s close combat weapon can be replaced with 1 power weapon."
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 2,
+      "button": "•",
+      "description": "The Sybarite can be equipped with one of the following:\n• 1 Kabalite icon\n• 1 phantasm grenade launcher"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 3,
+      "button": "•",
+      "description": "The Sybarite’s splinter rifle can be replaced with one of the following:\n• 1 blast pistol\n• 1 splinter pistol"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 4,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 blaster."
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 5,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 dark lance."
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 6,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 shredder."
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 7,
+      "button": "•",
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 splinter cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000644",
+      "line": 1,
+      "description": "1 Sybarite"
+    },
+    {
+      "datasheetId": "000000644",
+      "line": 2,
+      "description": "9 Kabalite Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000644",
+      "line": 1,
+      "description": "10 models",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": []
+}

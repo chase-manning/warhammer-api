@@ -1,0 +1,232 @@
+{
+  "id": "000000702",
+  "name": "Baneblade",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "baneblade",
+  "legend": "More rolling fortress than vehicle, Baneblade super-heavy tanks are possessed of overwhelming firepower. Wherever a Baneblade sees battle, it becomes the centre of the battle line, Imperial Guardsmen and even smaller tanks sheltering in its lee as its enormous primary cannon and numerous other guns pulverise the foe.",
+  "role": "Other",
+  "loadout": "This model is equipped with: Baneblade cannon; coaxial autocannon; demolisher cannon; heavy stubber; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-8",
+  "damagedDescription": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Baneblade",
+  "models": [
+    {
+      "datasheetId": "000000702",
+      "line": 1,
+      "name": "Baneblade",
+      "movement": "12\"",
+      "toughness": 13,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 24,
+      "leadership": "7+",
+      "objectiveControl": 8,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000702",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Baneblade cannon",
+      "description": "blast",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "3D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Coaxial autocannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Demolisher cannon",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy stubber",
+      "description": "rapid fire 3",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy bolter",
+      "description": "sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy flamer",
+      "description": "ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured tracks",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+2"
+    },
+    {
+      "name": "Rolling Fortress",
+      "description": "Each time a ranged attack is allocated to an ASTRA MILITARUM model from your army, if that model is not fully visible to every model in the attacking unit because of this BANEBLADE model, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Baneblade",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000702",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+    },
+    {
+      "datasheetId": "000000702",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 2 lascannons and 2 twin heavy bolters\n• 2 lascannons and 2 twin heavy flamers"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000702",
+      "line": 1,
+      "description": "1 Baneblade"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000702",
+      "line": 1,
+      "description": "1 model",
+      "cost": 450
+    }
+  ],
+  "leaderAttachments": []
+}

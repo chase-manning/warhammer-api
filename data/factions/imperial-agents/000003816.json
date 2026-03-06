@@ -1,0 +1,372 @@
+{
+  "id": "000003816",
+  "name": "Deathwatch Kill Team",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "deathwatch-kill-team",
+  "legend": "Deathwatch Veterans’ skills have been honed in their former Chapter for decades, sometimes centuries. Throughout their long vigil against the manifold xenos threats, each Veteran learns to arm himself so as to best contribute to the mission at hand, and squads carry an array of weapons to fell any foe.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: boltgun; power weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Deathwatch-Kill-Team",
+  "models": [
+    {
+      "datasheetId": "000003816",
+      "line": 1,
+      "name": "Deathwatch Veterans",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003816",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Frag cannon",
+      "description": "blast, heavy, rapid fire d3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Infernus heavy bolter – heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Infernus heavy bolter – heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Combi-weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stalker-pattern boltgun",
+      "description": "HEAVY, PRECISION",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deathwatch shotgun",
+      "description": "ASSAULT",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Black Shield blades",
+      "description": "TwIN-lINkED",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deathwatch thunder hammer",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Xenophase blade",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Death to the Alien",
+      "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Astartes Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003816",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:\n• 1 boltgun and 1 Astartes shield\n• 1 power weapon and 1 Astartes shield"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 4,
+      "button": "•",
+      "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 5,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 6,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 infernus heavy bolter and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 7,
+      "button": "•",
+      "description": "One model's boltgun and power weapon can be replaced with 1 Black Shield blades."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 8,
+      "button": "•",
+      "description": "The Watch Sergeant’s power weapon can be replaced with 1 xenophase blade."
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 9,
+      "button": "•",
+      "description": "The Watch Sergeant's boltgun can be replaced with 1 combi-weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003816",
+      "line": 1,
+      "description": "1 Watch Sergeant"
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 2,
+      "description": "4-9 Deathwatch Veterans"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003816",
+      "line": 1,
+      "description": "5 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 2,
+      "description": "10 models (<ky>AGENTS OF THE IMPERIUM</ky> Detachment)",
+      "cost": 190
+    },
+    {
+      "datasheetId": "000003816",
+      "line": 3,
+      "description": "10 models (Assigned Agent)",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

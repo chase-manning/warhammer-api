@@ -1,0 +1,152 @@
+[
+  {
+    "id": "AS",
+    "name": "Adepta Sororitas",
+    "slug": "adepta-sororitas",
+    "datasheetCount": 37
+  },
+  {
+    "id": "AC",
+    "name": "Adeptus Custodes",
+    "slug": "adeptus-custodes",
+    "datasheetCount": 31
+  },
+  {
+    "id": "AdM",
+    "name": "Adeptus Mechanicus",
+    "slug": "adeptus-mechanicus",
+    "datasheetCount": 36
+  },
+  {
+    "id": "TL",
+    "name": "Adeptus Titanicus",
+    "slug": "adeptus-titanicus",
+    "datasheetCount": 4
+  },
+  {
+    "id": "AE",
+    "name": "Aeldari",
+    "slug": "aeldari",
+    "datasheetCount": 97
+  },
+  {
+    "id": "AM",
+    "name": "Astra Militarum",
+    "slug": "astra-militarum",
+    "datasheetCount": 128
+  },
+  {
+    "id": "CD",
+    "name": "Chaos Daemons",
+    "slug": "chaos-daemons",
+    "datasheetCount": 106
+  },
+  {
+    "id": "QT",
+    "name": "Chaos Knights",
+    "slug": "chaos-knights",
+    "datasheetCount": 37
+  },
+  {
+    "id": "CSM",
+    "name": "Chaos Space Marines",
+    "slug": "chaos-space-marines",
+    "datasheetCount": 110
+  },
+  {
+    "id": "DG",
+    "name": "Death Guard",
+    "slug": "death-guard",
+    "datasheetCount": 71
+  },
+  {
+    "id": "DRU",
+    "name": "Drukhari",
+    "slug": "drukhari",
+    "datasheetCount": 47
+  },
+  {
+    "id": "EC",
+    "name": "Emperor’s Children",
+    "slug": "emperor-s-children",
+    "datasheetCount": 22
+  },
+  {
+    "id": "GC",
+    "name": "Genestealer Cults",
+    "slug": "genestealer-cults",
+    "datasheetCount": 136
+  },
+  {
+    "id": "GK",
+    "name": "Grey Knights",
+    "slug": "grey-knights",
+    "datasheetCount": 31
+  },
+  {
+    "id": "AoI",
+    "name": "Imperial Agents",
+    "slug": "imperial-agents",
+    "datasheetCount": 45
+  },
+  {
+    "id": "QI",
+    "name": "Imperial Knights",
+    "slug": "imperial-knights",
+    "datasheetCount": 27
+  },
+  {
+    "id": "LoV",
+    "name": "Leagues of Votann",
+    "slug": "leagues-of-votann",
+    "datasheetCount": 22
+  },
+  {
+    "id": "NEC",
+    "name": "Necrons",
+    "slug": "necrons",
+    "datasheetCount": 64
+  },
+  {
+    "id": "ORK",
+    "name": "Orks",
+    "slug": "orks",
+    "datasheetCount": 86
+  },
+  {
+    "id": "SM",
+    "name": "Space Marines",
+    "slug": "space-marines",
+    "datasheetCount": 298
+  },
+  {
+    "id": "TAU",
+    "name": "T’au Empire",
+    "slug": "t-au-empire",
+    "datasheetCount": 63
+  },
+  {
+    "id": "TS",
+    "name": "Thousand Sons",
+    "slug": "thousand-sons",
+    "datasheetCount": 60
+  },
+  {
+    "id": "TYR",
+    "name": "Tyranids",
+    "slug": "tyranids",
+    "datasheetCount": 56
+  },
+  {
+    "id": "UN",
+    "name": "Unaligned Forces",
+    "slug": "unaligned-forces",
+    "datasheetCount": 20
+  },
+  {
+    "id": "WE",
+    "name": "World Eaters",
+    "slug": "world-eaters",
+    "datasheetCount": 58
+  }
+]

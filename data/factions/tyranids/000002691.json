@@ -1,0 +1,126 @@
+{
+  "id": "000002691",
+  "name": "Tyranid Warriors With Melee Bio-weapons",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "tyranid-warriors-with-melee-bio-weapons",
+  "legend": "When adapted for close-quarters battle with an array of vicious talons, claws and chitinous blades, Tyranid Warriors excel in leading the onslaught from the front. Even as they slaughter elite prey and send lesser foes fleeing in terror, the Tyranid Warriors act as nodal relays for the insidious Hive Mind and ensure the attack is pressed home with unstoppable ferocity.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Tyranid Warrior claws and talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Melee-Bio-weapons",
+  "models": [
+    {
+      "datasheetId": "000002691",
+      "line": 1,
+      "name": "Tyranid Warriors With Melee Bio-weapons",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002691",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tyranid Warrior claws and talons",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shadow in the Warp",
+      "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more Synapse units from your army, subtract 1 from that test.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Adaptive Instincts",
+      "description": "At the start of the Fight phase, select one of the following:\n\n• Aggression Imperative: Until the end of the phase, each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n• Bioregeneration: Until the end of the phase, each time a saving throw is made for a model in this unit, re-roll a saving throw of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Synapse",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tyranid Warriors with Melee Bio-weapons",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002691",
+      "line": 1,
+      "description": "1 Tyranid Prime"
+    },
+    {
+      "datasheetId": "000002691",
+      "line": 2,
+      "description": "2-5 Tyranid Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002691",
+      "line": 1,
+      "description": "3 models",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000002691",
+      "line": 2,
+      "description": "6 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

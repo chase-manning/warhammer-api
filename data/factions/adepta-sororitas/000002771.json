@@ -1,0 +1,193 @@
+{
+  "id": "000002771",
+  "name": "Daemonifuge",
+  "factionId": "AS",
+  "sourceId": "000000112",
+  "slug": "daemonifuge",
+  "legend": "Ephrael Stern, the Daemonifuge, is capable of manifesting strange powers seen by some as witchery. Yet she is a zealous defender of the Imperial Creed with unwavering devotion. Alongside her Aeldari companion, Kyganil, Stern pits her augmented strength and speed against the Emperor’s enemies.",
+  "role": "Characters",
+  "loadout": "Ephrael Stern is equipped with: bolt pistol; Sanctity. \n\nKyganil of the Bloody Tears is equipped with: the Outcast’s Weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas/Daemonifuge",
+  "models": [
+    {
+      "datasheetId": "000002771",
+      "line": 1,
+      "name": "EPHRAEL STERN",
+      "movement": "8\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002771",
+      "line": 2,
+      "name": "KYGANIL OF THE BLOODY TEARS",
+      "movement": "8\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002771",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002771",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sanctity",
+      "description": "anti-chaos 2+, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002771",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "The Outcast’s Weapons",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Acts of Faith",
+      "description": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice:\n\n• At the start of each battle round.\n• Each time an ADEPTA SORORITAS unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead, the value of the selected Miracle dice is used as if it had been rolled ( this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n\n• Advance roll\n• Battle-shock test\n• Charge roll\n• Damage roll\n• Hit roll\n• Saving throw\n• Wound roll\n\nExample: Instead of rolling 2D6 to take a unit’s Battle-shock test, you could use one dice from your Miracle dice pool. If the value of that dice was 4, the unit’s Battle-shock test would be determined by rolling one D6 and adding 4 to it (i.e. it would be D6+4).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Holy Judgement",
+      "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this unit's Ephrael Stern model. That unit must take a Battle-shock test, subtracting 2 from the result if it is a CHAOS unit. If the test is failed, that enemy unit suffers 3 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Mysterious Saviours",
+      "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adepta Sororitas",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemonifuge",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002771",
+      "line": 1,
+      "description": "1 Ephrael Stern – EPIC HERO"
+    },
+    {
+      "datasheetId": "000002771",
+      "line": 2,
+      "description": "1 Kyganil of the Bloody Tears – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002771",
+      "line": 1,
+      "description": "2 models",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": []
+}

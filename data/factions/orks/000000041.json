@@ -1,0 +1,188 @@
+{
+  "id": "000000041",
+  "name": "Killa Kans",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "killa-kans",
+  "legend": "Surgically wiring grots into combat walkers is risky: the runty loons tend to go on a bit of a power trip, hazardous to every Ork that ever treated them badly. On the other hand, their ability to shoot straight renders their hails of rokkits, bullets and grotzooka-launched scrap- shrapnel even more hazardous to the foe.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Kan shoota; Kan klaw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Killa-Kans",
+  "models": [
+    {
+      "datasheetId": "000000041",
+      "line": 1,
+      "name": "Killa Kans",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "8+",
+      "objectiveControl": 2,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000041",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kan shoota",
+      "description": "devastating wounds, rapid fire 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000041",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grotzooka",
+      "description": "blast, ignores cover",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000041",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rokkit launcha",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000041",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skorcha",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000041",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kan klaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Shooty Power Trip",
+      "description": "Each time this unit is selected to shoot, you can roll one D6:\n\n• On a 1-2, this unit suffers D3 mortal wounds.\n• On a 3-4, until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in this unit.\n• On a 5-6, until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grots",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Killa Kans",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000041",
+      "line": 1,
+      "button": "•",
+      "description": "Each Killa Kan’s Kan shoota can be replaced with one of the following:\n• 1 grotzooka\n• 1 rokkit launcha\n• 1 skorcha"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000041",
+      "line": 1,
+      "description": "3-6 Killa Kans"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000041",
+      "line": 1,
+      "description": "3 models",
+      "cost": 125
+    },
+    {
+      "datasheetId": "000000041",
+      "line": 2,
+      "description": "6 models",
+      "cost": 250
+    }
+  ],
+  "leaderAttachments": []
+}

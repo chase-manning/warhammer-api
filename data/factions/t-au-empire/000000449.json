@@ -1,0 +1,141 @@
+{
+  "id": "000000449",
+  "name": "Heavy Gun Drones",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "heavy-gun-drones",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: burst cannon; markerlight; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Heavy-Gun-Drones",
+  "models": [
+    {
+      "datasheetId": "000000449",
+      "line": 1,
+      "name": "Heavy Gun Drones",
+      "movement": "8\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "32mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000449",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Burst cannon",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000449",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin burst cannon",
+      "description": "twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000449",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Drone Escort",
+      "description": "Once per turn, in your opponent’s Shooting phase, when a friendly T’AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Markerlight",
+      "description": "The bearer has the Markerlight keyword.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Heavy Gun Drones",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000449",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their burst cannon and markerlight replaced with 1 twin burst cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000449",
+      "line": 1,
+      "description": "2 Heavy Gun Drones"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000449",
+      "line": 1,
+      "description": "2 models",
+      "cost": 45
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,345 @@
+{
+  "id": "TYR",
+  "name": "Tyranids",
+  "slug": "tyranids",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids",
+  "datasheetCount": 56,
+  "datasheets": [
+    {
+      "id": "000000503",
+      "name": "Barbed Hierodule",
+      "slug": "barbed-hierodule",
+      "role": "Other"
+    },
+    {
+      "id": "000002686",
+      "name": "Barbgaunts",
+      "slug": "barbgaunts",
+      "role": "Other"
+    },
+    {
+      "id": "000000491",
+      "name": "Biovores",
+      "slug": "biovores",
+      "role": "Other"
+    },
+    {
+      "id": "000000463",
+      "name": "Broodlord",
+      "slug": "broodlord",
+      "role": "Characters"
+    },
+    {
+      "id": "000000490",
+      "name": "Carnifexes",
+      "slug": "carnifexes",
+      "role": "Other"
+    },
+    {
+      "id": "000000479",
+      "name": "Deathleaper",
+      "slug": "deathleaper",
+      "role": "Characters"
+    },
+    {
+      "id": "000000500",
+      "name": "Dimachaeron",
+      "slug": "dimachaeron",
+      "role": "Other"
+    },
+    {
+      "id": "000000495",
+      "name": "Exocrine",
+      "slug": "exocrine",
+      "role": "Other"
+    },
+    {
+      "id": "000000484",
+      "name": "Gargoyles",
+      "slug": "gargoyles",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000467",
+      "name": "Genestealers",
+      "slug": "genestealers",
+      "role": "Other"
+    },
+    {
+      "id": "000000485",
+      "name": "Harpy",
+      "slug": "harpy",
+      "role": "Other"
+    },
+    {
+      "id": "000000504",
+      "name": "Harridan",
+      "slug": "harridan",
+      "role": "Other"
+    },
+    {
+      "id": "000000478",
+      "name": "Haruspex",
+      "slug": "haruspex",
+      "role": "Other"
+    },
+    {
+      "id": "000000505",
+      "name": "Hierophant",
+      "slug": "hierophant",
+      "role": "Other"
+    },
+    {
+      "id": "000000486",
+      "name": "Hive Crone",
+      "slug": "hive-crone",
+      "role": "Other"
+    },
+    {
+      "id": "000000472",
+      "name": "Hive Guard",
+      "slug": "hive-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000000460",
+      "name": "Hive Tyrant",
+      "slug": "hive-tyrant",
+      "role": "Characters"
+    },
+    {
+      "id": "000000469",
+      "name": "Hormagaunts",
+      "slug": "hormagaunts",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004117",
+      "name": "Hyperadapted Raveners",
+      "slug": "hyperadapted-raveners",
+      "role": "Characters"
+    },
+    {
+      "id": "000000473",
+      "name": "Lictor",
+      "slug": "lictor",
+      "role": "Other"
+    },
+    {
+      "id": "000000499",
+      "name": "Malanthrope",
+      "slug": "malanthrope",
+      "role": "Characters"
+    },
+    {
+      "id": "000000474",
+      "name": "Maleceptor",
+      "slug": "maleceptor",
+      "role": "Other"
+    },
+    {
+      "id": "000000494",
+      "name": "Mawloc",
+      "slug": "mawloc",
+      "role": "Other"
+    },
+    {
+      "id": "000000487",
+      "name": "Mucolid Spores",
+      "slug": "mucolid-spores",
+      "role": "Other"
+    },
+    {
+      "id": "000002687",
+      "name": "Neurogaunts",
+      "slug": "neurogaunts",
+      "role": "Other"
+    },
+    {
+      "id": "000002753",
+      "name": "Neurolictor",
+      "slug": "neurolictor",
+      "role": "Other"
+    },
+    {
+      "id": "000002688",
+      "name": "Neurotyrant",
+      "slug": "neurotyrant",
+      "role": "Characters"
+    },
+    {
+      "id": "000002752",
+      "name": "Norn Assimilator",
+      "slug": "norn-assimilator",
+      "role": "Other"
+    },
+    {
+      "id": "000002751",
+      "name": "Norn Emissary",
+      "slug": "norn-emissary",
+      "role": "Other"
+    },
+    {
+      "id": "000000462",
+      "name": "Old One Eye",
+      "slug": "old-one-eye",
+      "role": "Characters"
+    },
+    {
+      "id": "000002529",
+      "name": "Parasite Of Mortrex",
+      "slug": "parasite-of-mortrex",
+      "role": "Characters"
+    },
+    {
+      "id": "000002689",
+      "name": "Psychophage",
+      "slug": "psychophage",
+      "role": "Other"
+    },
+    {
+      "id": "000000477",
+      "name": "Pyrovores",
+      "slug": "pyrovores",
+      "role": "Other"
+    },
+    {
+      "id": "000000482",
+      "name": "Raveners",
+      "slug": "raveners",
+      "role": "Other"
+    },
+    {
+      "id": "000000470",
+      "name": "Ripper Swarms",
+      "slug": "ripper-swarms",
+      "role": "Other"
+    },
+    {
+      "id": "000002690",
+      "name": "Screamer-killer",
+      "slug": "screamer-killer",
+      "role": "Other"
+    },
+    {
+      "id": "000000506",
+      "name": "Scythed Hierodule",
+      "slug": "scythed-hierodule",
+      "role": "Other"
+    },
+    {
+      "id": "000000483",
+      "name": "Sky-slasher Swarms",
+      "slug": "sky-slasher-swarms",
+      "role": "Other"
+    },
+    {
+      "id": "000000488",
+      "name": "Spore Mines",
+      "slug": "spore-mines",
+      "role": "Other"
+    },
+    {
+      "id": "000000498",
+      "name": "Sporocyst",
+      "slug": "sporocyst",
+      "role": "Other"
+    },
+    {
+      "id": "000000468",
+      "name": "Termagants",
+      "slug": "termagants",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000465",
+      "name": "Tervigon",
+      "slug": "tervigon",
+      "role": "Characters"
+    },
+    {
+      "id": "000000461",
+      "name": "The Swarmlord",
+      "slug": "the-swarmlord",
+      "role": "Characters"
+    },
+    {
+      "id": "000000497",
+      "name": "Toxicrene",
+      "slug": "toxicrene",
+      "role": "Other"
+    },
+    {
+      "id": "000000493",
+      "name": "Trygon",
+      "slug": "trygon",
+      "role": "Other"
+    },
+    {
+      "id": "000004202",
+      "name": "Tyranid Prime with Lash Whip",
+      "slug": "tyranid-prime-with-lash-whip",
+      "role": "Characters"
+    },
+    {
+      "id": "000002691",
+      "name": "Tyranid Warriors With Melee Bio-weapons",
+      "slug": "tyranid-warriors-with-melee-bio-weapons",
+      "role": "Other"
+    },
+    {
+      "id": "000002692",
+      "name": "Tyranid Warriors With Ranged Bio-weapons",
+      "slug": "tyranid-warriors-with-ranged-bio-weapons",
+      "role": "Other"
+    },
+    {
+      "id": "000000489",
+      "name": "Tyrannocyte",
+      "slug": "tyrannocyte",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000496",
+      "name": "Tyrannofex",
+      "slug": "tyrannofex",
+      "role": "Other"
+    },
+    {
+      "id": "000000471",
+      "name": "Tyrant Guard",
+      "slug": "tyrant-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000000476",
+      "name": "Venomthropes",
+      "slug": "venomthropes",
+      "role": "Other"
+    },
+    {
+      "id": "000002693",
+      "name": "Von Ryan’s Leapers",
+      "slug": "von-ryan-s-leapers",
+      "role": "Other"
+    },
+    {
+      "id": "000002528",
+      "name": "Winged Hive Tyrant",
+      "slug": "winged-hive-tyrant",
+      "role": "Characters"
+    },
+    {
+      "id": "000002694",
+      "name": "Winged Tyranid Prime",
+      "slug": "winged-tyranid-prime",
+      "role": "Characters"
+    },
+    {
+      "id": "000000475",
+      "name": "Zoanthropes",
+      "slug": "zoanthropes",
+      "role": "Other"
+    }
+  ]
+}

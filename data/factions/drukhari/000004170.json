@@ -1,0 +1,285 @@
+{
+  "id": "000004170",
+  "name": "Corsair Cloud Dancer Band",
+  "factionId": "DRU",
+  "sourceId": "000000366",
+  "slug": "corsair-cloud-dancer-band",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: brace of pistols; twin shuriken catapult; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Corsair-Cloud-Dancer-Band",
+  "models": [
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "name": "Corsair Cloud Dancer Band",
+      "movement": "14\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin shuriken catapult",
+      "description": "assault, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-3",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken cannon",
+      "description": "sustained hits 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dark lance",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scatter laser",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Brace of pistols",
+      "description": "assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Void sabre",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Splinter cannon",
+      "description": "anti-infantry 3+, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dissonance pistol",
+      "description": "devastating wounds, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dissonance cannon",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Reckless Abandon",
+      "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Anhrathe",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Corsair Cloud Dancer Band",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their twin shuriken catapult replaced with one of the following:\n• 1 dark lance\n• 1 dissonance cannon\n• 1 scatter laser\n• 1 shuriken cannon\n• 1 splinter cannon"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 2,
+      "button": "•",
+      "description": "The Cloud Dancer Felarch can be equipped with one of the following:\n• 1 dissonance pistol\n• 1 void sabre"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "description": "0-1 Cloud Dancer Felarch"
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 2,
+      "description": "3-6 Corsair Cloud Dancers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004170",
+      "line": 1,
+      "description": "3 models",
+      "cost": 105
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 2,
+      "description": "4 models",
+      "cost": 140
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 3,
+      "description": "6 models",
+      "cost": 210
+    },
+    {
+      "datasheetId": "000004170",
+      "line": 4,
+      "description": "7 models",
+      "cost": 245
+    }
+  ],
+  "leaderAttachments": []
+}

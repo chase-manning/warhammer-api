@@ -1,0 +1,208 @@
+{
+  "id": "000000842",
+  "name": "Kataphron Destroyers",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "kataphron-destroyers",
+  "legend": "These biomechanical constructs operate as mobile heavy weapons platforms, bearing large esoteric cannons as well as close defence armaments. Their ballistic subroutines can be directed to operate independently of preprogrammed battle protocols, making them flexible tools of destruction.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: heavy grav-cannon; phosphor blaster; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Kataphron-Destroyers",
+  "models": [
+    {
+      "datasheetId": "000000842",
+      "line": 1,
+      "name": "Kataphron Destroyers",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cognis flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy grav-cannon",
+      "description": "anti-vehicle 2+",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kataphron plasma culverin – standard",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Kataphron plasma culverin – supercharge",
+      "description": "hazardous",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Phosphor blaster",
+      "description": "ignores cover, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sentinel Directives",
+      "description": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Destroyers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kataphron",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cult Mechanicus",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000842",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their heavy grav-cannon replaced with 1 Kataphron plasma culverin."
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their phosphor blaster replaced with 1 cognis flamer."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000842",
+      "line": 1,
+      "description": "3-6 Kataphron Destroyers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000842",
+      "line": 1,
+      "description": "3 models",
+      "cost": 105
+    },
+    {
+      "datasheetId": "000000842",
+      "line": 2,
+      "description": "6 models",
+      "cost": 210
+    }
+  ],
+  "leaderAttachments": []
+}

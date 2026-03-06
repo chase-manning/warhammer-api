@@ -1,0 +1,151 @@
+{
+  "id": "000000597",
+  "name": "Wraithguard",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "wraithguard",
+  "legend": "Wraithguard are all but impervious to pain. This is vitally important, for their D-scythes and wraithcannons are short-ranged, and require them to advance close to the foe. These immensely powerful weapons fire arcane beams that open a momentary rift between realspace and the warp, capable of tearing any target apart.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: wraithcannon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Wraithguard",
+  "models": [
+    {
+      "datasheetId": "000000597",
+      "line": 1,
+      "name": "Wraithguard",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000597",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wraithcannon",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000597",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "D-scythe",
+      "description": "torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "7",
+      "armourPenetration": "-3",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000597",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "War Construct",
+      "description": "This unit is eligible to shoot in a turn in which it Fell Back.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Psychic Guidance",
+      "description": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wraith Construct",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wraithguard",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000597",
+      "line": 1,
+      "button": "•",
+      "description": "All of the models in this unit can each have their wraithcannon replaced with 1 D-scythe."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000597",
+      "line": 1,
+      "description": "5 Wraithguard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000597",
+      "line": 1,
+      "description": "5 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

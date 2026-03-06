@@ -1,0 +1,183 @@
+{
+  "id": "000001564",
+  "name": "Orion Assault Dropship",
+  "factionId": "AC",
+  "sourceId": "000000354",
+  "slug": "orion-assault-dropship",
+  "legend": "The heavily armoured Orion is a superlative assault craft designed to weather attacks while it deploys its formidable cargo of Custodian Guard. With bolt and energy weapons blazing, the Orion swiftly clears a landing zone and unleashes its passengers, before soaring skyward to rain death upon any other threats that enter its sights.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 arachnus heavy blaze cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt launchers; armoured hull.",
+  "transport": "This model has a transport capacity of 12 Adeptus Custodes Infantry models. This model can also transport 1 Venerable Contemptor Dreadnought, 1 Contemptor-Achillus Dreadnought or 1 Contemptor Galatus-Dreadnought; while doing so, its transport capacity is reduced to 6 ADEPTUS CUSTODES INFANTRY models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-7",
+  "damagedDescription": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Orion-Assault-Dropship",
+  "models": [
+    {
+      "datasheetId": "000001564",
+      "line": 1,
+      "name": "Orion Assault Dropship",
+      "movement": "20+\"",
+      "toughness": 12,
+      "save": "2+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 22,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "160mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001564",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arachnus heavy blaze cannon",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000001564",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spiculus heavy bolt launcher",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6+6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001564",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lastrum bolt cannon",
+      "description": "sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001564",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "9",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Hover",
+      "description": "HOVER\n\nSome aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.\nSome AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.\n\nIf a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Martial Ka’tah",
+      "description": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:\n\nDacatarai Stance\n\nThose Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nRendax Stance\n\nMasters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Assault Dropship",
+      "description": "If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Orion Assault Dropship",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001564",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001564",
+      "line": 1,
+      "description": "1 Orion Assault Dropship"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001564",
+      "line": 1,
+      "description": "1 model",
+      "cost": 690
+    }
+  ],
+  "leaderAttachments": []
+}

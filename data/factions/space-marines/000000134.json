@@ -1,0 +1,186 @@
+{
+  "id": "000000134",
+  "name": "Astartes Servitors",
+  "factionId": "SM",
+  "sourceId": "000000356",
+  "slug": "astartes-servitors",
+  "legend": "Mono-task cybernetic slaves, Servitors are arcane combinations of lobotomised Human and machine. Fitted with an array of mechanical augmentations, in battle Servitors assist Techmarines, either by laying down torrents of covering fire or by carrying out additional repair work with their servo-arms.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Servitor servo-arm.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Astartes-Servitors",
+  "models": [
+    {
+      "datasheetId": "000000134",
+      "line": 1,
+      "name": "Astartes Servitors",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000134",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000134",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000134",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cannon – standard",
+      "description": "blast, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000134",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma cannon – supercharge",
+      "description": "blast, hazardous, heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000134",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000134",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Servitor servo-arm",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mindlock",
+      "description": "While a Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by ASTARTES SERVITOR models in this unit by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SERVITOR RETINUE",
+      "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Techmarine. If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Astartes Servitors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000134",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 2 models can each have their Servitor servo-arm replaced with one of the following:\n• 1 heavy bolter and 1 close combat weapon\n• 1 multi-melta and 1 close combat weapon\n• 1 plasma cannon and 1 close combat weapon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000134",
+      "line": 1,
+      "description": "4 Astartes Servitors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000134",
+      "line": 1,
+      "description": "4 models",
+      "cost": 55
+    }
+  ],
+  "leaderAttachments": []
+}

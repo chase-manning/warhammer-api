@@ -1,0 +1,400 @@
+{
+  "id": "000003827",
+  "name": "Spectrus Kill Team",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "spectrus-kill-team",
+  "legend": "Sinister, silent and all but invisible until they strike, Spectrus Kill Teams are adept in inflicting death from both near and far. Clad in close-fitting Mk X Phobos battle plate, they specialise in battlefield control and enemy destabilisation.",
+  "role": "Other",
+  "loadout": "Every Kill Team Infiltrator is equipped with: bolt pistol; marksman bolt carbine; close combat weapon.\n\nEvery Kill Team Infiltrator with bolt sniper rifle is equipped with: bolt pistol; bolt sniper rifle; close combat weapon.\n\nEvery Kill Team Infiltrator with jump pack is equipped with: bolt pistol; accelerator autocannon; close combat weapon; jump pack.\n\nEvery Kill Team Infiltrator with occulus bolt carbine is equipped with: bolt pistol; occulus bolt carbine; paired combat blades.\n\nEvery Kill Team Infiltrator with combat knife is equipped with: special-issue bolt pistol; combat knife.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Spectrus-Kill-Team",
+  "models": [
+    {
+      "datasheetId": "000003827",
+      "line": 1,
+      "name": "Spectrus Kill Team",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": "Kill Team Infiltrators with bolt sniper rifles 40mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003827",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Accelerator autocannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt carbine",
+      "description": "precision",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt sniper rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Las fusil",
+      "description": "heavy",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Marksman bolt carbine",
+      "description": "heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Occulus bolt carbine",
+      "description": "assault, ignores cover",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Special-issue bolt pistol",
+      "description": "pistol, precision",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Combat knife",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired combat blades",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Kill Team",
+      "description": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\n\nFor the purposes of determining which models in this unit can embark within a Transport, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the Terminator, Mounted or Jump Pack keywords.\n\nFor the purposes of interacting with terrain features, all models in units with this ability are considered INFANTRY models, even though similar models in other units may have the MOUNTED or JUMP PACK keywords.\n\nDesigner’s Note: While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, TRANSPORT and Benefit of Cover rules.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Spectrus Doctrines",
+      "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Helix Gauntlet",
+      "description": "Models in the bearer’s unit have the Feel No Pain 6+ ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Infiltrator Comms Array",
+      "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Jump Pack",
+      "description": "The bearer has a Move characteristic of 12\" and can move over models and terrain features as if they were not there.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character from your army with the Leader ability can be attached to an Deathwatch Kill Team, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "TRANSPORT",
+      "description": "This unit cannot embark within an Imperial Rhino.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Spectrus Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003827",
+      "line": 1,
+      "button": "•",
+      "description": "One model equipped with a marksman bolt carbine can be equipped with 1 helix gauntlet.*"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 2,
+      "button": "•",
+      "description": "One model equipped with a marksman bolt carbine can be equipped with 1 Infiltrator comms array.*"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 3,
+      "button": "•",
+      "description": "One model can replace its bolt sniper rifle with 1 bolt carbine."
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 4,
+      "button": "•",
+      "description": "Any number of models can each replace their bolt sniper rifle with 1 las fusil."
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 5,
+      "button": "•",
+      "description": "Any number of models can each replace their combat knife with 1 bolt carbine and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 6,
+      "button": "*",
+      "description": "* These options cannot be taken on the same model."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003827",
+      "line": 1,
+      "description": "10 MODELS MAXIMUM"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 2,
+      "description": "5-10 Kill Team Infiltrators"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 3,
+      "description": "0-2 Kill Team Infiltrators with bolt sniper rifles"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 4,
+      "description": "0-2 Kill Team Infiltrators with jump packs"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 5,
+      "description": "0-4 Kill Team Infiltrators with occulus bolt carbines"
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 6,
+      "description": "0-4 Kill Team Infiltrators with combat knives"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003827",
+      "line": 1,
+      "description": "5 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000003827",
+      "line": 2,
+      "description": "10 models",
+      "cost": 180
+    }
+  ],
+  "leaderAttachments": []
+}

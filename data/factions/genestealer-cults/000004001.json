@@ -1,0 +1,342 @@
+{
+  "id": "000004001",
+  "name": "Death Korps Grenadier Squad",
+  "factionId": "GC",
+  "sourceId": "000000374",
+  "slug": "death-korps-grenadier-squad",
+  "legend": "",
+  "role": "Other",
+  "loadout": "The Grenadier Sergeant is equipped with: sergeant’s pistol; sergeant’s close combat weapon. \n\nEvery Grenadier model is equipped with: hot-shot lasgun; close combat weapon. \n\nThe Heavy Weapons Team is equipped with: heavy flamer; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Death-Korps-Grenadier-Squad",
+  "models": [
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "name": "GRENADIER",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 2,
+      "name": "HEAVY WEAPONS TEAM",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sergeant’s close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy stubber",
+      "description": "heavy, rapid fire 3",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sergeant’s pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sniper rifle",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Vox-caster",
+      "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly Officer models within 6\": on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Primed and Ready",
+      "description": "In your Shooting phase, you can select one unit from your army with this ability as the target of the Grenade Stratagem for 0CP, provided that unit has not already been the target of that Stratagem this phase. This can allow you to use the Grenade Stratagem for a second time this phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "GRENADIER SQUAD",
+      "description": "If a model from your army with the Leader ability can be attached to a Death Korps of Krieg unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Death Korps Grenadier Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Platoon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 2 Grenadier models can each have their hot-shot lasgun replaced with one of the following:\n• 1 flamer\n• 1 grenade launcher\n• 1 heavy stubber\n• 1 meltagun\n• 1 plasma gun\n• 1 sniper rifle"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "description": "One of the following:"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 2,
+      "description": "1 Grenadier Sergeant and 9 Grenadiers"
+    },
+    {
+      "datasheetId": "000004001",
+      "line": 3,
+      "description": "1 Grenadier Sergeant, 7 Grenadiers and 1 Heavy Weapons Team"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004001",
+      "line": 1,
+      "description": "10 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

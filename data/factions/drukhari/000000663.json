@@ -1,0 +1,283 @@
+{
+  "id": "000000663",
+  "name": "Talos",
+  "factionId": "DRU",
+  "sourceId": "000000031",
+  "slug": "talos",
+  "legend": "The Talos Pain Engine is a ghoulish melding of stitch-puckered flesh and armoured artifice, boasting tremendous resilience and a nightmarish array of weaponry. Each is the proud creation of the Drukhari Haemonculi, who employ their Talos as torture devices, surgical assistants and armoured murder machines.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: twin splinter cannon; 2 macro-scalpels.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Talos",
+  "models": [
+    {
+      "datasheetId": "000000663",
+      "line": 1,
+      "name": "Talos",
+      "movement": "7\"",
+      "toughness": 7,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000663",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stinger pod",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin haywire blaster",
+      "description": "anti-vehicle 4+, devastating wounds, twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heat lance",
+      "description": "assault, melta 3, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin liquifier gun",
+      "description": "anti-infantry 3+, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin splinter cannon",
+      "description": "anti-infantry 3+, sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chain-flails",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Macro-scalpel",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Talos gauntlet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Talos ichor injector",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Mindless Killing Machines (Pain)",
+      "description": "At the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and it is then removed from play.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Devoted to Pain",
+      "description": "If a model in this unit is equipped with 2 macro-scalpels, those weapons have the [TWIN-LINKED] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Torture Device",
+      "description": "Each time this unit destroys an enemy unit, you gain 1 additional Pain token.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Talos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Haemonculus Covens",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000663",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each replace their twin splinter cannon with one of the following:\n• 1 stinger pod\n• 1 twin haywire blaster\n• 1 twin heat lance"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each replace one of their macro-scalpels with one of the following:\n• 1 Talos ichor injector\n• 1 twin liquifier gun"
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of models can each replace one of their macro-scalpels with one of the following:\n• 1 chain flails\n• 1 Talos gauntlet"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000663",
+      "line": 1,
+      "description": "1-2 Talos"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000663",
+      "line": 1,
+      "description": "1 model",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000663",
+      "line": 2,
+      "description": "2 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

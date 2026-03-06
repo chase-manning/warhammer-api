@@ -1,0 +1,153 @@
+{
+  "id": "000001524",
+  "name": "Sergeant Chronus",
+  "factionId": "SM",
+  "sourceId": "000000356",
+  "slug": "sergeant-chronus",
+  "legend": "The roar of engines and the thunder of heavy weaponry herald Sergeant Chronus’ arrival on the battlefield. Enemy gunners watch aghast as Chronus’ tank shrugs off damage that should have seen it destroyed several times over, before it swings its turret round to blast them apart with unerring volleys.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; Chronus’ servo-arm.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sergeant-Chronus",
+  "models": [
+    {
+      "datasheetId": "000001524",
+      "line": 1,
+      "name": "Sergeant Chronus",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001524",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001524",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chronus’ servo-arm",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Tank Commander",
+      "description": "While this model is commanding a VEHICLE model (see below): \n\n• Ranged weapons equipped by that VEHICLE model have a Ballistic Skill characteristic of 2+. \n• Each time that VEHICLE model is selected to shoot, you can re-roll one Wound roll when resolving those attacks.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Chronus",
+      "description": "When this model disembarks from a VEHICLE model it was commanding, it has the Lone Operative ability until the end of the battle.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "TANK COMMANDER",
+      "description": "If your army includes one or more of the VEHICLE models listed below, Sergeant Chronus must start the battle embarked within one of those models as if it were a Transport. Sergeant Chronus can only disembark from that VEHICLE if it is destroyed. While embarked in this way, Sergeant Chronus is said to be commanding that VEHICLE. \n\n• Hunter \n• Predator Annihilator \n• Land Raider \n• Predator Destructor \n• Land Raider Crusader \n• Stalker \n• Land Raider Redeemer \n• Vindicator \n• Whirlwind",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Ultramarines",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sergeant Chronus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001524",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001524",
+      "line": 1,
+      "description": "1 Sergeant Chronus – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001524",
+      "line": 1,
+      "description": "1 model",
+      "cost": 75
+    }
+  ],
+  "leaderAttachments": []
+}

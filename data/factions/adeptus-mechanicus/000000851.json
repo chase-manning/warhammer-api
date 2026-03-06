@@ -1,0 +1,174 @@
+{
+  "id": "000000851",
+  "name": "Sicarian Ruststalkers",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "sicarian-ruststalkers",
+  "legend": "Ruststalkers are unleashed as weapons of fear, to hunt down errant servo units and heretic blasphemers, or to pounce on isolated hostile units and assassinate enemy leaders. Like their fellow Sicarians, Ruststalkers’ stilt-like limbs enable them to run down their prey before carving them apart with micro-vibrating transonic blades.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: transonic razor and chordclaw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Sicarian-Ruststalkers",
+  "models": [
+    {
+      "datasheetId": "000000851",
+      "line": 1,
+      "name": "Sicarian Ruststalkers",
+      "movement": "8\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000851",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Transonic blades",
+      "description": "devastating wounds, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000851",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Transonic blades and chordclaw",
+      "description": "anti-infantry 3+, devastating wounds, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000851",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Transonic razor and chordclaw",
+      "description": "anti-infantry 3+, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Optimised Gait",
+      "description": "Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, add 2 to Advance and Charge rolls made for this unit instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sicarian",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ruststalkers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000851",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of Sicarian Ruststalkers can each have their transonic razor and chordclaw replaced with 1 transonic blades."
+    },
+    {
+      "datasheetId": "000000851",
+      "line": 2,
+      "button": "•",
+      "description": "The Sicarian Ruststalker Princeps’ transonic razor and chordclaw can be replaced with 1 transonic blades and chordclaw."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000851",
+      "line": 1,
+      "description": "1 Sicarian Ruststalker Princeps"
+    },
+    {
+      "datasheetId": "000000851",
+      "line": 2,
+      "description": "4-9 Sicarian Ruststalkers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000851",
+      "line": 1,
+      "description": "5 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000851",
+      "line": 2,
+      "description": "10 models",
+      "cost": 165
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,235 @@
+{
+  "id": "000000845",
+  "name": "Kastelan Robots",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "kastelan-robots",
+  "legend": "Kastelan Robots are giant automata from Mankind’s dark past, shielded with thick armour and advanced force fields. Heeding preprogrammed doctrines without fail, Kastelans are bastions in defence and nigh unstoppable on the attack, unleashing heavy firepower and bludgeoning swipes with their giant fists.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: incendine combustor; twin Kastelan fist.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Kastelan-Robots",
+  "models": [
+    {
+      "datasheetId": "000000845",
+      "line": 1,
+      "name": "Kastelan Robots",
+      "movement": "6\"",
+      "toughness": 9,
+      "save": "2+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000845",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy phosphor blaster",
+      "description": "ignores cover",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Incendine combustor",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kastelan phosphor blaster",
+      "description": "ignores cover",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Kastelan phosphor blaster",
+      "description": "ignores cover, twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kastelan fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Kastelan fist",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Robotic Bodyguard",
+      "description": "While a Cybernetica Datasmith model is leading this unit, that model has the Feel No Pain 4+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Repulsor Grid",
+      "description": "Each time a ranged attack is allocated to a KASTELAN ROBOT model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Kastelan Robots",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Legio Cybernetica",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000845",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their twin Kastelan fist replaced with one of the following:\n• 1 Kastelan phosphor blaster and 1 Kastelan fist\n• 1 twin Kastelan phosphor blaster and 1 close combat weapon"
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000845",
+      "line": 1,
+      "description": "2-4 Kastelan Robots"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000845",
+      "line": 1,
+      "description": "2 models",
+      "cost": 180
+    },
+    {
+      "datasheetId": "000000845",
+      "line": 2,
+      "description": "4 models",
+      "cost": 360
+    }
+  ],
+  "leaderAttachments": []
+}

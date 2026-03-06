@@ -1,0 +1,168 @@
+{
+  "id": "000000456",
+  "name": "Orca Dropship",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "orca-dropship",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 long-barrelled burst cannons; missile pod; armoured hull.",
+  "transport": "This model has a transport capacity of 48 T’au Empire Infantry models. This model can also transport up to 6 Battlesuit models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a Battlesuit with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport Kroot or Vespid Stingwings models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-9",
+  "damagedDescription": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Orca-Dropship",
+  "models": [
+    {
+      "datasheetId": "000000456",
+      "line": 1,
+      "name": "Orca Dropship",
+      "movement": "20+\"",
+      "toughness": 12,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 28,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000456",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long-barrelled burst cannon",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000456",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile pod",
+      "description": null,
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000456",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "8",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+2"
+    },
+    {
+      "name": "Hover",
+      "description": "HOVER\n\nSome aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.\nSome AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.\n\nIf a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Jet Pack Insertion",
+      "description": "At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Orca Dropship",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000456",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000456",
+      "line": 1,
+      "description": "1 Orca Dropship"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000456",
+      "line": 1,
+      "description": "1 model",
+      "cost": 275
+    }
+  ],
+  "leaderAttachments": []
+}

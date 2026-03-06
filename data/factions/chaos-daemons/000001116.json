@@ -1,0 +1,162 @@
+{
+  "id": "000001116",
+  "name": "Skull Cannon",
+  "factionId": "CD",
+  "sourceId": "000000025",
+  "slug": "skull-cannon",
+  "legend": "Grotesque brazen war engines that rumble into battle with obscene eagerness, Skull Cannons are fed the corpses of the fallen to fuel their charnel fury. When they fire, these infernal weapons spit blazing skulls that arc through the air like meteors before exploding with thunderous violence upon impact.",
+  "role": "Other",
+  "loadout": "This model is equipped with: skull cannon; attendants’ hellblades; biting maw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/Skull-Cannon",
+  "models": [
+    {
+      "datasheetId": "000001116",
+      "line": 1,
+      "name": "Skull Cannon",
+      "movement": "8\"",
+      "toughness": 9,
+      "save": "4+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 9,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001116",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skull cannon",
+      "description": "blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001116",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Attendants’ hellblades",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001116",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Biting maw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "The Shadow of Chaos",
+      "description": "If your Army Faction is LEGIONES DAEMONICA, certain areas of the battlefield are considered to be within your army’s Shadow of Chaos, as follows:\n\n• Your deployment zone is always within your army’s Shadow of Chaos.\n• At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Shadow of Chaos.\n• At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Shadow of Chaos.\n\nDAEMONIC MANIFESTATION\n\nWhile a LEGIONES DAEMONICA unit from your army is within your army’s Shadow of Chaos, each time that unit takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a BATTLELINE unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).\n\nDAEMONIC TERROR\n\nWhile an enemy unit is within your army’s Shadow of Chaos and/or it is within 6\" of one or more BLOODTHIRSTER, GREAT UNCLEAN ONE, KAIROS FATEWEAVER, KEEPER OF SECRETS, LORD OF CHANGE, ROTIGUS, SHALAXI HELBANE or SKARBRAND units from your army, each time that unit takes a Battle-shock test, subtract 1 from that test and, if that test is failed, that enemy unit suffers D3 mortal wounds.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Skulls of the Fallen",
+      "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Legiones Daemonica",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skull Cannon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001116",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001116",
+      "line": 1,
+      "description": "1 Skull Cannon"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001116",
+      "line": 1,
+      "description": "1 model",
+      "cost": 95
+    }
+  ],
+  "leaderAttachments": []
+}

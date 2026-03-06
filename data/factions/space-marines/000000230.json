@@ -1,0 +1,308 @@
+{
+  "id": "000000230",
+  "name": "Deathwing Terminator Squad",
+  "factionId": "SM",
+  "sourceId": "000000023",
+  "slug": "deathwing-terminator-squad",
+  "legend": "Deploying rapidly onto the battlefield via blazing teleport strike or within the armoured hull of a large transport, Deathwing Terminator Squads pour heavy fire into their enemies or engage them in brutal melee, smashing them apart with thunder hammers or cutting them to ribbons with lightning claws.",
+  "role": "Other",
+  "loadout": "The Deathwing Sergeant is equipped with: storm bolter; power weapon. \n\nEvery Deathwing Terminator is equipped with: storm bolter; power fist.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Deathwing-Terminator-Squad",
+  "models": [
+    {
+      "datasheetId": "000000230",
+      "line": 1,
+      "name": "Deathwing Terminator Squad",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000230",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Assault cannon",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cyclone missile launcher – frag",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Cyclone missile launcher – krak",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma cannon – standard",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 6,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma cannon – supercharge",
+      "description": "blast, hazardous",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Storm bolter",
+      "description": "rapid fire 2",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainfist",
+      "description": "anti-vehicle 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Teleport Homer",
+      "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Deathwing",
+      "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll. In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Watcher in the Dark",
+      "description": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds.\n\nDesigner’s Note: Place a Watcher in the Dark token next to the unit, removing it when this ability has been used.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Dark Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwing Terminator Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Terminator",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwing",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000230",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of Deathwing Terminators can each have their power fist replaced with 1 chainfist."
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following:\n• 1 assault cannon\n• 1 heavy flamer\n• 1 plasma cannon\n• 1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced)"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 3,
+      "button": "•",
+      "description": "This unit can be equipped with 1 Watcher in the Dark."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000230",
+      "line": 1,
+      "description": "1 Deathwing Sergeant"
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 2,
+      "description": "4-9 Deathwing Terminators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000230",
+      "line": 1,
+      "description": "5 models",
+      "cost": 180
+    },
+    {
+      "datasheetId": "000000230",
+      "line": 2,
+      "description": "10 models",
+      "cost": 360
+    }
+  ],
+  "leaderAttachments": []
+}

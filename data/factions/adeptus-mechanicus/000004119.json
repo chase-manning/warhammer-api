@@ -1,0 +1,263 @@
+{
+  "id": "000004119",
+  "name": "Servitor Battleclade",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "servitor-battleclade",
+  "legend": "Servitor Battleclades provide their Adeptus Mechanicus masters with expendable and extremely versatile combat assets in the field. Often sent to recover vital archeotech or data, their mix of firepower, close quarters punch, and array of servo-tools allows their Underseers to achieve whatever task is assigned to them.",
+  "role": "Other",
+  "loadout": "The Servitor Underseer is equipped with: Mechanicus pistol; dataspikes.\n\n1 Gun Servitor is equipped with: heavy arc rifle; servo-claw.\n\n1 Gun Servitor is equipped with: heavy bolter; servo-claw.\n\nEvery Combat Servitor is equipped with: phosphor blaster; servo-claw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Servitor-Battleclade",
+  "models": [
+    {
+      "datasheetId": "000004119",
+      "line": 1,
+      "name": "Servitor Underseer",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 2,
+      "name": "Combat Servitors and Gun Servitors",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": "Gun servitors 32mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004119",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy arc rifle",
+      "description": "anti-vehicle 4+, rapid fire 1",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Incendine igniter",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanicus pistol",
+      "description": "devastating wounds, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Phosphor blaster",
+      "description": "ignores cover, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Dataspikes",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Servo-claw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Network Override",
+      "description": "While this unit contains one or more Tech-Priest models, this unit is:\n\n• Eligible to perform an Action in a turn in which it Advanced.\n• Eligible to shoot in a turn in which it started an Action.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Kataphron Breachers unit, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Cult Mechanicus",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Servitor Battleclade",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Tech-Priest",
+      "isFactionKeyword": false,
+      "model": "UNDERSEER"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004119",
+      "line": 1,
+      "button": "•",
+      "description": "1 Combat Servitor model can have its 1 phosphor blaster replaced with 1 meltagun."
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 2,
+      "button": "•",
+      "description": "Up to 3 Combat Servitor models can each have their 1 phosphor blaster replaced with 1 incendine igniter."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004119",
+      "line": 1,
+      "description": "1 Servitor Underseer"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 2,
+      "description": "2 Gun Servitors"
+    },
+    {
+      "datasheetId": "000004119",
+      "line": 3,
+      "description": "6 Combat Servitors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004119",
+      "line": 1,
+      "description": "9 models",
+      "cost": 60
+    }
+  ],
+  "leaderAttachments": []
+}

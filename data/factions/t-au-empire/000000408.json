@@ -1,0 +1,140 @@
+{
+  "id": "000000408",
+  "name": "Aun’shi",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "aun-shi",
+  "legend": "Aun’Shi is a hero to his people, a humble warrior whose presence inspires the T’au of the Fire Caste as surely as a blazing beacon. Marrying the uplifting nature of his caste with exceptional martial skill, Aun’Shi leads the way to victory with his honour blade flashing and slicing.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Fidelity.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Aun-shi",
+  "models": [
+    {
+      "datasheetId": "000000408",
+      "line": 1,
+      "name": "Aun’shi",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000408",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fidelity",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Inspirational Defiance",
+      "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Martial Warrior",
+      "description": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks: \n\n• Direct Grace: Fidelity has the [PRECISION] ability. \n• Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability. \n• Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1].",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ethereal",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aun’Shi",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000408",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000408",
+      "line": 1,
+      "description": "1 Aun’Shi – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000408",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000000411",
+      "name": "Strike Team"
+    },
+    {
+      "id": "000000412",
+      "name": "Breacher Team"
+    },
+    {
+      "id": "000000413",
+      "name": "Kroot Carnivores"
+    }
+  ]
+}

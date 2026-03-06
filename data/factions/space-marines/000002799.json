@@ -1,0 +1,321 @@
+{
+  "id": "000002799",
+  "name": "Crusader Squad",
+  "factionId": "SM",
+  "sourceId": "000000162",
+  "slug": "crusader-squad",
+  "legend": "Crusader Squads storm into battle with bolt rifles blazing and chainswords howling. Initiates aim jets of fire from their pyreblasters or swing crackling power fists into their foes, while hard-eyed Neophytes fight furiously to prove their martial worth under the stem gaze of their mentors.",
+  "role": "Battleline",
+  "loadout": "The Sword Brother is equipped with: heavy bolt pistol; master-crafted power weapon.\n\nEvery Initiate is equipped with: bolt pistol; bolt rifle; close combat weapon.\n\nEvery Neophyte is equipped with: bolt pistol; Astartes chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Crusader-Squad",
+  "models": [
+    {
+      "datasheetId": "000002799",
+      "line": 1,
+      "name": "NEOPHYTES",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 2,
+      "name": "OTHER MODELS",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": "Sword Brother 40mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002799",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt rifle",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Neophyte firearm",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pyre pistol",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pyreblaster",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted power weapon",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Templar Vows",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of the first battle round, select one of the following Vows to be active for ADEPTUS ASTARTES units from your army. While a Vow is active for a unit from your army, that unit has the associated ability shown below.\n\nAbhor the Witch, Destroy the Witch\n\nEach time this unit declares a charge, if one or more targets of that charge have the PSYKER keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting PSYKER units.\n\nAccept Any Challenge, No Matter the Odds\n\nEach time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the Wound roll.\n\nSuffer Not the Unclean to Live\n\nThis unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.\n\nUphold the Honour of the Emperor\n\nIf this unit has the INFANTRY keyword:\n\n• At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n• If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Righteous Zeal",
+      "description": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a Righteous Zeal move. To do so, roll one D6 and add 2 to the result: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Righteous Zeal move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Righteous Zeal move per phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character from your army with the Leader ability can be attached to an Intercessor Squad, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Black Templars",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Crusader Squad",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002799",
+      "line": 1,
+      "button": "•",
+      "description": "The Sword Brother’s heavy bolt pistol can be replaced with 1 pyre pistol."
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of Neophytes can each have their bolt pistol and Astartes chainsword replaced with 1 Neophyte firearm and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of Initiates can each have their bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword."
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 4,
+      "button": "•",
+      "description": "For every 10 models in this unit, up to 2 Initiates can each have their bolt rifle replaced with one of the following:\n\n• 1 heavy bolt pistol and 1 power fist\n• 1 pyreblaster"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002799",
+      "line": 1,
+      "description": "1 Sword Brother"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 2,
+      "description": "5-11 Initiates"
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 3,
+      "description": "4-8 Neophytes"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002799",
+      "line": 1,
+      "description": "1 Sword Brother, 5 Initiates and 4 Neophytes",
+      "cost": 150
+    },
+    {
+      "datasheetId": "000002799",
+      "line": 2,
+      "description": "1 Sword Brother, 11 Initiates and 8 Neophytes",
+      "cost": 300
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,374 @@
+{
+  "id": "000004182",
+  "name": "Wolf Scouts",
+  "factionId": "SM",
+  "sourceId": "000000036",
+  "slug": "wolf-scouts",
+  "legend": "Wolf Scouts are tasked with operating ahead of the main Space Wolves assault force, infiltrating enemy positions and seizing or sabotaging key locations. More than capable of operating alone for extended periods of time, they use guile and savagery to distract and harrass the foe.",
+  "role": "Other",
+  "loadout": "The Wolf Scout Pack Leader model is equipped with: plasma pistol; power weapon.\n\nEvery Wolf Scout model is equipped with: plasma pistol; combat blade.\n\nEvery Hunting Wolf model is equipped with: teeth and claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Scouts-1",
+  "models": [
+    {
+      "datasheetId": "000004182",
+      "line": 1,
+      "name": "WOLF SCOUTS",
+      "movement": "7\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 2,
+      "name": "HUNTING WOLVES",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004182",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Instigator bolt carbine",
+      "description": "precision",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 6,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Thunderclap",
+      "description": "blast, psychic",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Combat blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Runic stave",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Teeth and claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Deadly Stalkers",
+      "description": "Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Hunting Hounds",
+      "description": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Haywire Mine",
+      "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE unit.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Wolf Scouts",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Phobos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004182",
+      "line": 1,
+      "button": "•",
+      "description": "1 Wolf Scout’s plasma pistol can be replaced with 1 plasma gun."
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 2,
+      "button": "•",
+      "description": "1 Wolf Scout equipped with a plasma pistol can be equipped with 1 haywire mine (That model’s plasma pistol cannot be replaced)."
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 3,
+      "button": "•",
+      "description": "1 Wolf Scout’s plasma pistol and combat blade can be replaced with 1 bolt pistol, 1 Thunderclap and 1 runic stave."
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 4,
+      "button": "•",
+      "description": "If this unit contains 12 models, 1 Wolf Scout’s plasma pistol can be replaced with 1 instigator bolt carbine."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004182",
+      "line": 1,
+      "description": "1 Wolf Scout Pack Leader"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 2,
+      "description": "4 Wolf Scouts"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 3,
+      "description": "1 Hunting Wolf"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 4,
+      "description": "OR"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 5,
+      "description": "1 Wolf Scout Pack Leader"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 6,
+      "description": "9 Wolf Scouts"
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 7,
+      "description": "2 Hunting Wolves"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004182",
+      "line": 1,
+      "description": "6 models",
+      "cost": 105
+    },
+    {
+      "datasheetId": "000004182",
+      "line": 2,
+      "description": "12 models",
+      "cost": 210
+    }
+  ],
+  "leaderAttachments": []
+}

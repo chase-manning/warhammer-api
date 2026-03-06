@@ -1,0 +1,213 @@
+{
+  "id": "000002098",
+  "name": "Hellblaster Squad",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "hellblaster-squad",
+  "legend": "Few foes can survive the incandescent fury of a Hellblaster Squad. Whether they be Tyranid Hive Tyrant, Ork Warboss or Heretic Astartes battle tank, all are reduced to ash and slag by searing, well-aimed plasma fire pouring from the Hellblasters’ ferocious weapons.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; plasma incinerator; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Hellblaster-Squad",
+  "models": [
+    {
+      "datasheetId": "000002098",
+      "line": 1,
+      "name": "Hellblaster Squad",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002098",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma incinerator – standard",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma incinerator – supercharge",
+      "description": "assault, hazardous, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "For the Chapter!",
+      "description": "Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Designer’s Note",
+      "description": "This ability is triggered even when a model in this unit is destroyed as the result of failing a Hazardous test, meaning such a model may be able to shoot twice in the same phase",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hellblaster Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002098",
+      "line": 1,
+      "button": "•",
+      "description": "The Hellblaster Sergeant’s bolt pistol can be replaced with 1 plasma pistol."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002098",
+      "line": 1,
+      "description": "1 Hellblaster Sergeant"
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 2,
+      "description": "4-9 Hellblasters"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002098",
+      "line": 1,
+      "description": "5 models",
+      "cost": 110
+    },
+    {
+      "datasheetId": "000002098",
+      "line": 2,
+      "description": "10 models",
+      "cost": 220
+    }
+  ],
+  "leaderAttachments": []
+}

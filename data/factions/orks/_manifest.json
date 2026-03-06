@@ -1,0 +1,525 @@
+{
+  "id": "ORK",
+  "name": "Orks",
+  "slug": "orks",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks",
+  "datasheetCount": 86,
+  "datasheets": [
+    {
+      "id": "000001386",
+      "name": "Attack Fighta",
+      "slug": "attack-fighta",
+      "role": "Other"
+    },
+    {
+      "id": "000000039",
+      "name": "Battlewagon",
+      "slug": "battlewagon",
+      "role": "Other"
+    },
+    {
+      "id": "000002494",
+      "name": "Beast Snagga Boyz",
+      "slug": "beast-snagga-boyz",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002489",
+      "name": "Beastboss",
+      "slug": "beastboss",
+      "role": "Characters"
+    },
+    {
+      "id": "000002490",
+      "name": "Beastboss On Squigosaur",
+      "slug": "beastboss-on-squigosaur",
+      "role": "Characters"
+    },
+    {
+      "id": "000000037",
+      "name": "Big Gunz",
+      "slug": "big-gunz",
+      "role": "Other"
+    },
+    {
+      "id": "000003707",
+      "name": "Big Mek",
+      "slug": "big-mek",
+      "role": "Characters"
+    },
+    {
+      "id": "000000006",
+      "name": "Big Mek In Mega Armour",
+      "slug": "big-mek-in-mega-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000007",
+      "name": "Big Mek On Warbike",
+      "slug": "big-mek-on-warbike",
+      "role": "Characters"
+    },
+    {
+      "id": "000002080",
+      "name": "Big Mek With Kustom Force Field",
+      "slug": "big-mek-with-kustom-force-field",
+      "role": "Characters"
+    },
+    {
+      "id": "000001536",
+      "name": "Big Mek With Shokk Attack Gun",
+      "slug": "big-mek-with-shokk-attack-gun",
+      "role": "Characters"
+    },
+    {
+      "id": "000000054",
+      "name": "Big Trakk",
+      "slug": "big-trakk",
+      "role": "Other"
+    },
+    {
+      "id": "000002499",
+      "name": "Big’ed Bossbunka",
+      "slug": "big-ed-bossbunka",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000031",
+      "name": "Blitza-bommer",
+      "slug": "blitza-bommer",
+      "role": "Other"
+    },
+    {
+      "id": "000001540",
+      "name": "Boomdakka Snazzwagon",
+      "slug": "boomdakka-snazzwagon",
+      "role": "Other"
+    },
+    {
+      "id": "000000011",
+      "name": "Boss Snikrot",
+      "slug": "boss-snikrot",
+      "role": "Characters"
+    },
+    {
+      "id": "000000010",
+      "name": "Boss Zagstruk",
+      "slug": "boss-zagstruk",
+      "role": "Characters"
+    },
+    {
+      "id": "000000016",
+      "name": "Boyz",
+      "slug": "boyz",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003861",
+      "name": "Breaka Boyz",
+      "slug": "breaka-boyz",
+      "role": "Other"
+    },
+    {
+      "id": "000000019",
+      "name": "Burna Boyz",
+      "slug": "burna-boyz",
+      "role": "Other"
+    },
+    {
+      "id": "000000030",
+      "name": "Burna-bommer",
+      "slug": "burna-bommer",
+      "role": "Other"
+    },
+    {
+      "id": "000000057",
+      "name": "Chinork Warkopta",
+      "slug": "chinork-warkopta",
+      "role": "Other"
+    },
+    {
+      "id": "000001993",
+      "name": "Da Red Gobbo",
+      "slug": "da-red-gobbo",
+      "role": "Characters"
+    },
+    {
+      "id": "000004181",
+      "name": "Da Red Gobbo’s Tinboy",
+      "slug": "da-red-gobbo-s-tinboy",
+      "role": "Characters"
+    },
+    {
+      "id": "000000029",
+      "name": "Dakkajet",
+      "slug": "dakkajet",
+      "role": "Other"
+    },
+    {
+      "id": "000000040",
+      "name": "Deff Dread",
+      "slug": "deff-dread",
+      "role": "Other"
+    },
+    {
+      "id": "000001388",
+      "name": "Deff Rolla Battle Fortress",
+      "slug": "deff-rolla-battle-fortress",
+      "role": "Other"
+    },
+    {
+      "id": "000001537",
+      "name": "Deffkilla Wartrike",
+      "slug": "deffkilla-wartrike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000028",
+      "name": "Deffkoptas",
+      "slug": "deffkoptas",
+      "role": "Other"
+    },
+    {
+      "id": "000002736",
+      "name": "Deffkoptas With Big Shootas",
+      "slug": "deffkoptas-with-big-shootas",
+      "role": "Other"
+    },
+    {
+      "id": "000001387",
+      "name": "Fighta-bommer",
+      "slug": "fighta-bommer",
+      "role": "Other"
+    },
+    {
+      "id": "000000045",
+      "name": "Flash Gitz",
+      "slug": "flash-gitz",
+      "role": "Other"
+    },
+    {
+      "id": "000000059",
+      "name": "Gargantuan Squiggoth",
+      "slug": "gargantuan-squiggoth",
+      "role": "Other"
+    },
+    {
+      "id": "000000008",
+      "name": "Ghazghkull Thraka",
+      "slug": "ghazghkull-thraka",
+      "role": "Characters"
+    },
+    {
+      "id": "000000043",
+      "name": "Gorkanaut",
+      "slug": "gorkanaut",
+      "role": "Other"
+    },
+    {
+      "id": "000000017",
+      "name": "Gretchin",
+      "slug": "gretchin",
+      "role": "Other"
+    },
+    {
+      "id": "000001385",
+      "name": "Grot Bomm Launcha",
+      "slug": "grot-bomm-launcha",
+      "role": "Other"
+    },
+    {
+      "id": "000000050",
+      "name": "Grot Mega-tank",
+      "slug": "grot-mega-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000000049",
+      "name": "Grot Tanks",
+      "slug": "grot-tanks",
+      "role": "Other"
+    },
+    {
+      "id": "000002498",
+      "name": "Hunta Rig",
+      "slug": "hunta-rig",
+      "role": "Other"
+    },
+    {
+      "id": "000000055",
+      "name": "Kannonwagon",
+      "slug": "kannonwagon",
+      "role": "Other"
+    },
+    {
+      "id": "000000009",
+      "name": "Kaptin Badrukk",
+      "slug": "kaptin-badrukk",
+      "role": "Characters"
+    },
+    {
+      "id": "000001389",
+      "name": "Kill Krusha",
+      "slug": "kill-krusha",
+      "role": "Other"
+    },
+    {
+      "id": "000002497",
+      "name": "Kill Rig",
+      "slug": "kill-rig",
+      "role": "Other"
+    },
+    {
+      "id": "000000056",
+      "name": "Kill Tank",
+      "slug": "kill-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000000041",
+      "name": "Killa Kans",
+      "slug": "killa-kans",
+      "role": "Other"
+    },
+    {
+      "id": "000000025",
+      "name": "Kommandos",
+      "slug": "kommandos",
+      "role": "Other"
+    },
+    {
+      "id": "000001538",
+      "name": "Kustom Boosta-blasta",
+      "slug": "kustom-boosta-blasta",
+      "role": "Other"
+    },
+    {
+      "id": "000000053",
+      "name": "Lifta Wagon",
+      "slug": "lifta-wagon",
+      "role": "Other"
+    },
+    {
+      "id": "000000044",
+      "name": "Lootas",
+      "slug": "lootas",
+      "role": "Other"
+    },
+    {
+      "id": "000000015",
+      "name": "Mad Dok Grotsnik",
+      "slug": "mad-dok-grotsnik",
+      "role": "Characters"
+    },
+    {
+      "id": "000002453",
+      "name": "Mega Dread",
+      "slug": "mega-dread",
+      "role": "Other"
+    },
+    {
+      "id": "000000024",
+      "name": "Meganobz",
+      "slug": "meganobz",
+      "role": "Other"
+    },
+    {
+      "id": "000001541",
+      "name": "Megatrakk Scrapjet",
+      "slug": "megatrakk-scrapjet",
+      "role": "Other"
+    },
+    {
+      "id": "000000012",
+      "name": "Mek",
+      "slug": "mek",
+      "role": "Characters"
+    },
+    {
+      "id": "000000038",
+      "name": "Mek Gunz",
+      "slug": "mek-gunz",
+      "role": "Other"
+    },
+    {
+      "id": "000000052",
+      "name": "Meka-dread",
+      "slug": "meka-dread",
+      "role": "Other"
+    },
+    {
+      "id": "000001545",
+      "name": "Mekboy Workshop",
+      "slug": "mekboy-workshop",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000042",
+      "name": "Morkanaut",
+      "slug": "morkanaut",
+      "role": "Other"
+    },
+    {
+      "id": "000002493",
+      "name": "Mozrog Skragbad",
+      "slug": "mozrog-skragbad",
+      "role": "Characters"
+    },
+    {
+      "id": "000000022",
+      "name": "Nob With Waaagh! Banner",
+      "slug": "nob-with-waaagh-banner",
+      "role": "Characters"
+    },
+    {
+      "id": "000000021",
+      "name": "Nobz",
+      "slug": "nobz",
+      "role": "Other"
+    },
+    {
+      "id": "000000023",
+      "name": "Nobz On Warbikes",
+      "slug": "nobz-on-warbikes",
+      "role": "Other"
+    },
+    {
+      "id": "000002491",
+      "name": "Painboss",
+      "slug": "painboss",
+      "role": "Characters"
+    },
+    {
+      "id": "000000013",
+      "name": "Painboy",
+      "slug": "painboy",
+      "role": "Characters"
+    },
+    {
+      "id": "000000014",
+      "name": "Painboy On Warbike",
+      "slug": "painboy-on-warbike",
+      "role": "Characters"
+    },
+    {
+      "id": "000001542",
+      "name": "Rukkatrukk Squigbuggy",
+      "slug": "rukkatrukk-squigbuggy",
+      "role": "Other"
+    },
+    {
+      "id": "000001539",
+      "name": "Shokkjump Dragsta",
+      "slug": "shokkjump-dragsta",
+      "role": "Other"
+    },
+    {
+      "id": "000000035",
+      "name": "Skorchas",
+      "slug": "skorchas",
+      "role": "Other"
+    },
+    {
+      "id": "000000051",
+      "name": "Squiggoth",
+      "slug": "squiggoth",
+      "role": "Other"
+    },
+    {
+      "id": "000002496",
+      "name": "Squighog Boyz",
+      "slug": "squighog-boyz",
+      "role": "Other"
+    },
+    {
+      "id": "000000046",
+      "name": "Stompa",
+      "slug": "stompa",
+      "role": "Other"
+    },
+    {
+      "id": "000000027",
+      "name": "Stormboyz",
+      "slug": "stormboyz",
+      "role": "Other"
+    },
+    {
+      "id": "000000020",
+      "name": "Tankbustas",
+      "slug": "tankbustas",
+      "role": "Other"
+    },
+    {
+      "id": "000000026",
+      "name": "Trukk",
+      "slug": "trukk",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003709",
+      "name": "Ufthak Blackhawk",
+      "slug": "ufthak-blackhawk",
+      "role": "Characters"
+    },
+    {
+      "id": "000000033",
+      "name": "Warbikers",
+      "slug": "warbikers",
+      "role": "Other"
+    },
+    {
+      "id": "000000001",
+      "name": "Warboss",
+      "slug": "warboss",
+      "role": "Characters"
+    },
+    {
+      "id": "000000002",
+      "name": "Warboss In Mega Armour",
+      "slug": "warboss-in-mega-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000003",
+      "name": "Warboss On Warbike",
+      "slug": "warboss-on-warbike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000036",
+      "name": "Warbuggies",
+      "slug": "warbuggies",
+      "role": "Other"
+    },
+    {
+      "id": "000000034",
+      "name": "Wartrakks",
+      "slug": "wartrakks",
+      "role": "Other"
+    },
+    {
+      "id": "000000032",
+      "name": "Wazbom Blastajet",
+      "slug": "wazbom-blastajet",
+      "role": "Other"
+    },
+    {
+      "id": "000000004",
+      "name": "Weirdboy",
+      "slug": "weirdboy",
+      "role": "Characters"
+    },
+    {
+      "id": "000002492",
+      "name": "Wurrboy",
+      "slug": "wurrboy",
+      "role": "Characters"
+    },
+    {
+      "id": "000002488",
+      "name": "Zodgrod Wortsnagga",
+      "slug": "zodgrod-wortsnagga",
+      "role": "Characters"
+    }
+  ]
+}

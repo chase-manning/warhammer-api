@@ -1,0 +1,369 @@
+{
+  "id": "TS",
+  "name": "Thousand Sons",
+  "slug": "thousand-sons",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons",
+  "datasheetCount": 60,
+  "datasheets": [
+    {
+      "id": "000001032",
+      "name": "Ahriman",
+      "slug": "ahriman",
+      "role": "Characters"
+    },
+    {
+      "id": "000004128",
+      "name": "Blue Horrors",
+      "slug": "blue-horrors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003627",
+      "name": "Cerberus",
+      "slug": "cerberus",
+      "role": "Other"
+    },
+    {
+      "id": "000001025",
+      "name": "Chaos Land Raider",
+      "slug": "chaos-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000003597",
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "slug": "chaos-lord-on-disc-of-tzeentch",
+      "role": "Characters"
+    },
+    {
+      "id": "000002501",
+      "name": "Chaos Predator Annihilator",
+      "slug": "chaos-predator-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000001026",
+      "name": "Chaos Predator Destructor",
+      "slug": "chaos-predator-destructor",
+      "role": "Other"
+    },
+    {
+      "id": "000001022",
+      "name": "Chaos Rhino",
+      "slug": "chaos-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001023",
+      "name": "Chaos Spawn",
+      "slug": "chaos-spawn",
+      "role": "Other"
+    },
+    {
+      "id": "000003591",
+      "name": "Chaos Thunderhawk",
+      "slug": "chaos-thunderhawk",
+      "role": "Other"
+    },
+    {
+      "id": "000001027",
+      "name": "Chaos Vindicator",
+      "slug": "chaos-vindicator",
+      "role": "Other"
+    },
+    {
+      "id": "000001036",
+      "name": "Daemon Prince of Tzeentch",
+      "slug": "daemon-prince-of-tzeentch",
+      "role": "Characters"
+    },
+    {
+      "id": "000004120",
+      "name": "Daemon Prince of Tzeentch with Wings",
+      "slug": "daemon-prince-of-tzeentch-with-wings",
+      "role": "Characters"
+    },
+    {
+      "id": "000001030",
+      "name": "Defiler",
+      "slug": "defiler",
+      "role": "Other"
+    },
+    {
+      "id": "000003623",
+      "name": "Deredeo Dreadnought",
+      "slug": "deredeo-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001033",
+      "name": "Exalted Sorcerer",
+      "slug": "exalted-sorcerer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002755",
+      "name": "Exalted Sorcerer on Disc of Tzeentch",
+      "slug": "exalted-sorcerer-on-disc-of-tzeentch",
+      "role": "Characters"
+    },
+    {
+      "id": "000003687",
+      "name": "Falchion",
+      "slug": "falchion",
+      "role": "Other"
+    },
+    {
+      "id": "000003651",
+      "name": "Fellblade",
+      "slug": "fellblade",
+      "role": "Other"
+    },
+    {
+      "id": "000003615",
+      "name": "Fire Raptor Gunship",
+      "slug": "fire-raptor-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000004125",
+      "name": "Flamers",
+      "slug": "flamers",
+      "role": "Other"
+    },
+    {
+      "id": "000001028",
+      "name": "Forgefiend",
+      "slug": "forgefiend",
+      "role": "Other"
+    },
+    {
+      "id": "000001021",
+      "name": "Helbrute",
+      "slug": "helbrute",
+      "role": "Other"
+    },
+    {
+      "id": "000001024",
+      "name": "Heldrake",
+      "slug": "heldrake",
+      "role": "Other"
+    },
+    {
+      "id": "000003598",
+      "name": "Hell Blade",
+      "slug": "hell-blade",
+      "role": "Other"
+    },
+    {
+      "id": "000003599",
+      "name": "Hell Talon",
+      "slug": "hell-talon",
+      "role": "Other"
+    },
+    {
+      "id": "000002500",
+      "name": "Infernal Master",
+      "slug": "infernal-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000004123",
+      "name": "Kairos Fateweaver",
+      "slug": "kairos-fateweaver",
+      "role": "Characters"
+    },
+    {
+      "id": "000003631",
+      "name": "Kratos",
+      "slug": "kratos",
+      "role": "Other"
+    },
+    {
+      "id": "000003607",
+      "name": "Land Raider Achilles",
+      "slug": "land-raider-achilles",
+      "role": "Other"
+    },
+    {
+      "id": "000003611",
+      "name": "Land Raider Proteus",
+      "slug": "land-raider-proteus",
+      "role": "Other"
+    },
+    {
+      "id": "000003647",
+      "name": "Leviathan Dreadnought",
+      "slug": "leviathan-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000004124",
+      "name": "Lord of Change",
+      "slug": "lord-of-change",
+      "role": "Characters"
+    },
+    {
+      "id": "000001031",
+      "name": "Magnus The Red",
+      "slug": "magnus-the-red",
+      "role": "Characters"
+    },
+    {
+      "id": "000003643",
+      "name": "Mastodon",
+      "slug": "mastodon",
+      "role": "Other"
+    },
+    {
+      "id": "000001029",
+      "name": "Maulerfiend",
+      "slug": "maulerfiend",
+      "role": "Other"
+    },
+    {
+      "id": "000001476",
+      "name": "Mutalith Vortex Beast",
+      "slug": "mutalith-vortex-beast",
+      "role": "Other"
+    },
+    {
+      "id": "000004127",
+      "name": "Pink Horrors",
+      "slug": "pink-horrors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003667",
+      "name": "Rapier Carrier",
+      "slug": "rapier-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000003655",
+      "name": "Relic Contemptor Dreadnought",
+      "slug": "relic-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001020",
+      "name": "Rubric Marines",
+      "slug": "rubric-marines",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001035",
+      "name": "Scarab Occult Terminators",
+      "slug": "scarab-occult-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000004126",
+      "name": "Screamers",
+      "slug": "screamers",
+      "role": "Other"
+    },
+    {
+      "id": "000004121",
+      "name": "Sekhetar Robots",
+      "slug": "sekhetar-robots",
+      "role": "Other"
+    },
+    {
+      "id": "000003639",
+      "name": "Sicaran Battle Tank",
+      "slug": "sicaran-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003683",
+      "name": "Sicaran Punisher",
+      "slug": "sicaran-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003675",
+      "name": "Sicaran Venator",
+      "slug": "sicaran-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000003635",
+      "name": "Sokar-pattern Stormbird",
+      "slug": "sokar-pattern-stormbird",
+      "role": "Other"
+    },
+    {
+      "id": "000001016",
+      "name": "Sorcerer",
+      "slug": "sorcerer",
+      "role": "Characters"
+    },
+    {
+      "id": "000001017",
+      "name": "Sorcerer In Terminator Armour",
+      "slug": "sorcerer-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000003619",
+      "name": "Spartan",
+      "slug": "spartan",
+      "role": "Other"
+    },
+    {
+      "id": "000003671",
+      "name": "Storm Eagle Gunship",
+      "slug": "storm-eagle-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000003603",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003679",
+      "name": "Typhon",
+      "slug": "typhon",
+      "role": "Other"
+    },
+    {
+      "id": "000001474",
+      "name": "Tzaangor Enlightened",
+      "slug": "tzaangor-enlightened",
+      "role": "Other"
+    },
+    {
+      "id": "000004122",
+      "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+      "slug": "tzaangor-enlightened-with-fatecaster-greatbows",
+      "role": "Other"
+    },
+    {
+      "id": "000001472",
+      "name": "Tzaangor Shaman",
+      "slug": "tzaangor-shaman",
+      "role": "Characters"
+    },
+    {
+      "id": "000001034",
+      "name": "Tzaangors",
+      "slug": "tzaangors",
+      "role": "Other"
+    },
+    {
+      "id": "000003659",
+      "name": "Whirlwind Scorpius",
+      "slug": "whirlwind-scorpius",
+      "role": "Other"
+    },
+    {
+      "id": "000003663",
+      "name": "Xiphon Interceptor",
+      "slug": "xiphon-interceptor",
+      "role": "Other"
+    }
+  ]
+}

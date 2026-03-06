@@ -1,0 +1,199 @@
+{
+  "id": "000000897",
+  "name": "Penitent Engines",
+  "factionId": "AS",
+  "sourceId": "000000112",
+  "slug": "penitent-engines",
+  "legend": "The pilots of Penitent Engines are subjected to terrible agony, thanks to the torment amplifiers spliced into their synapses. They blaze a trail of destruction with their flamers before charging headlong into the foe, guilt and pain driving them on, heedless of danger. All they leave in their wake is utter carnage.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: penitent flamers; twin penitent buzz-blades.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas/Penitent-Engines",
+  "models": [
+    {
+      "datasheetId": "000000897",
+      "line": 1,
+      "name": "Penitent Engines",
+      "movement": "8\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000897",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Penitent flamers",
+      "description": "assault, ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000897",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Penitent buzz-blade",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000897",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Penitent flail",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000897",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin penitent buzz-blades",
+      "description": "sustained hits 1, twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000897",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin penitent flails",
+      "description": "sustained hits 1, twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Acts of Faith",
+      "description": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice:\n\n• At the start of each battle round.\n• Each time an ADEPTA SORORITAS unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead, the value of the selected Miracle dice is used as if it had been rolled ( this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n\n• Advance roll\n• Battle-shock test\n• Charge roll\n• Damage roll\n• Hit roll\n• Saving throw\n• Wound roll\n\nExample: Instead of rolling 2D6 to take a unit’s Battle-shock test, you could use one dice from your Miracle dice pool. If the value of that dice was 4, the unit’s Battle-shock test would be determined by rolling one D6 and adding 4 to it (i.e. it would be D6+4).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Endless Suffering",
+      "description": "This unit is eligible to declare a charge in a turn in which it Advanced.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adepta Sororitas",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Penitent",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Penitent Engines",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000897",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:\n• 1 penitent buzz-blade and 1 penitent flail\n• 1 twin penitent flails"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000897",
+      "line": 1,
+      "description": "1-2 Penitent Engines"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000897",
+      "line": 1,
+      "description": "1 model",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000000897",
+      "line": 2,
+      "description": "2 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

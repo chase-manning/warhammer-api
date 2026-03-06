@@ -1,0 +1,119 @@
+{
+  "id": "000001023",
+  "name": "Chaos Spawn",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "chaos-spawn",
+  "legend": "Chaos Spawn are roiling masses of mutating flesh and bone that lurch towards the foe with mindless ferocity. They wail and slobberfrom fanged maws as they lash wildly about themselves with barbed pseudopods, snapping claws and clubbing limbs, tearing and crushing all who do not flee in horror.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: hideous mutations.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Chaos-Spawn",
+  "models": [
+    {
+      "datasheetId": "000001023",
+      "line": 1,
+      "name": "Chaos Spawn",
+      "movement": "8\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001023",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hideous mutations",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "D6+2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Regenerating Monstrosities",
+      "description": "At the start of each player’s Command phase, one model in this unit regains up to 3 lost wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beast",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos Spawn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutant",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000001023",
+      "line": 1,
+      "description": "2 Chaos Spawn"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001023",
+      "line": 1,
+      "description": "2 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": []
+}

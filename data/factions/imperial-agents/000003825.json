@@ -1,0 +1,393 @@
+{
+  "id": "000003825",
+  "name": "Fortis Kill Team",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "fortis-kill-team",
+  "legend": "Further refined from Watch Master Mordelai’s original concept, Fortis Kill Teams exemplify the supreme adaptability of the Tacticus variant of Mk X power armour, seamlessly merging a variety of close support roles and deadly firepower.",
+  "role": "Other",
+  "loadout": "Every Kill Team Intercessor is equipped with: bolt pistol; bolt rifle; close combat weapon.\n\nEvery Kill Team Intercessor with plasma incinerator is equipped with: bolt pistol; plasma incinerator; close combat weapon.\n\nEvery Kill Team Intercessor with heavy bolt pistol is equipped with: heavy bolt pistol; Astartes chainsword.\n\nEvery Kill Team Outrider is equipped with: bolt pistol; twin bolt rifle; Astartes chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Fortis-Kill-Team",
+  "models": [
+    {
+      "datasheetId": "000003825",
+      "line": 1,
+      "name": "KILL TEAM INTERCESSOR",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 2,
+      "name": "KILL TEAM OUTRIDER",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "90 x 52mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003825",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt rifle",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil ranged weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 6,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "HAZARDOUS, PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma incinerator – standard",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma incinerator – supercharge",
+      "description": "assault, hazardous, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin bolt rifle",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil melee weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Kill Team",
+      "description": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\n\nFor the purposes of determining which models in this unit can embark within a Transport, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the Terminator, Mounted or Jump Pack keywords.\n\nFor the purposes of interacting with terrain features, all models in units with this ability are considered INFANTRY models, even though similar models in other units may have the MOUNTED or JUMP PACK keywords.\n\nDesigner’s Note: While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, TRANSPORT and Benefit of Cover rules.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Fortis Doctrines",
+      "description": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character from your army with the Leader ability can be attached to a Deathwatch Kill Team, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "TRANSPORT",
+      "description": "This unit cannot embark within an Imperial Rhino.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortis Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003825",
+      "line": 1,
+      "button": "•",
+      "description": "1 Kill Team Intercessor’s bolt rifle can be replaced with one of the following:\n• 1 hand flamer\n• 1 plasma pistol\n• 1 Astartes chainsword\n• 1 Long Vigil melee weapon"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 2,
+      "button": "•",
+      "description": "1 model equipped with a bolt rifle can replace its close combat weapon with one of the following:\n• 1 Astartes chainsword\n• 1 Long Vigil melee weapon"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model’s bolt rifle can be replaced with 1 Long Vigil ranged weapon."
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 4,
+      "button": "•",
+      "description": "Any number of Kill Team Intercessors with plasma incinerators can each have their bolt pistol replaced with 1 plasma pistol."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003825",
+      "line": 1,
+      "description": "10 MODELS MAXIMUM"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 2,
+      "description": "5-10 Kill Team Intercessors"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 3,
+      "description": "0-4 Kill Team Intercessors with plasma incinerators"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 4,
+      "description": "0-4 Kill Team Intercessors with heavy bolt pistols"
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 5,
+      "description": "0-2 Kill Team Outriders"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003825",
+      "line": 1,
+      "description": "5 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000003825",
+      "line": 2,
+      "description": "10 models",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

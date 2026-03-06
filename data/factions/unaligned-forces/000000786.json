@@ -1,0 +1,326 @@
+{
+  "id": "000000786",
+  "name": "Primaris Redoubt",
+  "factionId": "UN",
+  "sourceId": "000000271",
+  "slug": "primaris-redoubt",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "This model is equipped with: Primaris Redoubt turbo-laser destructor.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-6",
+  "damagedDescription": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/unaligned-forces/Primaris-Redoubt",
+  "models": [
+    {
+      "datasheetId": "000000786",
+      "line": 1,
+      "name": "Primaris Redoubt",
+      "movement": "-",
+      "toughness": 12,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 18,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000786",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Battle cannon",
+      "description": "BLAST",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "SUSTAINED HITS 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "MELTA 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris Icarus lascannon",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris Icarus quad lascannon",
+      "description": "anti-fly 2+, twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris air defence missiles",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris castellan launcher",
+      "description": "blast, indirect fire",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris quad-gun",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris Redoubt turbo-laser destructor",
+      "description": "blast",
+      "range": "96",
+      "type": "Ranged",
+      "attacks": "D3+1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "16",
+      "armourPenetration": "-3",
+      "damage": "D6+3"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Primaris vengeance launcher",
+      "description": "blast, indirect fire",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "D3+1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy bolter",
+      "description": "SUSTAINED HITS 1, TWIN-LINKED",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy flamer",
+      "description": "IGNORES COVER, TORRENT, TWIN-LINKED",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lascannon",
+      "description": "TWIN-LINKED",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Unaligned Forces",
+      "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:\n\n• Incursion: Up to 250 pts\n• Strike Force: Up to 500 pts\n• Onslaught: Up to 1000 pts\n\nNo UNALIGNED FORCES models can be your WARLORD.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Gates",
+      "description": "When this FORTIFICATION is first set up on the battlefield, each gate section can be set up with its gate open or closed. In your Command phase, you can open or close the gate of each of this model’s gate sections. While a gate is open, models can move and draw line of sight through it as if it were not there.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Battlements",
+      "description": "Friendly INFANTRY models can be set up or end any type of move on top of the flat battlement sections of this FORTIFICATION.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "FORTIFICATION",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Unaligned Forces",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Unaligned",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Primaris Redoubt",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000786",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 Primaris air defence missiles\n• 1 battle cannon\n• 1 Primaris Icarus lascannon\n• 1 Primaris Icarus quad lascannon\n• 1 multi-melta\n• 1 Primaris quad-gun\n• 1 twin heavy bolter\n• 1 twin heavy flamer\n• 1 twin lascannon\n• 1 Primaris castellan launcher\n• 1 Primaris vengeance launcher"
+    },
+    {
+      "datasheetId": "000000786",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with up to 4 heavy bolters."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000786",
+      "line": 1,
+      "description": "1 Primaris Redoubt"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000786",
+      "line": 1,
+      "description": "1 model",
+      "cost": 220
+    }
+  ],
+  "leaderAttachments": []
+}

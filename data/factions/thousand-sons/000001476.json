@@ -1,0 +1,191 @@
+{
+  "id": "000001476",
+  "name": "Mutalith Vortex Beast",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "mutalith-vortex-beast",
+  "legend": "This foul beast is an offence against sanity and natural order. Its constantly mutating form drags in and expels empyric energy in a wild tempest that twists all about it ever further out of truth. Those foes not driven insane by the monster’s presence are soon warped into fresh horrors by its foul energies.",
+  "role": "Other",
+  "loadout": "This model is equipped with: warp vortex; betentacled maw; Mutalith claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Mutalith-Vortex-Beast",
+  "models": [
+    {
+      "datasheetId": "000001476",
+      "line": 1,
+      "name": "Mutalith Vortex Beast",
+      "movement": "10\"",
+      "toughness": 10,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 13,
+      "leadership": "6+",
+      "objectiveControl": 4,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001476",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Warp vortex – blast",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001476",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Warp vortex – beam",
+      "description": "devastating wounds",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "18",
+      "armourPenetration": "-3",
+      "damage": "D6+6"
+    },
+    {
+      "datasheetId": "000001476",
+      "line": 3,
+      "lineInWargear": 3,
+      "dice": null,
+      "name": "Warp vortex – torrent",
+      "description": "ignores cover, torrent",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001476",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Betentacled maw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "15",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001476",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mutalith claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Mutating Vortex (Aura)",
+      "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Immaterial Flare (Aura)",
+      "description": "While a friendly Thousand Sons Psyker model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutant",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutalith Vortex Beast",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000001476",
+      "line": 1,
+      "description": "1 Mutalith Vortex Beast"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001476",
+      "line": 1,
+      "description": "1 model",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

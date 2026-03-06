@@ -1,0 +1,195 @@
+{
+  "id": "000000850",
+  "name": "Sicarian Infiltrators",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "sicarian-infiltrators",
+  "legend": "Sicarian Infiltrators broadcast disruptive frequencies that scramble augurs and painfully disrupt enemy senses. Thus obscured, the Infiltrators perform reconnaissance and outflanking missions, intensifying their sensory barrage to crash enemy comms and attack unseen through the resultant anarchy.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: stubcarbine; power weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Sicarian-Infiltrators",
+  "models": [
+    {
+      "datasheetId": "000000850",
+      "line": 1,
+      "name": "Sicarian Infiltrators",
+      "movement": "8\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000850",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flechette blaster",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000850",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stubcarbine",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000850",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000850",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Taser goad",
+      "description": "sustained hits 2",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Voices in the Code",
+      "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Neurostatic Interference (Aura)",
+      "description": "While an enemy unit is within 6\" of this unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test. While this unit is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, subtract 2 from that test instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infiltrators",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sicarian",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000850",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their stubcarbine and power weapon replaced with 1 flechette blaster and 1 taser goad."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000850",
+      "line": 1,
+      "description": "1 Sicarian Infiltrator Princeps"
+    },
+    {
+      "datasheetId": "000000850",
+      "line": 2,
+      "description": "4-9 Sicarian Infiltrators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000850",
+      "line": 1,
+      "description": "5 models",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000000850",
+      "line": 2,
+      "description": "10 models",
+      "cost": 155
+    }
+  ],
+  "leaderAttachments": []
+}

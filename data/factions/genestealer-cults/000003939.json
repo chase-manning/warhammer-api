@@ -1,0 +1,454 @@
+{
+  "id": "000003939",
+  "name": "Cadian Command Squad",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "cadian-command-squad",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "The Cadian Commander is equipped with: laspistol; chainsword.\n\n1 Cadian Veteran Guardsman is equipped with: las pistol; chainsword.\n\n1 other Cadian Veteran Guardsman is equipped with: lasgun; master vox; close combat weapon.\n\n1 other Cadian Veteran Guardsman is equipped with: lasgun; medi-pack; close combat weapon.\n\n1 other Cadian Veteran Guardsman is equipped with: lasgun; regimental standard; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Cadian-Command-Squad",
+  "models": [
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "name": "CADIAN COMMANDER",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 2,
+      "name": "CADIAN VETERAN GUARDSMAN",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "",
+      "description": null,
+      "range": "",
+      "type": "",
+      "attacks": "0",
+      "ballisticSkillOrWeaponSkill": "-",
+      "strength": "-",
+      "armourPenetration": "0",
+      "damage": "-"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "",
+      "description": null,
+      "range": "",
+      "type": "",
+      "attacks": "0",
+      "ballisticSkillOrWeaponSkill": "-",
+      "strength": "-",
+      "armourPenetration": "0",
+      "damage": "-"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 10,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Cadia Stands!",
+      "description": "While this unit contains an OFFICER, each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Master Vox",
+      "description": "Each time the OFFICER in the bearer’s unit issues an Order, it can issue it to an eligible unit up to 24\" away.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Medi-pack",
+      "description": "At the start of your Command phase, if the bearer’s unit is below its Starting Strength, you can return up to D3 destroyed PLATOON models (excluding CHARACTERS) to this unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Regimental Standard",
+      "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ORDERS",
+      "description": "This unit’s OFFICER can issue 1 Order to a Regiment unit.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Platoon",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Officer",
+      "isFactionKeyword": false,
+      "model": "CADIAN COMMANDER"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "CADIAN COMMANDER"
+    },
+    {
+      "keyword": "Command Squad",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Cadian",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "button": "•",
+      "description": "1 Cadian Veteran Guardsman’s lasgun and regimental standard can be replaced with one of the following:\n• 1 flamer\n• 1 grenade launcher\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 2,
+      "button": "•",
+      "description": "1 Cadian Veteran Guardsman’s laspistol can be replaced with one of the following:\n• 1 bolt pistol\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 3,
+      "button": "•",
+      "description": "The Cadian Commander’s laspistol can be replaced with one of the following:\n• 1 bolt pistol\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 4,
+      "button": "•",
+      "description": "1 Cadian Veteran Guardsman's chainsword can be replaced with one of the following:\n• 1 flamer and 1 close combat weapon\n• 1 grenade launcher and 1 close combat weapon\n• 1 meltagun and 1 close combat weapon\n• 1 plasma gun and 1 close combat weapon\n• 1 power fist\n• 1 power weapon"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 5,
+      "button": "•",
+      "description": "The Cadian Commander’s chainsword can be replaced with one of the following:\n• 1 power fist\n• 1 power weapon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "description": "1 Cadian Commander"
+    },
+    {
+      "datasheetId": "000003939",
+      "line": 2,
+      "description": "4 Cadian Veteran Guardsmen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003939",
+      "line": 1,
+      "description": "5 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000003948",
+      "name": "Cadian Shock Troops"
+    }
+  ]
+}

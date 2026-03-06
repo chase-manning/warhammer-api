@@ -1,0 +1,226 @@
+{
+  "id": "000002627",
+  "name": "Khorne Berzerkers",
+  "factionId": "WE",
+  "sourceId": "000000210",
+  "slug": "khorne-berzerkers",
+  "legend": "Berzerkers of Khorne relish their role as the Blood God’s sacred destroyers, and are fanatical in the extreme. The warp-fuelled anger of these psychopathic warriors drives them into an endless frenzy of action. Those who face them in battle disappear under a rain of heavy blows, each potent enough to shear limbs and shatter shields.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: bolt pistol; chainblade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/world-eaters/Khorne-Berzerkers",
+  "models": [
+    {
+      "datasheetId": "000002627",
+      "line": 1,
+      "name": "Khorne Berzerkers",
+      "movement": "8\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002627",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainblade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Khornate eviscerator",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blessings of Khorne",
+      "description": "If your Army Faction is WORLD EATERS, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll eight D6. You can then use those dice to activate up to two Blessings of Khorne (see below). Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). You can only activate each Blessing of Khorne once per battle round. Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.\n\nExample: Ash makes a Blessings of Khorne roll, getting the following: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1,2, 2, 2, 3, 4. They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings of Khorne have been activated, no more can be activated and the remaining dice are discarded.\n\nUNBRIDLED BLOODLUST\n\nYou can re-roll Charge rolls made for this unit.\n\nRAGE-FUELLED INVIGORATION\n\nEach time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nTOTAL CARNAGE\n\nEach time a model in this unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.\n\nMARTIAL EXCELLENCE\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nWARP BLADES\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.\n\nDECAPITATING STRIKES\n\nEach time a model in this unit makes a melee attack that targets an INFANTRY unit, that attack has the [DEVASTATING WOUNDS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Blood Surge",
+      "description": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT), When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Icon of Khorne",
+      "description": "If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "World Eaters",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Berzerkers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002627",
+      "line": 1,
+      "button": "•",
+      "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Khorne Berzerker’s chainblade can be replaced with 1 Khornate eviscerator."
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 4,
+      "button": "•",
+      "description": "1 model can be equipped with 1 icon of Khorne."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002627",
+      "line": 1,
+      "description": "1 Khorne Berzerker Champion"
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 2,
+      "description": "9-19 Khorne Berzerkers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002627",
+      "line": 1,
+      "description": "10 models",
+      "cost": 180
+    },
+    {
+      "datasheetId": "000002627",
+      "line": 2,
+      "description": "20 models",
+      "cost": 360
+    }
+  ],
+  "leaderAttachments": []
+}

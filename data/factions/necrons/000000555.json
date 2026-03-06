@@ -1,0 +1,160 @@
+{
+  "id": "000000555",
+  "name": "Transcendent C’tan",
+  "factionId": "NEC",
+  "sourceId": "000000029",
+  "slug": "transcendent-c-tan",
+  "legend": "Shards of the C’tan serve the Necrons as enslaved living weapons. Greatest amongst them are the Transcendent C’tan, whose fury and power are so terrifying that they must be trammelled using the full might of Necron technology. When their cosmic powers are unleashed, reality itself is torn asunder.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: seismic assault; crackling tendrils.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/necrons/Transcendent-C-tan",
+  "models": [
+    {
+      "datasheetId": "000000555",
+      "line": 1,
+      "name": "Transcendent C’tan",
+      "movement": "8\"",
+      "toughness": 11,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 16,
+      "leadership": "6+",
+      "objectiveControl": 4,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000555",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Seismic assault",
+      "description": "assault, sustained hits 1",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000555",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Crackling tendrils",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Reanimation Protocols",
+      "description": "If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n\n• If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound\n• If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\n\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.\n\nExample: A unit of Lokhust Destroyers (which have a Wounds characteristic of 3) activates its Reanimation Protocols. The unit had a Starting Strength of 3, but currently contains 2 models, and one of those models has lost 1 wound. A 3 is rolled to see how many wounds are reanimated. The first of these reanimated wounds restores the wounded Lokhust Destroyer back to 3 wounds. The second of these reanimated wounds returns the destroyed Lokhust Destroyer to the battlefield with 1 wound remaining. The third of these reanimated wounds restores one of the remaining lost wounds to the same Lokhust Destroyer that was just returned. The unit now contains 3 models, two of which have 3 wounds remaining and one of which has 2 wounds remaining.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Transdimensional Displacement",
+      "description": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy units.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Necrodermis",
+      "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ENSLAVED STAR GOD",
+      "description": "This model cannot be your WARLORD.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "C’TAN SHARD",
+      "description": "This model cannot be given Enhancements.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Necrons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transcendent C’tan",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000555",
+      "line": 1,
+      "description": "1 Transcendent C’tan"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000555",
+      "line": 1,
+      "description": "1 model",
+      "cost": 315
+    }
+  ],
+  "leaderAttachments": []
+}

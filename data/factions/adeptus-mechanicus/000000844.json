@@ -1,0 +1,141 @@
+{
+  "id": "000000844",
+  "name": "Corpuscarii Electro-priests",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "corpuscarii-electro-priests",
+  "legend": "Electro-Priests of the Corpuscarii faction build up huge electrical potential as they zealously chant their canticles of battle. They conduct the Motive Force through their bodies, eager to share its illumination, releasing it from their gauntlets in coruscating arcs of electrical power that leap from target to target.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: electrostatic gauntlets.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Corpuscarii-Electro-priests",
+  "models": [
+    {
+      "datasheetId": "000000844",
+      "line": 1,
+      "name": "Corpuscarii Electro-priests",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "7+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000844",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Electrostatic gauntlets",
+      "description": "pistol, sustained hits 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000844",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Electrostatic gauntlets",
+      "description": "sustained hits 2",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Electro-shock",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is shocked. While a unit is shocked, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Electro-Priests",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Corpuscarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cult Mechanicus",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000844",
+      "line": 1,
+      "description": "5-10 Corpuscarii Electro-Priests"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000844",
+      "line": 1,
+      "description": "5 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000000844",
+      "line": 2,
+      "description": "10 models",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

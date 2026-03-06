@@ -1,0 +1,213 @@
+{
+  "id": "000002494",
+  "name": "Beast Snagga Boyz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "beast-snagga-boyz",
+  "legend": "Big, brutal, and belligerent, Beast Snagga Boyz are a force to be reckoned with. From the cannonball-like fist-shells of their thump guns, to the inescapable hooks of their choppas, Beast Snaggas excel in softening up their prey, dragging them down, then ripping them bodily to bits.",
+  "role": "Battleline",
+  "loadout": "The Beast Snagga Nob is equipped with: slugga; power snappa. \n\nEvery Beast Snagga Boy is equipped with: slugga; choppa.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Beast-Snagga-Boyz",
+  "models": [
+    {
+      "datasheetId": "000002494",
+      "line": 1,
+      "name": "BEAST SNAGGA BOY",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 2,
+      "name": "BEAST SNAGGA NOB",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002494",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slugga",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Thump gun",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power snappa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "6+"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Monster Hunters",
+      "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beast Snagga Boyz",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mob",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beast Snagga",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002494",
+      "line": 1,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002494",
+      "line": 1,
+      "description": "1 Beast Snagga Nob"
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 2,
+      "description": "9-19 Beast Snagga Boyz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002494",
+      "line": 1,
+      "description": "10 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000002494",
+      "line": 2,
+      "description": "20 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

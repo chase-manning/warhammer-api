@@ -1,0 +1,212 @@
+{
+  "id": "000000460",
+  "name": "Hive Tyrant",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "hive-tyrant",
+  "legend": "Hive Tyrants command the swarm on the Hive Mind’s behalf. Not only are they powerful warrior organisms in their own right, but they are also possessed of a depth of sentient autonomy and strategic cunning that makes them truly deadly foes. Where the Hive Tyrants bestride the battlefield, death comes for the prey.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: monstrous bonesword and lash whip; monstrous scything talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Hive-Tyrant",
+  "models": [
+    {
+      "datasheetId": "000000460",
+      "line": 1,
+      "name": "Hive Tyrant",
+      "movement": "8\"",
+      "toughness": 10,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000460",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy venom cannon",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000460",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stranglethorn cannon",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000460",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Monstrous bonesword and lash whip",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000460",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Monstrous scything talons",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Shadow in the Warp",
+      "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more Synapse units from your army, subtract 1 from that test.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Will of the Hive Mind",
+      "description": "Once per battle round, one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Onslaught (Aura, Psychic)",
+      "description": "While a friendly TYRANIDS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [ASSAULT] and [LETHAL HITS] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Hive Tyrant",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Synapse",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000460",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:\n• 1 heavy venom cannon\n• 1 stranglethorn cannon\n• 1 monstrous scything talons"
+    },
+    {
+      "datasheetId": "000000460",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s monstrous scything talons can be replaced with one of the following:\n• 1 heavy venom cannon*\n• 1 stranglethorn cannon*"
+    },
+    {
+      "datasheetId": "000000460",
+      "line": 3,
+      "button": "*",
+      "description": "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000460",
+      "line": 1,
+      "description": "1 Hive Tyrant"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000460",
+      "line": 1,
+      "description": "1 model",
+      "cost": 195
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000000471",
+      "name": "Tyrant Guard"
+    }
+  ]
+}

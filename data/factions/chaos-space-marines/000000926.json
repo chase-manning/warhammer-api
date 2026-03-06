@@ -1,0 +1,176 @@
+{
+  "id": "000000926",
+  "name": "Cypher",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "cypher",
+  "legend": "Cypher is a mysterious agent of discord and insurrection, always one step ahead of capture, and strife blooms in his wake as violently as the detonations from his masterwork pistols. He is a lord of the hunted Fallen, though his true role as traitor or loyalist is as cryptic as the sword he carries but never wields.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Cypher’s bolt pistol; Cypher’s plasma pistol.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Cypher",
+  "models": [
+    {
+      "datasheetId": "000000926",
+      "line": 1,
+      "name": "Cypher",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000926",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cypher’s bolt pistol",
+      "description": "assault, pistol, sustained hits 1",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000926",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cypher’s plasma pistol",
+      "description": "assault, pistol, sustained hits 1",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000926",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cypher’s bolt pistol",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000926",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cypher’s plasma pistol",
+      "description": "EXTRA ATTACKS",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Agent of Discord (Aura)",
+      "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Guns Blazing",
+      "description": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fallen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cypher",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000926",
+      "line": 1,
+      "description": "1 Cypher – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000926",
+      "line": 1,
+      "description": "1 model",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

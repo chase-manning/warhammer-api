@@ -1,0 +1,435 @@
+{
+  "id": "DG",
+  "name": "Death Guard",
+  "slug": "death-guard",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard",
+  "datasheetCount": 71,
+  "datasheets": [
+    {
+      "id": "000004115",
+      "name": "Beasts of Nurgle",
+      "slug": "beasts-of-nurgle",
+      "role": "Other"
+    },
+    {
+      "id": "000001368",
+      "name": "Biologus Putrifier",
+      "slug": "biologus-putrifier",
+      "role": "Characters"
+    },
+    {
+      "id": "000001372",
+      "name": "Blightlord Terminators",
+      "slug": "blightlord-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000003628",
+      "name": "Cerberus",
+      "slug": "cerberus",
+      "role": "Other"
+    },
+    {
+      "id": "000001049",
+      "name": "Chaos Land Raider",
+      "slug": "chaos-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000003592",
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "slug": "chaos-lord-on-palanquin-of-nurgle",
+      "role": "Characters"
+    },
+    {
+      "id": "000001050",
+      "name": "Chaos Predator Annihilator",
+      "slug": "chaos-predator-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000002461",
+      "name": "Chaos Predator Destructor",
+      "slug": "chaos-predator-destructor",
+      "role": "Other"
+    },
+    {
+      "id": "000001047",
+      "name": "Chaos Rhino",
+      "slug": "chaos-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001048",
+      "name": "Chaos Spawn",
+      "slug": "chaos-spawn",
+      "role": "Other"
+    },
+    {
+      "id": "000003585",
+      "name": "Chaos Thunderhawk",
+      "slug": "chaos-thunderhawk",
+      "role": "Other"
+    },
+    {
+      "id": "000001052",
+      "name": "Daemon Prince of Nurgle",
+      "slug": "daemon-prince-of-nurgle",
+      "role": "Characters"
+    },
+    {
+      "id": "000002749",
+      "name": "Daemon Prince of Nurgle with Wings",
+      "slug": "daemon-prince-of-nurgle-with-wings",
+      "role": "Characters"
+    },
+    {
+      "id": "000001037",
+      "name": "Death Guard Chaos Lord",
+      "slug": "death-guard-chaos-lord",
+      "role": "Characters"
+    },
+    {
+      "id": "000001038",
+      "name": "Death Guard Chaos Lord In Terminator Armour",
+      "slug": "death-guard-chaos-lord-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001043",
+      "name": "Death Guard Cultists",
+      "slug": "death-guard-cultists",
+      "role": "Other"
+    },
+    {
+      "id": "000001045",
+      "name": "Death Guard Possessed",
+      "slug": "death-guard-possessed",
+      "role": "Other"
+    },
+    {
+      "id": "000001041",
+      "name": "Death Guard Sorcerer In Terminator Armour",
+      "slug": "death-guard-sorcerer-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001371",
+      "name": "Deathshroud Terminators",
+      "slug": "deathshroud-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000001051",
+      "name": "Defiler",
+      "slug": "defiler",
+      "role": "Other"
+    },
+    {
+      "id": "000003624",
+      "name": "Deredeo Dreadnought",
+      "slug": "deredeo-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000003688",
+      "name": "Falchion",
+      "slug": "falchion",
+      "role": "Other"
+    },
+    {
+      "id": "000003652",
+      "name": "Fellblade",
+      "slug": "fellblade",
+      "role": "Other"
+    },
+    {
+      "id": "000003616",
+      "name": "Fire Raptor Gunship",
+      "slug": "fire-raptor-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000001057",
+      "name": "Foetid Bloat-drone",
+      "slug": "foetid-bloat-drone",
+      "role": "Other"
+    },
+    {
+      "id": "000004110",
+      "name": "Foetid Bloat-drone with Heavy Blight Launcher",
+      "slug": "foetid-bloat-drone-with-heavy-blight-launcher",
+      "role": "Other"
+    },
+    {
+      "id": "000001367",
+      "name": "Foul Blightspawn",
+      "slug": "foul-blightspawn",
+      "role": "Characters"
+    },
+    {
+      "id": "000003593",
+      "name": "Gellerpox Infected",
+      "slug": "gellerpox-infected",
+      "role": "Other"
+    },
+    {
+      "id": "000004112",
+      "name": "Great Unclean One",
+      "slug": "great-unclean-one",
+      "role": "Characters"
+    },
+    {
+      "id": "000003586",
+      "name": "Greater Blight Drone",
+      "slug": "greater-blight-drone",
+      "role": "Other"
+    },
+    {
+      "id": "000001046",
+      "name": "Helbrute",
+      "slug": "helbrute",
+      "role": "Other"
+    },
+    {
+      "id": "000003594",
+      "name": "Hell Blade",
+      "slug": "hell-blade",
+      "role": "Other"
+    },
+    {
+      "id": "000003595",
+      "name": "Hell Talon",
+      "slug": "hell-talon",
+      "role": "Other"
+    },
+    {
+      "id": "000002750",
+      "name": "Icon Bearer",
+      "slug": "icon-bearer",
+      "role": "Characters"
+    },
+    {
+      "id": "000003632",
+      "name": "Kratos",
+      "slug": "kratos",
+      "role": "Other"
+    },
+    {
+      "id": "000003608",
+      "name": "Land Raider Achilles",
+      "slug": "land-raider-achilles",
+      "role": "Other"
+    },
+    {
+      "id": "000003612",
+      "name": "Land Raider Proteus",
+      "slug": "land-raider-proteus",
+      "role": "Other"
+    },
+    {
+      "id": "000003648",
+      "name": "Leviathan Dreadnought",
+      "slug": "leviathan-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001054",
+      "name": "Lord of Contagion",
+      "slug": "lord-of-contagion",
+      "role": "Characters"
+    },
+    {
+      "id": "000004109",
+      "name": "Lord of Poxes",
+      "slug": "lord-of-poxes",
+      "role": "Characters"
+    },
+    {
+      "id": "000002460",
+      "name": "Lord of Virulence",
+      "slug": "lord-of-virulence",
+      "role": "Characters"
+    },
+    {
+      "id": "000001055",
+      "name": "Malignant Plaguecaster",
+      "slug": "malignant-plaguecaster",
+      "role": "Characters"
+    },
+    {
+      "id": "000003644",
+      "name": "Mastodon",
+      "slug": "mastodon",
+      "role": "Other"
+    },
+    {
+      "id": "000002462",
+      "name": "Miasmic Malignifier",
+      "slug": "miasmic-malignifier",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000001377",
+      "name": "Mortarion",
+      "slug": "mortarion",
+      "role": "Characters"
+    },
+    {
+      "id": "000003596",
+      "name": "Mutoid Vermin",
+      "slug": "mutoid-vermin",
+      "role": "Other"
+    },
+    {
+      "id": "000001374",
+      "name": "Myphitic Blight-hauler",
+      "slug": "myphitic-blight-hauler",
+      "role": "Other"
+    },
+    {
+      "id": "000001058",
+      "name": "Noxious Blightbringer",
+      "slug": "noxious-blightbringer",
+      "role": "Characters"
+    },
+    {
+      "id": "000004116",
+      "name": "Nurglings",
+      "slug": "nurglings",
+      "role": "Other"
+    },
+    {
+      "id": "000004114",
+      "name": "Plague Drones",
+      "slug": "plague-drones",
+      "role": "Other"
+    },
+    {
+      "id": "000001044",
+      "name": "Plague Marines",
+      "slug": "plague-marines",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001369",
+      "name": "Plague Surgeon",
+      "slug": "plague-surgeon",
+      "role": "Characters"
+    },
+    {
+      "id": "000004113",
+      "name": "Plaguebearers",
+      "slug": "plaguebearers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001376",
+      "name": "Plagueburst Crawler",
+      "slug": "plagueburst-crawler",
+      "role": "Other"
+    },
+    {
+      "id": "000001056",
+      "name": "Poxwalkers",
+      "slug": "poxwalkers",
+      "role": "Other"
+    },
+    {
+      "id": "000003668",
+      "name": "Rapier Carrier",
+      "slug": "rapier-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000003656",
+      "name": "Relic Contemptor Dreadnought",
+      "slug": "relic-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000004111",
+      "name": "Rotigus",
+      "slug": "rotigus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003640",
+      "name": "Sicaran Battle Tank",
+      "slug": "sicaran-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003684",
+      "name": "Sicaran Punisher",
+      "slug": "sicaran-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003676",
+      "name": "Sicaran Venator",
+      "slug": "sicaran-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000003636",
+      "name": "Sokar-pattern Stormbird",
+      "slug": "sokar-pattern-stormbird",
+      "role": "Other"
+    },
+    {
+      "id": "000003600",
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "slug": "sorcerer-on-palanquin-of-nurgle",
+      "role": "Characters"
+    },
+    {
+      "id": "000003620",
+      "name": "Spartan",
+      "slug": "spartan",
+      "role": "Other"
+    },
+    {
+      "id": "000003672",
+      "name": "Storm Eagle Gunship",
+      "slug": "storm-eagle-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000001370",
+      "name": "Tallyman",
+      "slug": "tallyman",
+      "role": "Characters"
+    },
+    {
+      "id": "000003604",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003680",
+      "name": "Typhon",
+      "slug": "typhon",
+      "role": "Other"
+    },
+    {
+      "id": "000001053",
+      "name": "Typhus",
+      "slug": "typhus",
+      "role": "Characters"
+    },
+    {
+      "id": "000003660",
+      "name": "Whirlwind Scorpius",
+      "slug": "whirlwind-scorpius",
+      "role": "Other"
+    },
+    {
+      "id": "000003664",
+      "name": "Xiphon Interceptor",
+      "slug": "xiphon-interceptor",
+      "role": "Other"
+    }
+  ]
+}

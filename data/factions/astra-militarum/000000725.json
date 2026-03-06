@@ -1,0 +1,156 @@
+{
+  "id": "000000725",
+  "name": "Nork Deddog",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "nork-deddog",
+  "legend": "Nork Deddog’s loyalty and his skills as a bodyguard are beyond question. The hulking Ogryn would rather sustain terrible wounds than permit a single scratch on those he protects. Dozens of victories have been achieved thanks to his unthinking heroism as he shoots, eviscerates or head-butts any threat to his charges.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: ripper gun; huge knife.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Nork-Deddog",
+  "models": [
+    {
+      "datasheetId": "000000725",
+      "line": 1,
+      "name": "Nork Deddog",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000725",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ripper gun",
+      "description": "rapid fire 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000725",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Huge knife",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Ogryn Bodyguard",
+      "description": "While one or more Officer models are in the same unit as this model, those OFFICER models have the Feel No Pain 4+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Thunderous Head-butt",
+      "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "LOYAL PROTECTOR",
+      "description": "At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a COMMAND SQUAD cannot have more than one Loyal Protector model joined to it). This model then counts as part of that COMMAND SQUAD for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a COMMAND SQUAD, it does not take part in the battle and counts as having been destroyed.\n\nWhile this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your WARLORD.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ogryn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Loyal Protector",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nork Deddog",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000725",
+      "line": 1,
+      "description": "1 Nork Deddog – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000725",
+      "line": 1,
+      "description": "1 model",
+      "cost": 60
+    }
+  ],
+  "leaderAttachments": []
+}

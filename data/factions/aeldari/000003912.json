@@ -1,0 +1,150 @@
+{
+  "id": "000003912",
+  "name": "Vibro Cannon Platform",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "vibro-cannon-platform",
+  "legend": "Vibro cannons unleash resonating barrages of sonic energy, funnelled along magnetic tunnels into the foe’s ranks. Such a blast rips a furrow of destruction through the ground before shaking foes apart, shattering bones and detonating engines and ammunition. When these beams are crossed, however, the harmonic becomes truly apocalyptic.",
+  "role": "Other",
+  "loadout": "This model is equipped with: vibro cannon; shuriken catapult; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Vibro-Cannon-Platform",
+  "models": [
+    {
+      "datasheetId": "000003912",
+      "line": 1,
+      "name": "Vibro Cannon Platform",
+      "movement": "7\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003912",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken catapult",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003912",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Vibro cannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003912",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Support Weapon",
+      "description": "Each time an attack targets this model’s unit, if that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Sonic Destruction",
+      "description": "In your Shooting phase, each time this model makes an attack with its vibro cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 for each other friendly VIBRO CANNON PLATFORM model that made one or more attacks with its vibro cannon that also targeted that enemy unit this phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SUPPORT ARTILLERY",
+      "description": "At the start of the Declare Battle Formations step, this model can join one Guardian Defenders unit from your army (a unit cannot have more than one Support Weapon model joined to it). This model then counts as part of that GUARDIANS unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.\n\nThis model, and any unit it is joined to, cannot embark within a Transport.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Support Weapon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vibro Cannon Platform",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000003912",
+      "line": 1,
+      "description": "1 Vibro Cannon Platform"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003912",
+      "line": 1,
+      "description": "1 model",
+      "cost": 60
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,229 @@
+{
+  "id": "000002496",
+  "name": "Squighog Boyz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "squighog-boyz",
+  "legend": "With their mounts snorting and saddlegitz hanging on for dear life, Squighog Boyz thunder into the fight. They fling rokkit-propelled stikkas, hitting with enough force to pierce plate armour, then employ muscle, weight, momentum and sheer belligerence to squash those foes still standing to a paste.",
+  "role": "Other",
+  "loadout": "Every Nob on Smasha Squig is equipped with: slugga; big choppa; squig jaws.\n\nEvery Squighog Boy is equipped with: saddlegit weapons; stikka; squig jaws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Squighog-Boyz",
+  "models": [
+    {
+      "datasheetId": "000002496",
+      "line": 1,
+      "name": "Squighog Boyz",
+      "movement": "10\"",
+      "toughness": 7,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 2,
+      "name": "Nob On Smasha Squig",
+      "movement": "10\"",
+      "toughness": 7,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "90 x 52mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002496",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Saddlegit weapons",
+      "description": "assault",
+      "range": "9",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slugga",
+      "description": "Pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stikka",
+      "description": "assault, anti-monster 4+, anti-vehicle 4+",
+      "range": "9",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big Choppa",
+      "description": "anti-monster 4+, anti-vehicle 4+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stikka",
+      "description": "anti-monster 4+, anti-vehicle 4+, lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Squig jaws",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Wild Ride",
+      "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Bomb Squigs",
+      "description": "Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.\n\nDesigner’s Note: Place the relevant number of Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Squighog Boyz",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beast Snagga",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002496",
+      "line": 1,
+      "button": "•",
+      "description": "For every 3 models in this unit, this unit can be equipped with 1 bomb squig."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002496",
+      "line": 1,
+      "description": "1-2 Nob On Smasha Squig"
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 2,
+      "description": "3-6 Squighog Boyz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002496",
+      "line": 1,
+      "description": "4 models",
+      "cost": 150
+    },
+    {
+      "datasheetId": "000002496",
+      "line": 2,
+      "description": "8 models",
+      "cost": 300
+    }
+  ],
+  "leaderAttachments": []
+}

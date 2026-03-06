@@ -1,0 +1,234 @@
+{
+  "id": "000000302",
+  "name": "Bjorn The Fell-handed",
+  "factionId": "SM",
+  "sourceId": "000000036",
+  "slug": "bjorn-the-fell-handed",
+  "legend": "Most ancient of all Space Marines and last of the Company of Russ, Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s sarcophagus. The Space Wolves revere Bjorn as a living link to their deepest past, waking him only in times of dire need, and he still fights as furiously as he did at Russ’ side.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: assault cannon; heavy flamer; Trueclaw.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Bjorn-The-Fell-handed",
+  "models": [
+    {
+      "datasheetId": "000000302",
+      "line": 1,
+      "name": "Bjorn The Fell-handed",
+      "movement": "9\"",
+      "toughness": 9,
+      "save": "2+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 8,
+      "leadership": "6+",
+      "objectiveControl": 3,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000302",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Assault cannon",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000302",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000302",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Helfrost cannon – dispersed",
+      "description": "torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000302",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Helfrost cannon – focused",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "5"
+    },
+    {
+      "datasheetId": "000000302",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000302",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Trueclaw",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Legendary Tenacity",
+      "description": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Ancient Tactician",
+      "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Dreadnought",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Bjorn the Fell-handed",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000302",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s assault cannon can be replaced with one of the following:\n• Helfrost cannon\n• Multi-melta"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000302",
+      "line": 1,
+      "description": "1 Bjorn the Fell-Handed– EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000302",
+      "line": 1,
+      "description": "1 model",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

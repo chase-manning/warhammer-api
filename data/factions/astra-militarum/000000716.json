@@ -1,0 +1,230 @@
+{
+  "id": "000000716",
+  "name": "Commissar",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "commissar",
+  "legend": "Commissars are ruthless officers charged with maintaining the morale, discipline and fighting spirit of their regiment. With the power to summarily execute any soldier or officer found wanting, they are feared, brooding figures. Their devotion to the Imperium is without doubt and they fight with fanatical bravery.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; chainsword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Commissar",
+  "models": [
+    {
+      "datasheetId": "000000716",
+      "line": 1,
+      "name": "Commissar",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000716",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000716",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000716",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000716",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000716",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Voice of Command",
+      "description": "If your Army Faction is ASTRA MILITARUM, Officer models with this ability can issue Orders. Each OFFICER’s datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6\" of that Officer model to issue it to.\n\nOFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a Transport or were set up on the battlefield.\n\nUntil the start of your next Command phase, the unit you selected is affected by that Order. Unless otherwise stated, a unit can only be affected by one Order at a time (any Order subsequently issued to that unit replaces the current one). Orders cannot be issued to Battle-shocked units, and if a unit being affected by an Order becomes Battle-shocked, that Order ceases to affect that unit.\n\nOnly ASTRA MILITARUM models gain the benefit of an Order issued to their unit.\n\nMove! Move! Move!\n\nM\n\n+3\"\n\nAdd 3\" to the Move characteristic of models in this unit.\n\nFix Bayonets!\n\nWS\n\n+1\n\nImprove the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n\nTake Aim!\n\nBS\n\n+1\n\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n\nFirst Rank, Fire! Second Rank, Fire!\n\nA\n\n+1\n\nImprove the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.\n\nTake Cover!\n\nSV\n\n+1\n\nImprove the Save characteristic of models in this unit by 1 (this cannot improve a model’s Save to better than 3+).\n\nDuty and Honour!\n\nLD\n\n+1\n\nOC\n\n+1\n\nImprove the Leadership and Objective Control characteristics of models in this unit by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Summary Execution",
+      "description": "Once per battle round, at the start of any phase, you can select one friendly Astra Militarum Infantry unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Political Overwatch",
+      "description": "While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ORDERS",
+      "description": "This OFFICER can issue 1 Order to a Regiment unit. This OFFICER can only issue the Duty and Honour! and Fix Bayonets! Orders.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Officer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Commissar",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000716",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s bolt pistol can be replaced with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000000716",
+      "line": 2,
+      "button": "•",
+      "description": "This model’s chainsword can be replaced with 1 power weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000716",
+      "line": 1,
+      "description": "1 Commissar"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000716",
+      "line": 1,
+      "description": "1 model",
+      "cost": 30
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000002746",
+      "name": "Tempestus Scions"
+    },
+    {
+      "id": "000003893",
+      "name": "Krieg Combat Engineers"
+    },
+    {
+      "id": "000002615",
+      "name": "Kasrkin"
+    },
+    {
+      "id": "000002613",
+      "name": "Death Korps Of Krieg"
+    },
+    {
+      "id": "000002614",
+      "name": "Catachan Jungle Fighters"
+    },
+    {
+      "id": "000002612",
+      "name": "Cadian Shock Troops"
+    }
+  ]
+}

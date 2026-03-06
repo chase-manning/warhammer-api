@@ -1,0 +1,169 @@
+{
+  "id": "000000013",
+  "name": "Painboy",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "painboy",
+  "legend": "The traditional tools of the Painboy help them to patch up even the most mangled Orks and send them back into the fight. Helpfully, all these gruesome surgical klaws, rippy saws and fat syringes also serve as an expedient means of dismembering the enemy with – if not surgical precision – at least a great deal of enthusiasm!",
+  "role": "Characters",
+  "loadout": "This model is equipped with: power klaw; ’urty syringe.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Painboy",
+  "models": [
+    {
+      "datasheetId": "000000013",
+      "line": 1,
+      "name": "Painboy",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000013",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power klaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000013",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "’Urty syringe",
+      "description": "anti-infantry 4+, extra attacks, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Grot Orderly",
+      "description": "Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit.\n\nDesigner’s Note: Place a Grot Orderly token next to the unit, removing it once this ability has been used",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Dok’s Toolz",
+      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Hold Still and Say ‘Aargh!’",
+      "description": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Painboy",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000013",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with 1 grot orderly."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000013",
+      "line": 1,
+      "description": "1 Painboy"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000013",
+      "line": 1,
+      "description": "1 model",
+      "cost": 80
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000000021",
+      "name": "Nobz"
+    },
+    {
+      "id": "000000020",
+      "name": "Tankbustas"
+    },
+    {
+      "id": "000003861",
+      "name": "Breaka Boyz"
+    },
+    {
+      "id": "000000016",
+      "name": "Boyz"
+    },
+    {
+      "id": "000000019",
+      "name": "Burna Boyz"
+    },
+    {
+      "id": "000000044",
+      "name": "Lootas"
+    }
+  ]
+}

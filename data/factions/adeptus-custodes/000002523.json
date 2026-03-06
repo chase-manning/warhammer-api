@@ -1,0 +1,160 @@
+{
+  "id": "000002523",
+  "name": "Witchseekers",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "witchseekers",
+  "legend": "Witchseekers wield sanctified flamers as they hunt witches through tangled corridors and muddy trenchworks alike. Closing with their heretical quarry, they unleash a roaring conflagration to immolate the foe, as well as any pyre.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Witchseeker flamer; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Witchseekers",
+  "models": [
+    {
+      "datasheetId": "000002523",
+      "line": 1,
+      "name": "Witchseekers",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002523",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Witchseeker flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002523",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Daughters of the Abyss",
+      "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Sanctified Flames",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Anathema Psykana",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Witchseekers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002523",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002523",
+      "line": 1,
+      "description": "1 Witchseeker Sister Superior"
+    },
+    {
+      "datasheetId": "000002523",
+      "line": 2,
+      "description": "3-9 Witchseekers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002523",
+      "line": 1,
+      "description": "4 models",
+      "cost": 45
+    },
+    {
+      "datasheetId": "000002523",
+      "line": 2,
+      "description": "5 models",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000002523",
+      "line": 3,
+      "description": "9 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000002523",
+      "line": 4,
+      "description": "10 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,244 @@
+{
+  "id": "000002481",
+  "name": "Celestian Sacresants",
+  "factionId": "AS",
+  "sourceId": "000000112",
+  "slug": "celestian-sacresants",
+  "legend": "Part of the Celestian elite of the Orders Militant, Celestian Sacresants are close-combat specialists who – rather than serve as bodyguards – are charged with a holy quest. Whether that be to secure sacred relics or purge sites of the unclean, the Sacresants are relentless in their pursuit of victory.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; hallowed mace.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas/Celestian-Sacresants",
+  "models": [
+    {
+      "datasheetId": "000002481",
+      "line": 1,
+      "name": "Celestian Sacresants",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002481",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno pistol",
+      "description": "melta 2, pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ministorum hand flamer",
+      "description": "ignores cover, pistol, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Anointed halberd",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hallowed mace",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spear of the faithful",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Acts of Faith",
+      "description": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice:\n\n• At the start of each battle round.\n• Each time an ADEPTA SORORITAS unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead, the value of the selected Miracle dice is used as if it had been rolled ( this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n\n• Advance roll\n• Battle-shock test\n• Charge roll\n• Damage roll\n• Hit roll\n• Saving throw\n• Wound roll\n\nExample: Instead of rolling 2D6 to take a unit’s Battle-shock test, you could use one dice from your Miracle dice pool. If the value of that dice was 4, the unit’s Battle-shock test would be determined by rolling one D6 and adding 4 to it (i.e. it would be D6+4).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sworn Protectors",
+      "description": "While an ADEPTA SORORITAS CHARACTER is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adepta Sororitas",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Celestian Sacresants",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002481",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd."
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 2,
+      "button": "•",
+      "description": "The Sacresant Superior’s bolt pistol can be replaced with one of the following:\n• 1 inferno pistol\n• 1 Ministorum hand flamer\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 3,
+      "button": "•",
+      "description": "The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002481",
+      "line": 1,
+      "description": "1 Sacresant Superior"
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 2,
+      "description": "4-9 Celestian Sacresants"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002481",
+      "line": 1,
+      "description": "5 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000002481",
+      "line": 2,
+      "description": "10 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

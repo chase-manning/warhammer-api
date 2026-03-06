@@ -1,0 +1,172 @@
+{
+  "id": "000000475",
+  "name": "Zoanthropes",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "zoanthropes",
+  "legend": "A Zoanthrope’s physical form is given over to harnessing the might of the Hive Mind. Not only do they act as synapse nodes, but they can also draw upon the energies of the Hive Mind to unleash searing psychic blasts, and to generate fields of defensive power that can stop an artillery shell dead.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Warp Blast; chitinous claws and teeth.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Zoanthropes",
+  "models": [
+    {
+      "datasheetId": "000000475",
+      "line": 1,
+      "name": "Zoanthropes",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000475",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Warp Blast – witchfire",
+      "description": "blast, psychic",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000475",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Warp Blast – focused witchfire",
+      "description": "lethal hits, psychic",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000475",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chitinous claws and teeth",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shadow in the Warp",
+      "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more Synapse units from your army, subtract 1 from that test.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Spirit Leech (Aura, Psychic)",
+      "description": "While an enemy unit is within 6\" of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Warp Field (Aura, Psychic)",
+      "description": "While a friendly Tyranids unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Synapse",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Zoanthropes",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000475",
+      "line": 1,
+      "description": "1 Neurothrope"
+    },
+    {
+      "datasheetId": "000000475",
+      "line": 2,
+      "description": "2-5 Zoanthropes"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000475",
+      "line": 1,
+      "description": "3 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000000475",
+      "line": 2,
+      "description": "6 models",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

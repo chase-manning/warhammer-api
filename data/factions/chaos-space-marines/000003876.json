@@ -1,0 +1,435 @@
+{
+  "id": "000003876",
+  "name": "Nemesis Claw",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "nemesis-claw",
+  "legend": "Nemesis Claws are squads of Night Lords consumed by murderlust and sadism that are employed as terror troops by Chaos warlords the galaxy over. These psychopathic killers use an array of dread weaponry and ghoulish equipment to inflict fear, misery and violent death upon their foes.",
+  "role": "Other",
+  "loadout": "The Visionary is equipped with: bolt pistol; Nostraman chainblade.\n\nEach Legionary is equipped with: bolt pistol; boltgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Nemesis-Claw",
+  "models": [
+    {
+      "datasheetId": "000003876",
+      "line": 1,
+      "name": "Legionaries",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003876",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "HEAVY, SUSTAINED HITS 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile launcher – frag",
+      "description": "BLAST, HEAVY",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 7,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Missile launcher – krak",
+      "description": "HEAVY",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 9,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "HAZARDOUS, RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Accursed weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Nostraman chainblade",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 16,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Nostraman chainglaive",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 17,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired accursed weapons",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 18,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Visions of Suffering (Psychic)",
+      "description": "Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Voice Eater",
+      "description": "Enemy units (excluding MONSTERS and VEHICLES) cannot be targeted with Stratagems while they are within Engagement Range of the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability (excluding Epic Heroes) can be attached to a Legionaries unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nemesis Claw",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003876",
+      "line": 1,
+      "button": "•",
+      "description": "The Visionary’s bolt pistol can be replaced with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 2,
+      "button": "•",
+      "description": "The Visionary’s Nostraman chainblade can be replaced with one of the following:\n• 1 accursed weapon\n• 1 power fist"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of Legionaries can each have their boltgun replaced with 1 Astartes chainsword."
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 4,
+      "button": "•",
+      "description": "If this unit contains 10 models, one Legionary’s boltgun can be replaced with one of the following:\n• 1 heavy bolter\n• 1 missile launcher"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 5,
+      "button": "•",
+      "description": "One Legionary’s boltgun can be replaced with one of the following:\n• 1 flamer\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 6,
+      "button": "•",
+      "description": "Up to four Legionaries can each have their boltgun replaced with one of the following (duplicates are not allowed):\n• 1 accursed weapon\n• 1 Nostraman chainglaive\n• 1 paired accursed weapons\n• 1 voice eater and 1 Astartes chainsword"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003876",
+      "line": 1,
+      "description": "1 Visionary"
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 2,
+      "description": "4-9 Legionaries"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003876",
+      "line": 1,
+      "description": "5 models",
+      "cost": 110
+    },
+    {
+      "datasheetId": "000003876",
+      "line": 2,
+      "description": "10 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

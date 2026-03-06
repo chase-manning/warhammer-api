@@ -1,0 +1,373 @@
+{
+  "id": "000003834",
+  "name": "Tempestus Aquilons",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "tempestus-aquilons",
+  "legend": "Hand-picked for their aggression and violent natures, Tempestus Aquilons deploy exclusively by grav-drop, descending from the skies to land precisely where their destructive firepower is most keenly required. They are accompanied in these actions by automaton servo-sentries that provide additional firepower as the assault is pressed home.",
+  "role": "Other",
+  "loadout": "The Tempestor Aquilon is equipped with: hot-shot lascarbine; sentry flamer; close combat weapon.\n\nEvery Tempestus Aquilon is equipped with: hot-shot lascarbine; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tempestus-Aquilons",
+  "models": [
+    {
+      "datasheetId": "000003834",
+      "line": 1,
+      "name": "Tempestus Aquilons",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003834",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot lascarbine",
+      "description": "ASSAULT",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hot-shot long-las",
+      "description": "HEAVY, PRECISION",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sentry flamer",
+      "description": "IGNORES COVER, TORRENT",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sentry grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 7,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Sentry grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sentry hot-shot volley gun",
+      "description": "RAPID FIRE 4",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Melta carbine",
+      "description": "ASSAULT, MELTA 2",
+      "range": "10",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma carbine – standard",
+      "description": "ASSAULT",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma carbine – supercharge",
+      "description": "ASSAULT, HAZARDOUS",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Precision Drop",
+      "description": "In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a precision drop. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Servo-sentry",
+      "description": "When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley gun).",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Militarum Tempestus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tempestus Aquilons",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003834",
+      "line": 1,
+      "button": "•",
+      "description": "The Tempestor Aquilon’s sentry flamer can be replaced with one of the following:\n• 1 sentry hot-shot volley gun\n• 1 sentry grenade launcher"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 2,
+      "button": "•",
+      "description": "The Tempestor Aquilon’s hot-shot lascarbine can be replaced with one of the following:\n• 1 chainsword\n• 1 power weapon\n• 1 hot-shot laspistol"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 3,
+      "button": "•",
+      "description": "The Tempestor Aquilon can be equipped with one of the following:\n• 1 bolt pistol\n• 1 hot-shot laspistol"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 4,
+      "button": "•",
+      "description": "One Tempestus Aquilon’s hot‑shot lascarbine can be replaced with 1 of the following:\n• 1 melta carbine\n• 1 plasma carbine"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 5,
+      "button": "•",
+      "description": "One Tempestus Aquilon’s hot-shot lascarbine can be replaced with 2 hot-shot laspistols."
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 6,
+      "button": "•",
+      "description": "One Tempestus Aquilon’s hot-shot lascarbine can be replaced with 1 hot-shot long-las."
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 7,
+      "button": "•",
+      "description": "Up to two Tempestus Aquilons can each have their hot-shot lascarbine replaced with 1 hot-shot laspistol."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003834",
+      "line": 1,
+      "description": "1 Tempestor Aquilon"
+    },
+    {
+      "datasheetId": "000003834",
+      "line": 2,
+      "description": "9 Tempestus Aquilons"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003834",
+      "line": 1,
+      "description": "10 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

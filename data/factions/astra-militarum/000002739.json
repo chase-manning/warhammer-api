@@ -1,0 +1,143 @@
+{
+  "id": "000002739",
+  "name": "Earthshaker Platform",
+  "factionId": "AM",
+  "sourceId": "000000374",
+  "slug": "earthshaker-platform",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "This model is equipped with: earthshaker cannon; close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Earthshaker-Platform",
+  "models": [
+    {
+      "datasheetId": "000002739",
+      "line": 1,
+      "name": "Earthshaker Platform",
+      "movement": "-",
+      "toughness": 8,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 8,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002739",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Earthshaker cannon",
+      "description": "blast, indirect fire",
+      "range": "240",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002739",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "1"
+    },
+    {
+      "name": "Earthshaker Rounds",
+      "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the end of your opponent’s next turn, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "FORTIFICATION",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle- shocked, except for those that will move over enemy models when doing so.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Earthshaker Platform",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002739",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002739",
+      "line": 1,
+      "description": "1 Earthshaker Platform"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002739",
+      "line": 1,
+      "description": "1 model",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

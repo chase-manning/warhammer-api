@@ -1,0 +1,236 @@
+{
+  "id": "000000046",
+  "name": "Stompa",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "stompa",
+  "legend": "Something akin to a bad-tempered, armour-plated mountain covered in guns, the Stompa is a walking idol to Gork and Mork. It packs enough firepower to level an enemy fortress or annihilate entire formations of troops with a single volley, while anything unlucky enough to get within reach is soon crushed flat.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 3 big shootas; deffkannon; skorcha; supa-gatler; supa-rokkits; twin big shoota; mega-choppa.",
+  "transport": "This model has a transport capacity of 22 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 15 models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-10",
+  "damagedDescription": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Stompa",
+  "models": [
+    {
+      "datasheetId": "000000046",
+      "line": 1,
+      "name": "Stompa",
+      "movement": "10\"",
+      "toughness": 14,
+      "save": "2+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 30,
+      "leadership": "6+",
+      "objectiveControl": 12,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000046",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big shoota",
+      "description": "rapid fire 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deffkannon",
+      "description": "blast",
+      "range": "72",
+      "type": "Ranged",
+      "attacks": "3D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Skorcha",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Supa-gatler",
+      "description": "sustained hits 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "20",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Supa-rokkits",
+      "description": "blast",
+      "range": "100",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin big shoota",
+      "description": "rapid fire 2, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mega-choppa – strike",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "24",
+      "armourPenetration": "-5",
+      "damage": "10"
+    },
+    {
+      "datasheetId": "000000046",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Mega-choppa – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "18",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "2D6"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Waaagh! Effigy (Aura)",
+      "description": "While a friendly ORKS unit is within 12\" of this model, each time you take a Battle-shock test for that unit, add 1 to that test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Stompin’ Forward",
+      "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Towering",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Stompa",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000046",
+      "line": 1,
+      "description": "1 Stompa"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000046",
+      "line": 1,
+      "description": "1 model",
+      "cost": 800
+    }
+  ],
+  "leaderAttachments": []
+}

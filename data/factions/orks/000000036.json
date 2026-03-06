@@ -1,0 +1,153 @@
+{
+  "id": "000000036",
+  "name": "Warbuggies",
+  "factionId": "ORK",
+  "sourceId": "000000377",
+  "slug": "warbuggies",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: twin big shoota; spiked wheels.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Warbuggies",
+  "models": [
+    {
+      "datasheetId": "000000036",
+      "line": 1,
+      "name": "Warbuggies",
+      "movement": "12\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000036",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rack of rokkits",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3+1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000036",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin big shoota",
+      "description": "rapid fire 2, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000036",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spiked wheels",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Outflank",
+      "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply).",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SPEED FREEKS",
+      "description": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Speed Freeks",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Warbuggies",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000036",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their twin big shoota replaced with 1 rack of rokkits."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000036",
+      "line": 1,
+      "description": "1-2 Warbuggies"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000036",
+      "line": 1,
+      "description": "1 model",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000000036",
+      "line": 2,
+      "description": "2 models",
+      "cost": 80
+    }
+  ],
+  "leaderAttachments": []
+}

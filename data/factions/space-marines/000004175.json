@@ -1,0 +1,498 @@
+{
+  "id": "000004175",
+  "name": "Decimus Kill Team",
+  "factionId": "SM",
+  "sourceId": "000000035",
+  "slug": "decimus-kill-team",
+  "legend": "The Decimus Kill Team provides a force-appropriate response to any alien threat at a squad-based level. Every warrior in this hand-picked squad possesses their own specialisms and an array of potent armaments that make them the bane of not only xenos foes but any enemy unlucky enough to bar their path.",
+  "role": "Battleline",
+  "loadout": "The Kill Team Sergeant is equipped with: plasma pistol; power weapon.\n\nEach Gravis Veteran is equipped with: infernus heavy bolter; bolt pistol; close combat weapon.\n\nFor every 5 models in the unit, 1 Deathwatch Veteran is equipped with: stalker bolt rifle; bolt pistol; close combat weapon.\n\nFor every 5 models in the unit, 1 Deathwatch Veteran is equipped with: bolt pistol; heavy thunder hammer.\n\nFor every 5 models in the unit, 1 Deathwatch Veteran is equipped with: Deathwatch marksman bolt carbine; special-issue bolt pistol; close combat weapon.\n\nIf the unit contains 10 models, 1 Deathwatch Veteran is equipped with: special-issue bolt pistol; xenophase blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Decimus-Kill-Team",
+  "models": [
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "name": "KILL TEAM SERGEANT, DEATHWATCH VETERAN",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 2,
+      "name": "GRAVIS VETERAN",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Astartes grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol, lethal hits",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deathwatch marksman bolt carbine",
+      "description": "heavy, lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Frag cannon",
+      "description": "blast, heavy, lethal hits, rapid fire d3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hellstorm bolt rifle",
+      "description": "assault, heavy, lethal hits",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Infernus heavy bolter – heavy bolter",
+      "description": "SUSTAINED HITS 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 6,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Infernus heavy bolter – heavy flamer",
+      "description": "IGNORES COVER, TORRENT",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma incinerator – standard",
+      "description": "assault, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma incinerator – supercharge",
+      "description": "assault, hazardous, heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol - standard",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 9,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol - supercharge",
+      "description": "HAZARDOUS, PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Special-issue bolt pistol",
+      "description": "pistol, precision, lethal hits",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Stalker bolt rifle",
+      "description": "heavy, lethal hits, precision",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Combat knife",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy thunder hammer",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 16,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Xenophase blade",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mission Tactics",
+      "description": "At the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all units from your army with this ability. Each Mission Tactic can only be selected once per battle.\n\nFUROR TACTICS\n\nWhen the enemy horde grows close, the Deathwatch will be tasked with the decimation of their core. Aiming not for clinical kills but for maximum destruction over a wide area, they tear the heart from the enemy army.\n\nWhile this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [SUSTAINED HITS 1] ability.\n\nMALLEUS TACTICS\n\nWhen the giants of war lumber forth, the Deathwatch will adopt Malleus tactics. Even the largest behemoth has a weak point, and the archives of the Deathwatch number them all.\n\nWhile this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [LETHAL HITS] ability.\n\nPURGATUS TACTICS\n\nBy adopting Purgatus tactics, the Deathwatch focus their deadly ire upon the commanders of the enemy host, assassinating them one after another with pitiless head shots and killing thrusts of the blade.\n\nWhile this Mission Tactic is active, each time an ADEPTUS ASTARTES unit from your army makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Death to the Alien",
+      "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Astartes Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character from your army with the Leader ability can be attached to an Intercessor Squad, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": "KILL TEAM SERGEANT AND DEATHWATCH VETERANS"
+    },
+    {
+      "keyword": "Gravis",
+      "isFactionKeyword": false,
+      "model": "GRAVIS VETERANS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Decimus Kill Team",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 models in the unit, up to 1 model’s infernus heavy bolter can be replaced with one of the following:\n• 1 frag cannon.\n• 1 hellstorm bolt rifle and 1 Astartes grenade launcher."
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 2,
+      "button": "•",
+      "description": "For every 5 models in the unit, up to 1 model’s heavy thunder hammer can be replaced with 1 power weapon and 1 Astartes shield."
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in the unit, up to 1 model’s stalker bolt rifle can be replaced with 1 plasma incinerator."
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 4,
+      "button": "•",
+      "description": "For every 5 models in the unit, up to 1 model’s Deathwatch marksman bolt carbine can be replaced with 1 combat knife."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "description": "1 Kill Team Sergeant"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 2,
+      "description": "1 Gravis Veteran"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 3,
+      "description": "3 Deathwatch Veterans"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 4,
+      "description": "OR"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 5,
+      "description": "1 Kill Team Sergeant"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 6,
+      "description": "2 Gravis Veterans"
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 7,
+      "description": "7 Deathwatch Veterans"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004175",
+      "line": 1,
+      "description": "5 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000004175",
+      "line": 2,
+      "description": "10 models",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

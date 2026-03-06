@@ -1,0 +1,147 @@
+{
+  "id": "000000472",
+  "name": "Hive Guard",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "hive-guard",
+  "legend": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: shockcannon; chitinous claws and teeth.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Hive-Guard",
+  "models": [
+    {
+      "datasheetId": "000000472",
+      "line": 1,
+      "name": "Hive Guard",
+      "movement": "6\"",
+      "toughness": 7,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000472",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Impaler cannon",
+      "description": "heavy, indirect fire",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000472",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shockcannon",
+      "description": "anti-vehicle 2+",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000472",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chitinous claws and teeth",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Defensive Stance",
+      "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hive Guard",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000472",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000472",
+      "line": 1,
+      "description": "3-6 Hive Guard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000472",
+      "line": 1,
+      "description": "3 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000000472",
+      "line": 2,
+      "description": "6 models",
+      "cost": 180
+    }
+  ],
+  "leaderAttachments": []
+}

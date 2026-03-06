@@ -1,0 +1,173 @@
+{
+  "id": "000001449",
+  "name": "Shield-captain On Dawneagle Jetbike",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "shield-captain-on-dawneagle-jetbike",
+  "legend": "All Shield-Captains are decisive warriors who suffer no impediment to their mission. Those Shield-Captains swiftest in thought and action soar into battle on Dawneagle jetbikes, plunging into the heart of the foe. Though these warriors appear arrogant, this is far from true – their self-assuredness is matched entirely by their skill.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: salvo launcher; interceptor lance.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Shield-captain-On-Dawneagle-Jetbike",
+  "models": [
+    {
+      "datasheetId": "000001449",
+      "line": 1,
+      "name": "Shield-captain On Dawneagle Jetbike",
+      "movement": "12\"",
+      "toughness": 7,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 8,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001449",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Vertus hurricane bolter",
+      "description": "rapid fire 3, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001449",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Salvo launcher",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000001449",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Interceptor lance",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Martial Ka’tah",
+      "description": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:\n\nDacatarai Stance\n\nThose Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nRendax Stance\n\nMasters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sweeping Advance",
+      "description": "Once per battle, at the end of the Fight phase, if this model’s unit has fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not within Engagement Range of one or more enemy units, it can make a Normal move",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Strategic Mastery",
+      "description": "Once per battle round, you can select one model from your army with this ability and target that model’s unit with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Dawneagle Jetbike",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shield-Captain",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001449",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s salvo launcher can be replaced with 1 Vertus hurricane bolter."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001449",
+      "line": 1,
+      "description": "1 Shield-Captain on Dawneagle Jetbike"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001449",
+      "line": 1,
+      "description": "1 model",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000001454",
+      "name": "Vertus Praetors"
+    }
+  ]
+}

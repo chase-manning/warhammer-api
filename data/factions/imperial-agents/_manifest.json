@@ -1,0 +1,279 @@
+{
+  "id": "AoI",
+  "name": "Imperial Agents",
+  "slug": "imperial-agents",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents",
+  "datasheetCount": 45,
+  "datasheets": [
+    {
+      "id": "000004174",
+      "name": "Aquila Kill Team",
+      "slug": "aquila-kill-team",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000871",
+      "name": "Callidus Assassin",
+      "slug": "callidus-assassin",
+      "role": "Characters"
+    },
+    {
+      "id": "000003817",
+      "name": "Corvus Blackstar",
+      "slug": "corvus-blackstar",
+      "role": "Other"
+    },
+    {
+      "id": "000000873",
+      "name": "Culexus Assassin",
+      "slug": "culexus-assassin",
+      "role": "Characters"
+    },
+    {
+      "id": "000003828",
+      "name": "Daemonhost",
+      "slug": "daemonhost",
+      "role": "Other"
+    },
+    {
+      "id": "000002761",
+      "name": "Damned Legionnaires",
+      "slug": "damned-legionnaires",
+      "role": "Other"
+    },
+    {
+      "id": "000003816",
+      "name": "Deathwatch Kill Team",
+      "slug": "deathwatch-kill-team",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003822",
+      "name": "Deathwatch Terminator Squad",
+      "slug": "deathwatch-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000872",
+      "name": "Eversor Assassin",
+      "slug": "eversor-assassin",
+      "role": "Characters"
+    },
+    {
+      "id": "000002685",
+      "name": "Exaction Squad",
+      "slug": "exaction-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003825",
+      "name": "Fortis Kill Team",
+      "slug": "fortis-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000003813",
+      "name": "Grey Knights Terminator Squad",
+      "slug": "grey-knights-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002587",
+      "name": "Imperial Navy Breachers",
+      "slug": "imperial-navy-breachers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003830",
+      "name": "Imperial Rhino",
+      "slug": "imperial-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003826",
+      "name": "Indomitor Kill Team",
+      "slug": "indomitor-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000000877",
+      "name": "Inquisitor",
+      "slug": "inquisitor",
+      "role": "Characters"
+    },
+    {
+      "id": "000000876",
+      "name": "Inquisitor Coteaz",
+      "slug": "inquisitor-coteaz",
+      "role": "Characters"
+    },
+    {
+      "id": "000002090",
+      "name": "Inquisitor Draxus",
+      "slug": "inquisitor-draxus",
+      "role": "Characters"
+    },
+    {
+      "id": "000001579",
+      "name": "Inquisitor Eisenhorn",
+      "slug": "inquisitor-eisenhorn",
+      "role": "Characters"
+    },
+    {
+      "id": "000000874",
+      "name": "Inquisitor Greyfax",
+      "slug": "inquisitor-greyfax",
+      "role": "Characters"
+    },
+    {
+      "id": "000002760",
+      "name": "Inquisitor In Terminator Armour",
+      "slug": "inquisitor-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000875",
+      "name": "Inquisitor Karamazov",
+      "slug": "inquisitor-karamazov",
+      "role": "Characters"
+    },
+    {
+      "id": "000004173",
+      "name": "Inquisitor Ostromandeus",
+      "slug": "inquisitor-ostromandeus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002767",
+      "name": "Inquisitorial Agents",
+      "slug": "inquisitorial-agents",
+      "role": "Other"
+    },
+    {
+      "id": "000003820",
+      "name": "Inquisitorial Chimera",
+      "slug": "inquisitorial-chimera",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002763",
+      "name": "Janus Draik",
+      "slug": "janus-draik",
+      "role": "Characters"
+    },
+    {
+      "id": "000003829",
+      "name": "Jokaero Weaponsmith",
+      "slug": "jokaero-weaponsmith",
+      "role": "Characters"
+    },
+    {
+      "id": "000003821",
+      "name": "Kill Team Cassius",
+      "slug": "kill-team-cassius",
+      "role": "Characters"
+    },
+    {
+      "id": "000003812",
+      "name": "Ministorum Priest",
+      "slug": "ministorum-priest",
+      "role": "Characters"
+    },
+    {
+      "id": "000002765",
+      "name": "Navigator",
+      "slug": "navigator",
+      "role": "Characters"
+    },
+    {
+      "id": "000002764",
+      "name": "Neyam Shai Murad",
+      "slug": "neyam-shai-murad",
+      "role": "Characters"
+    },
+    {
+      "id": "000003824",
+      "name": "Proteus Kill Team",
+      "slug": "proteus-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000002762",
+      "name": "Rogue Trader Entourage",
+      "slug": "rogue-trader-entourage",
+      "role": "Characters"
+    },
+    {
+      "id": "000004074",
+      "name": "Sanctifiers",
+      "slug": "sanctifiers",
+      "role": "Other"
+    },
+    {
+      "id": "000003819",
+      "name": "Sisters of Battle Immolator",
+      "slug": "sisters-of-battle-immolator",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003818",
+      "name": "Sisters of Battle Squad",
+      "slug": "sisters-of-battle-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003827",
+      "name": "Spectrus Kill Team",
+      "slug": "spectrus-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000002684",
+      "name": "Subductor Squad",
+      "slug": "subductor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002766",
+      "name": "UR-025",
+      "slug": "ur-025",
+      "role": "Characters"
+    },
+    {
+      "id": "000003823",
+      "name": "Veteran Bike Squad",
+      "slug": "veteran-bike-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002683",
+      "name": "Vigilant Squad",
+      "slug": "vigilant-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000870",
+      "name": "Vindicare Assassin",
+      "slug": "vindicare-assassin",
+      "role": "Characters"
+    },
+    {
+      "id": "000002509",
+      "name": "Voidsmen-at-arms",
+      "slug": "voidsmen-at-arms",
+      "role": "Other"
+    },
+    {
+      "id": "000003814",
+      "name": "Watch Captain Artemis",
+      "slug": "watch-captain-artemis",
+      "role": "Characters"
+    },
+    {
+      "id": "000003815",
+      "name": "Watch Master",
+      "slug": "watch-master",
+      "role": "Characters"
+    }
+  ]
+}

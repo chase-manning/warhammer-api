@@ -1,0 +1,210 @@
+{
+  "id": "000000032",
+  "name": "Wazbom Blastajet",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "wazbom-blastajet",
+  "legend": "Some Meks take to the skies in their own kustom aircraft. The result is the Wazbom Blastajet, an airborne workshop that is wreathed in a protective force field, and bristling with weird weapons that pluck their targets from the ground, blast them to atoms or rip them apart with conflicting tellyporta beams.",
+  "role": "Other",
+  "loadout": "This model is equipped with: smasha gun; twin wazbom mega-kannon; armoured hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Wazbom-Blastajet",
+  "models": [
+    {
+      "datasheetId": "000000032",
+      "line": 1,
+      "name": "Wazbom Blastajet",
+      "movement": "20+\"",
+      "toughness": 9,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 12,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000032",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Smasha gun",
+      "description": "blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "4"
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin wazbom mega-kannon",
+      "description": "blast, hazardous, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin supa-shoota",
+      "description": "rapid fire 2, sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin tellyport mega-blasta",
+      "description": "blast, twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Blastajet Attack Run",
+      "description": "Each time this model makes a ranged attack that targets a unit that cannot FLY, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Blastajet Force Field",
+      "description": "The bearer has a 4+ invulnerable save, but it loses the Grenades keyword.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Wazbom Blastajet",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Speed Freeks",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000032",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s twin wazbom mega-kannon can be replaced with 1 twin tellyport mega-blasta."
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with 1 blastajet force field."
+    },
+    {
+      "datasheetId": "000000032",
+      "line": 3,
+      "button": "•",
+      "description": "This model can be equipped with 1 twin supa-shoota."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000032",
+      "line": 1,
+      "description": "1 Wazbom Blastajet"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000032",
+      "line": 1,
+      "description": "1 model",
+      "cost": 175
+    }
+  ],
+  "leaderAttachments": []
+}

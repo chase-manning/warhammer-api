@@ -1,0 +1,341 @@
+{
+  "id": "000002612",
+  "name": "Cadian Shock Troops",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "cadian-shock-troops",
+  "legend": "Born soldiers, the Shock Troops of Cadia have trained their entire lives for military service with the Astra Militarum. Decades of rigorous firing drills have forged them into expert sharpshooters. Skilled in both dogged defence and storming assaults, Cadian Shock Troops are held by many as being the ideal soldiers.",
+  "role": "Battleline",
+  "loadout": "Every Shock Trooper Sergeant is equipped with: laspistol; chainsword. \n\nEvery Shock Trooper is equipped with: lasgun; close combat weapon.\n\nThis unit can have up to two Leader units attached to it, provided no more than one of those units is a Command Squad unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Shock-Troops",
+  "models": [
+    {
+      "datasheetId": "000002612",
+      "line": 1,
+      "name": "Cadian Shock Troops",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002612",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 4,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 9,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sergeant's autogun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shock Troops",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Vox-caster",
+      "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly Officer models within 6\": on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Platoon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cadian",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cadian Shock Troops",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002612",
+      "line": 1,
+      "button": "•",
+      "description": "For every 10 models in this unit, up to 2 Shock Troopers can each have their lasgun replaced with one of the following*:\n• 1 flamer\n• 1 grenade launcher\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 2,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 Shock Trooper equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced)."
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of Shock Trooper Sergeants can each have their laspistol replaced with 1 bolt pistol."
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 4,
+      "button": "•",
+      "description": "Any number of Shock Trooper Sergeants can each have their laspistol and chainsword replaced with 1 Sergeant's autogun and 1 close combat weapon."
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 5,
+      "button": "*",
+      "description": "* You cannot select the same weapon more than once per unit unless it contains 20 models, in which case you cannot select the same weapon more than twice per unit."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002612",
+      "line": 1,
+      "description": "1 Shock Trooper Sergeant and 9 Shock Troopers"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 2,
+      "description": "OR"
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 3,
+      "description": "2 Shock Trooper Sergeants and 18 Shock Troopers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002612",
+      "line": 1,
+      "description": "10 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000002612",
+      "line": 2,
+      "description": "20 models",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

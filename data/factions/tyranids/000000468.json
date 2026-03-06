@@ -1,0 +1,241 @@
+{
+  "id": "000000468",
+  "name": "Termagants",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "termagants",
+  "legend": "Scuttling predators that attack in huge swarms, Termagants were originally spawned to roam the tight arterial passages of hive ships and hunt intruders. They harry their prey with a hail of firepower, seeking always to outflank and envelop their victims as they erode their numbers.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: fleshborer; chitinous claws and teeth.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Termagants",
+  "models": [
+    {
+      "datasheetId": "000000468",
+      "line": 1,
+      "name": "Termagants",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 2,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000468",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fleshborer",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shardlauncher",
+      "description": "blast, heavy",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spike rifle",
+      "description": "heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Strangleweb",
+      "description": "assault, devastating wounds, torrent",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Termagant devourer",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Termagant spinefists",
+      "description": "assault, pistol, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chitinous claws and teeth",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Skulking Horrors",
+      "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Endless Multitude",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Termagants",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000468",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their fleshborer replaced with 1 Termagant devourer."
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 2,
+      "button": "•",
+      "description": "All models in this unit can each have their fleshborer replaced with 1 Termagant spinefists."
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 3,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 shardlauncher"
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 4,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 spike rifle."
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 5,
+      "button": "•",
+      "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 strangleweb"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000468",
+      "line": 1,
+      "description": "10-20 Termagants"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000468",
+      "line": 1,
+      "description": "10 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000000468",
+      "line": 2,
+      "description": "20 models",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

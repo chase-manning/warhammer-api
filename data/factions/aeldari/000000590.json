@@ -1,0 +1,235 @@
+{
+  "id": "000000590",
+  "name": "Storm Guardians",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "storm-guardians",
+  "legend": "Storm Guardians often support Aspect Warriors in close combat, wielding their pistols and blades with all the grace and skill of their kind. Other Storm Guardians bring special weapons to bear, burning foes out of cover with bursts from their flamers or melting through armoured bunkers with their fusion guns.",
+  "role": "Battleline",
+  "loadout": "Every Storm Guardian is equipped with: shuriken pistol; close combat weapon.\n\nThe Serpent’s Scale Platform is equipped with: close combat weapon; Serpent shield.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Storm-Guardians",
+  "models": [
+    {
+      "datasheetId": "000000590",
+      "line": 1,
+      "name": "STORM GUARDIAN",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 2,
+      "name": "SERPENT’S SCALE PLATFORM",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000590",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "assault, ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fusion gun",
+      "description": "assault, melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shuriken pistol",
+      "description": "assault, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Battle Focus",
+      "description": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\nBATTLE SIZEBATTLE FOCUS TOKENSIncursion2Strike Force4Onslaught6\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\n\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\nEFFECT: Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible VEHICLE unit from your army is selected to make an Advance move.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the [ASSAULT] ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army is selected to fight.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a Fall Back move.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that started the phase within Engagement Range of that enemy unit can make a Normal move of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding TITANIC units) that was hit by one or more of those attacks can make a Normal move of up to D6+1\".",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Stormblades",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Crewed Platform",
+      "description": "When the last Storm Guardian model in this unit is destroyed, any remaining Serpent’s Scale Platform models in this unit are also destroyed.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Serpent Shield",
+      "description": "Models in the bearer’s unit have a 5+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Storm Guardians",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Guardians",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000590",
+      "line": 1,
+      "button": "•",
+      "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 flamer."
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 2,
+      "button": "•",
+      "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 fusion gun."
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 3,
+      "button": "•",
+      "description": "Up to 2 Storm Guardians can each have their close combat weapon replaced with 1 power sword."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000590",
+      "line": 1,
+      "description": "10 Storm Guardians"
+    },
+    {
+      "datasheetId": "000000590",
+      "line": 2,
+      "description": "1 Serpent’s Scale Platform"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000590",
+      "line": 1,
+      "description": "11 models",
+      "cost": 110
+    }
+  ],
+  "leaderAttachments": []
+}

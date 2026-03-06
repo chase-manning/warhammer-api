@@ -1,0 +1,139 @@
+{
+  "id": "000000473",
+  "name": "Lictor",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "lictor",
+  "legend": "Lictors are an adaptation of the Tyranid Warrior bioform specialising in infiltration, scouting and assassination. Hidden by their chameleonic skin, Lictors pick off their prey opportunistically, always looking for a chance to crack open their victims’ skulls and suck out the secrets held within using their feeder tendrils.",
+  "role": "Other",
+  "loadout": "This model is equipped with: Lictor claws and talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Lictor",
+  "models": [
+    {
+      "datasheetId": "000000473",
+      "line": 1,
+      "name": "Lictor",
+      "movement": "8\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000473",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lictor claws and talons",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Feeder Tendrils",
+      "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Pheromone Trail",
+      "description": "Once per battle round, you can target one model with this ability with the Rapid Ingress Stratagem for 0CP.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vanguard Invader",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lictor",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000473",
+      "line": 1,
+      "description": "1 Lictor"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000473",
+      "line": 1,
+      "description": "1 model",
+      "cost": 60
+    }
+  ],
+  "leaderAttachments": []
+}

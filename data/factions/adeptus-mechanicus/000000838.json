@@ -1,0 +1,205 @@
+{
+  "id": "000000838",
+  "name": "Belisarius Cawl",
+  "factionId": "AdM",
+  "sourceId": "000000015",
+  "slug": "belisarius-cawl",
+  "legend": "Belisarius Cawl’s war form is a multi-limbed, biomechanical hybrid. Advanced bionics grant him immense strength and resilience, while snaking tendrils rapidly repair his cybernetic body. For ten thousand years, Cawl has eradicated the Imperium’s enemies, and he leads the Machine God’s devotees in holy acquisition still.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: solar atomiser; arc scourge; Cawl’s Omnissian axe; mechadendrite hive.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Belisarius-Cawl",
+  "models": [
+    {
+      "datasheetId": "000000838",
+      "line": 1,
+      "name": "Belisarius Cawl",
+      "movement": "8\"",
+      "toughness": 8,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "6+",
+      "objectiveControl": 3,
+      "baseSize": "105 x 70mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000838",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Solar atomiser",
+      "description": "melta 3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "14",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000838",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arc scourge",
+      "description": "anti-vehicle 4+, devastating wounds, extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000838",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Cawl’s Omnissian axe",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000838",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechadendrite hive",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Canticles of the Omnissiah",
+      "description": "At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Mechanicus Bodyguard",
+      "description": "While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUS units, this model has the Lone Operative ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Self-repair Mechanisms",
+      "description": "At the start of your Command phase, this model regains up to D3 lost wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SUPREME COMMANDER",
+      "description": "If this model is in your army, it must be your Warlord.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "Invocation of Machine Vengeance",
+      "description": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly Adeptus Mechanicus unit makes an attack that targets your Machine Vengeance target, you can re-roll the Hit roll.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Mantra of Discipline",
+      "description": "This model has the BATTLELINE keyword and has the following ability: \n\n• Binharic Courage (Aura): While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Shroudpsalm (Aura)",
+      "description": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that unit has the Stealth ability.",
+      "type": "Primarch",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Belisarius Cawl",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Cult Mechanicus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tech-Priest",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000838",
+      "line": 1,
+      "description": "1 Belisarius Cawl – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000838",
+      "line": 1,
+      "description": "1 model",
+      "cost": 210
+    }
+  ],
+  "leaderAttachments": []
+}

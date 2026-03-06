@@ -1,0 +1,216 @@
+{
+  "id": "000002772",
+  "name": "Company Heroes",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "company-heroes",
+  "legend": "A company’s most heroic battle-brothers fight alongside a Chapter’s high-ranking officers. These veterans and specialists serve as honour guards and provide vital support to a commander. Company Champions defend their Company’s honour with martial excellence, Ancients guard its inspirational banners and Company Veterans lay down hails o ffire from relic bolt weapons.",
+  "role": "Other",
+  "loadout": "The Ancient is equipped with: bolt pistol; bolt rifle; close combat weapon. \n\nThe Company Champion is equipped with: bolt pistol; master-crafted power weapon. \n\nOne Company Veteran is equipped with: bolt pistol; master-crafted heavy bolter; close combat weapon. \n\nOne Company Veteran is equipped with: bolt pistol; master-crafted bolt rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Company-Heroes",
+  "models": [
+    {
+      "datasheetId": "000002772",
+      "line": 1,
+      "name": "Company Heroes",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002772",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt Pistol",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt rifle",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted bolt rifle",
+      "description": "DEVASTATING WOUNDS, RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted heavy bolter",
+      "description": "HEAVY, SUSTAINED HITS 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted power weapon",
+      "description": "PRECISION",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Astartes Banner",
+      "description": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Command Squad",
+      "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "COMPANY HEROES",
+      "description": "You must attach one CAPTAIN or CHAPTER MASTER model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Ancient",
+      "isFactionKeyword": false,
+      "model": "ANCIENT"
+    },
+    {
+      "keyword": "Company Heroes",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002772",
+      "line": 1,
+      "description": "1 Ancient"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 2,
+      "description": "1 Company Champion"
+    },
+    {
+      "datasheetId": "000002772",
+      "line": 3,
+      "description": "2 Company Veterans"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002772",
+      "line": 1,
+      "description": "4 models",
+      "cost": 105
+    }
+  ],
+  "leaderAttachments": []
+}

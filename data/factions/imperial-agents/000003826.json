@@ -1,0 +1,384 @@
+{
+  "id": "000003826",
+  "name": "Indomitor Kill Team",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "indomitor-kill-team",
+  "legend": "Comprising warriors wearing the heavier Gravis variant of Mk X armour, Indomitor Kill Teams are mobile bastions capable of unleashing the firepower of a squadron of battle tanks. Before them, hordes of xenos and monstrous beasts alike are torn apart.",
+  "role": "Other",
+  "loadout": "Every Kill Team Heavy Intercessor is equipped with: bolt pistol; heavy bolt rifle; close combat weapon. \n\nEvery Kill Team Heavy Intercessor with power fists is equipped with: flamestorm gauntlets; power fists. \n\nEvery Kill Team Heavy Intercessor with melta rifle is equipped with: bolt pistol; melta rifle; close combat weapon. \n\nEvery Kill Team Heavy Intercessor with jump pack is equipped with: assault bolters; close combat weapon; jump pack.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Indomitor-Kill-Team",
+  "models": [
+    {
+      "datasheetId": "000003826",
+      "line": 1,
+      "name": "Indomitor Kill Team",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003826",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Assault bolters",
+      "description": "assault, pistol, sustained hits 2, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Auto boltstorm gauntlets",
+      "description": "twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fragstorm grenade launcher",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt rifle",
+      "description": "assault, heavy",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "assault, heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamestorm gauntlets",
+      "description": "ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Melta rifle",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "heavy, melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma exterminators – standard",
+      "description": "assault, pistol, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma exterminators – supercharge",
+      "description": "assault, hazardous, pistol, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fists",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Kill Team",
+      "description": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\n\nFor the purposes of determining which models in this unit can embark within a Transport, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the Terminator, Mounted or Jump Pack keywords.\n\nFor the purposes of interacting with terrain features, all models in units with this ability are considered INFANTRY models, even though similar models in other units may have the MOUNTED or JUMP PACK keywords.\n\nDesigner’s Note: While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, TRANSPORT and Benefit of Cover rules.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Jump Pack",
+      "description": "The bearer has a Move characteristic of 10\" and can move over models and terrain features as if they were not there.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Indomitor Doctrines",
+      "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a CHARACTER unit from your army can be attached to a Deathwatch Kill Team, it can be attached to this unit instead.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    },
+    {
+      "name": "TRANSPORT",
+      "description": "This unit cannot embark within an Imperial Rhino.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Indomitor Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003826",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model equipped with a heavy bolt rifle can have its heavy bolt rifle replaced with 1 heavy bolter."
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 2,
+      "button": "•",
+      "description": "1 model equipped with a melta rifle can have its melta rifle replaced with 1 multi-melta."
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of models equipped with flamestorm gauntlets can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher."
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 4,
+      "button": "•",
+      "description": "Any number of models equipped with assault bolters can each have their assault bolters replaced with 1 plasma exterminators."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003826",
+      "line": 1,
+      "description": "10 MODELS MAXIMUM"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 2,
+      "description": "5-10 Kill Team Heavy Intercessors"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 3,
+      "description": "0-2 Kill Team Heavy Intercessors with power fists"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 4,
+      "description": "0-2 Kill Team Heavy Intercessors with melta rifles"
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 5,
+      "description": "0-2 Kill Team Heavy Intercessors with jump packs"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003826",
+      "line": 1,
+      "description": "5 models",
+      "cost": 120
+    },
+    {
+      "datasheetId": "000003826",
+      "line": 2,
+      "description": "10 models",
+      "cost": 240
+    }
+  ],
+  "leaderAttachments": []
+}

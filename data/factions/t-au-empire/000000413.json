@@ -1,0 +1,205 @@
+{
+  "id": "000000413",
+  "name": "Kroot Carnivores",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "kroot-carnivores",
+  "legend": "Swift and vicious, Kroot Carnivore squads employ fieldcraft and predatory instinct to close rapidly with their foes. What they lack in resilience, they more than make up for in close-ranged savagery, hammering enemies with volleys from their rifles before charging in to rip and tear their victims to gory ribbons.",
+  "role": "Other",
+  "loadout": "The 1 Long-quill is equipped with: Kroot pistol; Kroot rifle; close combat weapon.\n\nEvery Kroot Carnivore is equipped with: Kroot rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Kroot-Carnivores",
+  "models": [
+    {
+      "datasheetId": "000000413",
+      "line": 1,
+      "name": "Kroot Carnivores",
+      "movement": "7\"",
+      "toughness": 3,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "28.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000413",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tanglebomb launcher",
+      "description": "Blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot pistol",
+      "description": "Pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot rifle",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kroot carbine",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "7\""
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Fieldcraft",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "BODYGUARD",
+      "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with  their original Starting Strengths.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Kroot",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Carnivores",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000413",
+      "line": 1,
+      "button": "•",
+      "description": "The Long-quill’s Kroot rifle can be replaced with 1 Kroot carbine."
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 2,
+      "button": "•",
+      "description": "For every 10 models in this unit, one Kroot Carnivore’s Kroot rifle can be replaced with 1 Tanglebomb launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000413",
+      "line": 1,
+      "description": "1 Long-quill"
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 2,
+      "description": "9-19 Kroot Carnivores"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000413",
+      "line": 1,
+      "description": "10 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000000413",
+      "line": 2,
+      "description": "20 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

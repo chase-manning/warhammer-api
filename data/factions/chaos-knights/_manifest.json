@@ -1,0 +1,231 @@
+{
+  "id": "QT",
+  "name": "Chaos Knights",
+  "slug": "chaos-knights",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-knights",
+  "datasheetCount": 37,
+  "datasheets": [
+    {
+      "id": "000003851",
+      "name": "Accursed Cultists",
+      "slug": "accursed-cultists",
+      "role": "Other"
+    },
+    {
+      "id": "000001662",
+      "name": "Chaos Acastus Knight Asterius",
+      "slug": "chaos-acastus-knight-asterius",
+      "role": "Other"
+    },
+    {
+      "id": "000001099",
+      "name": "Chaos Acastus Knight Porphyrion",
+      "slug": "chaos-acastus-knight-porphyrion",
+      "role": "Other"
+    },
+    {
+      "id": "000001094",
+      "name": "Chaos Cerastus Knight Acheron",
+      "slug": "chaos-cerastus-knight-acheron",
+      "role": "Characters"
+    },
+    {
+      "id": "000001097",
+      "name": "Chaos Cerastus Knight Atrapos",
+      "slug": "chaos-cerastus-knight-atrapos",
+      "role": "Characters"
+    },
+    {
+      "id": "000001096",
+      "name": "Chaos Cerastus Knight Castigator",
+      "slug": "chaos-cerastus-knight-castigator",
+      "role": "Characters"
+    },
+    {
+      "id": "000001095",
+      "name": "Chaos Cerastus Knight Lancer",
+      "slug": "chaos-cerastus-knight-lancer",
+      "role": "Characters"
+    },
+    {
+      "id": "000001098",
+      "name": "Chaos Questoris Knight Magaera",
+      "slug": "chaos-questoris-knight-magaera",
+      "role": "Characters"
+    },
+    {
+      "id": "000001100",
+      "name": "Chaos Questoris Knight Styrix",
+      "slug": "chaos-questoris-knight-styrix",
+      "role": "Characters"
+    },
+    {
+      "id": "000003844",
+      "name": "Cultist Firebrand",
+      "slug": "cultist-firebrand",
+      "role": "Characters"
+    },
+    {
+      "id": "000003849",
+      "name": "Cultist Mob",
+      "slug": "cultist-mob",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003850",
+      "name": "Cultist Mob with Firearms",
+      "slug": "cultist-mob-with-firearms",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003845",
+      "name": "Dark Commune",
+      "slug": "dark-commune",
+      "role": "Characters"
+    },
+    {
+      "id": "000003852",
+      "name": "Fellgor Beastmen",
+      "slug": "fellgor-beastmen",
+      "role": "Other"
+    },
+    {
+      "id": "000003854",
+      "name": "Gellerpox Infected",
+      "slug": "gellerpox-infected",
+      "role": "Other"
+    },
+    {
+      "id": "000002567",
+      "name": "Knight Abominant",
+      "slug": "knight-abominant",
+      "role": "Characters"
+    },
+    {
+      "id": "000001660",
+      "name": "Knight Desecrator",
+      "slug": "knight-desecrator",
+      "role": "Characters"
+    },
+    {
+      "id": "000001658",
+      "name": "Knight Despoiler",
+      "slug": "knight-despoiler",
+      "role": "Characters"
+    },
+    {
+      "id": "000001661",
+      "name": "Knight Rampager",
+      "slug": "knight-rampager",
+      "role": "Characters"
+    },
+    {
+      "id": "000004134",
+      "name": "Knight Ruinator",
+      "slug": "knight-ruinator",
+      "role": "Characters"
+    },
+    {
+      "id": "000001659",
+      "name": "Knight Tyrant",
+      "slug": "knight-tyrant",
+      "role": "Characters"
+    },
+    {
+      "id": "000003855",
+      "name": "Mutoid Vermin",
+      "slug": "mutoid-vermin",
+      "role": "Other"
+    },
+    {
+      "id": "000003856",
+      "name": "Negavolt Cultists",
+      "slug": "negavolt-cultists",
+      "role": "Other"
+    },
+    {
+      "id": "000003847",
+      "name": "Renegade Enforcer",
+      "slug": "renegade-enforcer",
+      "role": "Characters"
+    },
+    {
+      "id": "000003857",
+      "name": "Renegade Heavy Weapons Squad",
+      "slug": "renegade-heavy-weapons-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003858",
+      "name": "Renegade Ogryn Beast Handler",
+      "slug": "renegade-ogryn-beast-handler",
+      "role": "Other"
+    },
+    {
+      "id": "000003859",
+      "name": "Renegade Ogryn Brutes",
+      "slug": "renegade-ogryn-brutes",
+      "role": "Other"
+    },
+    {
+      "id": "000003860",
+      "name": "Renegade Plague Ogryns",
+      "slug": "renegade-plague-ogryns",
+      "role": "Other"
+    },
+    {
+      "id": "000003848",
+      "name": "Rogue Psyker",
+      "slug": "rogue-psyker",
+      "role": "Characters"
+    },
+    {
+      "id": "000003846",
+      "name": "Traitor Enforcer",
+      "slug": "traitor-enforcer",
+      "role": "Characters"
+    },
+    {
+      "id": "000003853",
+      "name": "Traitor Guardsmen Squad",
+      "slug": "traitor-guardsmen-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002565",
+      "name": "War Dog Brigand",
+      "slug": "war-dog-brigand",
+      "role": "Other"
+    },
+    {
+      "id": "000002562",
+      "name": "War Dog Executioner",
+      "slug": "war-dog-executioner",
+      "role": "Other"
+    },
+    {
+      "id": "000002566",
+      "name": "War Dog Huntsman",
+      "slug": "war-dog-huntsman",
+      "role": "Other"
+    },
+    {
+      "id": "000002564",
+      "name": "War Dog Karnivore",
+      "slug": "war-dog-karnivore",
+      "role": "Other"
+    },
+    {
+      "id": "000001663",
+      "name": "War Dog Moirax",
+      "slug": "war-dog-moirax",
+      "role": "Other"
+    },
+    {
+      "id": "000002563",
+      "name": "War Dog Stalker",
+      "slug": "war-dog-stalker",
+      "role": "Other"
+    }
+  ]
+}

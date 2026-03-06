@@ -1,0 +1,200 @@
+{
+  "id": "000003861",
+  "name": "Breaka Boyz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "breaka-boyz",
+  "legend": "Breaka Boyz dismantle the foe’s war engines and defences with well-placed krumpings from their smash hammers. Some use a pair of brutal knucklebustas, while the more addled opt for a tankhammer: a rokkit strapped to a big metal stick that offers a satisfyingly explosive means of up-close annihilation.",
+  "role": "Other",
+  "loadout": "The Boss Nob is equipped with: rokkit pistol; smash hammer; choppa.\n\nEach Breaka Boy is equipped with: smash hammer.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Breaka-Boyz",
+  "models": [
+    {
+      "datasheetId": "000003861",
+      "line": 1,
+      "name": "BREAKA BOY",
+      "movement": "6\"",
+      "toughness": 5,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": "Nob on 40mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003861",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Rokkit pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Knucklebustas",
+      "description": "anti-monster 4+, anti-vehicle 4+, twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Smash hammer",
+      "description": "anti-monster 4+, anti-vehicle 4+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tankhammer",
+      "description": "anti-monster 4+, anti-vehicle 4+, devastating wounds, hazardous",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Trophy Hunters",
+      "description": "Each time this unit declares a charge, you can re-roll the Charge roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Bomb Squigs",
+      "description": "Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.\n\nDesigner’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to a Boyz unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Breaka Boyz",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003861",
+      "line": 1,
+      "button": "•",
+      "description": "The Boss Nob’s smash hammer can be replaced with 1 rokkit pistol."
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 2,
+      "button": "•",
+      "description": "One Breaka Boy’s smash hammer can be replaced with 1 knucklebustas."
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 3,
+      "button": "•",
+      "description": "One Breaka Boy’s smash hammer can be replaced with 1 tankhammer."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003861",
+      "line": 1,
+      "description": "1 Boss Nob"
+    },
+    {
+      "datasheetId": "000003861",
+      "line": 2,
+      "description": "5 Breaka Boyz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003861",
+      "line": 1,
+      "description": "6 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,465 @@
+{
+  "id": "000003889",
+  "name": "Krieg Command Squad",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "krieg-command-squad",
+  "legend": "The Death Korps of Krieg’s officer korps are brave bordering on reckless. Their casualtg rates are such that it is not uncommon for a representative of the Officio Prefectus, most commonly a high-ranking Commissar, to step into their place and take command, ably assisted by a retinue of veterans and junior officers.",
+  "role": "Characters",
+  "loadout": "The Lord Commissar is equipped with: laspistol; power weapon.\n\nOne Veteran Guardsman is equipped with: laspistol; chainsword.\n\nOne Veteran Guardsman is equipped with: laspistol; close combat weapon; alchemyk counteragents; servo-scribes.\n\nOne Veteran Guardsman is equipped with: lasgun; close combat weapon; master vox.\n\nOne Veteran Guardsman is equipped with: lasgun; close combat weapon; regimental standard.\n\nOne Veteran Guardsman is equipped with: boltgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Krieg-Command-Squad",
+  "models": [
+    {
+      "datasheetId": "000003889",
+      "line": 1,
+      "name": "LORD COMMISSAR",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 2,
+      "name": "VETERAN GUARDSMAN",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003889",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 10,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 16,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Trench club",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Voice of Command",
+      "description": "If your Army Faction is ASTRA MILITARUM, Officer models with this ability can issue Orders. Each OFFICER’s datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6\" of that Officer model to issue it to.\n\nOFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a Transport or were set up on the battlefield.\n\nUntil the start of your next Command phase, the unit you selected is affected by that Order. Unless otherwise stated, a unit can only be affected by one Order at a time (any Order subsequently issued to that unit replaces the current one). Orders cannot be issued to Battle-shocked units, and if a unit being affected by an Order becomes Battle-shocked, that Order ceases to affect that unit.\n\nOnly ASTRA MILITARUM models gain the benefit of an Order issued to their unit.\n\nMove! Move! Move!\n\nM\n\n+3\"\n\nAdd 3\" to the Move characteristic of models in this unit.\n\nFix Bayonets!\n\nWS\n\n+1\n\nImprove the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n\nTake Aim!\n\nBS\n\n+1\n\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n\nFirst Rank, Fire! Second Rank, Fire!\n\nA\n\n+1\n\nImprove the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.\n\nTake Cover!\n\nSV\n\n+1\n\nImprove the Save characteristic of models in this unit by 1 (this cannot improve a model’s Save to better than 3+).\n\nDuty and Honour!\n\nLD\n\n+1\n\nOC\n\n+1\n\nImprove the Leadership and Objective Control characteristics of models in this unit by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Grim Determination",
+      "description": "While this unit contains an OFFICER, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Battle-shocked.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Master Vox",
+      "description": "Each time the OFFICER in the bearer’s unit issues an Order, it can issue it to an eligible unit up to 24\" away.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Alchemyk Counteragents",
+      "description": "The bearer’s unit has the Feel No Pain 6+ ability against mortal wounds.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Regimental Standard",
+      "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Servo-scribes",
+      "description": "Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\nDesigner’s Note: Place a Servo-scribes token next to the unit, removing it when this ability has been used.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ORDERS",
+      "description": "This unit’s OFFICER can issue 1 Order to a Regiment unit.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Officer",
+      "isFactionKeyword": false,
+      "model": "LORD COMMISSAR"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "LORD COMMISSAR"
+    },
+    {
+      "keyword": "Command Squad",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Krieg",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Platoon",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003889",
+      "line": 1,
+      "button": "•",
+      "description": "1 Veteran Guardsman’s boltgun can be replaced with one of the following:\n• 1 flamer\n• 1 grenade launcher\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 2,
+      "button": "•",
+      "description": "The Lord Commissar's power weapon can be replaced with 1 power fist."
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 3,
+      "button": "•",
+      "description": "The Lord Commissar can be equipped with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 4,
+      "button": "•",
+      "description": "1 Veteran Guardsman’s chainsword can be replaced with one of the following:\n• 1 trench club\n• 1 power weapon"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 5,
+      "button": "•",
+      "description": "1 Veteran Guardsman not equipped with alchemyk counteragents can replace its laspistol with one of the following:\n\n• 1 bolt pistol\n• 1 plasma pistol"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003889",
+      "line": 1,
+      "description": "1 Lord Commissar"
+    },
+    {
+      "datasheetId": "000003889",
+      "line": 2,
+      "description": "5 Veteran Guardsmen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003889",
+      "line": 1,
+      "description": "6 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000003893",
+      "name": "Krieg Combat Engineers"
+    },
+    {
+      "id": "000002613",
+      "name": "Death Korps Of Krieg"
+    }
+  ]
+}

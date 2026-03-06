@@ -1,0 +1,312 @@
+{
+  "id": "000004190",
+  "name": "Masters of the Maelstrom",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "masters-of-the-maelstrom",
+  "legend": "These lieutenants of Huron Blackheart stand within the circle of their master’s trust, a position both privileged and dangerous. When they gather to fight in their lord’s shadow, they epitomise the cruelty, cunning and piratical tactics that have made the Red Corsairs such a mighty power in the Maelstrom and beyond.",
+  "role": "Other",
+  "loadout": "Garreon the Corpsemaster is equipped with: absolvor bolt pistol; reductor array.\n\nGarlon Souleater is equipped with: Mind Wrench; force stave.\n\nKatar Garrix is equipped with: bolt pistol; Axe of Ending.\n\nCaptain Sargotta is equipped with: laspistol; power sabre.\n\nThe Enforcer is equipped with: Londaxi maimer; bionic gauntlet.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Masters-of-the-Maelstrom",
+  "models": [
+    {
+      "datasheetId": "000004190",
+      "line": 1,
+      "name": "GARLON SOULEATER, GARREON THE CORPSEMASTER, KATAR GARRIX",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 2,
+      "name": "CAPTAIN SARGOTTA, THE ENFORCER",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": "The Enforcer 32mm"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004190",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Absolvor bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Londaxi maimer",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mind Wrench",
+      "description": "precision, psychic",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Axe of Ending",
+      "description": "anti-character 2+, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bionic gauntlet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Force stave",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sabre",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Reductor array",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Choice Samples",
+      "description": "While this unit’s Garreon the Corpsemaster is on the battlefield, in your Command phase, select one of the following: you can return 1 destroyed model (excluding CHARACTER models) to this unit, or, if one or more Heretic Astartes Infantry units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Fleet Command",
+      "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield) select up to three HERETIC ASTARTES units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Plunder",
+      "description": "Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "MASTERS OF THE MAELSTROM",
+      "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.\n\n• Chosen, Legionaries, Red Corsairs Raiders\n\nThis unit cannot join an Attached unit, and only Huron Blackheart can join a unit this unit has joined.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": "GARLON SOULEATER"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    },
+    {
+      "keyword": "Chaos Undivided",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    },
+    {
+      "keyword": "Masters of the Maelstrom",
+      "isFactionKeyword": false,
+      "model": "OTHER MODELS"
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004190",
+      "line": 1,
+      "description": "1 Garreon the Corpsemaster – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 2,
+      "description": "1 Garlon Souleater – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 3,
+      "description": "1 Katar Garrix – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 4,
+      "description": "1 Captain Sargotta – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004190",
+      "line": 5,
+      "description": "1 The Enforcer – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004190",
+      "line": 1,
+      "description": "5 models",
+      "cost": 115
+    }
+  ],
+  "leaderAttachments": []
+}

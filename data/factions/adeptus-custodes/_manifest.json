@@ -1,0 +1,195 @@
+{
+  "id": "AC",
+  "name": "Adeptus Custodes",
+  "slug": "adeptus-custodes",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes",
+  "datasheetCount": 31,
+  "datasheets": [
+    {
+      "id": "000001560",
+      "name": "Agamatus Custodians",
+      "slug": "agamatus-custodians",
+      "role": "Other"
+    },
+    {
+      "id": "000002088",
+      "name": "Aleya",
+      "slug": "aleya",
+      "role": "Characters"
+    },
+    {
+      "id": "000001453",
+      "name": "Allarus Custodians",
+      "slug": "allarus-custodians",
+      "role": "Other"
+    },
+    {
+      "id": "000002524",
+      "name": "Anathema Psykana Rhino",
+      "slug": "anathema-psykana-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001558",
+      "name": "Aquilon Custodians",
+      "slug": "aquilon-custodians",
+      "role": "Other"
+    },
+    {
+      "id": "000001680",
+      "name": "Ares Gunship",
+      "slug": "ares-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000002518",
+      "name": "Blade Champion",
+      "slug": "blade-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000001460",
+      "name": "Caladius Grav-tank",
+      "slug": "caladius-grav-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000001458",
+      "name": "Contemptor-achillus Dreadnought",
+      "slug": "contemptor-achillus-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001557",
+      "name": "Contemptor-galatus Dreadnought",
+      "slug": "contemptor-galatus-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001461",
+      "name": "Coronus Grav-carrier",
+      "slug": "coronus-grav-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000000882",
+      "name": "Custodian Guard",
+      "slug": "custodian-guard",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001559",
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "slug": "custodian-guard-with-adrasite-and-pyrithite-spears",
+      "role": "Other"
+    },
+    {
+      "id": "000001450",
+      "name": "Custodian Wardens",
+      "slug": "custodian-wardens",
+      "role": "Other"
+    },
+    {
+      "id": "000002520",
+      "name": "Knight-centura",
+      "slug": "knight-centura",
+      "role": "Characters"
+    },
+    {
+      "id": "000001564",
+      "name": "Orion Assault Dropship",
+      "slug": "orion-assault-dropship",
+      "role": "Other"
+    },
+    {
+      "id": "000001562",
+      "name": "Pallas Grav-attack",
+      "slug": "pallas-grav-attack",
+      "role": "Other"
+    },
+    {
+      "id": "000002521",
+      "name": "Prosecutors",
+      "slug": "prosecutors",
+      "role": "Other"
+    },
+    {
+      "id": "000001563",
+      "name": "Sagittarum Custodians",
+      "slug": "sagittarum-custodians",
+      "role": "Other"
+    },
+    {
+      "id": "000001447",
+      "name": "Shield-captain",
+      "slug": "shield-captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000001448",
+      "name": "Shield-captain In Allarus Terminator Armour",
+      "slug": "shield-captain-in-allarus-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001449",
+      "name": "Shield-captain On Dawneagle Jetbike",
+      "slug": "shield-captain-on-dawneagle-jetbike",
+      "role": "Characters"
+    },
+    {
+      "id": "000001479",
+      "name": "Telemon Heavy Dreadnought",
+      "slug": "telemon-heavy-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000001446",
+      "name": "Trajann Valoris",
+      "slug": "trajann-valoris",
+      "role": "Characters"
+    },
+    {
+      "id": "000002519",
+      "name": "Valerian",
+      "slug": "valerian",
+      "role": "Characters"
+    },
+    {
+      "id": "000001561",
+      "name": "Venatari Custodians",
+      "slug": "venatari-custodians",
+      "role": "Other"
+    },
+    {
+      "id": "000000883",
+      "name": "Venerable Contemptor Dreadnought",
+      "slug": "venerable-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000884",
+      "name": "Venerable Land Raider",
+      "slug": "venerable-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000001454",
+      "name": "Vertus Praetors",
+      "slug": "vertus-praetors",
+      "role": "Other"
+    },
+    {
+      "id": "000002522",
+      "name": "Vigilators",
+      "slug": "vigilators",
+      "role": "Other"
+    },
+    {
+      "id": "000002523",
+      "name": "Witchseekers",
+      "slug": "witchseekers",
+      "role": "Other"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "000000098",
+  "name": "Tarantula Sentry Battery",
+  "factionId": "SM",
+  "sourceId": "000000356",
+  "slug": "tarantula-sentry-battery",
+  "legend": "Tarantula Sentry Guns are automated weapon systems ideally suited to area denial and deterrent roles. Equipped with simple logic engines and fitted with either lascannons or heavy bolters, they can cut down enemy troops or stop armoured vehicles in their tracks, placing minimal demand on their operators’ attention.",
+  "role": "Other",
+  "loadout": "This model is equipped with: twin heavy bolter; armoured hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Tarantula-Sentry-Battery",
+  "models": [
+    {
+      "datasheetId": "000000098",
+      "line": 1,
+      "name": "Tarantula Sentry Battery",
+      "movement": "-",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000098",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy bolter",
+      "description": "sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000098",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lascannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000098",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sentinel Protocols",
+      "description": "Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tarantula Sentry Battery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000098",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s twin heavy bolter replaced with 1 twin lascannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000098",
+      "line": 1,
+      "description": "1 Tarantula Sentry Battery"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000098",
+      "line": 1,
+      "description": "1 model",
+      "cost": 30
+    },
+    {
+      "datasheetId": "000000098",
+      "line": 2,
+      "description": "2 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000000098",
+      "line": 3,
+      "description": "3 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

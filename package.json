@@ -1,0 +1,22 @@
+{
+  "name": "warhammer-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Warhammer 40k data pipeline - downloads Wahapedia CSV exports and converts to normalized JSON",
+  "scripts": {
+    "pipeline": "tsx pipeline/main.ts",
+    "pipeline:download": "tsx pipeline/main.ts --download-only",
+    "pipeline:convert": "tsx pipeline/main.ts --convert-only"
+  },
+  "keywords": ["warhammer", "40k", "wahapedia", "data"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^7.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5"
+  }
+}

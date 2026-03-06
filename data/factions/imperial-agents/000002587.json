@@ -1,0 +1,369 @@
+{
+  "id": "000002587",
+  "name": "Imperial Navy Breachers",
+  "factionId": "AoI",
+  "sourceId": "000000259",
+  "slug": "imperial-navy-breachers",
+  "legend": "Experienced in hazardous boarding actions, these elite Armsmen are aggressive and blunt instruments of their warship’s commander. They wear fully enclosed void armour and wield robust weapons optimised for close-confines fighting, while some carry more specialised gear for cracking enemy bulkheads.",
+  "role": "Battleline",
+  "loadout": "The Navis Sergeant-at-Arms is equipped with: Navis shotgun; close combat weapon.\n\nOne Navis Armsman is equipped with: Navis las-volley; close combat weapon.\n\nOne other Navis Armsman is equipped with: Navis heavy shotgun; close combat weapon; endurant shield.\n\nEvery other model is equipped with: Navis shotgun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Imperial-Navy-Breachers",
+  "models": [
+    {
+      "datasheetId": "000002587",
+      "line": 1,
+      "name": "Imperial Navy Breachers",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": "Navis Armsman 28mm if armed with meltagun or plasmagun"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002587",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Demolition charge",
+      "description": "assault, blast, hazardous, one shot",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Navis heavy shotgun",
+      "description": "assault",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Navis las-volley",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Navis shotgun",
+      "description": "assault",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 9,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainfist",
+      "description": "anti-vehicle 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Breaching Team",
+      "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Gheistskull",
+      "description": "Once per battle, when you select this unit as the target of the Grenade Stratagem, you can target one enemy unit visible to and within 18\" of this unit that is not within Engagement Range of any units from your army, instead of one within 8\".",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "CAT Unit",
+      "description": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit gain the [IGNORES COVER] ability.\n\nDesigner’s Note: Place one Gheistskull and one CAT Unit token next to this unit, removing each token once the relevant ability has been used.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Endurant Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "One Shot",
+      "description": "The bearer can only shoot with this weapon once per battle.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperial Navy Breachers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Voidfarers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002587",
+      "line": 1,
+      "button": "•",
+      "description": "The Navis Sergeant-at-Arms’ Navis shotgun can be replaced with one of the following:\n• 1 autopistol and 1 chainsword\n• 1 bolt pistol and 1 power weapon"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 2,
+      "button": "•",
+      "description": "1 Navis Armsman’s Navis las-volley can be replaced with one of the following:\n• 1 meltagun\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 3,
+      "button": "•",
+      "description": "1 Navis Armsman's Navis shotgun can be replaced with 1 autopistol and 1 power weapon."
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 4,
+      "button": "•",
+      "description": "1 Navis Armsman’s Navis shotgun can be replaced with 1 autopistol and 1 chainfist."
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 5,
+      "button": "•",
+      "description": "1 Navis Armsman can be equipped with 1 demolition charge."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002587",
+      "line": 1,
+      "description": "1 Navis Sergeant-at-Arms"
+    },
+    {
+      "datasheetId": "000002587",
+      "line": 2,
+      "description": "9 Navis Armsmen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002587",
+      "line": 1,
+      "description": "10 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

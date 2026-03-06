@@ -1,0 +1,243 @@
+{
+  "id": "000002483",
+  "name": "Paragon Warsuits",
+  "factionId": "AS",
+  "sourceId": "000000112",
+  "slug": "paragon-warsuits",
+  "legend": "A pilot must have immense faith for a Paragon Warsuit’s spirit to trust them. They must also have incredible skill to handle its control system, which allows for highly complex and fluid movements. Mastering a Paragon Warsuit makes a Sister capable of engaging the most fearsome of enemies and emerging victorious.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; heavy bolter; Paragon storm bolters; Paragon war blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas/Paragon-Warsuits",
+  "models": [
+    {
+      "datasheetId": "000002483",
+      "line": 1,
+      "name": "Paragon Warsuits",
+      "movement": "8\"",
+      "toughness": 7,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002483",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ministorum heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multi-melta",
+      "description": "melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paragon grenade launchers",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paragon storm bolters",
+      "description": "rapid fire 2, twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paragon war blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paragon war mace",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-1",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Acts of Faith",
+      "description": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice:\n\n• At the start of each battle round.\n• Each time an ADEPTA SORORITAS unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead, the value of the selected Miracle dice is used as if it had been rolled ( this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n\n• Advance roll\n• Battle-shock test\n• Charge roll\n• Damage roll\n• Hit roll\n• Saving throw\n• Wound roll\n\nExample: Instead of rolling 2D6 to take a unit’s Battle-shock test, you could use one dice from your Miracle dice pool. If the value of that dice was 4, the unit’s Battle-shock test would be determined by rolling one D6 and adding 4 to it (i.e. it would be D6+4).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Righteous Paragons",
+      "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adepta Sororitas",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Paragon Warsuits",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002483",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their Paragon storm bolters replaced with 1 Paragon grenade launchers."
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their Paragon war blade replaced with 1 Paragon war mace."
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of models can each have their heavy bolter replaced with one of the following:\n• 1 Ministorum heavy flamer\n• 1 multi-melta"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002483",
+      "line": 1,
+      "description": "1 Paragon Superior"
+    },
+    {
+      "datasheetId": "000002483",
+      "line": 2,
+      "description": "2 Paragons"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002483",
+      "line": 1,
+      "description": "3 models",
+      "cost": 210
+    }
+  ],
+  "leaderAttachments": []
+}

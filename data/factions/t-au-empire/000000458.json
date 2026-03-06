@@ -1,0 +1,112 @@
+{
+  "id": "000000458",
+  "name": "Remote Sensor Tower",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "remote-sensor-tower",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "This model is equipped with: nothing.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Remote-Sensor-Tower",
+  "models": [
+    {
+      "datasheetId": "000000458",
+      "line": 1,
+      "name": "Remote Sensor Tower",
+      "movement": "-",
+      "toughness": 8,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000458",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "",
+      "description": null,
+      "range": "",
+      "type": "",
+      "attacks": "0",
+      "ballisticSkillOrWeaponSkill": "-",
+      "strength": "-",
+      "armourPenetration": "0",
+      "damage": "-"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Orbital Comms Array (Aura)",
+      "description": "While a friendly T’AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Fortification",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Remote sensor tower",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000458",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000458",
+      "line": 1,
+      "description": "1 Remote Sensor Tower"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000458",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

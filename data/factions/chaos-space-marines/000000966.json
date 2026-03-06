@@ -1,0 +1,368 @@
+{
+  "id": "000000966",
+  "name": "Havocs",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "havocs",
+  "legend": "With a preference for inflicting carnage at long range, Havocs imperiously touch every part of the battlefield with death and destruction. Their huge weapons are archaic patterns of those known to the Imperium, but often become fused with their wielder over the span of countless wars.",
+  "role": "Other",
+  "loadout": "The Havoc Champion is equipped with: flamer; Astartes chainsword.\n\n2 Havocs are equipped with: Havoc autocannon; close combat weapon. \n\n2 Havocs are equipped with: Havoc lascannon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Havocs",
+  "models": [
+    {
+      "datasheetId": "000000966",
+      "line": 1,
+      "name": "Havocs",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000966",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Havoc autocannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Havoc heavy bolter",
+      "description": "sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Havoc lascannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Havoc missile launcher – frag",
+      "description": "blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 7,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Havoc missile launcher – krak",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Havoc reaper chaincannon",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "8",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "MELTA 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 11,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "HAZARDOUS, RAPID FIRE 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard ",
+      "description": "PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 13,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "HAZARDOUS, PISTOL",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Accursed weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 15,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 16,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 17,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Stabilisation Talons",
+      "description": "Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Havocs",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000966",
+      "line": 1,
+      "button": "•",
+      "description": "The Havoc Champion’s Astartes chainsword can be replaced with one of the following:\n• 1 accursed weapon\n• 1 power fist"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 2,
+      "button": "•",
+      "description": "The Havoc Champion’s flamer can be replaced with one of the following:\n• 1 boltgun\n• 1 meltagun\n• 1 plasma gun\n• 1 plasma pistol\n• 1 accursed weapon\n• 1 power fist"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 3,
+      "button": "•",
+      "description": "Any number of Havocs can each have their Havoc autocannon or Havoc lascannon replaced with one of the following:\n• 1 Havoc autocannon\n• 1 Havoc heavy bolter\n• 1 Havoc lascannon\n• 1 Havoc missile launcher\n• 1 Havoc reaper chaincannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000966",
+      "line": 1,
+      "description": "1 Havoc Champion"
+    },
+    {
+      "datasheetId": "000000966",
+      "line": 2,
+      "description": "4 Havocs"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000966",
+      "line": 1,
+      "description": "5 models",
+      "cost": 125
+    }
+  ],
+  "leaderAttachments": []
+}

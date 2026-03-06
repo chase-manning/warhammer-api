@@ -1,0 +1,155 @@
+{
+  "id": "000000479",
+  "name": "Deathleaper",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "deathleaper",
+  "legend": "The Deathleaper is an advancement of the Lictor strain intended to act as a terror weapon. Possessing an instinctive understanding of how to spread fear through prey populations, it uses its skills in stealth, infiltration and assassination to sow paranoia and dread before the hive fleet attacks en masse.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: Lictor claws and talons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Deathleaper",
+  "models": [
+    {
+      "datasheetId": "000000479",
+      "line": 1,
+      "name": "Deathleaper",
+      "movement": "8\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 7,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000479",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lictor claws and talons",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fights First",
+      "description": "FIGHTS FIRST\n\nSome warriors attack with blinding speed, landing their blows before their foes can react.\nUnits with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Feeder Tendrils",
+      "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Fear of the Unseen (Aura)",
+      "description": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "HUNTER ORGANISM",
+      "description": "This model cannot be your WARLORD.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathleaper",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vanguard Invader",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000479",
+      "line": 1,
+      "description": "1 Deathleaper – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000479",
+      "line": 1,
+      "description": "1 model",
+      "cost": 80
+    }
+  ],
+  "leaderAttachments": []
+}

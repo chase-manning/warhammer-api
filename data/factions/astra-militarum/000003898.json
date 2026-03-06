@@ -1,0 +1,164 @@
+{
+  "id": "000003898",
+  "name": "Death Riders",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "death-riders",
+  "legend": "To ascend into the ranks of the Death Riders is a great honour for any soldier of Krieg. Astride their genetically enhanced Krieg steeds, these bold cavalry riders thunder across no man’s land with lances levelled and sabres drawn and crash into the foe, scattering infantry and creating gaps in the enemy line for infantry and armour to exploit.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Death Rider lascarbine; frag lance; power sabre; steed’s savage claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Death-Riders",
+  "models": [
+    {
+      "datasheetId": "000003898",
+      "line": 1,
+      "name": "Death Riders",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003898",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Death Rider lascarbine",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003898",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Frag lance",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003898",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sabre",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003898",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Steed's savage claws",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Screening Line",
+      "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Death Riders",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000003898",
+      "line": 1,
+      "description": "1 Ridemaster"
+    },
+    {
+      "datasheetId": "000003898",
+      "line": 2,
+      "description": "4-9 Death Riders"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003898",
+      "line": 1,
+      "description": "5 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000003898",
+      "line": 2,
+      "description": "10 models",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

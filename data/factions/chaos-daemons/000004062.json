@@ -1,0 +1,354 @@
+{
+  "id": "000004062",
+  "name": "Dark Apostle",
+  "factionId": "CD",
+  "sourceId": "000000012",
+  "slug": "dark-apostle",
+  "legend": "",
+  "role": "Characters",
+  "loadout": "The Dark Apostle is equipped with: bolt pistol; accursed crozius. \n\nEvery Dark Disciple is equipped with: close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/Dark-Apostle",
+  "models": [
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "name": "DARK APOSTLE",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "5+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004062",
+      "line": 2,
+      "name": "DARK DISCIPLE",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Accursed crozius",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Dark Zealotry",
+      "description": "While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Demagogue",
+      "description": "Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Malign Sacrifice",
+      "description": "At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Legiones Daemonica",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Dark Apostle",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Dark Apostle",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Dark Apostle",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Dark Apostle",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Dark Apostle",
+      "isFactionKeyword": false,
+      "model": "DARK APOSTLE ONLY"
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "description": "1 Dark Apostle"
+    },
+    {
+      "datasheetId": "000004062",
+      "line": 2,
+      "description": "2 Dark Disciples"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004062",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000004052",
+      "name": "Accursed Cultists"
+    },
+    {
+      "id": "000004050",
+      "name": "Cultist Mob"
+    },
+    {
+      "id": "000004064",
+      "name": "Legionaries"
+    },
+    {
+      "id": "000004044",
+      "name": "Chosen"
+    }
+  ]
+}

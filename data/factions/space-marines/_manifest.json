@@ -1,0 +1,1797 @@
+{
+  "id": "SM",
+  "name": "Space Marines",
+  "slug": "space-marines",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines",
+  "datasheetCount": 298,
+  "datasheets": [
+    {
+      "id": "000002100",
+      "name": "Adrax Agatone",
+      "slug": "adrax-agatone",
+      "role": "Characters"
+    },
+    {
+      "id": "000004148",
+      "name": "Aethon Shaan",
+      "slug": "aethon-shaan",
+      "role": "Characters"
+    },
+    {
+      "id": "000002099",
+      "name": "Aggressor Squad",
+      "slug": "aggressor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002775",
+      "name": "Ancient",
+      "slug": "ancient",
+      "role": "Characters"
+    },
+    {
+      "id": "000002677",
+      "name": "Ancient In Terminator Armour",
+      "slug": "ancient-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001182",
+      "name": "Ancient on Bike",
+      "slug": "ancient-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000002773",
+      "name": "Apothecary",
+      "slug": "apothecary",
+      "role": "Characters"
+    },
+    {
+      "id": "000000060",
+      "name": "Apothecary Biologis",
+      "slug": "apothecary-biologis",
+      "role": "Characters"
+    },
+    {
+      "id": "000000063",
+      "name": "Apothecary on Bike",
+      "slug": "apothecary-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000317",
+      "name": "Arjac Rockfist",
+      "slug": "arjac-rockfist",
+      "role": "Characters"
+    },
+    {
+      "id": "000000225",
+      "name": "Asmodai",
+      "slug": "asmodai",
+      "role": "Characters"
+    },
+    {
+      "id": "000001606",
+      "name": "Assault Intercessor Squad",
+      "slug": "assault-intercessor-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002776",
+      "name": "Assault Intercessors With Jump Packs",
+      "slug": "assault-intercessors-with-jump-packs",
+      "role": "Other"
+    },
+    {
+      "id": "000000061",
+      "name": "Assault Squad",
+      "slug": "assault-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000064",
+      "name": "Assault Squad with Jump Packs",
+      "slug": "assault-squad-with-jump-packs",
+      "role": "Other"
+    },
+    {
+      "id": "000000134",
+      "name": "Astartes Servitors",
+      "slug": "astartes-servitors",
+      "role": "Other"
+    },
+    {
+      "id": "000000157",
+      "name": "Astorath",
+      "slug": "astorath",
+      "role": "Characters"
+    },
+    {
+      "id": "000002700",
+      "name": "Astraeus",
+      "slug": "astraeus",
+      "role": "Other"
+    },
+    {
+      "id": "000002076",
+      "name": "Attack Bike Squad",
+      "slug": "attack-bike-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000218",
+      "name": "Azrael",
+      "slug": "azrael",
+      "role": "Characters"
+    },
+    {
+      "id": "000000168",
+      "name": "Baal Predator",
+      "slug": "baal-predator",
+      "role": "Other"
+    },
+    {
+      "id": "000000091",
+      "name": "Ballistus Dreadnought",
+      "slug": "ballistus-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000219",
+      "name": "Belial",
+      "slug": "belial",
+      "role": "Characters"
+    },
+    {
+      "id": "000000116",
+      "name": "Bike Squad",
+      "slug": "bike-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000302",
+      "name": "Bjorn The Fell-handed",
+      "slug": "bjorn-the-fell-handed",
+      "role": "Characters"
+    },
+    {
+      "id": "000001165",
+      "name": "Bladeguard Ancient",
+      "slug": "bladeguard-ancient",
+      "role": "Characters"
+    },
+    {
+      "id": "000000071",
+      "name": "Bladeguard Veteran Squad",
+      "slug": "bladeguard-veteran-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003831",
+      "name": "Blood Angels Captain",
+      "slug": "blood-angels-captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000000303",
+      "name": "Blood Claws",
+      "slug": "blood-claws",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000160",
+      "name": "Brother Corbulo",
+      "slug": "brother-corbulo",
+      "role": "Characters"
+    },
+    {
+      "id": "000000136",
+      "name": "Brutalis Dreadnought",
+      "slug": "brutalis-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000004166",
+      "name": "Caanok Var",
+      "slug": "caanok-var",
+      "role": "Characters"
+    },
+    {
+      "id": "000000072",
+      "name": "Caestus Assault Ram",
+      "slug": "caestus-assault-ram",
+      "role": "Other"
+    },
+    {
+      "id": "000000288",
+      "name": "Canis Wolfborn",
+      "slug": "canis-wolfborn",
+      "role": "Characters"
+    },
+    {
+      "id": "000000073",
+      "name": "Captain",
+      "slug": "captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000001172",
+      "name": "Captain In Gravis Armour",
+      "slug": "captain-in-gravis-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000002701",
+      "name": "Captain In Phobos Armour",
+      "slug": "captain-in-phobos-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000135",
+      "name": "Captain In Terminator Armour",
+      "slug": "captain-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000002702",
+      "name": "Captain on Bike",
+      "slug": "captain-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000081",
+      "name": "Captain Sicarius",
+      "slug": "captain-sicarius",
+      "role": "Characters"
+    },
+    {
+      "id": "000004187",
+      "name": "Captain Titus",
+      "slug": "captain-titus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000152",
+      "name": "Captain Tycho",
+      "slug": "captain-tycho",
+      "role": "Characters"
+    },
+    {
+      "id": "000000083",
+      "name": "Captain With Jump Pack",
+      "slug": "captain-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000000096",
+      "name": "Carab Culln The Risen",
+      "slug": "carab-culln-the-risen",
+      "role": "Characters"
+    },
+    {
+      "id": "000002793",
+      "name": "Castellan",
+      "slug": "castellan",
+      "role": "Characters"
+    },
+    {
+      "id": "000004184",
+      "name": "Cato Sicarius",
+      "slug": "cato-sicarius",
+      "role": "Characters"
+    },
+    {
+      "id": "000002703",
+      "name": "Centurion Assault Squad",
+      "slug": "centurion-assault-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001193",
+      "name": "Centurion Devastator Squad",
+      "slug": "centurion-devastator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001153",
+      "name": "Cerberus",
+      "slug": "cerberus",
+      "role": "Other"
+    },
+    {
+      "id": "000001174",
+      "name": "Chaplain",
+      "slug": "chaplain",
+      "role": "Characters"
+    },
+    {
+      "id": "000002678",
+      "name": "Chaplain Cassius",
+      "slug": "chaplain-cassius",
+      "role": "Characters"
+    },
+    {
+      "id": "000002792",
+      "name": "Chaplain Grimaldus",
+      "slug": "chaplain-grimaldus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000115",
+      "name": "Chaplain In Terminator Armour",
+      "slug": "chaplain-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000004180",
+      "name": "Chaplain Kastiel",
+      "slug": "chaplain-kastiel",
+      "role": "Characters"
+    },
+    {
+      "id": "000000094",
+      "name": "Chaplain On Bike",
+      "slug": "chaplain-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000001192",
+      "name": "Chaplain Venerable Dreadnought",
+      "slug": "chaplain-venerable-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000112",
+      "name": "Chaplain With Jump Pack",
+      "slug": "chaplain-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000000155",
+      "name": "Chief Librarian Mephiston",
+      "slug": "chief-librarian-mephiston",
+      "role": "Characters"
+    },
+    {
+      "id": "000001611",
+      "name": "Chief Librarian Tigurius",
+      "slug": "chief-librarian-tigurius",
+      "role": "Characters"
+    },
+    {
+      "id": "000002103",
+      "name": "Command Squad",
+      "slug": "command-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000151",
+      "name": "Commander Dante",
+      "slug": "commander-dante",
+      "role": "Characters"
+    },
+    {
+      "id": "000001167",
+      "name": "Company Champion On Bike",
+      "slug": "company-champion-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000002772",
+      "name": "Company Heroes",
+      "slug": "company-heroes",
+      "role": "Other"
+    },
+    {
+      "id": "000001166",
+      "name": "Company Veterans On Bikes",
+      "slug": "company-veterans-on-bikes",
+      "role": "Other"
+    },
+    {
+      "id": "000000358",
+      "name": "Corvus Blackstar",
+      "slug": "corvus-blackstar",
+      "role": "Other"
+    },
+    {
+      "id": "000004136",
+      "name": "Crusade Ancient",
+      "slug": "crusade-ancient",
+      "role": "Characters"
+    },
+    {
+      "id": "000002799",
+      "name": "Crusader Squad",
+      "slug": "crusader-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004154",
+      "name": "Crusader Squad (Legendary)",
+      "slug": "crusader-squad-legendary",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002805",
+      "name": "Cyberwolf",
+      "slug": "cyberwolf",
+      "role": "Characters"
+    },
+    {
+      "id": "000002105",
+      "name": "Darnath Lysander",
+      "slug": "darnath-lysander",
+      "role": "Characters"
+    },
+    {
+      "id": "000003832",
+      "name": "Death Company Captain",
+      "slug": "death-company-captain",
+      "role": "Characters"
+    },
+    {
+      "id": "000003833",
+      "name": "Death Company Captain with Jump Pack",
+      "slug": "death-company-captain-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000000166",
+      "name": "Death Company Dreadnought",
+      "slug": "death-company-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000003835",
+      "name": "Death Company Dreadnought with Magna-grapple",
+      "slug": "death-company-dreadnought-with-magna-grapple",
+      "role": "Other"
+    },
+    {
+      "id": "000001997",
+      "name": "Death Company Marines",
+      "slug": "death-company-marines",
+      "role": "Other"
+    },
+    {
+      "id": "000002285",
+      "name": "Death Company Marines with Bolt Rifles",
+      "slug": "death-company-marines-with-bolt-rifles",
+      "role": "Other"
+    },
+    {
+      "id": "000003836",
+      "name": "Death Company Marines with Boltguns",
+      "slug": "death-company-marines-with-boltguns",
+      "role": "Other"
+    },
+    {
+      "id": "000003837",
+      "name": "Death Company Marines with Boltguns and Jump Packs",
+      "slug": "death-company-marines-with-boltguns-and-jump-packs",
+      "role": "Other"
+    },
+    {
+      "id": "000002737",
+      "name": "Death Company Marines With Jump Packs",
+      "slug": "death-company-marines-with-jump-packs",
+      "role": "Other"
+    },
+    {
+      "id": "000002267",
+      "name": "Deathstorm Drop Pod",
+      "slug": "deathstorm-drop-pod",
+      "role": "Other"
+    },
+    {
+      "id": "000003873",
+      "name": "Deathwatch Terminator Squad",
+      "slug": "deathwatch-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002783",
+      "name": "Deathwatch Veterans",
+      "slug": "deathwatch-veterans",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002302",
+      "name": "Deathwing Command Squad",
+      "slug": "deathwing-command-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000231",
+      "name": "Deathwing Knights",
+      "slug": "deathwing-knights",
+      "role": "Other"
+    },
+    {
+      "id": "000002468",
+      "name": "Deathwing Strikemaster",
+      "slug": "deathwing-strikemaster",
+      "role": "Characters"
+    },
+    {
+      "id": "000000230",
+      "name": "Deathwing Terminator Squad",
+      "slug": "deathwing-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000004175",
+      "name": "Decimus Kill Team",
+      "slug": "decimus-kill-team",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002268",
+      "name": "Deimos Predator",
+      "slug": "deimos-predator",
+      "role": "Other"
+    },
+    {
+      "id": "000002269",
+      "name": "Deredeo Dreadnought",
+      "slug": "deredeo-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002270",
+      "name": "Desolation Squad",
+      "slug": "desolation-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002202",
+      "name": "Devastator Squad",
+      "slug": "devastator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000117",
+      "name": "Dreadnought",
+      "slug": "dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000122",
+      "name": "Dreadnought Drop Pod",
+      "slug": "dreadnought-drop-pod",
+      "role": "Other"
+    },
+    {
+      "id": "000000087",
+      "name": "Drop Pod",
+      "slug": "drop-pod",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001668",
+      "name": "Eliminator Squad",
+      "slug": "eliminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002795",
+      "name": "Emperor’s Champion",
+      "slug": "emperor-s-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000000103",
+      "name": "Eradicator Squad",
+      "slug": "eradicator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000004135",
+      "name": "Execrator",
+      "slug": "execrator",
+      "role": "Characters"
+    },
+    {
+      "id": "000000226",
+      "name": "Ezekiel",
+      "slug": "ezekiel",
+      "role": "Characters"
+    },
+    {
+      "id": "000001666",
+      "name": "Falchion",
+      "slug": "falchion",
+      "role": "Other"
+    },
+    {
+      "id": "000002704",
+      "name": "Fellblade",
+      "slug": "fellblade",
+      "role": "Other"
+    },
+    {
+      "id": "000000323",
+      "name": "Fenrisian Wolves",
+      "slug": "fenrisian-wolves",
+      "role": "Other"
+    },
+    {
+      "id": "000001609",
+      "name": "Fire Raptor Gunship",
+      "slug": "fire-raptor-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000086",
+      "name": "Firestrike Servo-turrets",
+      "slug": "firestrike-servo-turrets",
+      "role": "Other"
+    },
+    {
+      "id": "000002780",
+      "name": "Fortis Kill Team",
+      "slug": "fortis-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000000167",
+      "name": "Furioso Dreadnought",
+      "slug": "furioso-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000169",
+      "name": "Gabriel Seth",
+      "slug": "gabriel-seth",
+      "role": "Characters"
+    },
+    {
+      "id": "000002705",
+      "name": "Gladiator Lancer",
+      "slug": "gladiator-lancer",
+      "role": "Other"
+    },
+    {
+      "id": "000002787",
+      "name": "Gladiator Lancer",
+      "slug": "gladiator-lancer",
+      "role": "Other"
+    },
+    {
+      "id": "000001667",
+      "name": "Gladiator Reaper",
+      "slug": "gladiator-reaper",
+      "role": "Other"
+    },
+    {
+      "id": "000002789",
+      "name": "Gladiator Reaper",
+      "slug": "gladiator-reaper",
+      "role": "Other"
+    },
+    {
+      "id": "000001825",
+      "name": "Gladiator Valiant",
+      "slug": "gladiator-valiant",
+      "role": "Other"
+    },
+    {
+      "id": "000002788",
+      "name": "Gladiator Valiant",
+      "slug": "gladiator-valiant",
+      "role": "Other"
+    },
+    {
+      "id": "000000305",
+      "name": "Grey Hunters",
+      "slug": "grey-hunters",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000097",
+      "name": "Hammerfall Bunker",
+      "slug": "hammerfall-bunker",
+      "role": "Fortifications"
+    },
+    {
+      "id": "000000287",
+      "name": "Harald Deathwolf",
+      "slug": "harald-deathwolf",
+      "role": "Characters"
+    },
+    {
+      "id": "000001177",
+      "name": "Heavy Intercessor Squad",
+      "slug": "heavy-intercessor-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002098",
+      "name": "Hellblaster Squad",
+      "slug": "hellblaster-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002794",
+      "name": "High Marshal Helbrecht",
+      "slug": "high-marshal-helbrecht",
+      "role": "Characters"
+    },
+    {
+      "id": "000002806",
+      "name": "Hounds Of Morkai",
+      "slug": "hounds-of-morkai",
+      "role": "Other"
+    },
+    {
+      "id": "000000146",
+      "name": "Hunter",
+      "slug": "hunter",
+      "role": "Other"
+    },
+    {
+      "id": "000000148",
+      "name": "Imperial Space Marine",
+      "slug": "imperial-space-marine",
+      "role": "Characters"
+    },
+    {
+      "id": "000002568",
+      "name": "Impulsor",
+      "slug": "impulsor",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002786",
+      "name": "Impulsor",
+      "slug": "impulsor",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000125",
+      "name": "Inceptor Squad",
+      "slug": "inceptor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001159",
+      "name": "Incursor Squad",
+      "slug": "incursor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002781",
+      "name": "Indomitor Kill Team",
+      "slug": "indomitor-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000000126",
+      "name": "Infernus Squad",
+      "slug": "infernus-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000128",
+      "name": "Infiltrator Squad",
+      "slug": "infiltrator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000003698",
+      "name": "Inner Circle Companions",
+      "slug": "inner-circle-companions",
+      "role": "Other"
+    },
+    {
+      "id": "000001157",
+      "name": "Intercessor Squad",
+      "slug": "intercessor-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000001158",
+      "name": "Invader ATV",
+      "slug": "invader-atv",
+      "role": "Other"
+    },
+    {
+      "id": "000001156",
+      "name": "Invictor Tactical Warsuit",
+      "slug": "invictor-tactical-warsuit",
+      "role": "Other"
+    },
+    {
+      "id": "000000127",
+      "name": "Iron Father Feirros",
+      "slug": "iron-father-feirros",
+      "role": "Characters"
+    },
+    {
+      "id": "000000306",
+      "name": "Iron Priest",
+      "slug": "iron-priest",
+      "role": "Characters"
+    },
+    {
+      "id": "000000308",
+      "name": "Iron Priest On Thunderwolf",
+      "slug": "iron-priest-on-thunderwolf",
+      "role": "Characters"
+    },
+    {
+      "id": "000002706",
+      "name": "Ironclad Dreadnought",
+      "slug": "ironclad-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000107",
+      "name": "Javelin Attack Speeder",
+      "slug": "javelin-attack-speeder",
+      "role": "Other"
+    },
+    {
+      "id": "000002707",
+      "name": "Judiciar",
+      "slug": "judiciar",
+      "role": "Characters"
+    },
+    {
+      "id": "000004179",
+      "name": "Judiciar Xacharus",
+      "slug": "judiciar-xacharus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002708",
+      "name": "Kayvaan Shrike",
+      "slug": "kayvaan-shrike",
+      "role": "Characters"
+    },
+    {
+      "id": "000003875",
+      "name": "Kill Team Cassius",
+      "slug": "kill-team-cassius",
+      "role": "Characters"
+    },
+    {
+      "id": "000002709",
+      "name": "Kor’sarro Khan",
+      "slug": "kor-sarro-khan",
+      "role": "Characters"
+    },
+    {
+      "id": "000001175",
+      "name": "Kratos",
+      "slug": "kratos",
+      "role": "Other"
+    },
+    {
+      "id": "000000286",
+      "name": "Krom Dragongaze",
+      "slug": "krom-dragongaze",
+      "role": "Characters"
+    },
+    {
+      "id": "000000065",
+      "name": "Land Raider",
+      "slug": "land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000001607",
+      "name": "Land Raider Achilles",
+      "slug": "land-raider-achilles",
+      "role": "Other"
+    },
+    {
+      "id": "000000066",
+      "name": "Land Raider Crusader",
+      "slug": "land-raider-crusader",
+      "role": "Other"
+    },
+    {
+      "id": "000004139",
+      "name": "Land Raider Crusader",
+      "slug": "land-raider-crusader",
+      "role": "Other"
+    },
+    {
+      "id": "000000067",
+      "name": "Land Raider Excelsior",
+      "slug": "land-raider-excelsior",
+      "role": "Other"
+    },
+    {
+      "id": "000002710",
+      "name": "Land Raider Helios",
+      "slug": "land-raider-helios",
+      "role": "Other"
+    },
+    {
+      "id": "000001347",
+      "name": "Land Raider Prometheus",
+      "slug": "land-raider-prometheus",
+      "role": "Other"
+    },
+    {
+      "id": "000001608",
+      "name": "Land Raider Proteus",
+      "slug": "land-raider-proteus",
+      "role": "Other"
+    },
+    {
+      "id": "000002173",
+      "name": "Land Raider Redeemer",
+      "slug": "land-raider-redeemer",
+      "role": "Other"
+    },
+    {
+      "id": "000002711",
+      "name": "Land Speeder",
+      "slug": "land-speeder",
+      "role": "Other"
+    },
+    {
+      "id": "000000132",
+      "name": "Land Speeder Storm",
+      "slug": "land-speeder-storm",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000001168",
+      "name": "Land Speeder Tempest",
+      "slug": "land-speeder-tempest",
+      "role": "Other"
+    },
+    {
+      "id": "000001169",
+      "name": "Land Speeder Tornado",
+      "slug": "land-speeder-tornado",
+      "role": "Other"
+    },
+    {
+      "id": "000002102",
+      "name": "Land Speeder Typhoon",
+      "slug": "land-speeder-typhoon",
+      "role": "Other"
+    },
+    {
+      "id": "000000242",
+      "name": "Land Speeder Vengeance",
+      "slug": "land-speeder-vengeance",
+      "role": "Other"
+    },
+    {
+      "id": "000002296",
+      "name": "Lazarus",
+      "slug": "lazarus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000164",
+      "name": "Lemartes",
+      "slug": "lemartes",
+      "role": "Characters"
+    },
+    {
+      "id": "000000131",
+      "name": "Leviathan Dreadnought",
+      "slug": "leviathan-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002266",
+      "name": "Librarian",
+      "slug": "librarian",
+      "role": "Characters"
+    },
+    {
+      "id": "000000154",
+      "name": "Librarian Dreadnought",
+      "slug": "librarian-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000119",
+      "name": "Librarian In Phobos Armour",
+      "slug": "librarian-in-phobos-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000079",
+      "name": "Librarian In Terminator Armour",
+      "slug": "librarian-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001348",
+      "name": "Librarian on Bike",
+      "slug": "librarian-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000001344",
+      "name": "Librarian with Jump Pack",
+      "slug": "librarian-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000001346",
+      "name": "Lieutenant",
+      "slug": "lieutenant",
+      "role": "Characters"
+    },
+    {
+      "id": "000002530",
+      "name": "Lieutenant In Phobos Armour",
+      "slug": "lieutenant-in-phobos-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000001345",
+      "name": "Lieutenant In Reiver Armour",
+      "slug": "lieutenant-in-reiver-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000076",
+      "name": "Lieutenant With Combi-weapon",
+      "slug": "lieutenant-with-combi-weapon",
+      "role": "Characters"
+    },
+    {
+      "id": "000002682",
+      "name": "Lion El’jonson",
+      "slug": "lion-el-jonson",
+      "role": "Characters"
+    },
+    {
+      "id": "000000282",
+      "name": "Logan Grimnar",
+      "slug": "logan-grimnar",
+      "role": "Characters"
+    },
+    {
+      "id": "000000283",
+      "name": "Logan Grimnar On Stormrider",
+      "slug": "logan-grimnar-on-stormrider",
+      "role": "Characters"
+    },
+    {
+      "id": "000000326",
+      "name": "Long Fangs",
+      "slug": "long-fangs",
+      "role": "Other"
+    },
+    {
+      "id": "000000304",
+      "name": "Lukas The Trickster",
+      "slug": "lukas-the-trickster",
+      "role": "Characters"
+    },
+    {
+      "id": "000002199",
+      "name": "Marneus Calgar",
+      "slug": "marneus-calgar",
+      "role": "Characters"
+    },
+    {
+      "id": "000004183",
+      "name": "Marneus Calgar in Armour of Antilochus",
+      "slug": "marneus-calgar-in-armour-of-antilochus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002796",
+      "name": "Marshal",
+      "slug": "marshal",
+      "role": "Characters"
+    },
+    {
+      "id": "000001189",
+      "name": "Mastodon",
+      "slug": "mastodon",
+      "role": "Other"
+    },
+    {
+      "id": "000000111",
+      "name": "Mortis Dreadnought",
+      "slug": "mortis-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000314",
+      "name": "Murderfang",
+      "slug": "murderfang",
+      "role": "Characters"
+    },
+    {
+      "id": "000000239",
+      "name": "Nephilim Jetfighter",
+      "slug": "nephilim-jetfighter",
+      "role": "Other"
+    },
+    {
+      "id": "000000292",
+      "name": "Njal Stormcaller",
+      "slug": "njal-stormcaller",
+      "role": "Characters"
+    },
+    {
+      "id": "000002712",
+      "name": "Outrider Squad",
+      "slug": "outrider-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002713",
+      "name": "Pedro Kantor",
+      "slug": "pedro-kantor",
+      "role": "Characters"
+    },
+    {
+      "id": "000002714",
+      "name": "Predator Annihilator",
+      "slug": "predator-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000002715",
+      "name": "Predator Destructor",
+      "slug": "predator-destructor",
+      "role": "Other"
+    },
+    {
+      "id": "000002234",
+      "name": "Primaris Company Champion",
+      "slug": "primaris-company-champion",
+      "role": "Characters"
+    },
+    {
+      "id": "000000285",
+      "name": "Ragnar Blackmane",
+      "slug": "ragnar-blackmane",
+      "role": "Characters"
+    },
+    {
+      "id": "000000110",
+      "name": "Rapier Carrier",
+      "slug": "rapier-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000000241",
+      "name": "Ravenwing Black Knights",
+      "slug": "ravenwing-black-knights",
+      "role": "Other"
+    },
+    {
+      "id": "000002748",
+      "name": "Ravenwing Command Squad",
+      "slug": "ravenwing-command-squad",
+      "role": "Characters"
+    },
+    {
+      "id": "000000240",
+      "name": "Ravenwing Dark Talon",
+      "slug": "ravenwing-dark-talon",
+      "role": "Other"
+    },
+    {
+      "id": "000000238",
+      "name": "Ravenwing Darkshroud",
+      "slug": "ravenwing-darkshroud",
+      "role": "Other"
+    },
+    {
+      "id": "000001423",
+      "name": "Ravenwing Talonmaster",
+      "slug": "ravenwing-talonmaster",
+      "role": "Characters"
+    },
+    {
+      "id": "000000129",
+      "name": "Razorback",
+      "slug": "razorback",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002717",
+      "name": "Redemptor Dreadnought",
+      "slug": "redemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002718",
+      "name": "Reiver Squad",
+      "slug": "reiver-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002719",
+      "name": "Relic Contemptor Dreadnought",
+      "slug": "relic-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002720",
+      "name": "Relic Razorback",
+      "slug": "relic-razorback",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000104",
+      "name": "Relic Terminator Squad",
+      "slug": "relic-terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002721",
+      "name": "Repulsor",
+      "slug": "repulsor",
+      "role": "Other"
+    },
+    {
+      "id": "000002791",
+      "name": "Repulsor",
+      "slug": "repulsor",
+      "role": "Other"
+    },
+    {
+      "id": "000002722",
+      "name": "Repulsor Executioner",
+      "slug": "repulsor-executioner",
+      "role": "Other"
+    },
+    {
+      "id": "000002790",
+      "name": "Repulsor Executioner",
+      "slug": "repulsor-executioner",
+      "role": "Other"
+    },
+    {
+      "id": "000002723",
+      "name": "Rhino",
+      "slug": "rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000085",
+      "name": "Rhino Primaris",
+      "slug": "rhino-primaris",
+      "role": "Other"
+    },
+    {
+      "id": "000000138",
+      "name": "Roboute Guilliman",
+      "slug": "roboute-guilliman",
+      "role": "Characters"
+    },
+    {
+      "id": "000002291",
+      "name": "Sammael",
+      "slug": "sammael",
+      "role": "Characters"
+    },
+    {
+      "id": "000000165",
+      "name": "Sanguinary Guard",
+      "slug": "sanguinary-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000000158",
+      "name": "Sanguinary Priest",
+      "slug": "sanguinary-priest",
+      "role": "Characters"
+    },
+    {
+      "id": "000000159",
+      "name": "Sanguinary Priest on Bike",
+      "slug": "sanguinary-priest-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000002738",
+      "name": "Sanguinary Priest With Jump Pack",
+      "slug": "sanguinary-priest-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000000137",
+      "name": "Scout Bike Squad",
+      "slug": "scout-bike-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001523",
+      "name": "Scout Sniper Squad",
+      "slug": "scout-sniper-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001160",
+      "name": "Scout Squad",
+      "slug": "scout-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001524",
+      "name": "Sergeant Chronus",
+      "slug": "sergeant-chronus",
+      "role": "Characters"
+    },
+    {
+      "id": "000001162",
+      "name": "Sergeant Telion",
+      "slug": "sergeant-telion",
+      "role": "Characters"
+    },
+    {
+      "id": "000001161",
+      "name": "Sicaran Arcus",
+      "slug": "sicaran-arcus",
+      "role": "Other"
+    },
+    {
+      "id": "000001185",
+      "name": "Sicaran Battle Tank",
+      "slug": "sicaran-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000001163",
+      "name": "Sicaran Omega",
+      "slug": "sicaran-omega",
+      "role": "Other"
+    },
+    {
+      "id": "000000123",
+      "name": "Sicaran Punisher",
+      "slug": "sicaran-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000000092",
+      "name": "Sicaran Venator",
+      "slug": "sicaran-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000000324",
+      "name": "Skyclaws",
+      "slug": "skyclaws",
+      "role": "Other"
+    },
+    {
+      "id": "000001179",
+      "name": "Sokar-pattern Stormbird",
+      "slug": "sokar-pattern-stormbird",
+      "role": "Other"
+    },
+    {
+      "id": "000002252",
+      "name": "Spartan",
+      "slug": "spartan",
+      "role": "Other"
+    },
+    {
+      "id": "000002779",
+      "name": "Spectrus Kill Team",
+      "slug": "spectrus-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000002258",
+      "name": "Stalker",
+      "slug": "stalker",
+      "role": "Other"
+    },
+    {
+      "id": "000002255",
+      "name": "Sternguard Veteran Squad",
+      "slug": "sternguard-veteran-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000004137",
+      "name": "Sternguard Veteran Squad",
+      "slug": "sternguard-veteran-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000113",
+      "name": "Storm Eagle Gunship",
+      "slug": "storm-eagle-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000124",
+      "name": "Storm Speeder Hailstrike",
+      "slug": "storm-speeder-hailstrike",
+      "role": "Other"
+    },
+    {
+      "id": "000000114",
+      "name": "Storm Speeder Hammerstrike",
+      "slug": "storm-speeder-hammerstrike",
+      "role": "Other"
+    },
+    {
+      "id": "000001610",
+      "name": "Storm Speeder Thunderstrike",
+      "slug": "storm-speeder-thunderstrike",
+      "role": "Other"
+    },
+    {
+      "id": "000000325",
+      "name": "Stormfang Gunship",
+      "slug": "stormfang-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000084",
+      "name": "Stormhawk Interceptor",
+      "slug": "stormhawk-interceptor",
+      "role": "Other"
+    },
+    {
+      "id": "000001191",
+      "name": "Stormraven Gunship",
+      "slug": "stormraven-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000001190",
+      "name": "Stormtalon Gunship",
+      "slug": "stormtalon-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000000321",
+      "name": "Stormwolf",
+      "slug": "stormwolf",
+      "role": "Other"
+    },
+    {
+      "id": "000004167",
+      "name": "Suboden Khan",
+      "slug": "suboden-khan",
+      "role": "Characters"
+    },
+    {
+      "id": "000000068",
+      "name": "Suppressor Squad",
+      "slug": "suppressor-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000002798",
+      "name": "Sword Brethren Squad",
+      "slug": "sword-brethren-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000070",
+      "name": "Tactical Squad",
+      "slug": "tactical-squad",
+      "role": "Battleline"
+    },
+    {
+      "id": "000003874",
+      "name": "Talonstrike Kill Team",
+      "slug": "talonstrike-kill-team",
+      "role": "Other"
+    },
+    {
+      "id": "000000099",
+      "name": "Tarantula Air Defence Battery",
+      "slug": "tarantula-air-defence-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000000098",
+      "name": "Tarantula Sentry Battery",
+      "slug": "tarantula-sentry-battery",
+      "role": "Other"
+    },
+    {
+      "id": "000000140",
+      "name": "Techmarine",
+      "slug": "techmarine",
+      "role": "Characters"
+    },
+    {
+      "id": "000001527",
+      "name": "Techmarine on Bike",
+      "slug": "techmarine-on-bike",
+      "role": "Characters"
+    },
+    {
+      "id": "000000118",
+      "name": "Terminator Assault Squad",
+      "slug": "terminator-assault-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001183",
+      "name": "Terminator Squad",
+      "slug": "terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000004138",
+      "name": "Terminator Squad",
+      "slug": "terminator-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000001184",
+      "name": "Terminus Ultra",
+      "slug": "terminus-ultra",
+      "role": "Other"
+    },
+    {
+      "id": "000001991",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000156",
+      "name": "The Sanguinor",
+      "slug": "the-sanguinor",
+      "role": "Characters"
+    },
+    {
+      "id": "000001164",
+      "name": "Thunderfire Cannon",
+      "slug": "thunderfire-cannon",
+      "role": "Other"
+    },
+    {
+      "id": "000000139",
+      "name": "Thunderhawk Gunship",
+      "slug": "thunderhawk-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000002724",
+      "name": "Thunderhawk Transporter",
+      "slug": "thunderhawk-transporter",
+      "role": "Other"
+    },
+    {
+      "id": "000000322",
+      "name": "Thunderwolf Cavalry",
+      "slug": "thunderwolf-cavalry",
+      "role": "Other"
+    },
+    {
+      "id": "000002473",
+      "name": "Tor Garadon",
+      "slug": "tor-garadon",
+      "role": "Characters"
+    },
+    {
+      "id": "000000153",
+      "name": "Tycho The Lost",
+      "slug": "tycho-the-lost",
+      "role": "Characters"
+    },
+    {
+      "id": "000000093",
+      "name": "Typhon",
+      "slug": "typhon",
+      "role": "Other"
+    },
+    {
+      "id": "000002725",
+      "name": "Tyrannic War Veterans",
+      "slug": "tyrannic-war-veterans",
+      "role": "Other"
+    },
+    {
+      "id": "000000297",
+      "name": "Ulrik The Slayer",
+      "slug": "ulrik-the-slayer",
+      "role": "Characters"
+    },
+    {
+      "id": "000000095",
+      "name": "Ultramarines Honour Guard",
+      "slug": "ultramarines-honour-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000000121",
+      "name": "Uriel Ventris",
+      "slug": "uriel-ventris",
+      "role": "Characters"
+    },
+    {
+      "id": "000001154",
+      "name": "Vanguard Veteran Squad",
+      "slug": "vanguard-veteran-squad",
+      "role": "Other"
+    },
+    {
+      "id": "000000147",
+      "name": "Vanguard Veteran Squad With Jump Packs",
+      "slug": "vanguard-veteran-squad-with-jump-packs",
+      "role": "Other"
+    },
+    {
+      "id": "000002801",
+      "name": "Venerable Dreadnought",
+      "slug": "venerable-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000000120",
+      "name": "Venerable Dreadnought (Legendary)",
+      "slug": "venerable-dreadnought-legendary",
+      "role": "Other"
+    },
+    {
+      "id": "000004185",
+      "name": "Victrix Honour Guard",
+      "slug": "victrix-honour-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000001188",
+      "name": "Vindicator",
+      "slug": "vindicator",
+      "role": "Other"
+    },
+    {
+      "id": "000001178",
+      "name": "Vindicator Laser Destroyer",
+      "slug": "vindicator-laser-destroyer",
+      "role": "Other"
+    },
+    {
+      "id": "000002726",
+      "name": "Vulkan He’stan",
+      "slug": "vulkan-he-stan",
+      "role": "Characters"
+    },
+    {
+      "id": "000004188",
+      "name": "Wardens of Ultramar",
+      "slug": "wardens-of-ultramar",
+      "role": "Other"
+    },
+    {
+      "id": "000003872",
+      "name": "Watch Captain Artemis",
+      "slug": "watch-captain-artemis",
+      "role": "Characters"
+    },
+    {
+      "id": "000003871",
+      "name": "Watch Master",
+      "slug": "watch-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000002727",
+      "name": "Whirlwind",
+      "slug": "whirlwind",
+      "role": "Other"
+    },
+    {
+      "id": "000002728",
+      "name": "Whirlwind Scorpius",
+      "slug": "whirlwind-scorpius",
+      "role": "Other"
+    },
+    {
+      "id": "000000315",
+      "name": "Wolf Guard",
+      "slug": "wolf-guard",
+      "role": "Other"
+    },
+    {
+      "id": "000004130",
+      "name": "Wolf Guard Battle Leader",
+      "slug": "wolf-guard-battle-leader",
+      "role": "Characters"
+    },
+    {
+      "id": "000000300",
+      "name": "Wolf Guard Battle Leader In Terminator Armour",
+      "slug": "wolf-guard-battle-leader-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000000301",
+      "name": "Wolf Guard Battle Leader On Thunderwolf",
+      "slug": "wolf-guard-battle-leader-on-thunderwolf",
+      "role": "Characters"
+    },
+    {
+      "id": "000004131",
+      "name": "Wolf Guard Headtakers",
+      "slug": "wolf-guard-headtakers",
+      "role": "Other"
+    },
+    {
+      "id": "000002804",
+      "name": "Wolf Guard Pack Leader",
+      "slug": "wolf-guard-pack-leader",
+      "role": "Characters"
+    },
+    {
+      "id": "000002803",
+      "name": "Wolf Guard Pack Leader In Terminator Armour",
+      "slug": "wolf-guard-pack-leader-in-terminator-armour",
+      "role": "Characters"
+    },
+    {
+      "id": "000002802",
+      "name": "Wolf Guard Pack Leader With Jump Pack",
+      "slug": "wolf-guard-pack-leader-with-jump-pack",
+      "role": "Characters"
+    },
+    {
+      "id": "000000318",
+      "name": "Wolf Guard Terminators",
+      "slug": "wolf-guard-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000000284",
+      "name": "Wolf Lord on Thunderwolf",
+      "slug": "wolf-lord-on-thunderwolf",
+      "role": "Characters"
+    },
+    {
+      "id": "000004129",
+      "name": "Wolf Priest",
+      "slug": "wolf-priest",
+      "role": "Characters"
+    },
+    {
+      "id": "000000310",
+      "name": "Wolf Scouts",
+      "slug": "wolf-scouts",
+      "role": "Other"
+    },
+    {
+      "id": "000004182",
+      "name": "Wolf Scouts",
+      "slug": "wolf-scouts",
+      "role": "Other"
+    },
+    {
+      "id": "000000311",
+      "name": "Wulfen",
+      "slug": "wulfen",
+      "role": "Other"
+    },
+    {
+      "id": "000004133",
+      "name": "Wulfen Dreadnought",
+      "slug": "wulfen-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000004132",
+      "name": "Wulfen with Storm Shields",
+      "slug": "wulfen-with-storm-shields",
+      "role": "Other"
+    },
+    {
+      "id": "000002729",
+      "name": "Xiphon Interceptor",
+      "slug": "xiphon-interceptor",
+      "role": "Other"
+    }
+  ]
+}

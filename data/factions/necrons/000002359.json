@@ -1,0 +1,142 @@
+{
+  "id": "000002359",
+  "name": "Lokhust Destroyers",
+  "factionId": "NEC",
+  "sourceId": "000000029",
+  "slug": "lokhust-destroyers",
+  "legend": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: gauss cannon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/necrons/Lokhust-Destroyers",
+  "models": [
+    {
+      "datasheetId": "000002359",
+      "line": 1,
+      "name": "Lokhust Destroyers",
+      "movement": "8\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "60mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002359",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Gauss cannon",
+      "description": "lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002359",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Reanimation Protocols",
+      "description": "If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n\n• If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound\n• If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\n\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.\n\nExample: A unit of Lokhust Destroyers (which have a Wounds characteristic of 3) activates its Reanimation Protocols. The unit had a Starting Strength of 3, but currently contains 2 models, and one of those models has lost 1 wound. A 3 is rolled to see how many wounds are reanimated. The first of these reanimated wounds restores the wounded Lokhust Destroyer back to 3 wounds. The second of these reanimated wounds returns the destroyed Lokhust Destroyer to the battlefield with 1 wound remaining. The third of these reanimated wounds restores one of the remaining lost wounds to the same Lokhust Destroyer that was just returned. The unit now contains 3 models, two of which have 3 wounds remaining and one of which has 2 wounds remaining.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Hard-wired for Destruction",
+      "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker your opponent controls, you can re-roll the Hit roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Necrons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Destroyer Cult",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Lokhust Destroyers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002359",
+      "line": 1,
+      "description": "1-6 Lokhust Destroyers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002359",
+      "line": 1,
+      "description": "1 model",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000002359",
+      "line": 2,
+      "description": "2 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000002359",
+      "line": 3,
+      "description": "3 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000002359",
+      "line": 4,
+      "description": "6 models",
+      "cost": 180
+    }
+  ],
+  "leaderAttachments": []
+}

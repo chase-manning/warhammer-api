@@ -1,0 +1,163 @@
+{
+  "id": "000001406",
+  "name": "Sly Marbo",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "sly-marbo",
+  "legend": "Sly Marbo is a one-man army. He operates alone, striking from ambush before disappearing back into the shadows. A legendary soldier, Marbo has gutted xenos horrors and slit the throats of traitors beyond count with his envenomed blade, and fires hails of poisoned shards from his ripper pistol.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: ripper pistol; envenomed blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Sly-Marbo",
+  "models": [
+    {
+      "datasheetId": "000001406",
+      "line": 1,
+      "name": "Sly Marbo",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001406",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ripper pistol",
+      "description": "anti-infantry 2+, pistol, precision",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001406",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Envenomed blade",
+      "description": "anti-infantry 2+, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "One-man Army",
+      "description": "Once per turn, in your opponent’s Shooting phase, when an enemy unit makes a ranged attack that targets a friendly Regiment unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Like Fighting a Shadow",
+      "description": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not eligible to declare a charge.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "LONER",
+      "description": "This model cannot be selected as your WARLORD.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Sly Marbo",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000001406",
+      "line": 1,
+      "description": "1 Sly Marbo – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001406",
+      "line": 1,
+      "description": "1 model",
+      "cost": 55
+    }
+  ],
+  "leaderAttachments": []
+}

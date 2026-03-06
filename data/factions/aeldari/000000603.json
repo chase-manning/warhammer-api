@@ -1,0 +1,170 @@
+{
+  "id": "000000603",
+  "name": "Crimson Hunter",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "crimson-hunter",
+  "legend": "Crimson Hunters are the sublime pilots of formidable airborne fighters with armaments dedicated to aerial interdiction. With superhuman reflexes they hunt down and destroy enemy aircraft with sickening ease, their skills honed by nightly training sorties with those of their Aspect Shrine.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 starcannons; pulse laser; wraithbone hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Crimson-Hunter",
+  "models": [
+    {
+      "datasheetId": "000000603",
+      "line": 1,
+      "name": "Crimson Hunter",
+      "movement": "20+\"",
+      "toughness": 8,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 12,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000603",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bright lance",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000000603",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse laser",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000603",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Starcannon",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000603",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wraithbone hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Skyhunter",
+      "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aspect Warrior",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Crimson Hunter",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000603",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s 2 starcannons can be replaced with 2 bright lances."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000603",
+      "line": 1,
+      "description": "1 Crimson Hunter"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000603",
+      "line": 1,
+      "description": "1 model",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

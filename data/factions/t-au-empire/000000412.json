@@ -1,0 +1,182 @@
+{
+  "id": "000000412",
+  "name": "Breacher Team",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "breacher-team",
+  "legend": "Where enemies must be driven from fortified positions or void ships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become lethal at close quarters.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: pulse blaster; pulse pistol; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Breacher-Team",
+  "models": [
+    {
+      "datasheetId": "000000412",
+      "line": 1,
+      "name": "Breacher Team",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000412",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse blaster",
+      "description": "assault",
+      "range": "10",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000412",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000412",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Support turret",
+      "description": "indirect fire, twin-linked",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000412",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Breach and Clear",
+      "description": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "DS8 Support Turret",
+      "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon. \n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Breacher Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fire Warrior",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Markerlight",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000412",
+      "line": 1,
+      "button": "•",
+      "description": "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates:\n• 1 guardian drone (it cannot take duplicates of this piece of wargear)\n• 1 gun drone\n• 1 marker drone\n• 1 shield drone"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000412",
+      "line": 1,
+      "description": "1 Breacher Fire Warrior Shas’ui"
+    },
+    {
+      "datasheetId": "000000412",
+      "line": 2,
+      "description": "9 Breacher Fire Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000412",
+      "line": 1,
+      "description": "10 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,200 @@
+{
+  "id": "000003961",
+  "name": "Artillery Team",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "artillery-team",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: heavy mortar; lasgun; crew close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Artillery-Team",
+  "models": [
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "name": "Artillery Team",
+      "movement": "3\"",
+      "toughness": 7,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 3,
+      "baseSize": "130mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy mortar",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy quad launcher",
+      "description": "blast, heavy, indirect fire, twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Multiple rocket launcher",
+      "description": "anti-infantry 3+, blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "2",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Siege cannon",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Crew close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Remorseless Barrage",
+      "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an INFANTRY unit is hit by one or more attacks made by a multiple rocket launcher, they must subtract 1 from their Battle-shock test when doing so).",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s heavy mortar can be replaced with one of the following:\n\n• 1 siege cannon\n• 1 heavy quad launcher\n• 1 multiple rocket launcher"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "description": "1 Artillery Team"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003961",
+      "line": 1,
+      "description": "1 model",
+      "cost": 95
+    }
+  ],
+  "leaderAttachments": []
+}

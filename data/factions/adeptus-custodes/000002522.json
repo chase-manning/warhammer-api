@@ -1,0 +1,132 @@
+{
+  "id": "000002522",
+  "name": "Vigilators",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "vigilators",
+  "legend": "The surest way to bring an end to a witch’s malefic rampage is to strike their head from their body. Such is the doctrine of the Vigilators, who ghost across the battlefield before charging headlong into battle, their double-handed power blades singing a keening song of death.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: executioner greatblade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Vigilators",
+  "models": [
+    {
+      "datasheetId": "000002522",
+      "line": 1,
+      "name": "Vigilators",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002522",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Executioner greatblade",
+      "description": "anti-psyker 5+, devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Daughters of the Abyss",
+      "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Deft Parry",
+      "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Vigilators",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Anathema Psykana",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002522",
+      "line": 1,
+      "description": "1 Vigilator Sister Superior"
+    },
+    {
+      "datasheetId": "000002522",
+      "line": 2,
+      "description": "3-9 Vigilators"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002522",
+      "line": 1,
+      "description": "4 models",
+      "cost": 45
+    },
+    {
+      "datasheetId": "000002522",
+      "line": 2,
+      "description": "5 models",
+      "cost": 55
+    },
+    {
+      "datasheetId": "000002522",
+      "line": 3,
+      "description": "9 models",
+      "cost": 90
+    },
+    {
+      "datasheetId": "000002522",
+      "line": 4,
+      "description": "10 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

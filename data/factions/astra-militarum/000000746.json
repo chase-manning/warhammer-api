@@ -1,0 +1,141 @@
+{
+  "id": "000000746",
+  "name": "Heavy Quad Launcher Team",
+  "factionId": "AM",
+  "sourceId": "000000374",
+  "slug": "heavy-quad-launcher-team",
+  "legend": "",
+  "role": "Other",
+  "loadout": "This model is equipped with: heavy quad launcher; close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Heavy-Quad-Launcher-Team",
+  "models": [
+    {
+      "datasheetId": "000000746",
+      "line": 1,
+      "name": "Heavy Quad Launcher Team",
+      "movement": "4\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000746",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy quad launcher",
+      "description": "blast, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000746",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Suppression Bombardment",
+      "description": "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTER and VEHICLE units) hit by one or more of those attacks. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ARTILLERY TEAM",
+      "description": "Designer’s Note: Place three Crew tokens next to this model when it is first set up, removing one each time this model loses a wound (the Heavy Quad Launcher Team model itself is considered to represent its final wound).",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Heavy Quad Launcher Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000746",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000746",
+      "line": 1,
+      "description": "1 Heavy Quad Launcher Team"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000746",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

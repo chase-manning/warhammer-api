@@ -1,0 +1,149 @@
+{
+  "id": "000000470",
+  "name": "Ripper Swarms",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "ripper-swarms",
+  "legend": "Living carpets of Rippers squirm across the ground wherever the Tyranid swarms advance. Little more than simple eating machines, these chitinous horrors swarm over the wounded and dead alike, and can even drag down trained warriors in sufficient numbers. Once a Ripper’s fangs sink home, it will not let go…",
+  "role": "Other",
+  "loadout": "Every model is equipped with: chitinous claws and teeth.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Ripper-Swarms",
+  "models": [
+    {
+      "datasheetId": "000000470",
+      "line": 1,
+      "name": "Ripper Swarms",
+      "movement": "6\"",
+      "toughness": 2,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000470",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Spinemaws",
+      "description": "pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000470",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chitinous claws and teeth",
+      "description": "sustained hits 1",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Chitinous Horrors (Aura)",
+      "description": "While an enemy unit is within Engagement Range of this unit, halve the Objective Control characteristic of models in that enemy unit.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ripper Swarms",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Swarm",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Harvester",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000470",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each be equipped with 1 spinemaws."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000470",
+      "line": 1,
+      "description": "1-3 Ripper Swarms"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000470",
+      "line": 1,
+      "description": "1 model",
+      "cost": 25
+    },
+    {
+      "datasheetId": "000000470",
+      "line": 2,
+      "description": "2 models",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000000470",
+      "line": 3,
+      "description": "3 models",
+      "cost": 50
+    }
+  ],
+  "leaderAttachments": []
+}

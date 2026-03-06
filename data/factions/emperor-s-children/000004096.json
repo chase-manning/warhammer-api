@@ -1,0 +1,141 @@
+{
+  "id": "000004096",
+  "name": "Fiends",
+  "factionId": "EC",
+  "sourceId": "000000280",
+  "slug": "fiends",
+  "legend": "Few daemonic entities approach the sheer disturbing horror of the Fiends of Slaanesh. Malicious hunting beasts that croon their delight across the battlefield, these ghastly abominations are wreathed in a soporific musk that leaves their prey witless and helpless before their flashing talons and stabbing tails.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: barbed tail and dissecting claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/emperor-s-children/Fiends",
+  "models": [
+    {
+      "datasheetId": "000004096",
+      "line": 1,
+      "name": "Fiends",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "7+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004096",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Barbed tail and dissecting claws",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Pact of Excess",
+      "description": "When mustering your army, unless specifically stated otherwise, you cannot select Legions of Excess as your Army Faction.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Soporific Musk",
+      "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Legions of Excess",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fiends",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beast",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Summoned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Slaanesh",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004096",
+      "line": 1,
+      "description": "1 Blissbringer"
+    },
+    {
+      "datasheetId": "000004096",
+      "line": 2,
+      "description": "2-5 Fiends"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004096",
+      "line": 1,
+      "description": "3 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000004096",
+      "line": 2,
+      "description": "6 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

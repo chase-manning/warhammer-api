@@ -1,0 +1,141 @@
+{
+  "id": "EC",
+  "name": "Emperor’s Children",
+  "slug": "emperor-s-children",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/emperor-s-children",
+  "datasheetCount": 22,
+  "datasheets": [
+    {
+      "id": "000004082",
+      "name": "Chaos Land Raider",
+      "slug": "chaos-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000004093",
+      "name": "Chaos Rhino",
+      "slug": "chaos-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000004090",
+      "name": "Chaos Spawn",
+      "slug": "chaos-spawn",
+      "role": "Other"
+    },
+    {
+      "id": "000004081",
+      "name": "Chaos Terminators",
+      "slug": "chaos-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000004086",
+      "name": "Daemon Prince of Slaanesh",
+      "slug": "daemon-prince-of-slaanesh",
+      "role": "Characters"
+    },
+    {
+      "id": "000004087",
+      "name": "Daemon Prince of Slaanesh with Wings",
+      "slug": "daemon-prince-of-slaanesh-with-wings",
+      "role": "Characters"
+    },
+    {
+      "id": "000004095",
+      "name": "Daemonettes",
+      "slug": "daemonettes",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004096",
+      "name": "Fiends",
+      "slug": "fiends",
+      "role": "Other"
+    },
+    {
+      "id": "000004089",
+      "name": "Flawless Blades",
+      "slug": "flawless-blades",
+      "role": "Other"
+    },
+    {
+      "id": "000004077",
+      "name": "Fulgrim",
+      "slug": "fulgrim",
+      "role": "Characters"
+    },
+    {
+      "id": "000004092",
+      "name": "Heldrake",
+      "slug": "heldrake",
+      "role": "Other"
+    },
+    {
+      "id": "000004080",
+      "name": "Infractors",
+      "slug": "infractors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004097",
+      "name": "Keeper of Secrets",
+      "slug": "keeper-of-secrets",
+      "role": "Characters"
+    },
+    {
+      "id": "000004078",
+      "name": "Lord Exultant",
+      "slug": "lord-exultant",
+      "role": "Characters"
+    },
+    {
+      "id": "000004084",
+      "name": "Lord Kakophonist",
+      "slug": "lord-kakophonist",
+      "role": "Characters"
+    },
+    {
+      "id": "000004083",
+      "name": "Lucius the Eternal",
+      "slug": "lucius-the-eternal",
+      "role": "Characters"
+    },
+    {
+      "id": "000004091",
+      "name": "Maulerfiend",
+      "slug": "maulerfiend",
+      "role": "Other"
+    },
+    {
+      "id": "000004088",
+      "name": "Noise Marines",
+      "slug": "noise-marines",
+      "role": "Other"
+    },
+    {
+      "id": "000004098",
+      "name": "Seekers",
+      "slug": "seekers",
+      "role": "Other"
+    },
+    {
+      "id": "000004094",
+      "name": "Shalaxi Helbane",
+      "slug": "shalaxi-helbane",
+      "role": "Characters"
+    },
+    {
+      "id": "000004085",
+      "name": "Sorcerer",
+      "slug": "sorcerer",
+      "role": "Characters"
+    },
+    {
+      "id": "000004079",
+      "name": "Tormentors",
+      "slug": "tormentors",
+      "role": "Battleline"
+    }
+  ]
+}

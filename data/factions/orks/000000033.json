@@ -1,0 +1,223 @@
+{
+  "id": "000000033",
+  "name": "Warbikers",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "warbikers",
+  "legend": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe’s battle line like battering rams.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: twin dakkagun; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Warbikers",
+  "models": [
+    {
+      "datasheetId": "000000033",
+      "line": 1,
+      "name": "WARBIKER",
+      "movement": "12\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 2,
+      "name": "BOSS NOB ON WARBIKE",
+      "movement": "12\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000033",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slugga",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin dakkagun",
+      "description": "assault, rapid fire 2, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power klaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Drive-by Dakka",
+      "description": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Speed Freeks",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Warbikers",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000033",
+      "line": 1,
+      "button": "•",
+      "description": "Each Warbiker can be equipped with one of the following:\n• 1 slugga\n• 1 choppa"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 2,
+      "button": "•",
+      "description": "The Boss Nob on Warbike can be equipped with one of the following:\n• 1 slugga\n• 1 big choppa\n• 1 power klaw"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000033",
+      "line": 1,
+      "description": "1 Boss Nob on Warbike"
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 2,
+      "description": "2-5 Warbikers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000033",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    },
+    {
+      "datasheetId": "000000033",
+      "line": 2,
+      "description": "6 models",
+      "cost": 130
+    }
+  ],
+  "leaderAttachments": []
+}

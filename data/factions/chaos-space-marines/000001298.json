@@ -1,0 +1,203 @@
+{
+  "id": "000001298",
+  "name": "Greater Brass Scorpion",
+  "factionId": "CSM",
+  "sourceId": "000000355",
+  "slug": "greater-brass-scorpion",
+  "legend": "More rampaging beasts than war machines, Brass Scorpions are monstrous fusions of armour plating and daemonic flesh that delight in destruction. Whether blasting apart the enemy at range with their scorpion cannon and soulburner cannon, or engulfing nearby targets with their hellmaw cannons, Brass Scorpions are terrifying embodiments of Khorne’s wrath.",
+  "role": "Other",
+  "loadout": "This model is equipped with: demolisher cannon; Scorpion cannon; hellmaw flame cannons; hellcrusher claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-9",
+  "damagedDescription": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Greater-Brass-Scorpion",
+  "models": [
+    {
+      "datasheetId": "000001298",
+      "line": 1,
+      "name": "Greater Brass Scorpion",
+      "movement": "12\"",
+      "toughness": 12,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 26,
+      "leadership": "6+",
+      "objectiveControl": 10,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001298",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Demolisher cannon",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001298",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hellmaw flame cannons",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001298",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scorpion cannon",
+      "description": "sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "15",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001298",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hellcrusher claws – strike",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "14",
+      "armourPenetration": "-3",
+      "damage": "6"
+    },
+    {
+      "datasheetId": "000001298",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Hellcrusher claws – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "18",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+2"
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Super-heavy Walker",
+      "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Runes of the Blood God",
+      "description": "This model has the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Khorne",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Greater Brass Scorpion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001298",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001298",
+      "line": 1,
+      "description": "1 Greater Brass Scorpion"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001298",
+      "line": 1,
+      "description": "1 model",
+      "cost": 500
+    }
+  ],
+  "leaderAttachments": []
+}

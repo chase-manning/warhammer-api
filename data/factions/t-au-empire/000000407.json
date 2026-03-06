@@ -1,0 +1,221 @@
+{
+  "id": "000000407",
+  "name": "Commander Shadowsun",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "commander-shadowsun",
+  "legend": "Accompanied by advanced shield and command drones, Commander O’Shaserra surges dynamically into battle. She is the master of the Kauyon, laying cunning ambushes for her enemies then striking with merciless fury. O’Shaserra spearheads these attacks from the front, and every shot from her fusion blasters heralds another fallen foe.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: flechette launcher; 2 high-energy fusion blasters; light missile pod; pulse pistol; battlesuit fists; advanced guardian drone; command-link drone.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Commander-Shadowsun",
+  "models": [
+    {
+      "datasheetId": "000000407",
+      "line": 1,
+      "name": "Commander Shadowsun",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000407",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flechette launcher",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000407",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "High-energy fusion blaster",
+      "description": "melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000407",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Light missile pod",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "0",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000407",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000407",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Battlesuit fists",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "description": "INFILTRATORS\n\nMany armies employ reconnaissance units who can sit concealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Stealth",
+      "description": "STEALTH\n\nSome warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Advanced Guardian Drone",
+      "description": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Agile Combatant",
+      "description": "This model is eligible to shoot in a turn in which it Fell Back.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Command-link Drone (Aura)",
+      "description": "While a friendly T’AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Hero of the Empire (Aura)",
+      "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SUPREME COMMANDER",
+      "description": "If this model is in your army, it must be your Warlord.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battlesuit",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Commander Shadowsun",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000407",
+      "line": 1,
+      "description": "1 Commander Shadowsun – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000407",
+      "line": 1,
+      "description": "1 model",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

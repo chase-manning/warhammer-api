@@ -1,0 +1,477 @@
+{
+  "id": "000003821",
+  "name": "Kill Team Cassius",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "kill-team-cassius",
+  "legend": "Kill Team Cassius is an elite squad of specialists, even amongst Talasa Prime’s ranks of Veterans. Hand-picked by Chaplain Cassius for an unauthorised mission, the kill team uncovered the first recorded Genestealer Cult alongside him on Ghosar Quintus. They have fought together many times since, and baulk at no xenos horror.",
+  "role": "Characters",
+  "loadout": "",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Kill-Team-Cassius",
+  "models": [
+    {
+      "datasheetId": "000003821",
+      "line": 1,
+      "name": "KILL TEAM VETERAN",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 2,
+      "name": "KILL TEAM BIKER",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 3,
+      "name": "CHAPLAIN CASSIUS",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "5+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 4,
+      "name": "KILL TEAM TERMINATOR",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003821",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deathwatch twin boltgun",
+      "description": "TWIN-LINKED",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Frag cannon",
+      "description": "blast, heavy, rapid fire d3",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy flamer",
+      "description": "ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil ranged weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Psychic Cleanse",
+      "description": "psychic",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Artificer crozius",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Force weapon",
+      "description": "psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-3",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil melee weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lightning claws",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Kill Team",
+      "description": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\n\nFor the purposes of determining which models in this unit can embark within a Transport, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the Terminator, Mounted or Jump Pack keywords.\n\nFor the purposes of interacting with terrain features, all models in units with this ability are considered INFANTRY models, even though similar models in other units may have the MOUNTED or JUMP PACK keywords.\n\nDesigner’s Note: While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, TRANSPORT and Benefit of Cover rules.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Catechism of Death",
+      "description": "While this unit contains Chaplain Cassius, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Unflinching",
+      "description": "You can re-roll Battle-shock tests for this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Jump Pack",
+      "description": "The bearer has a Move characteristic of 12\" and can move over models and terrain as if they were not there.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Psychic Hood",
+      "description": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "CASSIUS",
+      "description": "Your army cannot contain both Chaplain Cassius and KILL TEAM CASSIUS.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Kill Team Cassius",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Kill Team",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "CHAPLAIN CASSIUS"
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "CHAPLAIN CASSIUS"
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": "ALL"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003821",
+      "line": 1,
+      "button": "•",
+      "description": "Chaplain Cassius is equipped with: artificer crozius; bolt pistol."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 2,
+      "button": "•",
+      "description": "Vael Donatus is equipped with: boltgun; bolt pistol; close combat weapon."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 3,
+      "button": "•",
+      "description": "Zameon Gydrael is equipped with: Long Vigil ranged weapon; Long Vigil melee weapon."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 4,
+      "button": "•",
+      "description": "Rodricus Grytt is equipped with: frag cannon; bolt pistol; close combat weapon."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 5,
+      "button": "•",
+      "description": "Antor Delassio is equipped with: Long Vigil ranged weapon; Long Vigil melee weapon, jump pack."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 6,
+      "button": "•",
+      "description": "Edryc Setorax is equipped with: twin lightning claws, jump pack."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 7,
+      "button": "•",
+      "description": "Jensus Natorian is equipped with: psychic Cleanse; bolt pistol; force weapon; psychic hood."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 8,
+      "button": "•",
+      "description": "Drenn Redblade is equipped with: Long Vigil melee weapon; boltgun."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 9,
+      "button": "•",
+      "description": "Garran Branatar is equipped with: heavy flamer; Long Vigil ranged weapon; power fist."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 10,
+      "button": "•",
+      "description": "Ennox Sorrlock is equipped with: Long Vigil ranged weapon; close combat weapon."
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 11,
+      "button": "•",
+      "description": "Jetek Suberei is equipped with: Deathwatch twin boltgun; Long Vigil melee weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003821",
+      "line": 1,
+      "description": "1 Chaplain Cassius – EPIC HERO"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 2,
+      "description": "8 Kill Team Veterans:\n\n• Vael Donatus\n• Zameon Gydrael\n• Rodricus Grytt\n• Antor Delassio\n• Edryc Setorax\n• Jensus Natorian\n• Drenn Redblade\n• Ennox Sorrlock"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 3,
+      "description": "1 Kill Team Terminator (Garran Branatar)"
+    },
+    {
+      "datasheetId": "000003821",
+      "line": 4,
+      "description": "1 Kill Team Biker (Jetek Suberei)"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003821",
+      "line": 1,
+      "description": "11 models",
+      "cost": 220
+    }
+  ],
+  "leaderAttachments": []
+}

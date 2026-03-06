@@ -1,0 +1,134 @@
+{
+  "id": "000003955",
+  "name": "Aegis Defence Line",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "aegis-defence-line",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Aegis-Defence-Line",
+  "models": [
+    {
+      "datasheetId": "000003955",
+      "line": 1,
+      "name": "Aegis Defence Line",
+      "movement": "-",
+      "toughness": 12,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003955",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "",
+      "description": null,
+      "range": "",
+      "type": "",
+      "attacks": "0",
+      "ballisticSkillOrWeaponSkill": "-",
+      "strength": "-",
+      "armourPenetration": "0",
+      "damage": "-"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Emplacement Platform",
+      "description": "Friendly ASTRA MILITARUM INFANTRY models can be set up or end any type of move on top of the platform section of this FORTIFICATION.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Defence Line",
+      "description": "While an ASTRA MILITARUM INFANTRY model has the Benefit of Cover as a result of this terrain feature (see above), that model has a 4+ invulnerable save.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Fortification",
+      "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "DEPLOYMENT",
+      "description": "When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections, and up to 2 end sections. All sections must be connected to each other to form a continuous defence line; the two broken shield sections can be placed either at the end of the defence line, or in the middle of it such that both are within 1/2\" of each other (in this case, these two sections count as being connected to each other). All the sections that have been set up are then treated as a single model for all rules purposes.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aegis Defence Line",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003955",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003955",
+      "line": 1,
+      "description": "1 Aegis Defence Line"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003955",
+      "line": 1,
+      "description": "1 model",
+      "cost": 145
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "TL",
+  "name": "Adeptus Titanicus",
+  "slug": "adeptus-titanicus",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-titanicus",
+  "datasheetCount": 4,
+  "datasheets": [
+    {
+      "id": "000000868",
+      "name": "Reaver Titan",
+      "slug": "reaver-titan",
+      "role": "Other"
+    },
+    {
+      "id": "000002077",
+      "name": "Warbringer Nemesis Titan",
+      "slug": "warbringer-nemesis-titan",
+      "role": "Other"
+    },
+    {
+      "id": "000000867",
+      "name": "Warhound Titan",
+      "slug": "warhound-titan",
+      "role": "Other"
+    },
+    {
+      "id": "000000869",
+      "name": "Warlord Titan",
+      "slug": "warlord-titan",
+      "role": "Other"
+    }
+  ]
+}

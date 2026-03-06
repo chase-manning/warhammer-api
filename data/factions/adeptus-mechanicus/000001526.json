@@ -1,0 +1,217 @@
+{
+  "id": "000001526",
+  "name": "Secutarii Peltasts",
+  "factionId": "AdM",
+  "sourceId": "000000371",
+  "slug": "secutarii-peltasts",
+  "legend": "Secutarii Peltasts are specialised Adeptus Mechanicus ground troops principally employed to saturate targets with concentrated firepower from their galvanic casters, neutralising any threats to valuable Mechanicus assets. Like the Skitarii infantry they resemble, Peltasts are adaptable and mobile soldiers, and are often deployed to reach, encircle and defend their masters’ fallen god-engines.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: galvanic caster; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/Secutarii-Peltasts",
+  "models": [
+    {
+      "datasheetId": "000001526",
+      "line": 1,
+      "name": "Secutarii Peltasts",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001526",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Archeotech pistol",
+      "description": "devastating wounds, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Galvanic caster – flechette",
+      "description": "assault",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Galvanic caster – hammershot",
+      "description": "heavy",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Alpha close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Enhanced data-tether",
+      "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Omnispex",
+      "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Blind Barrage",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is blinded. While a unit is blinded, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SECUTARII",
+      "description": "If a model from your army with the Leader ability can be attached to a Skitarii Vanguard unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Secutarii Peltasts",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001526",
+      "line": 1,
+      "button": "•",
+      "description": "The Peltast Alpha’s arc lance can be replaced with 1 Archeotech pistol."
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 2,
+      "button": "•",
+      "description": "The Peltast Alpha can be equipped with 1 Alpha close combat weapon."
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 3,
+      "button": "•",
+      "description": "1 Secutarii Peltast can be equipped with one of the following:\n• 1 enhanced data-tether\n• 1 omnispex"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001526",
+      "line": 1,
+      "description": "1 Peltast Alpha"
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 2,
+      "description": "4-9 Secutarii Peltasts"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001526",
+      "line": 1,
+      "description": "5 models",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000001526",
+      "line": 2,
+      "description": "10 models",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": []
+}

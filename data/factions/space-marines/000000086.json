@@ -1,0 +1,152 @@
+{
+  "id": "000000086",
+  "name": "Firestrike Servo-turrets",
+  "factionId": "SM",
+  "sourceId": "000000139",
+  "slug": "firestrike-servo-turrets",
+  "legend": "Primarily a defensive weapon, the Firestrike Servo-turret lays down withering volleys of fire to secure flanks or the Space Marines’ base of operations. Mounted on gravitic ventral plates, they can hover across the battlefield to ideal firing positions from which to slaughter attacking enemies.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: twin Firestrike las-talon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Firestrike-Servo-turrets",
+  "models": [
+    {
+      "datasheetId": "000000086",
+      "line": 1,
+      "name": "Firestrike Servo-turrets",
+      "movement": "3\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "80mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000086",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Firestrike autocannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000086",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin Firestrike las-talon",
+      "description": "twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000086",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Sentinel Protocols",
+      "description": "Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Firestrike Servo-turrets",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000086",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their twin Firestrike las-talon replaced with 1 twin Firestrike autocannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000086",
+      "line": 1,
+      "description": "1-2 Firestrike Servo-turrets"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000086",
+      "line": 1,
+      "description": "1 model",
+      "cost": 75
+    },
+    {
+      "datasheetId": "000000086",
+      "line": 2,
+      "description": "2 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

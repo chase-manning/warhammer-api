@@ -1,0 +1,413 @@
+{
+  "id": "000004053",
+  "name": "Fellgor Beastmen",
+  "factionId": "CD",
+  "sourceId": "000000012",
+  "slug": "fellgor-beastmen",
+  "legend": "",
+  "role": "Other",
+  "loadout": "The Fellgor Champion is equipped with: bolt pistol; chainsword. \n\nEvery Fellgor Beastman is equipped with: autopistol; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/Fellgor-Beastmen",
+  "models": [
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "name": "Fellgor Beastmen",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Great weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Corrupted stave",
+      "description": "devastating wounds, psychic",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Corrupted stave",
+      "description": "devastating wounds, psychic",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Bestial Raiders",
+      "description": "If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Legiones Daemonica",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fellgor Beastmen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fellgor Beastmen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fellgor Beastmen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fellgor Beastmen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fellgor Beastmen",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Shadow Legion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Undivided",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "button": "•",
+      "description": "The Fellgor Champion’s bolt pistol can be replaced with 1 plasma pistol."
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 2,
+      "button": "•",
+      "description": "1 Fellgor Beastman’s close combat weapon can be replaced with 1 great weapon."
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 3,
+      "button": "•",
+      "description": "1 Fellgor Beastman’s close combat weapon can be replaced with 1 corrupted stave."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "description": "1 Fellgor Champion"
+    },
+    {
+      "datasheetId": "000004053",
+      "line": 2,
+      "description": "9 Fellgor Beastmen"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004053",
+      "line": 1,
+      "description": "10 models",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,231 @@
+{
+  "id": "000003967",
+  "name": "Cadian Heavy Weapons Squad",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "cadian-heavy-weapons-squad",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: heavy bolter; laspistol; weapons team close combat weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Cadian-Heavy-Weapons-Squad",
+  "models": [
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "name": "Heavy Weapons Squad",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Weapons team close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mortar",
+      "description": "blast, heavy, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Missile launcher – krak",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Missile launcher – frag",
+      "description": "blast, heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolter",
+      "description": "heavy, sustained hits 1",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autocannon",
+      "description": "heavy",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Covering Fire",
+      "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit is within 6\" of one or more friendly Platoon units.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "EMBARKING",
+      "description": "While embarked within a Transport, each model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models’ weapons for the purposes of the Firing Deck ability.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Cadian Heavy Weapons Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their heavy bolter replaced with one of the following:\n• 1 autocannon\n• 1 lascannon\n• 1 missile launcher\n• 1 mortar"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "description": "3 Heavy Weapons Teams"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003967",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": []
+}

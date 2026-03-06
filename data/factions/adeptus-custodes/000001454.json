@@ -1,0 +1,158 @@
+{
+  "id": "000001454",
+  "name": "Vertus Praetors",
+  "factionId": "AC",
+  "sourceId": "000000024",
+  "slug": "vertus-praetors",
+  "legend": "Veteran warriors who have seen battle on a hundred worlds, these Custodians know that the value of speed is in directing their might precisely where and when it is needed most. Master combatants and marksmen both, they can place piercing strikes and deadly salvoes with precision even when travelling at immense speeds.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: salvo launcher; interceptor lance.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Vertus-Praetors",
+  "models": [
+    {
+      "datasheetId": "000001454",
+      "line": 1,
+      "name": "Vertus Praetors",
+      "movement": "12\"",
+      "toughness": 7,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001454",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Salvo launcher",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000001454",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Vertus hurricane bolter",
+      "description": "rapid fire 3, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001454",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Interceptor lance",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Martial Ka’tah",
+      "description": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:\n\nDacatarai Stance\n\nThose Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nRendax Stance\n\nMasters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Turbo-boost",
+      "description": "Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Quicksilver Execution",
+      "description": "Once per battle, after this unit ends a Normal Move or Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit: for each 2+, that enemy unit suffers 2 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vertus Praetors",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001454",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their salvo launcher replaced with 1 Vertus hurricane bolter."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001454",
+      "line": 1,
+      "description": "2-3 Vertus Praetors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001454",
+      "line": 1,
+      "description": "2 models",
+      "cost": 150
+    },
+    {
+      "datasheetId": "000001454",
+      "line": 2,
+      "description": "3 models",
+      "cost": 225
+    }
+  ],
+  "leaderAttachments": []
+}

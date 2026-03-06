@@ -1,0 +1,170 @@
+{
+  "id": "000000651",
+  "name": "Grotesques",
+  "factionId": "DRU",
+  "sourceId": "000000384",
+  "slug": "grotesques",
+  "legend": "These modified meat-hulks are pumped full of painful chemicals, growth elixirs and macro-steroids. With swollen muscles they hack their master’s foes apart, their brutal cleavers and grafted claws dripping with toxins. They are mindlessly obedient and insensible to any hurt, chasing down fleeing prey at the behest of their creator.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: paired monstrous weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari/Grotesques",
+  "models": [
+    {
+      "datasheetId": "000000651",
+      "line": 1,
+      "name": "Grotesques",
+      "movement": "7\"",
+      "toughness": 5,
+      "save": "6+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000651",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Liquifier gun",
+      "description": "anti-infantry 3+, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000651",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Monstrous weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000651",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired monstrous weapons",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain",
+      "description": "FEEL NO PAIN\n\nSome warriors refuse to be laid low, even by what should be fatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.\n\n• Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+      "type": "Core",
+      "parameter": "5+"
+    },
+    {
+      "name": "Power from Pain",
+      "description": "Pain Abilities\nAll Drukhari units have a Pain ability, tagged with the word ‘Pain’. Pain abilities only apply to a unit while it is Empowered. If your Army Faction is DRUKHARI, you can Empower units from your army with Pain abilities by spending Pain tokens (see below).\n\nDesigner’s Note: You can also spend Pain tokens to activate additional effects in certain other rules such as Enhancements and Stratagems.\n\nGaining Pain Tokens\nIf your Army Faction is DRUKHARI, you gain Pain tokens as follows:\n\n• 1 Pain token at the start of your Command phase.\n• 1 Pain token each time an enemy unit is destroyed.\n• 1 Pain token each time an enemy unit fails a Battle-shock test.\n\nEach time you gain a Pain token, keep it to one side - this is your Pain token pool. Each time you spend a Pain token, reduce your Pain token pool by the same amount.\n\nEmpowered Through Pain\nEach Pain ability will state when you can spend Pain tokens to Empower that unit. When you do, until the end of the phase, that unit is Empowered and all Pain abilities it has take effect. While an Attached unit is Empowered, the Pain abilities of all Leader and Bodyguard units in that unit take effect - you do not need to spend additional Pain tokens to activate each of those Pain abilities.\n\nExample: At the start of your Charge phase, you spend 1 Pain token to Empower a unit of Wyches. The unit becomes Empowered, and so its Acrobatic Gladiators ability takes effect until the end of the phase. A Succubus is leading the unit, and so its Lithe Agility ability also takes effect until the end of the phase (no additional Pain token is required to activate that ability as well).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Macro-steroids (Pain)",
+      "description": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength characteristic of 8 and the [LETHAL HITS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Monstrous Charge",
+      "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "MONSTROUS HULKS",
+      "description": "This unit cannot embark within a Venom, but it can embark within other Drukhari Transports; when doing so, each Grotesque model takes up the space of 3 models.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Drukhari",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Haemonculus Covens",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grotesques",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000651",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each replace their paired monstrous weapons with 1 monstrous weapon and 1 liquifier gun."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000651",
+      "line": 1,
+      "description": "3-6 Grotesques"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000651",
+      "line": 1,
+      "description": "3 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000651",
+      "line": 2,
+      "description": "6 models",
+      "cost": 170
+    }
+  ],
+  "leaderAttachments": []
+}

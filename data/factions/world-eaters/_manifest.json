@@ -1,0 +1,357 @@
+{
+  "id": "WE",
+  "name": "World Eaters",
+  "slug": "world-eaters",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/world-eaters",
+  "datasheetCount": 58,
+  "datasheets": [
+    {
+      "id": "000002621",
+      "name": "Angron",
+      "slug": "angron",
+      "role": "Characters"
+    },
+    {
+      "id": "000003587",
+      "name": "Blood Slaughterer",
+      "slug": "blood-slaughterer",
+      "role": "Other"
+    },
+    {
+      "id": "000004107",
+      "name": "Bloodcrushers",
+      "slug": "bloodcrushers",
+      "role": "Other"
+    },
+    {
+      "id": "000004106",
+      "name": "Bloodletters",
+      "slug": "bloodletters",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004105",
+      "name": "Bloodthirster",
+      "slug": "bloodthirster",
+      "role": "Characters"
+    },
+    {
+      "id": "000003629",
+      "name": "Cerberus",
+      "slug": "cerberus",
+      "role": "Other"
+    },
+    {
+      "id": "000002634",
+      "name": "Chaos Land Raider",
+      "slug": "chaos-land-raider",
+      "role": "Other"
+    },
+    {
+      "id": "000002637",
+      "name": "Chaos Predator Annihilator",
+      "slug": "chaos-predator-annihilator",
+      "role": "Other"
+    },
+    {
+      "id": "000002636",
+      "name": "Chaos Predator Destructor",
+      "slug": "chaos-predator-destructor",
+      "role": "Other"
+    },
+    {
+      "id": "000002640",
+      "name": "Chaos Rhino",
+      "slug": "chaos-rhino",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000002633",
+      "name": "Chaos Spawn",
+      "slug": "chaos-spawn",
+      "role": "Other"
+    },
+    {
+      "id": "000002629",
+      "name": "Chaos Terminators",
+      "slug": "chaos-terminators",
+      "role": "Other"
+    },
+    {
+      "id": "000003588",
+      "name": "Chaos Thunderhawk",
+      "slug": "chaos-thunderhawk",
+      "role": "Other"
+    },
+    {
+      "id": "000002624",
+      "name": "Daemon Prince of Khorne",
+      "slug": "daemon-prince-of-khorne",
+      "role": "Characters"
+    },
+    {
+      "id": "000002757",
+      "name": "Daemon Prince of Khorne with Wings",
+      "slug": "daemon-prince-of-khorne-with-wings",
+      "role": "Characters"
+    },
+    {
+      "id": "000002635",
+      "name": "Defiler",
+      "slug": "defiler",
+      "role": "Other"
+    },
+    {
+      "id": "000003625",
+      "name": "Deredeo Dreadnought",
+      "slug": "deredeo-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002630",
+      "name": "Eightbound",
+      "slug": "eightbound",
+      "role": "Other"
+    },
+    {
+      "id": "000002631",
+      "name": "Exalted Eightbound",
+      "slug": "exalted-eightbound",
+      "role": "Other"
+    },
+    {
+      "id": "000003689",
+      "name": "Falchion",
+      "slug": "falchion",
+      "role": "Other"
+    },
+    {
+      "id": "000003653",
+      "name": "Fellblade",
+      "slug": "fellblade",
+      "role": "Other"
+    },
+    {
+      "id": "000003617",
+      "name": "Fire Raptor Gunship",
+      "slug": "fire-raptor-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000004108",
+      "name": "Flesh Hounds",
+      "slug": "flesh-hounds",
+      "role": "Other"
+    },
+    {
+      "id": "000002638",
+      "name": "Forgefiend",
+      "slug": "forgefiend",
+      "role": "Other"
+    },
+    {
+      "id": "000004076",
+      "name": "Goremongers",
+      "slug": "goremongers",
+      "role": "Other"
+    },
+    {
+      "id": "000003589",
+      "name": "Greater Brass Scorpion",
+      "slug": "greater-brass-scorpion",
+      "role": "Other"
+    },
+    {
+      "id": "000002632",
+      "name": "Helbrute",
+      "slug": "helbrute",
+      "role": "Other"
+    },
+    {
+      "id": "000002641",
+      "name": "Heldrake",
+      "slug": "heldrake",
+      "role": "Other"
+    },
+    {
+      "id": "000003601",
+      "name": "Hell Blade",
+      "slug": "hell-blade",
+      "role": "Other"
+    },
+    {
+      "id": "000003602",
+      "name": "Hell Talon",
+      "slug": "hell-talon",
+      "role": "Other"
+    },
+    {
+      "id": "000002628",
+      "name": "Jakhals",
+      "slug": "jakhals",
+      "role": "Other"
+    },
+    {
+      "id": "000002622",
+      "name": "Khârn The Betrayer",
+      "slug": "kh-rn-the-betrayer",
+      "role": "Characters"
+    },
+    {
+      "id": "000002627",
+      "name": "Khorne Berzerkers",
+      "slug": "khorne-berzerkers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000002642",
+      "name": "Khorne Lord of Skulls",
+      "slug": "khorne-lord-of-skulls",
+      "role": "Other"
+    },
+    {
+      "id": "000003633",
+      "name": "Kratos",
+      "slug": "kratos",
+      "role": "Other"
+    },
+    {
+      "id": "000003590",
+      "name": "Kytan Ravager",
+      "slug": "kytan-ravager",
+      "role": "Other"
+    },
+    {
+      "id": "000003609",
+      "name": "Land Raider Achilles",
+      "slug": "land-raider-achilles",
+      "role": "Other"
+    },
+    {
+      "id": "000003613",
+      "name": "Land Raider Proteus",
+      "slug": "land-raider-proteus",
+      "role": "Other"
+    },
+    {
+      "id": "000003649",
+      "name": "Leviathan Dreadnought",
+      "slug": "leviathan-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000002623",
+      "name": "Lord Invocatus",
+      "slug": "lord-invocatus",
+      "role": "Characters"
+    },
+    {
+      "id": "000002625",
+      "name": "Lord on Juggernaut",
+      "slug": "lord-on-juggernaut",
+      "role": "Characters"
+    },
+    {
+      "id": "000002626",
+      "name": "Master of Executions",
+      "slug": "master-of-executions",
+      "role": "Characters"
+    },
+    {
+      "id": "000003645",
+      "name": "Mastodon",
+      "slug": "mastodon",
+      "role": "Other"
+    },
+    {
+      "id": "000002639",
+      "name": "Maulerfiend",
+      "slug": "maulerfiend",
+      "role": "Other"
+    },
+    {
+      "id": "000003669",
+      "name": "Rapier Carrier",
+      "slug": "rapier-carrier",
+      "role": "Other"
+    },
+    {
+      "id": "000003657",
+      "name": "Relic Contemptor Dreadnought",
+      "slug": "relic-contemptor-dreadnought",
+      "role": "Other"
+    },
+    {
+      "id": "000003641",
+      "name": "Sicaran Battle Tank",
+      "slug": "sicaran-battle-tank",
+      "role": "Other"
+    },
+    {
+      "id": "000003685",
+      "name": "Sicaran Punisher",
+      "slug": "sicaran-punisher",
+      "role": "Other"
+    },
+    {
+      "id": "000003677",
+      "name": "Sicaran Venator",
+      "slug": "sicaran-venator",
+      "role": "Other"
+    },
+    {
+      "id": "000004104",
+      "name": "Skarbrand",
+      "slug": "skarbrand",
+      "role": "Characters"
+    },
+    {
+      "id": "000004103",
+      "name": "Slaughterbound",
+      "slug": "slaughterbound",
+      "role": "Characters"
+    },
+    {
+      "id": "000003637",
+      "name": "Sokar-pattern Stormbird",
+      "slug": "sokar-pattern-stormbird",
+      "role": "Other"
+    },
+    {
+      "id": "000003621",
+      "name": "Spartan",
+      "slug": "spartan",
+      "role": "Other"
+    },
+    {
+      "id": "000003673",
+      "name": "Storm Eagle Gunship",
+      "slug": "storm-eagle-gunship",
+      "role": "Other"
+    },
+    {
+      "id": "000003605",
+      "name": "Terrax-pattern Termite",
+      "slug": "terrax-pattern-termite",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000003681",
+      "name": "Typhon",
+      "slug": "typhon",
+      "role": "Other"
+    },
+    {
+      "id": "000003661",
+      "name": "Whirlwind Scorpius",
+      "slug": "whirlwind-scorpius",
+      "role": "Other"
+    },
+    {
+      "id": "000003665",
+      "name": "Xiphon Interceptor",
+      "slug": "xiphon-interceptor",
+      "role": "Other"
+    }
+  ]
+}

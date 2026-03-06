@@ -1,0 +1,291 @@
+{
+  "id": "DRU",
+  "name": "Drukhari",
+  "slug": "drukhari",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/drukhari",
+  "datasheetCount": 47,
+  "datasheets": [
+    {
+      "id": "000000634",
+      "name": "Archon",
+      "slug": "archon",
+      "role": "Characters"
+    },
+    {
+      "id": "000000652",
+      "name": "Beastmaster",
+      "slug": "beastmaster",
+      "role": "Characters"
+    },
+    {
+      "id": "000004170",
+      "name": "Corsair Cloud Dancer Band",
+      "slug": "corsair-cloud-dancer-band",
+      "role": "Other"
+    },
+    {
+      "id": "000004171",
+      "name": "Corsair Reaver Band",
+      "slug": "corsair-reaver-band",
+      "role": "Other"
+    },
+    {
+      "id": "000004172",
+      "name": "Corsair Skyreaver Band",
+      "slug": "corsair-skyreaver-band",
+      "role": "Other"
+    },
+    {
+      "id": "000004199",
+      "name": "Corsair Skyreavers",
+      "slug": "corsair-skyreavers",
+      "role": "Other"
+    },
+    {
+      "id": "000004168",
+      "name": "Corsair Voidreavers",
+      "slug": "corsair-voidreavers",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004169",
+      "name": "Corsair Voidscarred",
+      "slug": "corsair-voidscarred",
+      "role": "Other"
+    },
+    {
+      "id": "000002471",
+      "name": "Court of the Archon",
+      "slug": "court-of-the-archon",
+      "role": "Other"
+    },
+    {
+      "id": "000000664",
+      "name": "Cronos",
+      "slug": "cronos",
+      "role": "Other"
+    },
+    {
+      "id": "000004158",
+      "name": "Death Jester",
+      "slug": "death-jester",
+      "role": "Characters"
+    },
+    {
+      "id": "000000643",
+      "name": "Drazhar",
+      "slug": "drazhar",
+      "role": "Characters"
+    },
+    {
+      "id": "000000651",
+      "name": "Grotesques",
+      "slug": "grotesques",
+      "role": "Other"
+    },
+    {
+      "id": "000000641",
+      "name": "Haemonculus",
+      "slug": "haemonculus",
+      "role": "Characters"
+    },
+    {
+      "id": "000004156",
+      "name": "Hand of the Archon",
+      "slug": "hand-of-the-archon",
+      "role": "Other"
+    },
+    {
+      "id": "000000659",
+      "name": "Hellions",
+      "slug": "hellions",
+      "role": "Other"
+    },
+    {
+      "id": "000000648",
+      "name": "Incubi",
+      "slug": "incubi",
+      "role": "Other"
+    },
+    {
+      "id": "000000644",
+      "name": "Kabalite Warriors",
+      "slug": "kabalite-warriors",
+      "role": "Battleline"
+    },
+    {
+      "id": "000004197",
+      "name": "Kharseth",
+      "slug": "kharseth",
+      "role": "Characters"
+    },
+    {
+      "id": "000004155",
+      "name": "Lady Malys",
+      "slug": "lady-malys",
+      "role": "Characters"
+    },
+    {
+      "id": "000000640",
+      "name": "Lelith Hesperax",
+      "slug": "lelith-hesperax",
+      "role": "Characters"
+    },
+    {
+      "id": "000000649",
+      "name": "Mandrakes",
+      "slug": "mandrakes",
+      "role": "Other"
+    },
+    {
+      "id": "000004198",
+      "name": "Prince Yriel",
+      "slug": "prince-yriel",
+      "role": "Characters"
+    },
+    {
+      "id": "000000656",
+      "name": "Raider",
+      "slug": "raider",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000665",
+      "name": "Ravager",
+      "slug": "ravager",
+      "role": "Other"
+    },
+    {
+      "id": "000001390",
+      "name": "Raven Strike Fighter",
+      "slug": "raven-strike-fighter",
+      "role": "Other"
+    },
+    {
+      "id": "000000660",
+      "name": "Razorwing Jetfighter",
+      "slug": "razorwing-jetfighter",
+      "role": "Other"
+    },
+    {
+      "id": "000000666",
+      "name": "Reaper",
+      "slug": "reaper",
+      "role": "Other"
+    },
+    {
+      "id": "000000658",
+      "name": "Reavers",
+      "slug": "reavers",
+      "role": "Other"
+    },
+    {
+      "id": "000000662",
+      "name": "Scourges with Heavy Weapons",
+      "slug": "scourges-with-heavy-weapons",
+      "role": "Other"
+    },
+    {
+      "id": "000004157",
+      "name": "Scourges with Shardcarbines",
+      "slug": "scourges-with-shardcarbines",
+      "role": "Other"
+    },
+    {
+      "id": "000004159",
+      "name": "Shadowseer",
+      "slug": "shadowseer",
+      "role": "Characters"
+    },
+    {
+      "id": "000004163",
+      "name": "Skyweavers",
+      "slug": "skyweavers",
+      "role": "Other"
+    },
+    {
+      "id": "000004160",
+      "name": "Solitaire",
+      "slug": "solitaire",
+      "role": "Characters"
+    },
+    {
+      "id": "000004200",
+      "name": "Starfangs",
+      "slug": "starfangs",
+      "role": "Other"
+    },
+    {
+      "id": "000004162",
+      "name": "Starweaver",
+      "slug": "starweaver",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000639",
+      "name": "Succubus",
+      "slug": "succubus",
+      "role": "Characters"
+    },
+    {
+      "id": "000000663",
+      "name": "Talos",
+      "slug": "talos",
+      "role": "Other"
+    },
+    {
+      "id": "000000667",
+      "name": "Tantalus",
+      "slug": "tantalus",
+      "role": "Other"
+    },
+    {
+      "id": "000004164",
+      "name": "Troupe",
+      "slug": "troupe",
+      "role": "Other"
+    },
+    {
+      "id": "000004161",
+      "name": "Troupe Master",
+      "slug": "troupe-master",
+      "role": "Characters"
+    },
+    {
+      "id": "000000642",
+      "name": "Urien Rakarth",
+      "slug": "urien-rakarth",
+      "role": "Characters"
+    },
+    {
+      "id": "000000657",
+      "name": "Venom",
+      "slug": "venom",
+      "role": "Dedicated Transports"
+    },
+    {
+      "id": "000000661",
+      "name": "Voidraven Bomber",
+      "slug": "voidraven-bomber",
+      "role": "Other"
+    },
+    {
+      "id": "000004165",
+      "name": "Voidweaver",
+      "slug": "voidweaver",
+      "role": "Other"
+    },
+    {
+      "id": "000000650",
+      "name": "Wracks",
+      "slug": "wracks",
+      "role": "Battleline"
+    },
+    {
+      "id": "000000646",
+      "name": "Wyches",
+      "slug": "wyches",
+      "role": "Battleline"
+    }
+  ]
+}

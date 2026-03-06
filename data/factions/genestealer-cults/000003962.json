@@ -1,0 +1,227 @@
+{
+  "id": "000003962",
+  "name": "Attilan Rough Riders",
+  "factionId": "GC",
+  "sourceId": "000000016",
+  "slug": "attilan-rough-riders",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: lasgun; laspistol; hunting lance; steed’s hooves.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Attilan-Rough-Riders",
+  "models": [
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "name": "Attilan Rough Riders",
+      "movement": "12\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Steed’s hooves",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lasgun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laspistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Goad lance",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hunting lance – frag tip",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Hunting lance – melta tip",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power sabre",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Horsemasters",
+      "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Attilan Rough Riders",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 model’s hunting lance can be replaced with 1 goad lance."
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 2,
+      "button": "•",
+      "description": "The Rough Rider Sergeant can be equipped with 1 power sabre."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "description": "1 Rough Rider Sergeant"
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 2,
+      "description": "4-9 Rough Riders"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003962",
+      "line": 1,
+      "description": "5 models",
+      "cost": 60
+    },
+    {
+      "datasheetId": "000003962",
+      "line": 2,
+      "description": "10 models",
+      "cost": 120
+    }
+  ],
+  "leaderAttachments": []
+}

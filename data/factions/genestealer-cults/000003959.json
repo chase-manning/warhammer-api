@@ -1,0 +1,193 @@
+{
+  "id": "000003959",
+  "name": "Sabre Weapons Battery",
+  "factionId": "GC",
+  "sourceId": "000000374",
+  "slug": "sabre-weapons-battery",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "Every model is equipped with: twin heavy bolter; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Sabre-Weapons-Battery",
+  "models": [
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "name": "Sabre Weapons Battery",
+      "movement": "-",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin lascannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy stubber",
+      "description": "rapid fire 3, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy bolter",
+      "description": "sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin autocannon",
+      "description": "twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Defence Searchlight",
+      "description": "At the start of your Shooting phase, you can select one enemy unit within 24\" and visible to the bearer. Until the end of the phase, that unit cannot have the Benefit of Cover.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Sentinel Directives",
+      "description": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "FORTIFICATION",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle- shocked, except for those that will move over enemy models when doing so.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sabre Weapons Battery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models’ twin heavy bolters can each be replaced with one of the following:\n• 1 defence searchlight\n• 1 twin autocannon\n• 1 twin heavy stubber\n• 1 twin lascannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "description": "1-2 Sabre Gun Platforms"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003959",
+      "line": 1,
+      "description": "1 model",
+      "cost": 45
+    },
+    {
+      "datasheetId": "000003959",
+      "line": 2,
+      "description": "2 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

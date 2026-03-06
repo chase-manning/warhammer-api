@@ -1,0 +1,218 @@
+{
+  "id": "000000241",
+  "name": "Ravenwing Black Knights",
+  "factionId": "SM",
+  "sourceId": "000000023",
+  "slug": "ravenwing-black-knights",
+  "legend": "The Ravenwing Black Knights are the 2nd Company’s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; plasma talon; Black Knight combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Ravenwing-Black-Knights",
+  "models": [
+    {
+      "datasheetId": "000000241",
+      "line": 1,
+      "name": "Ravenwing Black Knights",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000241",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Astartes grenade launcher – frag",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Astartes grenade launcher – krak",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma talon – standard",
+      "description": "rapid fire 1",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 5,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma talon – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Black Knight combat weapon",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Knights of Caliban",
+      "description": "Each time this unit is selected to fight, if it made a Charge move this turn, until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Character unit from your army with the Leader ability can be attached to an Outrider Squad, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Dark Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ravenwing",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ravenwing Black Knights",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000241",
+      "line": 1,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000241",
+      "line": 1,
+      "description": "1 Ravenwing Huntmaster"
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 2,
+      "description": "2-5 Ravenwing Black Knights"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000241",
+      "line": 1,
+      "description": "3 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000241",
+      "line": 2,
+      "description": "6 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

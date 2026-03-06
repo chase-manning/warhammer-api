@@ -1,0 +1,157 @@
+{
+  "id": "000002733",
+  "name": "Renegade Ogryn Beast Handler",
+  "factionId": "CSM",
+  "sourceId": "000000355",
+  "slug": "renegade-ogryn-beast-handler",
+  "legend": "",
+  "role": "Other",
+  "loadout": "The Ogryn Pack Master is equipped with: mauler goad and ripper claw. \n\nEvery Chaos Mauler Hound is equipped with: befouled claws and fangs.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Renegade-Ogryn-Beast-Handler",
+  "models": [
+    {
+      "datasheetId": "000002733",
+      "line": 1,
+      "name": "OGRYN PACK MASTER",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "5+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000002733",
+      "line": 2,
+      "name": "CHAOS MAULER HOUND",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002733",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Befouled claws and fangs",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002733",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mauler goad and ripper claw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Beastmaster",
+      "description": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Damned",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Renegade Ogryn Beast Handler",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Beasts",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002733",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002733",
+      "line": 1,
+      "description": "1 Ogryn Pack Master"
+    },
+    {
+      "datasheetId": "000002733",
+      "line": 2,
+      "description": "3 Chaos Mauler Hounds"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002733",
+      "line": 1,
+      "description": "4 models",
+      "cost": 40
+    },
+    {
+      "datasheetId": "000002733",
+      "line": 2,
+      "description": "7 models",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

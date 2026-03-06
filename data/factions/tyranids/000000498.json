@@ -1,0 +1,131 @@
+{
+  "id": "000000498",
+  "name": "Sporocyst",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "sporocyst",
+  "legend": "Dropped from orbit, Sporocysts dig into the surface of the prey world like ticks then begin spewing toxic spores from their living chimneys. They are able to eject shoals of Mucolid Spores, while prey who stray too close are subjected to hails of organic projectiles from the bio-cannons grafted to the Sporocyst’s hide.",
+  "role": "Other",
+  "loadout": "This model is equipped with: Sporocyst bio-weapons; flensing whips.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Sporocyst",
+  "models": [
+    {
+      "datasheetId": "000000498",
+      "line": 1,
+      "name": "Sporocyst",
+      "movement": "-",
+      "toughness": 10,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "100mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000498",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Sporocyst bio-weapons",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "10",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000498",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Flensing whips",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Seed Mucolids",
+      "description": "Once per turn, in your Shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new Mucolid Spores unit containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 9\" horizontally away from all enemy units.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Hive Defences",
+      "description": "You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn. This model can only be targeted with that Stratagem once per turn.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Sporocyst",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000498",
+      "line": 1,
+      "description": "1 Sporocyst"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000498",
+      "line": 1,
+      "description": "1 model",
+      "cost": 145
+    }
+  ],
+  "leaderAttachments": []
+}

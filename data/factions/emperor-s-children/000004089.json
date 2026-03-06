@@ -1,0 +1,140 @@
+{
+  "id": "000004089",
+  "name": "Flawless Blades",
+  "factionId": "EC",
+  "sourceId": "000000280",
+  "slug": "flawless-blades",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; blissblade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/emperor-s-children/Flawless-Blades",
+  "models": [
+    {
+      "datasheetId": "000004089",
+      "line": 1,
+      "name": "Flawless Blades",
+      "movement": "8\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004089",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004089",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blissblade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Thrill Seekers",
+      "description": "If your Army Faction is Emperor’s Children, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:\n\n• It cannot target a unit it was within Engagement Range of at the start of the turn.\n• It cannot target a unit that was the target of another units charge or attack this phase.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Daemonic Patrons",
+      "description": "Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack, an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Emperor’s Children",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Flawless Blades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Slaanesh",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000004089",
+      "line": 1,
+      "description": "3-6 Flawless Blades"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004089",
+      "line": 1,
+      "description": "3 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000004089",
+      "line": 2,
+      "description": "6 models",
+      "cost": 200
+    }
+  ],
+  "leaderAttachments": []
+}

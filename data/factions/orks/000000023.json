@@ -1,0 +1,233 @@
+{
+  "id": "000000023",
+  "name": "Nobz On Warbikes",
+  "factionId": "ORK",
+  "sourceId": "000000377",
+  "slug": "nobz-on-warbikes",
+  "legend": "When a mob of Ork Nobz takes to the battlefield riding kustomised warbikes, the ground shakes beneath their hurtling advance and the enemy scatter in terror. Capable of unleashing hails of devastating – if inaccurate – fire and bringing an array of brutal close combat weapons to bear, Nobz on Warbikes are a threat to even the mightiest foes.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: twin dakkagun; choppa; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Nobz-On-Warbikes",
+  "models": [
+    {
+      "datasheetId": "000000023",
+      "line": 1,
+      "name": "Nobz On Warbikes",
+      "movement": "12\"",
+      "toughness": 6,
+      "save": "4+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 42mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000023",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Slugga",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin dakkagun",
+      "description": "assault, rapid fire 2, twin-linked",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Choppa",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Killsaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power klaw",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power stabba",
+      "description": "lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Drive-by Krumpin'",
+      "description": "Each time this unit Consolidates, each model in this unit can move up to 6\" instead of up to 3\".",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "SPEED FREEKS MOB",
+      "description": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nobz on Warbikes",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Speed Freeks",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000023",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each be equipped with 1 slugga."
+    },
+    {
+      "datasheetId": "000000023",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of models can each have their choppa replaced with one of the following:\n• 1 big choppa\n• 1 killsaw\n• 1 power klaw\n• 1 power stabba\n• 1 slugga"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000023",
+      "line": 1,
+      "description": "3 Nobz on Warbikes"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000023",
+      "line": 1,
+      "description": "3 models",
+      "cost": 125
+    }
+  ],
+  "leaderAttachments": []
+}

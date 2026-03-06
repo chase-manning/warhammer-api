@@ -1,0 +1,179 @@
+{
+  "id": "000002603",
+  "name": "Brôkhyr Thunderkyn",
+  "factionId": "LoV",
+  "sourceId": "000000203",
+  "slug": "br-khyr-thunderkyn",
+  "legend": "When a Brôkhyr hooks into a powerful exoframe, they become Thunderkyn. Adapted from rigs used to maintain Kin spacecraft, these armoured exoskeletons exchange repair tools for massive heavy weapons, which the Brôkhyr use to lay down withering covering fire for the oathbands and to pick off enemy armour.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt cannon; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann/Brôkhyr-Thunderkyn",
+  "models": [
+    {
+      "datasheetId": "000002603",
+      "line": 1,
+      "name": "Brôkhyr Thunderkyn",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002603",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt cannon",
+      "description": "sustained hits 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002603",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Graviton blast cannon",
+      "description": "anti-monster 3+, anti-vehicle 3+",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002603",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "SP conversion beamer",
+      "description": "conversion, lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002603",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Prioritised Efficiency",
+      "description": "If your Army Faction is LEAGUES OF VOTANN, Leagues of Votann units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those LEAGUES OF VOTANN units have will change depending on how many Yield points (YP) you currently have:\n\n• At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\nHostile Acquisition\n\n• Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n• You can re-roll Advance and Charge rolls made for this unit.\n\nFortify Takeover\n\n• Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n• Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a VEHICLE, subtract 1 from the Wound roll.\n\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n• You control one or more objective markers not within your deployment zone.\n• You control two or more objective markers not within your deployment zone.\n• You control more objective markers than your opponent.\n\nIn your turn, YP gained in this way are always gained before checking which ability LEAGUES OF VOTANN units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\n\nDesigner’s Note: This means you can use rules that let you gain or spend YP to influence which ability your units have - Hostile Acquisition or Fortify Takeover - depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will - sometimes need to plan ahead if you want your army to stay in or change ability.\n\nExample: In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.\n\nDuring her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover - it will only change if, at the end of her next Command phase, she still has fewer than 7YP.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Breaching Fire",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cover.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Conversion",
+      "description": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Leagues of Votann",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Exoframe",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Thunderkyn",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Brôkhyr",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002603",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their bolt cannon replaced with 1 graviton blast cannon."
+    },
+    {
+      "datasheetId": "000002603",
+      "line": 2,
+      "button": "•",
+      "description": "All models in this unit can each have their bolt cannon replaced with 1 SP conversion beamer."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002603",
+      "line": 1,
+      "description": "3-6 Brôkhyr Thunderkyn"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002603",
+      "line": 1,
+      "description": "3 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000002603",
+      "line": 2,
+      "description": "6 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

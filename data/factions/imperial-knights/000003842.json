@@ -1,0 +1,290 @@
+{
+  "id": "000003842",
+  "name": "Skitarii Rangers",
+  "factionId": "QI",
+  "sourceId": "000000015",
+  "slug": "skitarii-rangers",
+  "legend": "",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: galvanic rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-knights/Skitarii-Rangers",
+  "models": [
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "name": "Skitarii Rangers",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": "60 x 35mm if equipped with transuranic arquebus"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Alpha combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Transuranic arquebus",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma caliver – supercharge",
+      "description": "hazardous",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanicus pistol",
+      "description": "devastating wounds, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arc rifle",
+      "description": "anti-vehicle 4+, devastating wounds, rapid fire 1",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Galvanic rifle",
+      "description": null,
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma caliver – standard",
+      "description": null,
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "6\""
+    },
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Enhanced data-tether",
+      "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Omnispex",
+      "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Objective Scouted",
+      "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperial Knights",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Rangers",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "button": "•",
+      "description": "The Skitarii Ranger Alpha can be equipped with 1 Alpha combat weapon."
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 2,
+      "button": "•",
+      "description": "The Skitarii Ranger Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 3,
+      "button": "•",
+      "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 arc rifle."
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 4,
+      "button": "•",
+      "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 plasma caliver."
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 5,
+      "button": "•",
+      "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 transuranic arquebus."
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 6,
+      "button": "•",
+      "description": "1 Skitarii Ranger equipped with a galvanic rifle can be equipped with one of the following:\n• 1 enhanced data-tether*\n• 1 omnispex*"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 7,
+      "button": "*",
+      "description": "* That model’s galvanic rifle cannot be replaced."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "description": "1 Skitarii Ranger Alpha"
+    },
+    {
+      "datasheetId": "000003842",
+      "line": 2,
+      "description": "9 Skitarii Rangers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003842",
+      "line": 1,
+      "description": "10 models",
+      "cost": 85
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,174 @@
+{
+  "id": "000001559",
+  "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+  "factionId": "AC",
+  "sourceId": "000000354",
+  "slug": "custodian-guard-with-adrasite-and-pyrithite-spears",
+  "legend": "The signature armaments of the Custodian Guard combine deadly power blades and integrated ranged weapons. While guardian spears are the most recognisable of these potent devices, for specialised tasks the bolt weapons they mount can be exchanged for the adrathic destructors of adrasite spears or the melta beams of pyrithite spears.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: adrasite spear.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/Custodian-Guard-With-Adrasite-And-Pyrithite-Spears",
+  "models": [
+    {
+      "datasheetId": "000001559",
+      "line": 1,
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "movement": "6\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001559",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Adrasite spear",
+      "description": null,
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000001559",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pyrithite spear",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001559",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Adrasite spear",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001559",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pyrithite spear",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Martial Ka’tah",
+      "description": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:\n\nDacatarai Stance\n\nThose Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally\n\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n\nRendax Stance\n\nMasters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.\n\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Stand Vigil",
+      "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "No Foe Shall Stand",
+      "description": "Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and [IGNORES COVER] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "CUSTODIAN GUARD",
+      "description": "If an ADEPTUS CUSTODES model from your army with the Leader ability can be attached to a Custodian Guard unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Custodes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Custodian Guard with Adrasite and Pyrithite Spears",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001559",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their adrasite spear replaced with 1 pyrithite spear."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001559",
+      "line": 1,
+      "description": "5 Custodian Guard with Adrasite and Pyrithite Spears"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001559",
+      "line": 1,
+      "description": "5 models",
+      "cost": 250
+    }
+  ],
+  "leaderAttachments": []
+}

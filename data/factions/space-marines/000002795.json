@@ -1,0 +1,235 @@
+{
+  "id": "000002795",
+  "name": "Emperor’s Champion",
+  "factionId": "SM",
+  "sourceId": "000000162",
+  "slug": "emperor-s-champion",
+  "legend": "A humble warrior touched by greatness, the Emperor’s Champion strides to battle wreathed in divine light. The furious blows of the enemy ring from his nigh-impenetrable Armour of Faith. In return, the Emperor’s Champion seeks out the leaders of the foe and, with sweeping blows from his Black Sword, strikes them down.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: bolt pistol; Black Sword.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Emperor-s-Champion",
+  "models": [
+    {
+      "datasheetId": "000002795",
+      "line": 1,
+      "name": "Emperor’s Champion",
+      "movement": "8\"",
+      "toughness": 4,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002795",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002795",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Black Sword – strike",
+      "description": "anti-character 5+, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002795",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Black Sword – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "10",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "description": "LEADER\n\nMighty heroes fight at the forefront of battle.\nSome CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.\n\nDuring the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.\n\nWhile a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.\n\nEach time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.\n\nEach time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. \n\nEach time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.\n\nExample: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.\n\n• Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n• Attached units can only contain one Leader.\n• Attacks cannot be allocated to CHARACTER models in Attached units.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Templar Vows",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of the first battle round, select one of the following Vows to be active for ADEPTUS ASTARTES units from your army. While a Vow is active for a unit from your army, that unit has the associated ability shown below.\n\nAbhor the Witch, Destroy the Witch\n\nEach time this unit declares a charge, if one or more targets of that charge have the PSYKER keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting PSYKER units.\n\nAccept Any Challenge, No Matter the Odds\n\nEach time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the Wound roll.\n\nSuffer Not the Unclean to Live\n\nThis unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.\n\nUphold the Honour of the Emperor\n\nIf this unit has the INFANTRY keyword:\n\n• At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n• If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Armour of Faith",
+      "description": "Once per phase, when an attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Sigismund’s Heir",
+      "description": "Each time this model’s unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model’s unit is selected to fight, if that unit is within Engagement Range of one or more enemy CHARACTER units, this model can use this ability. If it does, until the end of the phase, melee weapons equipped by this model have the [DEVASTATING WOUNDS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "CHOSEN OF THE EMPEROR",
+      "description": "You cannot include more than one EMPEROR’S CHAMPION model in your army.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Black Templars",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Emperor’s Champion",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000002795",
+      "line": 1,
+      "description": "1 Emperor’s Champion"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002795",
+      "line": 1,
+      "description": "1 model",
+      "cost": 100
+    }
+  ],
+  "leaderAttachments": [
+    {
+      "id": "000002798",
+      "name": "Sword Brethren Squad"
+    },
+    {
+      "id": "000002255",
+      "name": "Sternguard Veteran Squad"
+    },
+    {
+      "id": "000002799",
+      "name": "Crusader Squad"
+    },
+    {
+      "id": "000000061",
+      "name": "Assault Squad"
+    },
+    {
+      "id": "000004154",
+      "name": "Crusader Squad (Legendary)"
+    },
+    {
+      "id": "000000315",
+      "name": "Wolf Guard"
+    },
+    {
+      "id": "000004137",
+      "name": "Sternguard Veteran Squad"
+    },
+    {
+      "id": "000001154",
+      "name": "Vanguard Veteran Squad"
+    },
+    {
+      "id": "000003698",
+      "name": "Inner Circle Companions"
+    },
+    {
+      "id": "000002783",
+      "name": "Deathwatch Veterans"
+    },
+    {
+      "id": "000001606",
+      "name": "Assault Intercessor Squad"
+    },
+    {
+      "id": "000002780",
+      "name": "Fortis Kill Team"
+    },
+    {
+      "id": "000001157",
+      "name": "Intercessor Squad"
+    },
+    {
+      "id": "000004175",
+      "name": "Decimus Kill Team"
+    }
+  ]
+}

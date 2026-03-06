@@ -1,0 +1,135 @@
+{
+  "id": "000000756",
+  "name": "Medusa Carriage Battery",
+  "factionId": "AM",
+  "sourceId": "000000374",
+  "slug": "medusa-carriage-battery",
+  "legend": "Few walls are thick enough to withstand the artillery fire launched from a Medusa siege cannon. Able to fire heavy shells that can reduce structures to rubble, many war zones resonate with the sonorous fire of the Medusa’s siege cannons, levelling battlefields until there is nowhere for the hapless enemy to hide.",
+  "role": "Other",
+  "loadout": "This model is equipped with: Medusa siege cannon; battery close combat weapons. \n\nDesigner’s Note: Place five Heavy Artillery Crew tokens next to each Medusa Carriage model when this unit is first set up, removing one each time its Medusa Carriage model loses a wound (a Medusa Carriage model itself is considered to represent its final wound). These do not count as models for any rules purposes.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Medusa-Carriage-Battery",
+  "models": [
+    {
+      "datasheetId": "000000756",
+      "line": 1,
+      "name": "Medusa Carriage Battery",
+      "movement": "4\"",
+      "toughness": 7,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000756",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Medusa siege cannon",
+      "description": "blast, heavy, indirect fire",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "10",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000756",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Battery close combat weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Siege Bombardment",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Medusa Carriage Battery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000756",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000756",
+      "line": 1,
+      "description": "1 Medusa Carriage"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000756",
+      "line": 1,
+      "description": "1 model",
+      "cost": 125
+    }
+  ],
+  "leaderAttachments": []
+}

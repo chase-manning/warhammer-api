@@ -1,0 +1,288 @@
+{
+  "id": "000000039",
+  "name": "Battlewagon",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "battlewagon",
+  "legend": "No two Battlewagons are the same, for the Meks that build them can never resist cobbling on armour plates, ramming spikes, assorted dakka and random worky-gubbinz. However, all are rugged transport tanks with the capacity to bear a vast number of angry Orks into battle while shrugging off the worst the enemy can throw at them.",
+  "role": "Other",
+  "loadout": "This model is equipped with: tracks and wheels.",
+  "transport": "This model has a transport capacity of 22 Orks Infantry models. If this model is equipped with a killkannon, it has a transport capacity of 12 ORKS INFANTRY models. Each Mega Armour or Jump Pack model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 4 models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-5",
+  "damagedDescription": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Battlewagon",
+  "models": [
+    {
+      "datasheetId": "000000039",
+      "line": 1,
+      "name": "Battlewagon",
+      "movement": "10\"",
+      "toughness": 10,
+      "save": "3+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 16,
+      "leadership": "7+",
+      "objectiveControl": 5,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000039",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Big shoota",
+      "description": "rapid fire 2",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kannon – frag",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6+3",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Kannon – shell",
+      "description": null,
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Killkannon",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D6+1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lobba",
+      "description": "blast, indirect fire",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Zzap gun",
+      "description": "anti-vehicle 4+",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "D6+6",
+      "armourPenetration": "-3",
+      "damage": "5"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Deff rolla",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grabbin’ klaw",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tracks and wheels",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 10,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wreckin’ ball",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "0",
+      "damage": "D6"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "11"
+    },
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Ramshackle but Rugged",
+      "description": "Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "’Ard Case",
+      "description": "Add 2 to the bearer’s Toughness characteristic, but it no longer has the Firing Deck ability.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battlewagon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000039",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 kannon\n• 1 killkannon\n• 1 zzap gun"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with:\n• 1 lobba"
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 3,
+      "button": "•",
+      "description": "This model can be equipped with up to 4 big shootas."
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 4,
+      "button": "•",
+      "description": "This model’s tracks and wheels can be replaced with 1 deff rolla."
+    },
+    {
+      "datasheetId": "000000039",
+      "line": 5,
+      "button": "•",
+      "description": "This model can be equipped with any of the following:\n• 1 ’ard case\n• 1 grabbin’ klaw\n• 1 wreckin’ ball"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000039",
+      "line": 1,
+      "description": "1 Battlewagon"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000039",
+      "line": 1,
+      "description": "1 model",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

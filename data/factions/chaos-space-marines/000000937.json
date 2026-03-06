@@ -1,0 +1,192 @@
+{
+  "id": "000000937",
+  "name": "Heretic Astartes Daemon Prince",
+  "factionId": "CSM",
+  "sourceId": "000000012",
+  "slug": "heretic-astartes-daemon-prince",
+  "legend": "Infernal beasts whose Path to Glory has elevated them to daemonhood, Daemon Princes are paragons of evil. Warped and corrupted by Chaos, they lead their warbands in devastating assaults, striding through their mortal enemies’ attacks and unleashing monstrous blows and blasts of sorcery against all before them.",
+  "role": "Characters",
+  "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/Heretic-Astartes-Daemon-Prince",
+  "models": [
+    {
+      "datasheetId": "000000937",
+      "line": 1,
+      "name": "Heretic Astartes Daemon Prince",
+      "movement": "8\"",
+      "toughness": 10,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "6+",
+      "objectiveControl": 3,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000937",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Infernal cannon",
+      "description": null,
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000937",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Hellforged weapons – strike",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000937",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Hellforged weapons – sweep",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "14",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Dark Pacts",
+      "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n\n• [LETHAL HITS]\n• [SUSTAINED HITS 1]",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Dark Blessing (Aura)",
+      "description": "While a friendly Heretic Astartes Infantry unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Ascended Daemon",
+      "description": "Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Lord of Chaos",
+      "description": "While this model is within 3\" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Daemonic Allegiance",
+      "description": "When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the characteristic modifier stated for that keyword below.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Khorne",
+      "description": "Add 2 to the Strength characteristic of this model's hellforged weapons.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Tzeentch",
+      "description": "Add 3 to the Attacks characteristic of its infernal cannon.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Nurgle",
+      "description": "Add 1 to its Toughness characteristic.",
+      "type": "Primarch",
+      "parameter": null
+    },
+    {
+      "name": "Slaanesh",
+      "description": "Add 2\" to its Move characteristic.",
+      "type": "Primarch",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Heretic Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Daemon",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Daemon Prince",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000937",
+      "line": 1,
+      "description": "1 Heretic Astartes Daemon Prince"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000937",
+      "line": 1,
+      "description": "1 model",
+      "cost": 165
+    }
+  ],
+  "leaderAttachments": []
+}

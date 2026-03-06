@@ -1,0 +1,223 @@
+{
+  "id": "000000165",
+  "name": "Sanguinary Guard",
+  "factionId": "SM",
+  "sourceId": "000000021",
+  "slug": "sanguinary-guard",
+  "legend": "Sanguinary Guard are proven in mind, body and spirit in a way few of their brothers can match. Clad in irreplaceable golden armour believed to date back to the Horus Heresy and armed with the traditional relic weapons of their position, few embody the ideal of the wrathful angel more than they.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: Angelus boltgun; encarmine blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sanguinary-Guard",
+  "models": [
+    {
+      "datasheetId": "000000165",
+      "line": 1,
+      "name": "Sanguinary Guard",
+      "movement": "12\"",
+      "toughness": 4,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000165",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Angelus boltgun",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Inferno pistol",
+      "description": "melta 2, pistol",
+      "range": "6",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-4",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Encarmine blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Encarmine spear",
+      "description": "Lance",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Angelic Visage",
+      "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Heirs of Azkaellon",
+      "description": "While a Character model is leading this unit, each time a melee attack targets this unit, subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Sanguinary Banner",
+      "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "ATTACHED UNIT",
+      "description": "If a Captain model from your army with the Leader ability can be attached to an Assault Intercessors with Jump Packs unit, it can be attached to this unit instead.",
+      "type": "Special (правая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Blood Angels",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Sanguinary Guard",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Jump Pack",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000165",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their encarmine blade replaced with 1 encarmine spear."
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 2,
+      "button": "•",
+      "description": "For every 3 models in this unit, 1 model’s Angelus boltgun can be replaced with 1 inferno pistol."
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 3,
+      "button": "•",
+      "description": "One model can be equipped with 1 Sanguinary banner."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000165",
+      "line": 1,
+      "description": "3-6 Sanguinary Guard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000165",
+      "line": 1,
+      "description": "3 models",
+      "cost": 125
+    },
+    {
+      "datasheetId": "000000165",
+      "line": 2,
+      "description": "6 models",
+      "cost": 260
+    }
+  ],
+  "leaderAttachments": []
+}

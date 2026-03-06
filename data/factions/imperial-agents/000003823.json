@@ -1,0 +1,229 @@
+{
+  "id": "000003823",
+  "name": "Veteran Bike Squad",
+  "factionId": "AoI",
+  "sourceId": "000000363",
+  "slug": "veteran-bike-squad",
+  "legend": "Matching their speed, strength and firepower against the swiftest xenos, Veteran Bikers are expert hunters. Undertaking extended missions in dangerous territory, they assess their enemy’s every weakness, close off escape routes and use their velocity to enact sudden strikes from unexpected angles.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: bolt pistol; close combat weapon; twin boltgun.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Veteran-Bike-Squad",
+  "models": [
+    {
+      "datasheetId": "000003823",
+      "line": 1,
+      "name": "Veteran Bike Squad",
+      "movement": "12\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "75 x 25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003823",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil ranged weapon",
+      "description": "anti-infantry 4+, devastating wounds, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin boltgun",
+      "description": "twin-linked",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Long Vigil melee weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Xenophase blade",
+      "description": "devastating wounds",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assigned Agents",
+      "description": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one of the available Detachments from this book as normal.\n\nIf your Army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nBATTLE SIZERETINUE UNITSCHARACTER UNITSREQUISITIONED UNITSIncursion111Strike Force221Onslaught332\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Turbo-boost",
+      "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Astartes Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Agents of the Imperium",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Ordo Xenos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Retinue",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Deathwatch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Veteran Bike Squad",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003823",
+      "line": 1,
+      "button": "•",
+      "description": "The Veteran Biker Sergeant can be equipped with one of the following:\n• 1 Long Vigil ranged weapon\n• 1 Long Vigil melee weapon\n• 1 xenophase blade\n• 1 Astartes shield"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of Veteran Biker models can each be equipped with 1 Long Vigil melee weapon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003823",
+      "line": 1,
+      "description": "1 Veteran Biker Sergeant"
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 2,
+      "description": "2-5 Veteran Bikers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003823",
+      "line": 1,
+      "description": "3 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000003823",
+      "line": 2,
+      "description": "6 models",
+      "cost": 140
+    }
+  ],
+  "leaderAttachments": []
+}

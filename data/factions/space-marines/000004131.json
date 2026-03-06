@@ -1,0 +1,242 @@
+{
+  "id": "000004131",
+  "name": "Wolf Guard Headtakers",
+  "factionId": "SM",
+  "sourceId": "000000036",
+  "slug": "wolf-guard-headtakers",
+  "legend": "It is the duty of Wolf Guard Headtakers to break through the enemy line and hunt down commanders and champions. In this task, they are aided by packs of Fenrisian hunting wolves. These cunning beasts scatter enemy formations and harry the Headtakers’ prey, enabling their handlers to close in and dispense the Allfather’s justice with their master-crafted weapons.",
+  "role": "Other",
+  "loadout": "Every Wolf Guard Headtaker is equipped with: heavy bolt pistol; master-crafted power weapon; storm shield.\n\nEvery Hunting Wolf is equipped with: teeth and claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard-Headtakers",
+  "models": [
+    {
+      "datasheetId": "000004131",
+      "line": 1,
+      "name": "Wolf Guard Headtakers",
+      "movement": "7\"",
+      "toughness": 4,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "6+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 2,
+      "name": "Hunting Wolves",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "6+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "8+",
+      "objectiveControl": 0,
+      "baseSize": "60 x 35.5mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004131",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy bolt pistol",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Master-crafted power weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Paired master-crafted power weapons",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Teeth and claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Moment",
+      "description": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\n• You can re-roll the Hit roll.\n• If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Let Loose the Wolves",
+      "description": "At the start of the Declare Battle Formations step, split this unit into two units, one containing all of its HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting Strengths accordingly.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Headhunters",
+      "description": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abilities while targeting its quarry. Each time this unit’s quarry is destroyed, select one new enemy unit to be this unit’s quarry. This ability can be used even if this unit is embarked within a Transport.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Hunting Hounds",
+      "description": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control characteristic of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Storm Shield",
+      "description": "The bearer has a 4+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Adeptus Astartes",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Space Wolves",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "WOLF GUARD HEADTAKERS"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "WOLF GUARD HEADTAKERS"
+    },
+    {
+      "keyword": "Tacticus",
+      "isFactionKeyword": false,
+      "model": "WOLF GUARD HEADTAKERS"
+    },
+    {
+      "keyword": "Wolf Guard",
+      "isFactionKeyword": false,
+      "model": "WOLF GUARD HEADTAKERS"
+    },
+    {
+      "keyword": "Headtakers",
+      "isFactionKeyword": false,
+      "model": "WOLF GUARD HEADTAKERS"
+    },
+    {
+      "keyword": "Beasts",
+      "isFactionKeyword": false,
+      "model": "HUNTING WOLVES"
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": "HUNTING WOLVES"
+    },
+    {
+      "keyword": "Hunting Wolves",
+      "isFactionKeyword": false,
+      "model": "HUNTING WOLVES"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004131",
+      "line": 1,
+      "button": "•",
+      "description": "All of the models in this unit can each have their master-crafted power weapon and storm shield replaced with 1 paired master-crafted power weapons."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004131",
+      "line": 1,
+      "description": "3-6 Wolf Guard Headtakers"
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 2,
+      "description": "0-6 Hunting Wolves"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004131",
+      "line": 1,
+      "description": "3 Wolf Guard Headtakers",
+      "cost": 85
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 2,
+      "description": "3 Wolf Guard Headtakers and 3 Hunting Wolves",
+      "cost": 110
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 3,
+      "description": "6 Wolf Guard Headtakers",
+      "cost": 170
+    },
+    {
+      "datasheetId": "000004131",
+      "line": 4,
+      "description": "6 Wolf Guard Headtakers and 6 Hunting Wolves",
+      "cost": 220
+    }
+  ],
+  "leaderAttachments": []
+}

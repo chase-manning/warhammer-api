@@ -1,0 +1,147 @@
+{
+  "id": "000000471",
+  "name": "Tyrant Guard",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "tyrant-guard",
+  "legend": "Incredibly well armoured and resilient, Tyrant Guard form a mobile bulwark around their assigned synapse organism. So extreme is their bio-adaptation, they do not even possess weak spots such as eyes. Instead, they are guided as extensions of their charge’s synaptic will, acting as living weapons and shields.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: scything talons and rending claws.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Tyrant-Guard",
+  "models": [
+    {
+      "datasheetId": "000000471",
+      "line": 1,
+      "name": "Tyrant Guard",
+      "movement": "6\"",
+      "toughness": 8,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 4,
+      "leadership": "8+",
+      "objectiveControl": 1,
+      "baseSize": "50mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000471",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bone cleaver, lash whip and rending claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000471",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Crushing claws and rending claws",
+      "description": "twin-linked",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000471",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Scything talons and rending claws",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "5",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Guardian Organism",
+      "description": "While a Character model is leading this unit, that CHARACTER has the Feel No Pain 5+ ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tyrant Guard",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000471",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their scything talons and rending claws replaced with one of the following:\n• 1 bone cleaver, lash whip and rending claws\n• 1 crushing claws and rending claws"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000471",
+      "line": 1,
+      "description": "3-6 Tyrant Guard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000471",
+      "line": 1,
+      "description": "3 models",
+      "cost": 80
+    },
+    {
+      "datasheetId": "000000471",
+      "line": 2,
+      "description": "6 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

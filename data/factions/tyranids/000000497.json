@@ -1,0 +1,131 @@
+{
+  "id": "000000497",
+  "name": "Toxicrene",
+  "factionId": "TYR",
+  "sourceId": "000000020",
+  "slug": "toxicrene",
+  "legend": "The semi-sentient spores spewed by the Toxicrene can penetrate even sealed armour and enviro-suits before multiplying within the victim’s body to burst their organs and dissolve their flesh. Prey not slain in this horrible manner soon fall to the Toxicrene’s monstrous bulk and vast, lashing tendrils as it rampages ever onwards.",
+  "role": "Other",
+  "loadout": "This model is equipped with: massive toxic lashes.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/tyranids/Toxicrene",
+  "models": [
+    {
+      "datasheetId": "000000497",
+      "line": 1,
+      "name": "Toxicrene",
+      "movement": "8\"",
+      "toughness": 11,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 14,
+      "leadership": "8+",
+      "objectiveControl": 4,
+      "baseSize": "120 x 92mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000497",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Massive toxic lashes",
+      "description": "anti-infantry 2+",
+      "range": "9",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000497",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Massive toxic lashes",
+      "description": "anti-infantry 2+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "12",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Synapse",
+      "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly Synapse models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: \n\n• Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. \n• Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Grasping Tendrils",
+      "description": "Each time an enemy unit (excluding TITANIC units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Hypertoxic Miasma (Aura)",
+      "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Tyranids",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Toxicrene",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Monster",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Great Devourer",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000497",
+      "line": 1,
+      "description": "1 Toxicrene"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000497",
+      "line": 1,
+      "description": "1 model",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

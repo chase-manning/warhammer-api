@@ -1,0 +1,198 @@
+{
+  "id": "000000703",
+  "name": "Banehammer",
+  "factionId": "AM",
+  "sourceId": "000000016",
+  "slug": "banehammer",
+  "legend": "Where the Banehammer excels is as a defensive anchor in the Imperial Guard’s formations. Those enemies not blasted apart by its tremor cannon’s shells are brought to a crawl as the ground splits beneath them. The stunned foe is then forced to push slowly forward beneath a further barrage, or else retreat in disarray.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 lascannons; tremor cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+  "transport": "This model has a transport capacity of 26 Astra Militarum Infantry models. Each Ogryn model takes up the space of 3 models. It cannot transport Artillery models.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-8",
+  "damagedDescription": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Banehammer",
+  "models": [
+    {
+      "datasheetId": "000000703",
+      "line": 1,
+      "name": "Banehammer",
+      "movement": "12\"",
+      "toughness": 13,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 24,
+      "leadership": "7+",
+      "objectiveControl": 8,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000703",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Lascannon",
+      "description": null,
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000703",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tremor cannon",
+      "description": "blast",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2D6+3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000703",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy bolter",
+      "description": "sustained hits 1, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000703",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin heavy flamer",
+      "description": "ignores cover, torrent, twin-linked",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000703",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Armoured tracks",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D6+2"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "6"
+    },
+    {
+      "name": "Tremor Quake",
+      "description": "In your Shooting phase, just after selecting a target for this model’s tremor cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Banehammer",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Smoke",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Titanic",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000703",
+      "line": 1,
+      "button": "•",
+      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+    },
+    {
+      "datasheetId": "000000703",
+      "line": 2,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 2 lascannons and 2 twin heavy bolters\n• 2 lascannons and 2 twin heavy flamers"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000703",
+      "line": 1,
+      "description": "1 Banehammer"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000703",
+      "line": 1,
+      "description": "1 model",
+      "cost": 420
+    }
+  ],
+  "leaderAttachments": []
+}

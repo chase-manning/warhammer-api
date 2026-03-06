@@ -1,0 +1,138 @@
+{
+  "id": "000002811",
+  "name": "Aegis Defence Line With Weapon Emplacement",
+  "factionId": "UN",
+  "sourceId": "000000271",
+  "slug": "aegis-defence-line-with-weapon-emplacement",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "This unit is equipped with: quad-gun.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/unaligned-forces/Aegis-Defence-Line-With-Weapon-Emplacement",
+  "models": [
+    {
+      "datasheetId": "000002811",
+      "line": 1,
+      "name": "Aegis Defence Line With Weapon Emplacement",
+      "movement": "-",
+      "toughness": 12,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002811",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Icarus lascannon",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000002811",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Quad-gun",
+      "description": "anti-fly 3+, twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Unaligned Forces",
+      "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:\n\n• Incursion: Up to 250 pts\n• Strike Force: Up to 500 pts\n• Onslaught: Up to 1000 pts\n\nNo UNALIGNED FORCES models can be your WARLORD.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Defence Line",
+      "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see below), that model has a 4+ invulnerable save.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "FORTIFICATION",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Unaligned Forces",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Unaligned",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Aegis Defence Line with Weapon Emplacement",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002811",
+      "line": 1,
+      "button": "•",
+      "description": "This unit’s quad-gun can be replaced with 1 Icarus lascannon."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002811",
+      "line": 1,
+      "description": "1 Aegis Defence Line with Weapon Emplacement (4 large shield sections, 4 small shield sections and 1 gun emplacement)"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002811",
+      "line": 1,
+      "description": "1 model",
+      "cost": 145
+    }
+  ],
+  "leaderAttachments": []
+}

@@ -1,0 +1,152 @@
+{
+  "id": "000004024",
+  "name": "Rapier Laser Destroyer Battery",
+  "factionId": "GC",
+  "sourceId": "000000374",
+  "slug": "rapier-laser-destroyer-battery",
+  "legend": "",
+  "role": "Other",
+  "loadout": "Every model is equipped with: laser destroyer; close combat weapon.\n\nDesigner’s Note: Place two Artillery Crew tokens next to each Rapier Laser Destroyer model when this unit is first set up, removing one each time its Rapier Laser Destroyer model loses a wound (a Rapier Laser Destroyer model itself is considered to represent its final wound).",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Rapier-Laser-Destroyer-Battery",
+  "models": [
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "name": "Rapier Laser Destroyer Battery",
+      "movement": "6\"",
+      "toughness": 4,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 3,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Laser destroyer",
+      "description": "heavy, twin-linked",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Powerful Volley",
+      "description": "While this unit is being affected by an Order, provided it Remained Stationary this turn, Heavy weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Genestealer Cults",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Astra Militarum",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Rapier Laser Destroyer Battery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Regiment",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Artillery",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "description": "1-3 Rapier Laser Destroyers"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004024",
+      "line": 1,
+      "description": "1 model",
+      "cost": 35
+    },
+    {
+      "datasheetId": "000004024",
+      "line": 2,
+      "description": "2 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000004024",
+      "line": 3,
+      "description": "3 models",
+      "cost": 105
+    }
+  ],
+  "leaderAttachments": []
+}

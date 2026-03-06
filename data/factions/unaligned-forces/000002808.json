@@ -1,0 +1,177 @@
+{
+  "id": "000002808",
+  "name": "Wall Of Martyrs Bunker",
+  "factionId": "UN",
+  "sourceId": "000000271",
+  "slug": "wall-of-martyrs-bunker",
+  "legend": "",
+  "role": "Fortifications",
+  "loadout": "This model is equipped with: nothing.",
+  "transport": "This FORTIFICATION has a transport capacity of 11 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/unaligned-forces/Wall-Of-Martyrs-Bunker",
+  "models": [
+    {
+      "datasheetId": "000002808",
+      "line": 1,
+      "name": "Wall Of Martyrs Bunker",
+      "movement": "-",
+      "toughness": 13,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 10,
+      "leadership": "7+",
+      "objectiveControl": 0,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002808",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Icarus lascannon",
+      "description": "anti-fly 2+",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000002808",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Quad-gun",
+      "description": "anti-fly 3+, twin-linked",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise",
+      "description": "DEADLY DEMISE\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").\n\nExample: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.\n\n• Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+      "type": "Core",
+      "parameter": "D3"
+    },
+    {
+      "name": "Firing Deck",
+      "description": "FIRING DECK\n\nSome transports have firing hatches, ports or platforms from which embarked passengers can shoot.\nSome TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.\n\n• Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+      "type": "Core",
+      "parameter": "6"
+    },
+    {
+      "name": "Unaligned Forces",
+      "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:\n\n• Incursion: Up to 250 pts\n• Strike Force: Up to 500 pts\n• Onslaught: Up to 1000 pts\n\nNo UNALIGNED FORCES models can be your WARLORD.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Roof Access",
+      "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Inviolable Bastion",
+      "description": "Each time an attack is allocated to this FORTIFICATION, subtract 1 from the Damage characteristic of that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Reinforced Cover",
+      "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Comms Antenna",
+      "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "FORTIFICATION",
+      "description": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army: \n\n• That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n• Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "type": "Fortification (левая колонка)",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Unaligned",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Unaligned Forces",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Bunker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Transport",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fortification",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Wall of Martyrs",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002808",
+      "line": 1,
+      "button": "•",
+      "description": "This model can be equipped with one of the following:\n• 1 comms antenna\n• 1 Icarus lascannon\n• 1 quad-gun"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002808",
+      "line": 1,
+      "description": "1 Wall of Martyrs Bunker"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002808",
+      "line": 1,
+      "description": "1 model",
+      "cost": 180
+    }
+  ],
+  "leaderAttachments": []
+}

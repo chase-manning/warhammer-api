@@ -1,0 +1,166 @@
+{
+  "id": "000001474",
+  "name": "Tzaangor Enlightened",
+  "factionId": "TS",
+  "sourceId": "000000027",
+  "slug": "tzaangor-enlightened",
+  "legend": "Blessed amongst their mutated kind, the Enlightened can see the skeins of fate through communion with Tzeentch. They surge atop daemonic Discs on the hunt for esoteric knowledge. Tzaangor Enlightened close on their targets, emitting screeches of anticipatory triumph, and their divining spears hum as they sense their predestined prey.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: divining spear.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangor-Enlightened",
+  "models": [
+    {
+      "datasheetId": "000001474",
+      "line": 1,
+      "name": "Tzaangor Enlightened",
+      "movement": "10\"",
+      "toughness": 4,
+      "save": "5+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001474",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Autopistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001474",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Chainsword",
+      "description": "precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001474",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Divining spear",
+      "description": "lance, precision",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Prophesied Doom",
+      "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Thousand Sons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Tzaangor Enlightened",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mounted",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Tzeentch",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mutant",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001474",
+      "line": 1,
+      "button": "•",
+      "description": "Any number of models can each have their divining spear replaced with 1 autopistol and 1 chainsword."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001474",
+      "line": 1,
+      "description": "1 Aviarch"
+    },
+    {
+      "datasheetId": "000001474",
+      "line": 2,
+      "description": "2-5 Enlightened"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001474",
+      "line": 1,
+      "description": "3 models",
+      "cost": 45
+    },
+    {
+      "datasheetId": "000001474",
+      "line": 2,
+      "description": "6 models",
+      "cost": 90
+    }
+  ],
+  "leaderAttachments": []
+}

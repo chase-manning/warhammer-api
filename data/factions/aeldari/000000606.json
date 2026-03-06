@@ -1,0 +1,138 @@
+{
+  "id": "000000606",
+  "name": "Hemlock Wraithfighter",
+  "factionId": "AE",
+  "sourceId": "000000186",
+  "slug": "hemlock-wraithfighter",
+  "legend": "Hemlocks blend the psychic abilities of their Spiritseer pilots with the gestalt energies of the Aeldari dead, who can pilot the craft should the seer be incapacitated. The aircraft’s mindshock pod unleashes waves of negative emotion to cause terror in the enemy, while its heavy D-scythes hurl the Hemlock’s victims into the warp.",
+  "role": "Other",
+  "loadout": "This model is equipped with: 2 heavy D-scythes; wraithbone hull.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": "1-4",
+  "damagedDescription": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+  "link": "https://wahapedia.ru/wh40k10ed/factions/aeldari/Hemlock-Wraithfighter",
+  "models": [
+    {
+      "datasheetId": "000000606",
+      "line": 1,
+      "name": "Hemlock Wraithfighter",
+      "movement": "20+\"",
+      "toughness": 8,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 12,
+      "leadership": "6+",
+      "objectiveControl": 0,
+      "baseSize": "120 x 92mm flying base",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000606",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy D-scythe",
+      "description": "blast",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-4",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000000606",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Wraithbone hull",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mindshock Pod (Aura, Psychic)",
+      "description": "While an enemy unit is within 9\" of this model, subtract 1 from Battle-shock and Leadership tests taken for that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Asuryani",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Wraith Construct",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Psyker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aircraft",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Hemlock Wraithfighter",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Aeldari",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [],
+  "unitComposition": [
+    {
+      "datasheetId": "000000606",
+      "line": 1,
+      "description": "1 Hemlock Wraithfighter"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000606",
+      "line": 1,
+      "description": "1 model",
+      "cost": 155
+    }
+  ],
+  "leaderAttachments": []
+}

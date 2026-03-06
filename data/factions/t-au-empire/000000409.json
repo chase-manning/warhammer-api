@@ -1,0 +1,168 @@
+{
+  "id": "000000409",
+  "name": "Aun’va",
+  "factionId": "TAU",
+  "sourceId": "000000381",
+  "slug": "aun-va",
+  "legend": "No greater or more inspirational figurehead is there to the T’au than Aun’Va, the Ethereal Supreme. Under his stony regard the Hunter Cadres strive to achieve excellence beyond imagining, fighting as though some living embodiment of the T’au’Va itself moved amongst them and demanded all that they could give.",
+  "role": "Characters",
+  "loadout": "Aun’Va is equipped with: close combat weapon.\n\nEach Ethereal Guard is equipped with: supreme honour blade.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Aun-va",
+  "models": [
+    {
+      "datasheetId": "000000409",
+      "line": 1,
+      "name": "AUN’VA",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 5,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "40mm",
+      "baseSizeDescription": null
+    },
+    {
+      "datasheetId": "000000409",
+      "line": 2,
+      "name": "ETHEREAL GUARD",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "5+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000409",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "6",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000409",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Supreme honour blade",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "description": "LONE OPERATIVE\n\nAssassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Duality Shield",
+      "description": "Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Paradox of Duality",
+      "description": "Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Supreme Loyalty (Aura)",
+      "description": "While a friendly T’AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": "AUN’VA"
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": "ALL MODELS"
+    },
+    {
+      "keyword": "Aun’Va",
+      "isFactionKeyword": false,
+      "model": "AUN’VA"
+    },
+    {
+      "keyword": "Ethereal",
+      "isFactionKeyword": false,
+      "model": "AUN’VA"
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": "AUN’VA"
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000409",
+      "line": 1,
+      "button": "•",
+      "description": "None"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000409",
+      "line": 1,
+      "description": "1 Aun’Va – EPIC HERO"
+    },
+    {
+      "datasheetId": "000000409",
+      "line": 2,
+      "description": "2 Ethereal Guards"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000409",
+      "line": 1,
+      "description": "3 models",
+      "cost": 65
+    }
+  ],
+  "leaderAttachments": []
+}

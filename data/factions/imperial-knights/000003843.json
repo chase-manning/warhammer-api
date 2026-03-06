@@ -1,0 +1,284 @@
+{
+  "id": "000003843",
+  "name": "Skitarii Vanguard",
+  "factionId": "QI",
+  "sourceId": "000000015",
+  "slug": "skitarii-vanguard",
+  "legend": "",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: radium carbine; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/imperial-knights/Skitarii-Vanguard",
+  "models": [
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "name": "Skitarii Vanguard",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": "5",
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": "60 x 35mm if equipped with transuranic arquebus"
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Radium carbine",
+      "description": "anti-infantry 4+",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Arc rifle",
+      "description": "anti-vehicle 4+, devastating wounds, rapid fire 1",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-1",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Alpha combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Mechanicus pistol",
+      "description": "devastating wounds, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma caliver – supercharge",
+      "description": "hazardous",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Transuranic arquebus",
+      "description": "heavy, precision",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "D3"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma caliver – standard",
+      "description": null,
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nProtector Imperative\n\n• Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\n\nConqueror Imperative\n\n• Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n• Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Enhanced data-tether",
+      "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Omnispex",
+      "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Rad-saturation (Aura)",
+      "description": "While an enemy unit (excluding VEHICLE units) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Imperial Knights",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Adeptus Mechanicus",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Skitarii",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Imperium",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vanguard",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "button": "•",
+      "description": "The Skitarii Vanguard Alpha can be equipped with 1 Alpha combat weapon."
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 2,
+      "button": "•",
+      "description": "The Skitarii Vanguard Alpha’s radium carbine can be replaced with 1 Mechanicus pistol."
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 3,
+      "button": "•",
+      "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 arc rifle."
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 4,
+      "button": "•",
+      "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 plasma caliver."
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 5,
+      "button": "•",
+      "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 transuranic arquebus."
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 6,
+      "button": "•",
+      "description": "1 Skitarii Vanguard equipped with a radium carbine can be equipped with one of the following:\n• 1 enhanced data-tether*\n• 1 omnispex*"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 7,
+      "button": "*",
+      "description": "* That model’s radium carbine cannot be replaced."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "description": "1 Skitarii Vanguard Alpha"
+    },
+    {
+      "datasheetId": "000003843",
+      "line": 2,
+      "description": "9 Skitarii Vanguard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000003843",
+      "line": 1,
+      "description": "10 models",
+      "cost": 95
+    }
+  ],
+  "leaderAttachments": []
+}

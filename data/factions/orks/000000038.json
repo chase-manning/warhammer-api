@@ -1,0 +1,219 @@
+{
+  "id": "000000038",
+  "name": "Mek Gunz",
+  "factionId": "ORK",
+  "sourceId": "000000046",
+  "slug": "mek-gunz",
+  "legend": "From guns that spew unstable force-bubbles to overcharged energy cannons, gravity beamers that crumple their targets like a squig-oil canister in a Nob’s fist to tractor-beams that toss foes about and drag planes from the air, the only unifying factor about the madcap Mek Gunz is what a mess they make of the foe.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: smasha gun; grot crew. \n\nDesigner’s Note: Place five Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound).",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/orks/Mek-Gunz",
+  "models": [
+    {
+      "datasheetId": "000000038",
+      "line": 1,
+      "name": "Mek Gunz",
+      "movement": "3\"",
+      "toughness": 5,
+      "save": "5+",
+      "invulnerableSave": "6",
+      "invulnerableSaveDescription": null,
+      "wounds": 6,
+      "leadership": "8+",
+      "objectiveControl": 2,
+      "baseSize": "Use model",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000038",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": "1-2 ",
+      "name": "Bubblechukka – big bubble",
+      "description": "bubblechukka, blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "2D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 2,
+      "lineInWargear": 2,
+      "dice": "3-4 ",
+      "name": "Bubblechukka – wobbly bubble",
+      "description": "bubblechukka, blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-2",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 3,
+      "lineInWargear": 3,
+      "dice": "5-6",
+      "name": "Bubblechukka – dense bubble",
+      "description": "bubblechukka, blast",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-3",
+      "damage": "D6+3"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Kustom mega-kannon",
+      "description": "BLAST, HAZARDOUS",
+      "range": "36",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "12",
+      "armourPenetration": "-1",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Smasha gun",
+      "description": "BLAST",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "D3+1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Traktor kannon",
+      "description": "ANTI-FLY 2+, DEVASTATING WOUNDS",
+      "range": "48",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-2",
+      "damage": "D6+1"
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Grot crew",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "6",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "2",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Waaagh!",
+      "description": "If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n• Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n• Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n• Models from your army with this ability have a 5+ invulnerable save.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Splat!",
+      "description": "Each time a model in this unit makes a ranged attack that targets a unit that is at its Starting Strength (excluding MONSTERS and VEHICLES), re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Bubblechukka",
+      "description": "Before selecting targets for one or more models equipped with this weapon, roll one D6 to determine which profile models equipped with this weapon will make attacks with, comparing the result with the numbers shown on the left.",
+      "type": "Wargear profile",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Orks",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Grots",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Mek Gunz",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000038",
+      "line": 1,
+      "button": "•",
+      "description": "Each model’s smasha gun can be replaced with one of the following:\n• 1 bubblechukka\n• 1 kustom mega-kannon\n• 1 traktor kannon"
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000038",
+      "line": 1,
+      "description": "1-3 Mek Gunz"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000038",
+      "line": 1,
+      "description": "1 model",
+      "cost": 50
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 2,
+      "description": "2 models",
+      "cost": 100
+    },
+    {
+      "datasheetId": "000000038",
+      "line": 3,
+      "description": "3 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

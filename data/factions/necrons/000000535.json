@@ -1,0 +1,147 @@
+{
+  "id": "000000535",
+  "name": "Immortals",
+  "factionId": "NEC",
+  "sourceId": "000000029",
+  "slug": "immortals",
+  "legend": "Once the shook troops of the Necrontyr, Immortals still provide their masters with a powerful core of skilled soldiery millennia later. More advanced than Necron Warriors, they can employ a number of strategies even without command, and their firepower makes them deadly in close or midrange engagements.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: gauss blaster; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/necrons/Immortals",
+  "models": [
+    {
+      "datasheetId": "000000535",
+      "line": 1,
+      "name": "Immortals",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000535",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Gauss blaster",
+      "description": "lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000535",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Tesla carbine",
+      "description": "assault, sustained hits 2",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000535",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Reanimation Protocols",
+      "description": "If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n\n• If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound\n• If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\n\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.\n\nExample: A unit of Lokhust Destroyers (which have a Wounds characteristic of 3) activates its Reanimation Protocols. The unit had a Starting Strength of 3, but currently contains 2 models, and one of those models has lost 1 wound. A 3 is rolled to see how many wounds are reanimated. The first of these reanimated wounds restores the wounded Lokhust Destroyer back to 3 wounds. The second of these reanimated wounds returns the destroyed Lokhust Destroyer to the battlefield with 1 wound remaining. The third of these reanimated wounds restores one of the remaining lost wounds to the same Lokhust Destroyer that was just returned. The unit now contains 3 models, two of which have 3 wounds remaining and one of which has 2 wounds remaining.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Implacable Eradication",
+      "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Necrons",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Immortals",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000535",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their gauss blaster replaced with 1 tesla carbine."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000535",
+      "line": 1,
+      "description": "5-10 Immortals"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000535",
+      "line": 1,
+      "description": "5 models",
+      "cost": 70
+    },
+    {
+      "datasheetId": "000000535",
+      "line": 2,
+      "description": "10 models",
+      "cost": 150
+    }
+  ],
+  "leaderAttachments": []
+}

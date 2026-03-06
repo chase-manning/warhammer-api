@@ -1,0 +1,286 @@
+{
+  "id": "000004203",
+  "name": "The Twin Lance",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "the-twin-lance",
+  "legend": "Shas’ri Locai and Shas’ri Lantar fight with an aggression rarely seen amongst the Fire caste. There is a focus to their ferocity, however, leaping close to their foes in jet-assisted bounds and unleashing punishing firepower before discharging kinetic shock waves built up by their neocapacitor shields and retreating again amidst the resultant carnage.",
+  "role": "Characters",
+  "loadout": "Ri’Lantar is equipped with: 1 fusion eliminator; 1 XV pulse pistol; 1 shardstorm burst system; 1 MV15 gun drone.\n\nRi’Locai is equipped with: 1 ion scattercannon; 1 XV pulse pistol; 1 shardstorm burst system; 1 MV15 gun drone.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/The-Twin-Lance",
+  "models": [
+    {
+      "datasheetId": "000004203",
+      "line": 1,
+      "name": "",
+      "movement": "10\"",
+      "toughness": 6,
+      "save": "2+",
+      "invulnerableSave": "4",
+      "invulnerableSaveDescription": null,
+      "wounds": 8,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "60mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000004203",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fusion eliminator",
+      "description": "melta 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "10",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ion scattercannon – standard",
+      "description": "rapid fire 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 3,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Ion scattercannon – overcharge",
+      "description": "hazardous, rapid fire 2",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Shardstorm burst system",
+      "description": "pistol",
+      "range": "18",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Twin pulse blaster",
+      "description": "assault, twin-linked",
+      "range": "10",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "XV pulse pistol",
+      "description": "rapid fire 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "2",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Fusion eliminator",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "10",
+      "armourPenetration": "-4",
+      "damage": "D6+2"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 8,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Ion scattercannon",
+      "description": "extra attacks",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "XV pulse pistol",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "description": "DEEP STRIKE\n\nSome units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. \n\n• Unit can be set up in Reserves instead of on the battlefield.\n• Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": null
+    },
+    {
+      "name": "Scouts",
+      "description": "SCOUTS\n\nScouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.\n\nExample: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".\n\n• Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.\n• If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.\n• Must end this move more than 9\" horizontally away from all enemy models.",
+      "type": "Core",
+      "parameter": "8\""
+    },
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Exemplars of Mont’ka",
+      "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Neocapacitor Shields",
+      "description": "At the start of your opponent’s Charge phase, you can select one enemy unit (excluding MONSTER and VEHICLE units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Retro-thrusters",
+      "description": "At the end of the Fight phase, this unit can either make a Normal move of up to 6\" or a Fall Back move.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "MV15 Gun Drone",
+      "description": "The bearer is equipped with 1 twin pulse blaster.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Vehicle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Walker",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fly",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Character",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Epic Hero",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battlesuit",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "The Twin Lance",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000004203",
+      "line": 1,
+      "button": "•",
+      "description": "None."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000004203",
+      "line": 1,
+      "description": "1 Ri’Lantar – EPIC HERO"
+    },
+    {
+      "datasheetId": "000004203",
+      "line": 2,
+      "description": "1 Ri’Locai – EPIC HERO"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000004203",
+      "line": 1,
+      "description": "2 models",
+      "cost": 160
+    }
+  ],
+  "leaderAttachments": []
+}

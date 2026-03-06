@@ -1,0 +1,203 @@
+{
+  "id": "000000411",
+  "name": "Strike Team",
+  "factionId": "TAU",
+  "sourceId": "000000028",
+  "slug": "strike-team",
+  "legend": "Fire Warrior Strike Teams are the mainstay of many Hunter Cadres, unleashing storms of potent anti-personnel firepower that few foes can long endure. Tough, dependable, numerous and with access to a variety of specialised weaponry and drone support, these Fire Warriors will hold the line no matter what odds they face.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: pulse pistol; pulse rifle; close combat weapon.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/t-au-empire/Strike-Team",
+  "models": [
+    {
+      "datasheetId": "000000411",
+      "line": 1,
+      "name": "Strike Team",
+      "movement": "6\"",
+      "toughness": 3,
+      "save": "4+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 1,
+      "leadership": "7+",
+      "objectiveControl": 2,
+      "baseSize": "25mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000000411",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse carbine",
+      "description": null,
+      "range": "20",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse pistol",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Pulse rifle",
+      "description": "rapid fire 1",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Support turret",
+      "description": "indirect fire, twin-linked",
+      "range": "30",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Close combat weapon",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "5",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "For the Greater Good",
+      "description": "If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding Fortification and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Suppression Volley",
+      "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "DS8 Support Turret",
+      "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon. \n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you.",
+      "type": "Datasheet",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "T’au Empire",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Markerlight",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Fire Warrior",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Strike Team",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000000411",
+      "line": 1,
+      "button": "•",
+      "description": "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates:\n• 1 guardian drone (it cannot take duplicates of this piece of wargear)\n• 1 gun drone\n• 1 marker drone\n• 1 shield drone"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 2,
+      "button": "•",
+      "description": "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000000411",
+      "line": 1,
+      "description": "1 Fire Warrior Shas’ui"
+    },
+    {
+      "datasheetId": "000000411",
+      "line": 2,
+      "description": "9 Fire Warriors"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000000411",
+      "line": 1,
+      "description": "10 models",
+      "cost": 70
+    }
+  ],
+  "leaderAttachments": []
+}

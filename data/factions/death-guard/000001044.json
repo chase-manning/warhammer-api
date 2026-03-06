@@ -1,0 +1,391 @@
+{
+  "id": "000001044",
+  "name": "Plague Marines",
+  "factionId": "DG",
+  "sourceId": "000000014",
+  "slug": "plague-marines",
+  "legend": "The mainstay of vectoriums, Plague Marines excel in gruelling firefights and relentless assaults that grind the enemy down. They are tactically astute, deploying plague spewers to drown hordes of enemies in toxic slime and blight launchers to release crippling ironblight into armoured vehicles.",
+  "role": "Battleline",
+  "loadout": "Every model is equipped with: boltgun; plague knives.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/death-guard/Plague-Marines",
+  "models": [
+    {
+      "datasheetId": "000001044",
+      "line": 1,
+      "name": "Plague Marines",
+      "movement": "5\"",
+      "toughness": 6,
+      "save": "3+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "6+",
+      "objectiveControl": 2,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000001044",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Blight launcher",
+      "description": "blast, lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-1",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Boltgun",
+      "description": "lethal hits",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bolt pistol",
+      "description": "lethal hits, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Meltagun",
+      "description": "melta 2",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "9",
+      "armourPenetration": "-4",
+      "damage": "D6"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plague belcher",
+      "description": "anti-infantry 4+, ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plague spewer",
+      "description": "anti-infantry 2+, ignores cover, torrent",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "D6",
+      "ballisticSkillOrWeaponSkill": "N/A",
+      "strength": "5",
+      "armourPenetration": "-1",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 7,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma gun – standard",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 8,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma gun – supercharge",
+      "description": "hazardous, rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 9,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma pistol – standard",
+      "description": "pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 10,
+      "lineInWargear": 2,
+      "dice": null,
+      "name": "Plasma pistol – supercharge",
+      "description": "hazardous, pistol",
+      "range": "12",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 11,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Bubotic weapons",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "4",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "-2",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 12,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Heavy plague weapon",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 13,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plague knives",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "4",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 14,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Power fist",
+      "description": "lethal hits",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Nurgle’s Gift (Aura)",
+      "description": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\nSkullsquirm Blight\n\nThis horrifying affliction sees the minds and senses of the victim gnawed gradually away from within.\n\nEach time a model in this unit makes an attack, subtract 1 from the Hit roll.\n\nRattlejoint Ague\n\nLimbs shuddering with fever palsy, bones turned brittle as glass, these warriors can barely act to defend themselves.\n\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\n\nVictims of this insidious ailment become glassy eyed and morose as their very animus and essence decay.\n\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1).",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Infused with the Blessings of Nurgle",
+      "description": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is Afflicted.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Icon of Despair (Aura)",
+      "description": "While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Death Guard",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Battleline",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Grenades",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Chaos",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Nurgle",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Plague Marines",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000001044",
+      "line": 1,
+      "button": "•",
+      "description": "The Plague Champion’s boltgun can be replaced with one of the following:\n• 1 bolt pistol\n• 1 plasma gun\n• 1 plasma pistol"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 2,
+      "button": "•",
+      "description": "The Plague Champion’s plague knives can be replaced with one of the following:\n• 1 bubotic weapons\n• 1 power fist"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 3,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Plague Marine’s boltgun can be replaced with 1 blight launcher."
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 4,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Plague Marine’s boltgun can be replaced with 1 plague spewer."
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 5,
+      "button": "•",
+      "description": "For every 5 models in this unit, 1 Plague Marine’s boltgun can be replaced with one of the following:\n• 1 meltagun\n• 1 plague belcher\n• 1 plasma gun"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 6,
+      "button": "•",
+      "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their boltgun replaced with 1 bubotic weapons."
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 7,
+      "button": "•",
+      "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their boltgun replaced with 1 heavy plague weapon."
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 8,
+      "button": "•",
+      "description": "One Plague Marine equipped with a boltgun can be equipped with 1 icon of despair. This model’s boltgun cannot be replaced."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000001044",
+      "line": 1,
+      "description": "1 Plague Champion"
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 2,
+      "description": "4-9 Plague Marines"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000001044",
+      "line": 1,
+      "description": "5 models",
+      "cost": 95
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 2,
+      "description": "7 models",
+      "cost": 130
+    },
+    {
+      "datasheetId": "000001044",
+      "line": 3,
+      "description": "10 models",
+      "cost": 190
+    }
+  ],
+  "leaderAttachments": []
+}

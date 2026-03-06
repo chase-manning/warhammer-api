@@ -1,0 +1,227 @@
+{
+  "id": "000002599",
+  "name": "Einhyr Hearthguard",
+  "factionId": "LoV",
+  "sourceId": "000000203",
+  "slug": "einhyr-hearthguard",
+  "legend": "Clad in formidable exo-armour and equipped with a fearsome array of weaponry, Einhyr Hearthguard are a force to be reckoned with. Whether forming bodyguards around their Oathband’s heroes or striking deep into the heart of enemy territory, they are unstoppable on the attack and immovable in defence.",
+  "role": "Other",
+  "loadout": "Every model is equipped with: EtaCarn plasma gun; exoarmour grenade launcher; concussion gauntlet.\n\nThe Hesyr is additionally equipped with: weavefield crest.",
+  "transport": null,
+  "virtual": false,
+  "leaderHeader": null,
+  "leaderFooter": null,
+  "damagedWounds": null,
+  "damagedDescription": null,
+  "link": "https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann/Einhyr-Hearthguard",
+  "models": [
+    {
+      "datasheetId": "000002599",
+      "line": 1,
+      "name": "Einhyr Hearthguard",
+      "movement": "5\"",
+      "toughness": 5,
+      "save": "2+",
+      "invulnerableSave": null,
+      "invulnerableSaveDescription": null,
+      "wounds": 2,
+      "leadership": "7+",
+      "objectiveControl": 1,
+      "baseSize": "32mm",
+      "baseSizeDescription": null
+    }
+  ],
+  "wargear": [
+    {
+      "datasheetId": "000002599",
+      "line": 1,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "EtaCarn plasma gun",
+      "description": "rapid fire 1",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "1",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "7",
+      "armourPenetration": "-3",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 2,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Exoarmour grenade launcher",
+      "description": "blast",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "D3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "3",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 3,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Volkanite disintegrator",
+      "description": "devastating wounds",
+      "range": "24",
+      "type": "Ranged",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "5",
+      "armourPenetration": "0",
+      "damage": "1"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 4,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Concussion gauntlet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "2",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "8",
+      "armourPenetration": "-2",
+      "damage": "2"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 5,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Graviton hammer",
+      "description": "anti-monster 3+, anti-vehicle 3+",
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "4",
+      "strength": "9",
+      "armourPenetration": "-1",
+      "damage": "3"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 6,
+      "lineInWargear": 1,
+      "dice": null,
+      "name": "Plasma blade gauntlet",
+      "description": null,
+      "range": "Melee",
+      "type": "Melee",
+      "attacks": "3",
+      "ballisticSkillOrWeaponSkill": "3",
+      "strength": "6",
+      "armourPenetration": "-2",
+      "damage": "1"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Prioritised Efficiency",
+      "description": "If your Army Faction is LEAGUES OF VOTANN, Leagues of Votann units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those LEAGUES OF VOTANN units have will change depending on how many Yield points (YP) you currently have:\n\n• At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n• At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\nHostile Acquisition\n\n• Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n• You can re-roll Advance and Charge rolls made for this unit.\n\nFortify Takeover\n\n• Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n• Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a VEHICLE, subtract 1 from the Wound roll.\n\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n• You control one or more objective markers not within your deployment zone.\n• You control two or more objective markers not within your deployment zone.\n• You control more objective markers than your opponent.\n\nIn your turn, YP gained in this way are always gained before checking which ability LEAGUES OF VOTANN units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\n\nDesigner’s Note: This means you can use rules that let you gain or spend YP to influence which ability your units have - Hostile Acquisition or Fortify Takeover - depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will - sometimes need to plan ahead if you want your army to stay in or change ability.\n\nExample: In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.\n\nDuring her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover - it will only change if, at the end of her next Command phase, she still has fewer than 7YP.",
+      "type": "Faction",
+      "parameter": null
+    },
+    {
+      "name": "Decisive Destruction",
+      "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1.",
+      "type": "Datasheet",
+      "parameter": null
+    },
+    {
+      "name": "Teleport Crest",
+      "description": "Models in the bearer’s unit have the Deep Strike ability.",
+      "type": "Wargear",
+      "parameter": null
+    },
+    {
+      "name": "Weavefield Crest",
+      "description": "Models in the bearer’s unit have a 5+ invulnerable save.",
+      "type": "Wargear",
+      "parameter": null
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Leagues of Votann",
+      "isFactionKeyword": true,
+      "model": null
+    },
+    {
+      "keyword": "Einhyr Hearthguard",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Exoarmour",
+      "isFactionKeyword": false,
+      "model": null
+    },
+    {
+      "keyword": "Infantry",
+      "isFactionKeyword": false,
+      "model": null
+    }
+  ],
+  "options": [
+    {
+      "datasheetId": "000002599",
+      "line": 1,
+      "button": "•",
+      "description": "All models in this unit can each have their EtaCarn plasma gun replaced with 1 volkanite disintegrator."
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 2,
+      "button": "•",
+      "description": "All models in this unit can each have their concussion gauntlet replaced with 1 plasma blade gauntlet."
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 3,
+      "button": "•",
+      "description": "The Hesyr’s concussion gauntlet or plasma blade gauntlet can be replaced with 1 graviton hammer."
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 4,
+      "button": "•",
+      "description": "The Hesyr’s weavefield crest can be replaced with 1 teleport crest."
+    }
+  ],
+  "unitComposition": [
+    {
+      "datasheetId": "000002599",
+      "line": 1,
+      "description": "1 Hesyr"
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 2,
+      "description": "4-9 Hearthguard"
+    }
+  ],
+  "costs": [
+    {
+      "datasheetId": "000002599",
+      "line": 1,
+      "description": "5 models",
+      "cost": 135
+    },
+    {
+      "datasheetId": "000002599",
+      "line": 2,
+      "description": "10 models",
+      "cost": 270
+    }
+  ],
+  "leaderAttachments": []
+}
