@@ -1,0 +1,20 @@
+{
+  "name": "@warhammer-api/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx dev-server.ts & wrangler dev --port 8787 && kill %1",
+    "dev:api": "wrangler dev",
+    "dev:data": "npx tsx dev-server.ts",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4",
+    "typescript": "^5.9.3",
+    "wrangler": "^4"
+  }
+}

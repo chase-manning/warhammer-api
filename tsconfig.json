@@ -1,17 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "bundler",
-    "esModuleInterop": true,
-    "strict": true,
-    "outDir": "dist",
-    "rootDir": ".",
-    "resolveJsonModule": true,
-    "declaration": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["pipeline/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "references": [
+    { "path": "packages/pipeline" },
+    { "path": "packages/api" }
+  ],
+  "files": []
 }

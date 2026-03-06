@@ -1,0 +1,15 @@
+{
+  "name": "@warhammer-api/pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pipeline": "tsx src/main.ts",
+    "pipeline:download": "tsx src/main.ts --download-only",
+    "pipeline:convert": "tsx src/main.ts --convert-only"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

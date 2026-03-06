@@ -2,7 +2,7 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-export const PROJECT_ROOT = join(__dirname, "..");
+export const PROJECT_ROOT = join(__dirname, "..", "..", "..");
 
 export const RAW_CSV_DIR = join(PROJECT_ROOT, "raw_csv");
 export const DATA_DIR = join(PROJECT_ROOT, "data");

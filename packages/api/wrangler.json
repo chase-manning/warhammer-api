@@ -1,0 +1,12 @@
+{
+  "name": "warhammer-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-06",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "DATA_BASE_URL": "http://localhost:8788"
+  }
+}

@@ -707,6 +707,24 @@ function generateFactionFiles(metadata: Metadata): void {
     "utf-8"
   );
 
+  // Generate datasheet lookup index: id → factionSlug for fast API lookups
+  const datasheetLookup: Record<string, string> = {};
+  for (const faction of factions) {
+    const fSlug = slugify(faction.name);
+    const factionDatasheets = datasheets.filter(
+      (d) => d.factionId === faction.id && !d.virtual
+    );
+    for (const ds of factionDatasheets) {
+      datasheetLookup[ds.id] = fSlug;
+    }
+  }
+  writeFileSync(
+    join(DATA_DIR, "datasheet_lookup.json"),
+    JSON.stringify(datasheetLookup, null, 2),
+    "utf-8"
+  );
+  log(`  Generated datasheet_lookup.json (${Object.keys(datasheetLookup).length} entries)`);
+
   log(
     `Generated ${factionIndex.length} faction directories with ${factionIndex.reduce((s, f) => s + f.datasheetCount, 0)} total datasheets.`
   );
