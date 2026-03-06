@@ -4,7 +4,7 @@ const CACHE_TTL = 86400;
 
 async function getCache(): Promise<Cache | null> {
   try {
-    return await caches.open("warhammer-api");
+    return await caches.open("warhammer-api-v2");
   } catch {
     return null;
   }
