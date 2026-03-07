@@ -1,10 +1,11 @@
 import type { MiddlewareHandler } from "hono";
+import { CACHE_VERSION } from "./data.js";
 
 const CACHE_TTL = 86400;
 
 async function getCache(): Promise<Cache | null> {
   try {
-    return await caches.open("warhammer-api-v2");
+    return await caches.open(`warhammer-api-v${CACHE_VERSION}`);
   } catch {
     return null;
   }
