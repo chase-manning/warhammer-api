@@ -36,5 +36,7 @@
   "cost_effective": 5,
   "ease_of_painting": 18,
   "games_workshop_support": 15,
-  "creators_aesthetic_preference": 80
+  "creators_aesthetic_preference": 80,
+  "color": "#B8956A",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/mechanicum/collegia-titanica.svg"
 }

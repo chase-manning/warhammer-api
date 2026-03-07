@@ -132,5 +132,7 @@
   "cost_effective": 50,
   "ease_of_painting": 50,
   "games_workshop_support": 10,
-  "creators_aesthetic_preference": 80
+  "creators_aesthetic_preference": 80,
+  "color": "#9CA3AF",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/imperial-aquila.svg"
 }

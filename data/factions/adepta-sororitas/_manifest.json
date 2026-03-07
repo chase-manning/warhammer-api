@@ -234,5 +234,7 @@
   "cost_effective": 22,
   "ease_of_painting": 40,
   "games_workshop_support": 68,
-  "creators_aesthetic_preference": 60
+  "creators_aesthetic_preference": 60,
+  "color": "#E11D48",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adepta-sororitas.svg"
 }

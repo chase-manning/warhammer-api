@@ -672,5 +672,7 @@
   "cost_effective": 50,
   "ease_of_painting": 42,
   "games_workshop_support": 65,
-  "creators_aesthetic_preference": 65
+  "creators_aesthetic_preference": 65,
+  "color": "#FBBF24",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/heretic-astartes.svg"
 }

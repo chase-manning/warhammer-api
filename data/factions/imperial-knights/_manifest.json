@@ -174,5 +174,7 @@
   "cost_effective": 72,
   "ease_of_painting": 35,
   "games_workshop_support": 42,
-  "creators_aesthetic_preference": 90
+  "creators_aesthetic_preference": 90,
+  "color": "#6366F1",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/imperial-knights.svg"
 }

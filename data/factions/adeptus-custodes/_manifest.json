@@ -198,5 +198,7 @@
   "cost_effective": 95,
   "ease_of_painting": 90,
   "games_workshop_support": 72,
-  "creators_aesthetic_preference": 40
+  "creators_aesthetic_preference": 40,
+  "color": "#EAB308",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-custodes.svg"
 }

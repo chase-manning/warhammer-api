@@ -360,5 +360,7 @@
   "cost_effective": 62,
   "ease_of_painting": 70,
   "games_workshop_support": 50,
-  "creators_aesthetic_preference": 70
+  "creators_aesthetic_preference": 70,
+  "color": "#DC2626",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/world-eaters-1.svg"
 }

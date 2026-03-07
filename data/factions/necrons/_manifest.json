@@ -396,5 +396,7 @@
   "cost_effective": 65,
   "ease_of_painting": 92,
   "games_workshop_support": 82,
-  "creators_aesthetic_preference": 90
+  "creators_aesthetic_preference": 90,
+  "color": "#84CC16",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/necrons/necrons.svg"
 }

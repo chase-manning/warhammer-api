@@ -648,5 +648,7 @@
   "cost_effective": 42,
   "ease_of_painting": 78,
   "games_workshop_support": 40,
-  "creators_aesthetic_preference": 80
+  "creators_aesthetic_preference": 80,
+  "color": "#F97316",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/chaos-daemons.svg"
 }

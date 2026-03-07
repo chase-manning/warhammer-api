@@ -390,5 +390,7 @@
   "cost_effective": 47,
   "ease_of_painting": 68,
   "games_workshop_support": 75,
-  "creators_aesthetic_preference": 100
+  "creators_aesthetic_preference": 100,
+  "color": "#D97706",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/tau_empire/tau-sept.svg"
 }

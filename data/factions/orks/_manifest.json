@@ -528,5 +528,7 @@
   "cost_effective": 35,
   "ease_of_painting": 63,
   "games_workshop_support": 62,
-  "creators_aesthetic_preference": 70
+  "creators_aesthetic_preference": 70,
+  "color": "#22C55E",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/orks/orks.svg"
 }

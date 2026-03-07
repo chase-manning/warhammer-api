@@ -10,7 +10,9 @@
     "cost_effective": 22,
     "ease_of_painting": 40,
     "games_workshop_support": 68,
-    "creators_aesthetic_preference": 60
+    "creators_aesthetic_preference": 60,
+    "color": "#E11D48",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adepta-sororitas.svg"
   },
   {
     "id": "AC",
@@ -23,7 +25,9 @@
     "cost_effective": 95,
     "ease_of_painting": 90,
     "games_workshop_support": 72,
-    "creators_aesthetic_preference": 40
+    "creators_aesthetic_preference": 40,
+    "color": "#EAB308",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-custodes.svg"
   },
   {
     "id": "AdM",
@@ -36,7 +40,9 @@
     "cost_effective": 15,
     "ease_of_painting": 22,
     "games_workshop_support": 55,
-    "creators_aesthetic_preference": 75
+    "creators_aesthetic_preference": 75,
+    "color": "#B91C1C",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-mechanicus.svg"
   },
   {
     "id": "TL",
@@ -49,7 +55,9 @@
     "cost_effective": 5,
     "ease_of_painting": 18,
     "games_workshop_support": 15,
-    "creators_aesthetic_preference": 80
+    "creators_aesthetic_preference": 80,
+    "color": "#B8956A",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/mechanicum/collegia-titanica.svg"
   },
   {
     "id": "AE",
@@ -62,7 +70,9 @@
     "cost_effective": 55,
     "ease_of_painting": 35,
     "games_workshop_support": 72,
-    "creators_aesthetic_preference": 40
+    "creators_aesthetic_preference": 40,
+    "color": "#0891B2",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/eldar/asuryani.svg"
   },
   {
     "id": "AM",
@@ -75,7 +85,9 @@
     "cost_effective": 30,
     "ease_of_painting": 50,
     "games_workshop_support": 78,
-    "creators_aesthetic_preference": 0
+    "creators_aesthetic_preference": 0,
+    "color": "#C2B280",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/astra-militarum.svg"
   },
   {
     "id": "CD",
@@ -88,7 +100,9 @@
     "cost_effective": 42,
     "ease_of_painting": 78,
     "games_workshop_support": 40,
-    "creators_aesthetic_preference": 80
+    "creators_aesthetic_preference": 80,
+    "color": "#F97316",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/chaos-daemons.svg"
   },
   {
     "id": "QT",
@@ -101,7 +115,9 @@
     "cost_effective": 70,
     "ease_of_painting": 33,
     "games_workshop_support": 55,
-    "creators_aesthetic_preference": 85
+    "creators_aesthetic_preference": 85,
+    "color": "#C76B15",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/questor-traitoris.svg"
   },
   {
     "id": "CSM",
@@ -114,7 +130,9 @@
     "cost_effective": 50,
     "ease_of_painting": 42,
     "games_workshop_support": 65,
-    "creators_aesthetic_preference": 65
+    "creators_aesthetic_preference": 65,
+    "color": "#FBBF24",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/heretic-astartes.svg"
   },
   {
     "id": "DG",
@@ -127,7 +145,9 @@
     "cost_effective": 52,
     "ease_of_painting": 73,
     "games_workshop_support": 58,
-    "creators_aesthetic_preference": 25
+    "creators_aesthetic_preference": 25,
+    "color": "#8B9A2B",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/death-guard.svg"
   },
   {
     "id": "DRU",
@@ -140,7 +160,9 @@
     "cost_effective": 48,
     "ease_of_painting": 30,
     "games_workshop_support": 55,
-    "creators_aesthetic_preference": 70
+    "creators_aesthetic_preference": 70,
+    "color": "#059669",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/durhkari/drukhari-2.svg"
   },
   {
     "id": "EC",
@@ -153,7 +175,9 @@
     "cost_effective": 68,
     "ease_of_painting": 38,
     "games_workshop_support": 80,
-    "creators_aesthetic_preference": 40
+    "creators_aesthetic_preference": 40,
+    "color": "#EC4899",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/emperors-children-1.svg"
   },
   {
     "id": "GC",
@@ -166,7 +190,9 @@
     "cost_effective": 33,
     "ease_of_painting": 45,
     "games_workshop_support": 55,
-    "creators_aesthetic_preference": 25
+    "creators_aesthetic_preference": 25,
+    "color": "#BE185D",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/genestealer_cult/genestealer-cults.svg"
   },
   {
     "id": "GK",
@@ -179,7 +205,9 @@
     "cost_effective": 82,
     "ease_of_painting": 60,
     "games_workshop_support": 45,
-    "creators_aesthetic_preference": 70
+    "creators_aesthetic_preference": 70,
+    "color": "#7B8DAA",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/astartes_chapters/grey-knights.svg"
   },
   {
     "id": "AoI",
@@ -192,7 +220,9 @@
     "cost_effective": 38,
     "ease_of_painting": 40,
     "games_workshop_support": 32,
-    "creators_aesthetic_preference": 10
+    "creators_aesthetic_preference": 10,
+    "color": "#A855F7",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/inquisition-01.svg"
   },
   {
     "id": "QI",
@@ -205,7 +235,9 @@
     "cost_effective": 72,
     "ease_of_painting": 35,
     "games_workshop_support": 42,
-    "creators_aesthetic_preference": 90
+    "creators_aesthetic_preference": 90,
+    "color": "#6366F1",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/imperial-knights.svg"
   },
   {
     "id": "LoV",
@@ -218,7 +250,9 @@
     "cost_effective": 45,
     "ease_of_painting": 72,
     "games_workshop_support": 70,
-    "creators_aesthetic_preference": 20
+    "creators_aesthetic_preference": 20,
+    "color": "#0EA5E9",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/leagues-of-votann.svg"
   },
   {
     "id": "NEC",
@@ -231,7 +265,9 @@
     "cost_effective": 65,
     "ease_of_painting": 92,
     "games_workshop_support": 82,
-    "creators_aesthetic_preference": 90
+    "creators_aesthetic_preference": 90,
+    "color": "#84CC16",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/necrons/necrons.svg"
   },
   {
     "id": "ORK",
@@ -244,7 +280,9 @@
     "cost_effective": 35,
     "ease_of_painting": 63,
     "games_workshop_support": 62,
-    "creators_aesthetic_preference": 70
+    "creators_aesthetic_preference": 70,
+    "color": "#22C55E",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/orks/orks.svg"
   },
   {
     "id": "SM",
@@ -257,7 +295,9 @@
     "cost_effective": 78,
     "ease_of_painting": 85,
     "games_workshop_support": 95,
-    "creators_aesthetic_preference": 30
+    "creators_aesthetic_preference": 30,
+    "color": "#3B82F6",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-astartes.svg"
   },
   {
     "id": "TAU",
@@ -270,7 +310,9 @@
     "cost_effective": 47,
     "ease_of_painting": 68,
     "games_workshop_support": 75,
-    "creators_aesthetic_preference": 100
+    "creators_aesthetic_preference": 100,
+    "color": "#D97706",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/tau_empire/tau-sept.svg"
   },
   {
     "id": "TS",
@@ -283,7 +325,9 @@
     "cost_effective": 60,
     "ease_of_painting": 28,
     "games_workshop_support": 60,
-    "creators_aesthetic_preference": 65
+    "creators_aesthetic_preference": 65,
+    "color": "#2563EB",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/thousand-sons.svg"
   },
   {
     "id": "TYR",
@@ -296,7 +340,9 @@
     "cost_effective": 40,
     "ease_of_painting": 75,
     "games_workshop_support": 48,
-    "creators_aesthetic_preference": 85
+    "creators_aesthetic_preference": 85,
+    "color": "#7C3AED",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/tyranids.svg"
   },
   {
     "id": "UN",
@@ -309,7 +355,9 @@
     "cost_effective": 50,
     "ease_of_painting": 50,
     "games_workshop_support": 10,
-    "creators_aesthetic_preference": 80
+    "creators_aesthetic_preference": 80,
+    "color": "#9CA3AF",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/imperial-aquila.svg"
   },
   {
     "id": "WE",
@@ -322,6 +370,8 @@
     "cost_effective": 62,
     "ease_of_painting": 70,
     "games_workshop_support": 50,
-    "creators_aesthetic_preference": 70
+    "creators_aesthetic_preference": 70,
+    "color": "#DC2626",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/world-eaters-1.svg"
   }
 ]

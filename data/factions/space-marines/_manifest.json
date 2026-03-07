@@ -1800,5 +1800,7 @@
   "cost_effective": 78,
   "ease_of_painting": 85,
   "games_workshop_support": 95,
-  "creators_aesthetic_preference": 30
+  "creators_aesthetic_preference": 30,
+  "color": "#3B82F6",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-astartes.svg"
 }

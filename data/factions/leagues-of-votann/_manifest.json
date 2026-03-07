@@ -144,5 +144,7 @@
   "cost_effective": 45,
   "ease_of_painting": 72,
   "games_workshop_support": 70,
-  "creators_aesthetic_preference": 20
+  "creators_aesthetic_preference": 20,
+  "color": "#0EA5E9",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/leagues-of-votann.svg"
 }

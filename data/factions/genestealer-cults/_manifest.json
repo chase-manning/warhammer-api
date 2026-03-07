@@ -828,5 +828,7 @@
   "cost_effective": 33,
   "ease_of_painting": 45,
   "games_workshop_support": 55,
-  "creators_aesthetic_preference": 25
+  "creators_aesthetic_preference": 25,
+  "color": "#BE185D",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/genestealer_cult/genestealer-cults.svg"
 }

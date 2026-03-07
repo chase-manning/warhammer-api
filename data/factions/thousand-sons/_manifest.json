@@ -372,5 +372,7 @@
   "cost_effective": 60,
   "ease_of_painting": 28,
   "games_workshop_support": 60,
-  "creators_aesthetic_preference": 65
+  "creators_aesthetic_preference": 65,
+  "color": "#2563EB",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/thousand-sons.svg"
 }

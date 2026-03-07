@@ -438,5 +438,7 @@
   "cost_effective": 52,
   "ease_of_painting": 73,
   "games_workshop_support": 58,
-  "creators_aesthetic_preference": 25
+  "creators_aesthetic_preference": 25,
+  "color": "#8B9A2B",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/chaos/legions/death-guard.svg"
 }

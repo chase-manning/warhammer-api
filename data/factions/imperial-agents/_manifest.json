@@ -282,5 +282,7 @@
   "cost_effective": 38,
   "ease_of_painting": 40,
   "games_workshop_support": 32,
-  "creators_aesthetic_preference": 10
+  "creators_aesthetic_preference": 10,
+  "color": "#A855F7",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/inquisition-01.svg"
 }

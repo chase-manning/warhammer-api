@@ -228,5 +228,7 @@
   "cost_effective": 15,
   "ease_of_painting": 22,
   "games_workshop_support": 55,
-  "creators_aesthetic_preference": 75
+  "creators_aesthetic_preference": 75,
+  "color": "#B91C1C",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-mechanicus.svg"
 }

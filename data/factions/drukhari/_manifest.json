@@ -294,5 +294,7 @@
   "cost_effective": 48,
   "ease_of_painting": 30,
   "games_workshop_support": 55,
-  "creators_aesthetic_preference": 70
+  "creators_aesthetic_preference": 70,
+  "color": "#059669",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/durhkari/drukhari-2.svg"
 }

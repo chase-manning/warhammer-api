@@ -77,7 +77,9 @@ Returns all factions with datasheet counts.
     "cost_effective": 78,
     "ease_of_painting": 85,
     "games_workshop_support": 95,
-    "creators_aesthetic_preference": 30
+    "creators_aesthetic_preference": 30,
+    "color": "#3B82F6",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-astartes.svg"
   }
 ]
 ```
@@ -93,6 +95,8 @@ Returns all factions with datasheet counts.
 | `ease_of_painting` | How easy the models are to paint (0–100, 100 = very easy) |
 | `games_workshop_support` | How well Games Workshop supports the faction with new releases, balance, and marketing (0–100) |
 | `creators_aesthetic_preference` | How much the API creator personally likes the army's aesthetic (0–100) |
+| `color` | Hex color representing the faction (e.g. `#3B82F6`), suitable for display on dark backgrounds |
+| `icon` | URL to an SVG icon/logo for the faction |
 
 #### `GET /factions/:slug`
 
@@ -115,6 +119,8 @@ Returns a faction manifest including its full datasheet index.
   "ease_of_painting": 63,
   "games_workshop_support": 62,
   "creators_aesthetic_preference": 70,
+  "color": "#22C55E",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/orks/orks.svg",
   "datasheets": [
     { "id": "000000001", "name": "Warboss", "slug": "warboss", "role": "Characters" }
   ]

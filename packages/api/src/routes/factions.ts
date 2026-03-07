@@ -10,6 +10,8 @@ interface FactionScores {
   ease_of_painting: number;
   games_workshop_support: number;
   creators_aesthetic_preference: number;
+  color: string;
+  icon: string;
 }
 
 interface FactionIndexEntry extends FactionScores {

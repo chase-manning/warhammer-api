@@ -198,5 +198,7 @@
   "cost_effective": 82,
   "ease_of_painting": 60,
   "games_workshop_support": 45,
-  "creators_aesthetic_preference": 70
+  "creators_aesthetic_preference": 70,
+  "color": "#7B8DAA",
+  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/astartes_chapters/grey-knights.svg"
 }
