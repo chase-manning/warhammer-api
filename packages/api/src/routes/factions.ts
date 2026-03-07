@@ -12,6 +12,7 @@ interface FactionScores {
   creators_aesthetic_preference: number;
   color: string;
   icon: string;
+  description: string;
 }
 
 interface FactionIndexEntry extends FactionScores {

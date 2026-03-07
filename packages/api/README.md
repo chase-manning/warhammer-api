@@ -79,7 +79,8 @@ Returns all factions with datasheet counts.
     "games_workshop_support": 95,
     "creators_aesthetic_preference": 30,
     "color": "#3B82F6",
-    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-astartes.svg"
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/human_imperium/adeptus-astartes.svg",
+    "description": "There is no combat theatre in which the Space Marines cannot excel, no foe they cannot overcome, and no danger they fear to face. They are the elite shock troops of the Imperium, whose lightning-fast campaigns are conducted with such spectacular brutality that they have come to be known as the Angels of Death."
   }
 ]
 ```
@@ -97,6 +98,7 @@ Returns all factions with datasheet counts.
 | `creators_aesthetic_preference` | How much the API creator personally likes the army's aesthetic (0–100) |
 | `color` | Hex color representing the faction (e.g. `#3B82F6`), suitable for display on dark backgrounds |
 | `icon` | URL to an SVG icon/logo for the faction |
+| `description` | Short lore description of the faction (1–3 sentences) |
 
 #### `GET /factions/:slug`
 
@@ -119,9 +121,10 @@ Returns a faction manifest including its full datasheet index.
   "ease_of_painting": 63,
   "games_workshop_support": 62,
   "creators_aesthetic_preference": 70,
-  "color": "#22C55E",
-  "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/orks/orks.svg",
-  "datasheets": [
+    "color": "#22C55E",
+    "icon": "https://raw.githubusercontent.com/certseeds/wh40k-icon/master/src/svgs/xenos/orks/orks.svg",
+    "description": "Tough, brutal, and impossibly numerous, the Orks are one of the most dangerous species in the galaxy. Their marauding warbands and colossal hordes have threatened Humanity since before the dawn of the Imperium, for Orks thrive on battle and mayhem, roaming the stars in search of a good fight.",
+    "datasheets": [
     { "id": "000000001", "name": "Warboss", "slug": "warboss", "role": "Characters" }
   ]
 }
